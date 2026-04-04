@@ -1,0 +1,155 @@
+# TransformComponent 하위값 생략 가능
+EntityTemplate: '
+{
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+		TransformComponent 
+    {
+      position
+      {
+        x "0"
+        y "0"
+        z "0"
+      }
+      scale
+      {
+        x "1"
+        y "1"
+        z "1"
+      }
+      rotation
+      {
+        x "0"
+        y "0"
+        z "0"
+      }
+    }
+	}
+}'
+1:
+  base_blueprint: 
+    - logic/spawn_player
+  all delete: true
+  TransformComponent:
+    -
+      position: # x,z / y값은 필요 없음
+        - 0,0
+        - 32,32
+        - -32,-32
+        - 32,-32
+        - -32,32
+3:
+  base_blueprint:
+    - resources/volume_random_placement
+  all delete: true
+  TransformComponent:
+    -
+      scale: 3,3,3
+      grid:
+        min: -48,-48
+        max: 48,48
+        step: 24,24
+        random count: 5
+4:
+  base_blueprint:
+    - logic/spawn_objective
+  all delete: true
+  TransformComponent:
+    -
+      grid:
+        min: -36,-36
+        max: 36,36
+        step: 24,24
+        random count: 4
+5:
+  base_blueprint:
+    - units/spawner/volume_neutral_units_spawner
+  all delete: true
+  TransformComponent:
+    -
+      scale: 10,10,10
+      grid:
+        min: -48,-36
+        max: 48,36
+        step: 24,24
+        random count: 4
+6:
+  base_blueprint:
+    - units/spawner/volume_resources_units_spawner
+  all delete: true
+  TransformComponent:
+    -
+      scale: 10,10,10
+      grid:
+        min: -36,-48
+        max: 36,48
+        step: 24,24
+        random count: 4
+# water:
+#   base_blueprint:
+#     - resources/volume_resource_water
+#   all delete: true
+#   TransformComponent:
+#     -
+#       scale: 4,1,52
+#       position:
+#         - -62,30
+#         - 62,30
+#         - -62,-30
+#         - 62,-30
+supercoolant:
+  base_blueprint: 
+    - resources/volume_resource_supercoolant
+  all delete: true
+  TransformComponent:
+    -
+      scale: 52,1,4 # x,y,z
+      position:
+        - -30,62
+        - 30,62
+        - -30,-62
+        - 30,-62
+    # -
+    #   scale: 4,4,60 # x,y,z
+    #   position:
+    #     - -62,34
+    #     - 62,34
+    #     - -62,-34
+    #     - 62,-34
+7:
+  base_blueprint:
+    - logic/spawn_enemy
+  all delete: true
+  TransformComponent:
+    -
+      position:
+        - -36,58
+        - 0,58
+        - 36,58
+        - -36,-58
+        - 0,-58
+        - 36,-58
+        - 58,-36
+        - 58,0
+        - 58,36
+        - -58,-36
+        - -58,0
+        - -58,36

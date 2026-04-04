@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lrdb",
+            "request": "attach",
+            "host": "localhost",
+            "port": 21110,
+            "name": "The Riftbreaker - Attach",
+            "sourceRoot": "${workspaceFolder}"
+        }
+    ]
+}

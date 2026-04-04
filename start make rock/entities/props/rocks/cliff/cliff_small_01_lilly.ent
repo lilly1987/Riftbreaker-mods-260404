@@ -1,0 +1,43 @@
+EntityBlueprint
+{
+	name "props/rocks/cliff/cliff_small_01_lilly"
+
+	MeshDesc
+	{
+		material "props/rocks/cliff/cliff_small"
+		mesh "meshes/props/rocks/cliff/cliff_small_01.mesh"
+	}
+
+	TypeDesc
+	{
+		type "path_blocker|cavern_wall|height_path_blocker|not_move_to_target|ignore_as_target|decorations"
+	}
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type     "static"
+				group_id    "building"
+				physics_material  "default"
+				Shapes
+				{
+					PhysicsMeshShape
+					{
+						mesh "meshes/props/rocks/cliff/cliff_small_01_c1.nxs"
+					}
+				}
+				
+			}
+		}
+	}
+
+	NodeCullerDesc
+	{
+		nav_mesh_cull_type "1"
+		cost_type "building"
+		flow_field_size "0.7"
+	}
+}

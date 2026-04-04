@@ -1,0 +1,21 @@
+WorkspaceManifest
+{
+	description "ZGVidWcgbG9n"
+	tags
+	{
+		String "Other"
+	}
+
+	modified_game_files
+	title "ZGVidWcgbG9n"
+	homepage
+	modio_published_file "0"
+	visibility "0"
+	game_version "EXE: 1184 DATA: 844"
+	version
+	localizations
+	author
+	steam_published_file "0"
+	dependencies
+}
+

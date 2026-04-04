@@ -1,0 +1,21 @@
+WorkspaceManifest
+{
+	description "bXkgdG9vbHM="
+	tags
+	{
+		String "Other"
+	}
+
+	modified_game_files
+	title "TGlsbHkgdG9vbA=="
+	homepage
+	modio_published_file "5946016"
+	visibility "0"
+	game_version "EXE: 1186 DATA: 847"
+	version "0.0.0"
+	localizations
+	author
+	steam_published_file "3698630239"
+	dependencies
+}
+

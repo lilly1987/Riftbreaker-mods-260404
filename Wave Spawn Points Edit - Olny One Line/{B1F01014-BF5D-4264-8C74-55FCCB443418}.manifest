@@ -1,0 +1,36 @@
+WorkspaceManifest
+{
+	description "QXBwZWFycyBvbmx5IG9uIG9uZSBsaW5lCkEgc2NhbiBvY2N1cnMgb25jZSBvbiB0aGUgbGluZSB0aGF0IGFwcGVhcnMsIG1ha2luZyBpdCBlYXN5IHRvIGlkZW50aWZ5"
+	tags
+	{
+		String "Other"
+		String "Rebalance"
+	}
+
+	modified_game_files
+	title "V2F2ZSBTcGF3biBQb2ludHMgRWRpdCAtIE9sbnkgT25lIExpbmU="
+	homepage
+	modio_published_file "4174155"
+	visibility "0"
+	game_version "EXE: 1186 DATA: 847"
+	version "2.0.0"
+	localizations
+	{
+		Pair_String_Localization
+		{
+			value
+			{
+				description "7ZWc7Kq9IOudvOyduOyXkOyEnOunjCDrgpjtg4Drgqnri4jri6QK64KY7YOA64KY64qUIOudvOyduOyXkCDsiqTsupTsnbQg7ZWc67KIIOuwnOyDne2VmOyXrCDsib3qsowg7YyM7JWFIOqwgOuKpS4KCkFJIOuNleu2hOyXkCDslYTso7wg6rCE64uo7ZWY6rOgIOyJveqyjCDsiJjsoJXsnbQg65CY64Sk7JqULg=="
+				title "V2F2ZSBTcGF3biBQb2ludHMgRWRpdCAtIE9sbnkgT25lIExpbmU="
+			}
+
+			key "KOREAN"
+		}
+
+	}
+
+	author
+	steam_published_file "3291130495"
+	dependencies
+}
+

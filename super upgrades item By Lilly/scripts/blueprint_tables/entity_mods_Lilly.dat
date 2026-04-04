@@ -1,0 +1,148 @@
+items/upgrades/lilly_standard_item
+{
+	EntityModDesc
+	{
+		entity_mods
+		{
+			health "400.000%"
+			health_regen "40.00"
+			forcefield "400.000"
+			forcefield_regen "40.00"
+			forcefield_regen_cooldown "-20.000%"
+			
+			building_cost "-4.000%"
+			building_time "-25.000%"
+			
+			loot_mods_chance "25.000%"
+			loot_resources_chance "250.000%"
+			
+			movement_speed "0.000%"
+			item_cooldowns "-25.000%"
+			reflect_damage "25.000%"
+			
+			attack_drone "2.000"
+			defense_drone "1.000"
+			loot_drone "1.000"
+			repair_drone "1.000"
+		}
+
+		mod_flags
+		{
+
+		}
+
+	}
+
+}
+items/upgrades/lilly_advanced_item
+{
+	EntityModDesc
+	{
+		entity_mods
+		{
+			health "600.000%"
+			health_regen "60.00"
+			forcefield "600.000"
+			forcefield_regen "60.00"
+			forcefield_regen_cooldown "-30.000%"
+			
+			building_cost "-8.000%"
+			building_time "-50.000%"
+			
+			loot_mods_chance "50.000%"
+			loot_resources_chance "500.000%"
+			
+			movement_speed "0.000%"
+			item_cooldowns "-50.000%"
+			reflect_damage "50.000%"
+			
+			attack_drone "4.000"
+			defense_drone "1.000"
+			loot_drone "1.000"
+			repair_drone "2.000"
+		}
+
+		mod_flags
+		{
+
+		}
+
+		rarity "ADVANCED"
+	}
+
+}
+items/upgrades/lilly_superior_item
+{
+	EntityModDesc
+	{
+		entity_mods
+		{
+			health "800.000%"
+			health_regen "80.00"
+			forcefield "800.000"
+			forcefield_regen "80.00"
+			forcefield_regen_cooldown "-40.000%"
+			
+			building_cost "-12.000%"
+			building_time "-75.000%"
+			
+			loot_mods_chance "75.000%"
+			loot_resources_chance "750.000%"
+			
+			movement_speed "0.000%"
+			item_cooldowns "-75.000%"
+			reflect_damage "75.000%"
+			
+			attack_drone "6.000"
+			defense_drone "1.000"
+			loot_drone "1.000"
+			repair_drone "3.000"
+		}
+
+		mod_flags
+		{
+
+		}
+
+		rarity "SUPERIOR"
+	}
+
+}
+
+items/upgrades/lilly_extreme_item
+{
+	EntityModDesc
+	{
+		entity_mods
+		{
+			health "1000.000%"
+			health_regen "100.00"
+			forcefield "1000.000"
+			forcefield_regen "100.00"
+			forcefield_regen_cooldown "-50.000%"
+			
+			building_cost "-16.000%"
+			building_time "-100.000%"
+			
+			loot_mods_chance "100.000%"
+			loot_resources_chance "1000.000%"
+			
+			movement_speed "0.000%"
+			item_cooldowns "-100.000%"
+			reflect_damage "100.000%"
+			
+			attack_drone "8.000"
+			defense_drone "1.000"
+			loot_drone "1.000"
+			repair_drone "4.000"
+		}
+
+		mod_flags
+		{
+
+		}
+
+		rarity "EXTREME"
+	}
+
+}

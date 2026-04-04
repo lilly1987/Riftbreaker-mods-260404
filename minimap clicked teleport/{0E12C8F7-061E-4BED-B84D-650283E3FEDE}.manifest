@@ -1,0 +1,21 @@
+WorkspaceManifest
+{
+	description "aHR0cHM6Ly9zdGVhbWNvbW11bml0eS5jb20vc2hhcmVkZmlsZXMvZmlsZWRldGFpbHMvP2lkPTMyOTc2Mjk0ODgKCm5vIHRlc3QgdGVhbXMKCnVzZSBtaW5pbWFwX2NsaWNrZWRfdGVsZXBvcnRfYXV0b2V4ZWMubHVhCm5vdCB1c2UgQ29uc29sZVNlcnZpY2U6RXhlY3V0ZUNvbW1hbmQ="
+	tags
+	{
+		String "Other"
+	}
+
+	modified_game_files
+	title "bWluaW1hcCBjbGlja2VkIHRlbGVwb3J0"
+	homepage
+	modio_published_file "5937648"
+	visibility "0"
+	game_version "EXE: 1184 DATA: 844"
+	version "1.0.0"
+	localizations
+	author
+	steam_published_file "3696873154"
+	dependencies
+}
+

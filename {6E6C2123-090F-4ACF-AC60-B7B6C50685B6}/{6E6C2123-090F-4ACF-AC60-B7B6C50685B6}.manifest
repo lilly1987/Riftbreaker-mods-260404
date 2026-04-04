@@ -1,0 +1,36 @@
+WorkspaceManifest
+{
+	description "b25seSBmb3Igc3Vydml2YWw="
+	tags
+	{
+		String "Rebalance"
+		String "Research"
+	}
+
+	modified_game_files
+	title "c3RhcnQgYXV0byBSZXNlYXJjaCBBbGw="
+	homepage
+	modio_published_file "4180165"
+	visibility "0"
+	game_version "EXE: 978 DATA: 573"
+	version "1.0.2"
+	localizations
+	{
+		Pair_String_Localization
+		{
+			value
+			{
+				description "7Iuc7J6R7IucIOuqqOuToCDsl7Dqtawg7JmE66OMCmF1dG9leGVjLmx1YSDrpbwg7IKs7Jqp7ZW07IScIOuLpOuluO2VqCDrqqjrk5zrnpEg7Lap64+MIOyViO2VqA=="
+				title "7Iuc7J6R7IucIOuqqOuToCDsl7Dqtawg7JmE66OM"
+			}
+
+			key "KOREAN"
+		}
+
+	}
+
+	author
+	steam_published_file "3292396711"
+	dependencies
+}
+

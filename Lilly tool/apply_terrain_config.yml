@@ -1,0 +1,23 @@
+﻿# Layer ids extracted from terrain samples.
+layer_ids:
+  empty: FC BF D8 7B 00
+  nonblocking_fields_dense: A2 85 D9 DA 0C
+  blocking_fields_dense: A1 B3 D9 B2 07
+  nonblocking_filler_thin: F6 A5 CA FC 01
+
+randomize:
+  seed: 12345
+  replace_empty:  true
+  sources:
+    - nonblocking_fields_dense
+    - blocking_fields_dense
+    - nonblocking_filler_thin
+  targets:
+    nonblocking_fields_dense: 1
+    blocking_fields_dense: 1
+    nonblocking_filler_thin: 1
+
+detected_layer_ids:
+  layer_1: A2 85 D9 DA 0C
+  layer_2: F6 A5 CA FC 01
+  layer_3: A1 B3 D9 B2 07
