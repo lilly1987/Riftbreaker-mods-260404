@@ -1,0 +1,37 @@
+WorkspaceManifest
+{
+	description "dXNlIGF1dG9leGVjLmx1YQpDb21wYXRpYmxlIHdpdGggb3RoZXIgbW9kcw=="
+	tags
+	{
+		String "Items"
+		String "Other"
+		String "Rebalance"
+	}
+
+	modified_game_files
+	title "UGlja3VwIFJhbmdlIHgxMDA="
+	homepage
+	modio_published_file "4173175"
+	visibility "0"
+	game_version "EXE: 978 DATA: 573"
+	version "0.1.0"
+	localizations
+	{
+		Pair_String_Localization
+		{
+			value
+			{
+				description "YXV0b2V4ZWMubHVh66W8IOyCrOyaqe2VqArri6Trpbgg66qo65Oc7JmAIO2YuO2ZmCDqsIDriqU="
+				title "7ZS97JeFIOuylOychCAxMDDrsLAg7Kad6rCA"
+			}
+
+			key "KOREAN"
+		}
+
+	}
+
+	author
+	steam_published_file "3290890227"
+	dependencies
+}
+

@@ -1,0 +1,17 @@
+WorkspaceManifest
+{
+	description "bm8gY2hhbmdlIGVudCBmaWxlLgp1c2Ugb3V0cG9zdF9saW1pdF8xMDBfYXV0b2V4ZWMubHVhLg=="
+	tags
+	modified_game_files
+	title "b3V0cG9zdCBsaW1pdCAxMDA="
+	homepage
+	modio_published_file "4154316"
+	visibility "0"
+	game_version "EXE: 978 DATA: 573"
+	version "1.0.1"
+	localizations
+	author
+	steam_published_file "3286042255"
+	dependencies
+}
+

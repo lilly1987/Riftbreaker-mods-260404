@@ -24,11 +24,23 @@ def parse_bool(value: str) -> bool:
     raise TerrainConfigError(f"Invalid boolean value: {value}")
 
 
+def parse_hex_id(value: str) -> bytes:
+    cleaned = value.replace(" ", "").strip()
+    data = bytes.fromhex(cleaned)
+    if len(data) != 5:
+        raise TerrainConfigError(f"Layer id must be exactly 5 bytes: {value}")
+    return data
+
+
 def parse_config(text: str) -> dict:
     config = {
         "layer_ids": {},
-        "detected_layer_ids": {},
-        "randomize": {"sources": [], "targets": {}},
+        "randomize": {
+            "seed": None,
+            "replace_all": False,
+            "sources": [],
+            "targets": {},
+        },
     }
     section = None
     subsection = None
@@ -51,11 +63,6 @@ def parse_config(text: str) -> dict:
             config["layer_ids"][key] = parse_hex_id(value)
             continue
 
-        if section == "detected_layer_ids" and indent == 2 and ":" in stripped:
-            key, value = [part.strip() for part in stripped.split(":", 1)]
-            config["detected_layer_ids"][key] = parse_hex_id(value)
-            continue
-
         if section == "randomize" and indent == 2 and stripped.endswith(":"):
             subsection = stripped[:-1]
             continue
@@ -64,10 +71,10 @@ def parse_config(text: str) -> dict:
             key, value = [part.strip() for part in stripped.split(":", 1)]
             if key == "seed":
                 config["randomize"]["seed"] = value if value else None
-            elif key == "replace_empty":
-                config["randomize"]["replace_empty"] = parse_bool(value)
+            elif key == "replace_all":
+                config["randomize"]["replace_all"] = parse_bool(value)
             else:
-                config["randomize"][key] = value
+                raise TerrainConfigError(f"Unknown randomize setting: {key}")
             continue
 
         if section == "randomize" and subsection == "sources" and indent == 4 and stripped.startswith("- "):
@@ -76,7 +83,11 @@ def parse_config(text: str) -> dict:
 
         if section == "randomize" and subsection == "targets" and indent == 4 and ":" in stripped:
             key, value = [part.strip() for part in stripped.split(":", 1)]
-            config["randomize"]["targets"][key] = int(value)
+            try:
+                weight = int(value)
+            except ValueError as exc:
+                raise TerrainConfigError(f"Target weight must be an integer: {stripped}") from exc
+            config["randomize"]["targets"][key] = weight
             continue
 
     if not config["layer_ids"]:
@@ -89,14 +100,6 @@ def parse_config(text: str) -> dict:
     return config
 
 
-def parse_hex_id(value: str) -> bytes:
-    cleaned = value.replace(" ", "").strip()
-    data = bytes.fromhex(cleaned)
-    if len(data) != 5:
-        raise TerrainConfigError(f"Layer id must be exactly 5 bytes: {value}")
-    return data
-
-
 def build_rng(seed_value: str | None) -> random.Random:
     if not seed_value:
         return random.Random()
@@ -106,69 +109,61 @@ def build_rng(seed_value: str | None) -> random.Random:
         return random.Random(seed_value)
 
 
-def build_weighted_targets(targets: dict[str, int], layer_ids: dict[str, bytes]) -> list[tuple[str, bytes]]:
-    weighted: list[tuple[str, bytes]] = []
+def build_weighted_targets(targets: dict[str, int], layer_ids: dict[str, bytes]) -> list[bytes]:
+    weighted: list[bytes] = []
     for name, weight in targets.items():
         if name not in layer_ids:
             raise TerrainConfigError(f"Unknown target layer: {name}")
-        if weight <= 0:
-            continue
-        weighted.extend((name, layer_ids[name]) for _ in range(weight))
+        if weight > 0:
+            weighted.extend([layer_ids[name]] * weight)
+
     if not weighted:
         raise TerrainConfigError("No usable targets configured.")
+
     return weighted
 
 
-def find_layer_records(data: bytes, known_ids: set[bytes]) -> list[tuple[int, bytes]]:
+def find_layer_records(data: bytes) -> list[tuple[int, bytes]]:
     records: list[tuple[int, bytes]] = []
     cursor = 0
+
     while True:
         index = data.find(RECORD_PREFIX, cursor)
         if index == -1:
             break
+
         id_start = index + len(RECORD_PREFIX)
         layer_id = data[id_start:id_start + 5]
         suffix_start = id_start + 5
-        if layer_id in known_ids and data[suffix_start:suffix_start + len(RECORD_SUFFIX)] == RECORD_SUFFIX:
+        if len(layer_id) == 5 and data[suffix_start:suffix_start + len(RECORD_SUFFIX)] == RECORD_SUFFIX:
             records.append((id_start, layer_id))
+
         cursor = index + 1
+
     return records
 
 
 def apply_random_layers(data: bytes, config: dict) -> tuple[bytes, dict[str, int], dict[str, int], int]:
-    layer_ids = config["layer_ids"]
-    detected_layer_ids = set(config.get("detected_layer_ids", {}).values())
-    randomize = config["randomize"]
-    replace_empty = randomize.get("replace_empty", False)
+    layer_ids: dict[str, bytes] = config["layer_ids"]
+    reverse_ids = {value: name for name, value in layer_ids.items()}
+    source_names: list[str] = config["randomize"]["sources"]
+    replace_all: bool = config["randomize"]["replace_all"]
 
-    source_names = randomize["sources"]
     for name in source_names:
         if name not in layer_ids:
             raise TerrainConfigError(f"Unknown source layer: {name}")
 
     source_ids = {layer_ids[name] for name in source_names}
-    if replace_empty and "empty" in layer_ids:
-        source_ids.add(layer_ids["empty"])
-    if detected_layer_ids:
-        source_ids &= detected_layer_ids
+    weighted_targets = build_weighted_targets(config["randomize"]["targets"], layer_ids)
+    rng = build_rng(config["randomize"].get("seed"))
 
-    weighted_targets = build_weighted_targets(randomize["targets"], layer_ids)
-    if detected_layer_ids:
-        weighted_targets = [(name, layer_id) for name, layer_id in weighted_targets if layer_id in detected_layer_ids]
-        if not weighted_targets:
-            raise TerrainConfigError("No usable targets remain after applying detected_layer_ids.")
-    rng = build_rng(randomize.get("seed"))
-
-    known_ids = set(layer_ids.values())
-    if detected_layer_ids:
-        known_ids &= detected_layer_ids
-    records = find_layer_records(data, known_ids)
+    records = find_layer_records(data)
     if not records:
         raise TerrainConfigError("No layer records were found in the terrain file.")
 
+    known_ids = set(layer_ids.values())
     before_counts = {name: 0 for name in layer_ids}
     after_counts = {name: 0 for name in layer_ids}
-    reverse_ids = {value: key for key, value in layer_ids.items()}
     output = bytearray(data)
     changed = 0
 
@@ -177,9 +172,10 @@ def apply_random_layers(data: bytes, config: dict) -> tuple[bytes, dict[str, int
         if name:
             before_counts[name] += 1
 
+        should_replace = layer_id in source_ids or (replace_all and layer_id in known_ids)
         new_id = layer_id
-        if layer_id in source_ids:
-            _, new_id = rng.choice(weighted_targets)
+        if should_replace:
+            new_id = rng.choice(weighted_targets)
             if new_id != layer_id:
                 output[offset:offset + 5] = new_id
                 changed += 1
@@ -189,6 +185,19 @@ def apply_random_layers(data: bytes, config: dict) -> tuple[bytes, dict[str, int
             after_counts[new_name] += 1
 
     return bytes(output), before_counts, after_counts, changed
+
+
+def build_backup_path(terrain_path: Path) -> Path:
+    backup_path = terrain_path.with_suffix(terrain_path.suffix + ".bak")
+    if not backup_path.exists():
+        return backup_path
+
+    index = 1
+    while True:
+        candidate = terrain_path.with_suffix(terrain_path.suffix + f".bak{index}")
+        if not candidate.exists():
+            return candidate
+        index += 1
 
 
 def main() -> int:
@@ -211,7 +220,7 @@ def main() -> int:
         config = parse_config(CONFIG_PATH.read_text(encoding="utf-8"))
         original = terrain_path.read_bytes()
         updated, before_counts, after_counts, changed = apply_random_layers(original, config)
-        backup_path = terrain_path.with_suffix(terrain_path.suffix + ".bak")
+        backup_path = build_backup_path(terrain_path)
         backup_path.write_bytes(original)
         terrain_path.write_bytes(updated)
     except TerrainConfigError as exc:

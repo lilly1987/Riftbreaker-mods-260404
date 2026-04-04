@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import sys
 from collections import Counter
@@ -7,16 +7,18 @@ from pathlib import Path
 
 RECORD_PREFIX = bytes.fromhex("01 B9 14 06")
 RECORD_SUFFIX = bytes.fromhex("00 04 47 6F")
+DEFAULT_CONFIG_PATH = Path(__file__).resolve().parent / "apply_terrain_config.yml"
 
 
 class ExtractError(Exception):
     pass
 
 
-def parse_args(argv: list[str]) -> tuple[list[str], Path | None]:
-    terrain_files: list[str] = []
+def parse_args(argv: list[str]) -> tuple[list[Path], Path | None]:
+    terrain_paths: list[Path] = []
     config_path: Path | None = None
     index = 0
+
     while index < len(argv):
         arg = argv[index]
         if arg == "--update-config":
@@ -24,32 +26,46 @@ def parse_args(argv: list[str]) -> tuple[list[str], Path | None]:
                 config_path = Path(argv[index + 1]).resolve()
                 index += 2
             else:
-                config_path = Path(__file__).resolve().parent / "apply_terrain_config.yml"
+                config_path = DEFAULT_CONFIG_PATH
                 index += 1
             continue
-        terrain_files.append(arg)
+
+        terrain_paths.append(Path(arg).resolve())
         index += 1
-    return terrain_files, config_path
+
+    return terrain_paths, config_path
 
 
-def find_layer_ids(data: bytes) -> list[tuple[int, bytes]]:
+def format_hex(value: bytes) -> str:
+    return value.hex(" ").upper()
+
+
+def parse_hex_id(value: str) -> bytes:
+    cleaned = value.replace(" ", "").strip()
+    data = bytes.fromhex(cleaned)
+    if len(data) != 5:
+        raise ExtractError(f"Layer id must be exactly 5 bytes: {value}")
+    return data
+
+
+def find_layer_records(data: bytes) -> list[tuple[int, bytes]]:
     results: list[tuple[int, bytes]] = []
     cursor = 0
+
     while True:
         index = data.find(RECORD_PREFIX, cursor)
         if index == -1:
             break
+
         id_start = index + len(RECORD_PREFIX)
         layer_id = data[id_start:id_start + 5]
         suffix_start = id_start + 5
         if len(layer_id) == 5 and data[suffix_start:suffix_start + len(RECORD_SUFFIX)] == RECORD_SUFFIX:
             results.append((id_start, layer_id))
+
         cursor = index + 1
+
     return results
-
-
-def format_hex(value: bytes) -> str:
-    return value.hex(" ").upper()
 
 
 def collect_layer_ids(path: Path) -> tuple[int, int, list[tuple[bytes, int, int]]]:
@@ -59,7 +75,7 @@ def collect_layer_ids(path: Path) -> tuple[int, int, list[tuple[bytes, int, int]
         raise ExtractError(f"Only .terrain files are supported: {path}")
 
     data = path.read_bytes()
-    records = find_layer_ids(data)
+    records = find_layer_records(data)
     if not records:
         raise ExtractError(f"No layer ids found in: {path}")
 
@@ -81,73 +97,81 @@ def print_analysis(path: Path, size: int, record_count: int, ordered: list[tuple
     print(f"LAYER_RECORDS: {record_count}")
     print("IDS:")
     for index, (layer_id, count, first_offset) in enumerate(ordered, start=1):
-        print(f"  {index}. id={format_hex(layer_id)} count={count} first_offset=0x{first_offset:08X}")
+        print(f"  {index}. layer_{index} = {format_hex(layer_id)} count={count} first_offset=0x{first_offset:08X}")
 
-    print("\nYAML:")
-    print("detected_layer_ids:")
-    for index, (layer_id, _, _) in enumerate(ordered, start=1):
-        print(f"  layer_{index}: {format_hex(layer_id)}")
     print()
 
 
+def parse_simple_yaml_sections(text: str) -> list[tuple[str, list[str]]]:
+    sections: list[tuple[str, list[str]]] = []
+    current_name: str | None = None
+    current_lines: list[str] = []
+
+    for raw_line in text.replace("\r\n", "\n").splitlines():
+        stripped = raw_line.strip()
+        indent = len(raw_line) - len(raw_line.lstrip(" "))
+
+        if stripped and indent == 0 and stripped.endswith(":"):
+            if current_name is not None:
+                sections.append((current_name, current_lines))
+            current_name = stripped[:-1]
+            current_lines = []
+        elif current_name is not None:
+            current_lines.append(raw_line)
+
+    if current_name is not None:
+        sections.append((current_name, current_lines))
+
+    return sections
+
+
 def update_config(config_path: Path, ordered: list[tuple[bytes, int, int]]) -> None:
-    if not config_path.exists():
-        raise ExtractError(f"Config file not found: {config_path}")
+    existing_text = ""
+    if config_path.exists():
+        existing_text = config_path.read_text(encoding="utf-8").replace("\r\n", "\n")
 
-    lines = config_path.read_text(encoding="utf-8").replace("\r\n", "\n").splitlines()
-    start = None
-    end = None
-
-    for index, line in enumerate(lines):
-        stripped = line.strip()
-        if stripped == "detected_layer_ids:":
-            start = index
+    sections = parse_simple_yaml_sections(existing_text)
+    other_sections: list[str] = []
+    for name, lines in sections:
+        if name == "layer_ids":
             continue
-        if start is not None and index > start:
-            if line and not line.startswith((" ", "\t")):
-                end = index
-                break
 
-    new_section = ["detected_layer_ids:"]
+        block_lines = [f"{name}:"]
+        block_lines.extend(lines)
+        while block_lines and block_lines[-1] == "":
+            block_lines.pop()
+        other_sections.append("\n".join(block_lines))
+
+    layer_lines = ["layer_ids:"]
     for index, (layer_id, _, _) in enumerate(ordered, start=1):
-        new_section.append(f"  layer_{index}: {format_hex(layer_id)}")
+        layer_lines.append(f"  layer_{index}: {format_hex(layer_id)}")
 
-    if start is None:
-        if lines and lines[-1] != "":
-            lines.append("")
-        lines.extend(new_section)
-    else:
-        if end is None:
-            end = len(lines)
-        lines = lines[:start] + new_section + lines[end:]
-
-    config_path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+    blocks = ["\n".join(layer_lines)]
+    blocks.extend(other_sections)
+    config_path.write_text("\n\n".join(blocks).rstrip() + "\n", encoding="utf-8", newline="\n")
 
 
 def main() -> int:
-    terrain_args, config_path = parse_args(sys.argv[1:])
-    if not terrain_args:
+    terrain_paths, config_path = parse_args(sys.argv[1:])
+    if not terrain_paths:
         print("Usage: extract_terrain_layer_ids.py <terrain file> [more terrain files...] [--update-config [path]]")
         return 1
 
-    analyses: list[tuple[Path, int, int, list[tuple[bytes, int, int]]]] = []
-    for raw_path in terrain_args:
+    last_ordered: list[tuple[bytes, int, int]] | None = None
+
+    for path in terrain_paths:
         try:
-            path = Path(raw_path).resolve()
             size, record_count, ordered = collect_layer_ids(path)
-            analyses.append((path, size, record_count, ordered))
-            print_analysis(path, size, record_count, ordered)
         except ExtractError as exc:
             print(f"Error: {exc}")
             return 1
 
-    if config_path is not None:
-        try:
-            update_config(config_path, analyses[-1][3])
-            print(f"Updated config: {config_path}")
-        except ExtractError as exc:
-            print(f"Error: {exc}")
-            return 1
+        print_analysis(path, size, record_count, ordered)
+        last_ordered = ordered
+
+    if config_path is not None and last_ordered is not None:
+        update_config(config_path, last_ordered)
+        print(f"Updated config: {config_path}")
 
     return 0
 
