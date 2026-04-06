@@ -46,8 +46,7 @@ function harvester_drone:__init()
 end
 
 function harvester_drone:FindBestVegetationEntity(owner, source)
-    -- 더 큰 식생을 우선 선택하고, 크기가 같으면 거리를 기준으로 고릅니다.
-    -- 주변의 작은 식물만 반복 수확하느라 더 좋은 대상을 놓치지 않게 하기 위함입니다.
+    -- 조건에 맞는 식생 목록에서 랜덤으로 하나를 선택합니다.
     self.predicate = self.predicate or {
         type=self.search_type,
         signature="LootComponent",
@@ -73,48 +72,14 @@ function harvester_drone:FindBestVegetationEntity(owner, source)
             return true
         end
     };
-
+    
     local entities = FindService:FindEntitiesByPredicateInRadius( owner, self.search_radius, self.predicate );
 
-    local best = {
-        entity = INVALID_ID,
-        distance = nil,
-        index = -1
-    };
-
-    for entity in Iter( entities ) do
-        local name = EntityService:GetBlueprintName( entity );
-
-        local index = -1;
-        if ( string.find( name, "very_large") ) then
-            index = 5
-        elseif ( string.find( name, "large") ) then
-            index = 4
-        elseif ( string.find( name, "big") ) then
-            index = 4
-        elseif ( string.find( name, "medium") ) then
-            index = 3
-        elseif ( string.find( name, "very_small") ) then
-            index = 1
-        elseif ( string.find( name, "small") ) then
-            index = 2
-        else
-            index = 0
-        end
-        local distance = EntityService:GetDistanceBetween( source, entity );
-
-        if best.entity == INVALID_ID or index > best.index then
-            best.entity = entity
-            best.distance = distance;
-            best.index = index
-        elseif index == best.index and best.distance > distance then
-            best.entity = entity
-            best.distance = distance;
-            best.index = index
-        end
+    if #entities > 0 then
+        return entities[math.random(1, #entities)]
     end
 
-    return best.entity
+    return INVALID_ID
 end
 
 function harvester_drone:FindResourceVeinEntity(owner, source)
@@ -148,19 +113,7 @@ function harvester_drone:FindResourceVeinEntity(owner, source)
 
     local entities = FindService:FindEntitiesByPredicateInRadius( owner, self.search_radius, self.predicate );
     if #entities > 0 then
-        local parents = {}
-        for entity in Iter(entities) do
-            table.insert(parents, { entity = entity, parent = EntityService:GetParent(entity), distance = EntityService:GetDistanceBetween(owner,entity)})
-        end
-
-        -- 모든 드론이 첫 번째 마커에 몰리지 않도록, 배정된 드론 수가 적은 부모 광맥을 우선합니다.
-        local sorter = function(lhs,rhs)
-            return #(g_allocated_resource_drones[lhs.parent] or { distance = 0.0 }) < #(g_allocated_resource_drones[rhs.parent] or {})
-        end
-
-        table.sort( parents, sorter )
-
-        return parents[1].entity
+        return entities[math.random(1, #entities)]
     end
 
     return INVALID_ID
@@ -176,9 +129,6 @@ function harvester_drone:FillInitialParams()
     self.search_type = self.data:GetStringOrDefault("search_type","");
 
     self.harvest_vegetation = self.data:GetIntOrDefault("harvest_vegetation", 1 ) == 1; --
-    self.harvest_storage = self.data:GetFloat("harvest_storage"); -- 무시
-    self.harvest_duration = self.data:GetFloat("harvest_time"); -- 무시
-    self.unload_duration = self.data:GetFloat("unload_time");
     self.exclude_targets = self.exclude_targets or {};
 
     if self.debug == nil then
@@ -190,7 +140,6 @@ end
 function harvester_drone:OnInit()
     self:FillInitialParams();
 
-    -- local tick_interval = math.max(0.5, self.harvest_duration / 3.0 - RandFloat(-0.2, 0.2))
     local tick_interval = 0.5
     self.fsm = self:CreateStateMachine();
     self.fsm:AddState("harvest", { enter="OnHarvestEnter", execute="OnHarvestExecute", exit="OnHarvestExit", interval=tick_interval} );
@@ -264,20 +213,10 @@ end
 function harvester_drone:OnLoad()
     self:FillInitialParams();
 
-    if not self.current_storage then
-        self.current_storage = {}
-        for resource, _ in pairs( self.storage ) do
-            self.current_storage[ resource ] = 0.0
-        end
-    end
     base_drone.OnLoad( self )
 end
 
 function harvester_drone:FindActionTarget()
-    if self:GetCurrentStorage() >= self.harvest_storage then
-        return INVALID_ID
-    end
-
     local owner = self:GetDroneOwnerTarget();
     if not EntityService:IsAlive( owner ) then
         return INVALID_ID
@@ -306,7 +245,7 @@ function harvester_drone:FindActionTarget()
 end
 
 function harvester_drone:OnDroneOwnerAction( target )
-    self.fsm:ChangeState("unload")
+    self:SetOwnerActionFinished();
 end
 
 function harvester_drone:OnDroneTargetAction( target )
@@ -314,15 +253,7 @@ function harvester_drone:OnDroneTargetAction( target )
 end
 
 function harvester_drone:OnUnloadEnter(state)
-    state:SetDurationLimit(self.unload_duration)
-    local owner = self:GetDroneOwnerTarget();
-    local player = PlayerService:GetPlayerForEntity( owner )
-
-    for resource, amount in pairs( self.storage ) do
-        if not PlayerService:IsResourceUnlocked( player, resource ) then
-            self:UpdateResourceStorage(resource, -amount);
-        end
-    end
+    state:Exit()
 end
 
 function harvester_drone:UnloadResource( resource, amount )
@@ -338,34 +269,10 @@ function harvester_drone:UnloadResource( resource, amount )
 
     local player = PlayerService:GetPlayerForEntity( owner )
     PlayerService:AddResourceAmount(player, resource, amount, true);
-
-    self:UpdateResourceStorage(resource, -amount);
 end
 
 function harvester_drone:OnUnloadExecute(state, dt)
-    local max_change_amount = ( self.harvest_storage / self.unload_duration ) * dt;
-    for resource, amount in pairs( self.storage ) do
-        local change_amount = max_change_amount;
-        if amount < max_change_amount then
-            change_amount = amount
-        end
-
-        -- local max_player_storage = PlayerService:GetResourceLimit( resource );
-        -- local curr_player_storage = PlayerService:GetResourceAmount(PlayerService:GetLeadingPlayer(), resource );
-
-        -- local player_storage = max_player_storage - curr_player_storage;
-        -- if change_amount > player_storage then
-        --     change_amount = player_storage
-        -- end
-
-        -- if change_amount > 0 then
-            self:UnloadResource(resource, change_amount);
-        --end
-    end
-
-    if self:GetCurrentStorage() <= 0.0 then
-        state:Exit()
-    end
+    state:Exit()
 end
 
 function harvester_drone:OnUnloadExit(state)
@@ -386,14 +293,8 @@ function harvester_drone:OnHarvestEnter(state)
         self.debug:Deactivate()
     end
 
-    state:SetDurationLimit(self.harvest_duration)
-
     local target = self:GetDroneActionTarget();
     Insert(self.exclude_targets, target)
-
-    -- current_storage는 이번 수확 사이클에서 대상에게서 가져온 양을 기록합니다.
-    -- 대상의 실제 자원량은 종료 시 한 번에 반영해, 중단된 사이클도 한 번의 변화량으로 처리합니다.
-    self.current_storage = {}
 
     local resources = GetGatherableResources( target, self.harvest_vegetation )
     if #resources == 0 then
@@ -403,39 +304,14 @@ function harvester_drone:OnHarvestEnter(state)
 
     for i=1,#resources do
         local resource_name = resources[i].first;
-        self.current_storage[ resource_name ] = 0.0
-
-        local current_amount = self.storage[ resource_name ];
-        self.storage[ resource_name ] = current_amount or 0.0
+        local resource_amount = GetGatherableResourceAmount(target, resource_name, self.harvest_vegetation);
+        if resource_amount > 0.0 then
+            self:UnloadResource(resource_name, resource_amount);
+            ChangeGatherableResourceAmount( target, resource_name, 0.0, self.harvest_vegetation )
+        end
     end
 
-    EffectService:AttachEffects(self.entity, "work");
-end
-
-function harvester_drone:GetCurrentStorage()
-    local current_storage = 0;
-    for resource, amount in pairs( self.storage ) do
-        current_storage = current_storage + amount;
-    end
-
-    return current_storage
-end
-
-function harvester_drone:UpdateResourceStorage( resource, change_amount )
-    -- 드론 적재 한도에 맞춰 수확량을 제한하고, 실제로 저장된 양을 반환합니다.
-    local current_storage = self:GetCurrentStorage();
-
-    local storage_left = self.harvest_storage - current_storage
-    if  change_amount > storage_left then
-        change_amount = storage_left
-    end
-
-    local current_amount = self.storage[ resource ];
-    self.storage[ resource ] = current_amount + change_amount;
-
-    --EntityService:SetGraphicsUniform( self.entity, "cGlowFactor", math.max( 0.5, (current_storage + change_amount) / self.harvest_storage ) );
-
-    return change_amount;
+    state:Exit()
 end
 
 function harvester_drone:ClearStorage()
@@ -445,41 +321,12 @@ function harvester_drone:ClearStorage()
 end
 
 function harvester_drone:OnHarvestExecute(state, dt)
-    local max_change_amount = ( self.harvest_storage / self.harvest_duration ) * dt;
-
-    local target = self:GetDroneActionTarget();
-
-    if not EntityService:IsAlive( target ) then
-        return state:Exit()
-    end
-
-    for resource, _ in pairs( self.storage ) do
-        local currentAmount = self.current_storage[ resource ] or 0.0
-        local resourceAmount = GetGatherableResourceAmount(target, resource, self.harvest_vegetation);
-        -- 대상 자원량은 OnHarvestExit에서 반영되므로,
-        -- 이번 사이클에 이미 예약된 수확량을 뺀 남은 양을 기준으로 계산합니다.
-        resourceAmount = resourceAmount - currentAmount
-
-        local harvestAmount = self:UpdateResourceStorage( resource, math.min( resourceAmount, max_change_amount ) );
-        if harvestAmount > 0.0 then
-            self.current_storage[ resource ] = currentAmount + harvestAmount
-            --ChangeGatherableResourceAmount( target, resource, resourceAmount - harvestAmount, self.harvest_vegetation )
-        else
-           state:Exit()
-        end
-
-    end
+    state:Exit()
 end
 
 function harvester_drone:OnHarvestExit()
     local target = self:GetDroneActionTarget();
     if EntityService:IsAlive( target ) then
-
-        -- 이번 사이클에서 수확한 자원량을 대상 엔티티에 반영합니다.
-        for resource, harvestAmount in pairs( self.current_storage ) do
-            local resourceAmount = GetGatherableResourceAmount(target, resource, self.harvest_vegetation);
-            ChangeGatherableResourceAmount( target, resource, resourceAmount - harvestAmount, self.harvest_vegetation )
-        end
 
         -- 고갈된 대상은 제거해서 탐색기가 빈 식생이나 자원 마커를 계속 선택하지 않게 합니다.
         local resources = GetGatherableResources(target, self.harvest_vegetation);
