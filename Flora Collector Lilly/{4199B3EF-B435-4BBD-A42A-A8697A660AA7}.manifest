@@ -1,13 +1,13 @@
 WorkspaceManifest
 {
-	description
+	description "ZHJvbmUgc3BlZWQgMTAwMCAKdmVyeSBmYXN0IGhhcnZlc3QgXl9e"
 	tags
 	{
 		String "Buildings"
 	}
 
 	modified_game_files
-	title "ZmxvcmEgY29sbGVjdG9yIGJ5IGxpbGx5"
+	title "ZmxvcmEgY29sbGVjdG9yIGJ5IGxpbGx5IC0gdmVyeSBmYXN0IGhhcnZlc3Q="
 	homepage
 	modio_published_file "0"
 	visibility "0"
