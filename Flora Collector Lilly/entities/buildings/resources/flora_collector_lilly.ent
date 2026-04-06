@@ -12,11 +12,13 @@ EntityBlueprint
 		description			"gui/hud/building_description/flora_collector"
 		menu_icon			"gui/hud/building_icons/flora_collector"
 		//require 			"headquarters"
-		order				"113"
+		order				"0"
 		//upgrade				"buildings/resources/flora_collector_lilly_lvl_2"		
 		//exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"		
-		limit			    "1"
-		limit_name			"flora_collector_lilly"
+		//limit			    "1"
+		//limit_name			"flora_collector_lilly"
+		//disableable 		"0"
+		buildable			"1"
 
 		costs
 		{
@@ -24,12 +26,12 @@ EntityBlueprint
 			{
 				name "default"
 				building_time 0
-				//building_cost
-				//{
-					//carbonium 	"100"
+				building_cost
+				{
+					carbonium 	"1"
 					//steel 		"100"
 					//cobalt		"25"
-				//}
+				}
 			}		
 		}
 	}
@@ -68,17 +70,17 @@ EntityBlueprint
 
 	LuaDesc
 	{
-		script "lua/buildings/resources/flora_collector.lua"
+		script "lua/buildings/resources/flora_collector_lilly.lua"
 		
 		database
 		{
 			cone_effect			string:"build_cone_3x3"
 			cone_effect_sell 	string:"sell_big"
 
-			drone_search_radius	float:"2500"
+			drone_search_radius	float:"50"
 			drone_blueprint		string:"units/drones/drone_flora_collector_lilly"		
 			drone_attachments	string:"att_landing"
-			drone_per_spot		int:"64"
+			drone_per_spot		int:"4"
 
 			display_radius_group	 string:"cultivator_harvester"
 			display_radius_blueprint string:"effects/decals/range_circle_harvesting"
@@ -87,8 +89,8 @@ EntityBlueprint
 
 	HealthDesc
 	{
-		max_health 					"100000"
-		health 						"100000"
+		max_health 					"10000"
+		health 						"10000"
 		regeneration 				"1"
 		regeneration_cooldown 		"1"
 		 is_manual 1

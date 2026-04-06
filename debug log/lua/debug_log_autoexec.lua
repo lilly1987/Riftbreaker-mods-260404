@@ -2,7 +2,7 @@ LogService:Log("Debug Log Reg") -- 맵 시작시마다 로딩
 
 local list={
 -- "PlayerInitializedEvent",
-"PlayerSpawnRequest", -- 두번 발생
+-- "PlayerSpawnRequest", -- 두번 발생
 -- ---
 -- layout: default
 -- title: PlayerSpawnRequest
@@ -23,7 +23,7 @@ local list={
 
 -- "CreateActionMapperRequest",
 -- "OperateActionMapperRequest",
-"EnterFighterModeEvent",
+-- "EnterFighterModeEvent",
 
 
 -- "ClearCameraCulling",
@@ -31,111 +31,111 @@ local list={
 -- "EnableCameraCulling",
 
 -- "LuaGlobalEvent", -- 너무 많음
-"RecreateComponentFromBlueprintRequest",
+-- "RecreateComponentFromBlueprintRequest",
 
 
-"ActivateEntityRequest",
+-- "ActivateEntityRequest",
 -- "ActivateItemRequest",
-"AddEntityToTraceRequest",
+-- "AddEntityToTraceRequest",
 -- "AddMaxSpeedModifierRequest", -- 너무 많음
-"AddPassiveSkillRequest",
-"AmmoRemoveRequest",
+-- "AddPassiveSkillRequest",
+-- "AmmoRemoveRequest",
 -- "AttachEffectGroupRequest", -- 너무 많음
-"BlockSaveRequest",
-"BuildBuildingRequest",
-"BuildFloorRequest",
-"BuildingBuildEvent",
-"BuildingStartEvent",
-"BuildingVisibleInBuildMenuRequest ",
-"ChangeBuildingRequest",
-"ChangeBuildingStatusRequest",
-"ChangeSelectorRequest",
-"ChangeSubSlotRequest",
+-- "BlockSaveRequest",
+-- "BuildBuildingRequest",
+-- "BuildFloorRequest",
+-- "BuildingBuildEvent",
+-- "BuildingStartEvent",
+-- "BuildingVisibleInBuildMenuRequest ",
+-- "ChangeBuildingRequest",
+-- "ChangeBuildingStatusRequest",
+-- "ChangeSelectorRequest",
+-- "ChangeSubSlotRequest",
 -- "CreateItemInInventoryRequest", -- 인벤토리에 아이템이 너무 많이 생김
 -- "DamageRequest", -- 너무 많음
-"DamageWithOwnerRequest",
-"DeactivateEntityRequest",
+-- "DamageWithOwnerRequest",
+-- "DeactivateEntityRequest",
 -- "DeactivateItemRequest", -- 너무 많음
-"DeselectEntityRequest",
+-- "DeselectEntityRequest",
 -- "DestroyRequest", -- 너무 많음. EntityService:RemoveEntity로 대체
-"DestructibleVolumeCullCellsInRadiusRequest",
+-- "DestructibleVolumeCullCellsInRadiusRequest",
 -- "DisableDroneRequest",
 -- "DissolveEntityRequest", -- 너무 많음
-"DroppedResourceEvent",
+-- "DroppedResourceEvent",
 -- "EmitStateMachineEventRequest", -- 너무 많음
 -- "EnableDroneRequest", -- 너무 많음
-"EnterBuildMenuEvent",
-"EnterBuildModeEvent",
+-- "EnterBuildMenuEvent",
+-- "EnterBuildModeEvent",
 -- "EntityScanningEndEvent", -- 너무 많음
 -- "EntityScanningStartEvent",-- 너무 많음
 -- "EquipItemEvent", -- 너무 많음. 아이템이 너무 많이 생김 영향
 -- "EquipItemRequest", -- 너무 많음
 -- "FadeEntityOutRequest",-- 너무 많음
-"FinishResurrectEvent",
-"FinishSummonEvent",
-"ForceBuildBuildingRequest",
-"ForceLootContainerTypeRequest",
-"GameStreamingAddClientEvent",
-"GameStreamingRemoveClientEvent",
-"GameStreamingUpdateActionEvent",
-"HarvestStartEvent",
-"HideComponentRequest",
-"HideObjectiveRequest",
-"HudDamageHighlightRequest",
+-- "FinishResurrectEvent",
+-- "FinishSummonEvent",
+-- "ForceBuildBuildingRequest",
+-- "ForceLootContainerTypeRequest",
+-- "GameStreamingAddClientEvent",
+-- "GameStreamingRemoveClientEvent",
+-- "GameStreamingUpdateActionEvent",
+-- "HarvestStartEvent",
+-- "HideComponentRequest",
+-- "HideObjectiveRequest",
+-- "HudDamageHighlightRequest",
 -- "InteractEntityRequest", -- 너무 많음. 
 -- "NetClearEntityComponentStateRequest", -- 너무 많음
 -- "NewAwardEvent", -- 너무 많음. 아이템이 너무 많이 생김 영향
-"OpenCraftingRequest",
-"OpenEnterPortalPopupRequest",
-"OpeningPortalStartedEvent",
-"OpenPlanetaryScannerRequest",
-"OpenResearchRequest",
-"PlayerChatRequest",
-"PlayerDiedEvent",
-"PlayerDownEvent",
-"PlayerPawnDestroyedEvent",
-"PlayerReactivatedEvent",
+-- "OpenCraftingRequest",
+-- "OpenEnterPortalPopupRequest",
+-- "OpeningPortalStartedEvent",
+-- "OpenPlanetaryScannerRequest",
+-- "OpenResearchRequest",
+-- "PlayerChatRequest",
+-- "PlayerDiedEvent",
+-- "PlayerDownEvent",
+-- "PlayerPawnDestroyedEvent",
+-- "PlayerReactivatedEvent",
 
 -- "PlayTimeoutSoundRequest", -- 너무 많음
-"PortalActivatedEvent",
-"PortalOpeningFinishedEvent",
-"PrepareResurrectEvent",
-"PrepareSummonEvent",
-"RemoveActionMapperRequest",
-"RemoveBuildingLuaComponent",
+-- "PortalActivatedEvent",
+-- "PortalOpeningFinishedEvent",
+-- "PrepareResurrectEvent",
+-- "PrepareSummonEvent",
+-- "RemoveActionMapperRequest",
+-- "RemoveBuildingLuaComponent",
 -- "RemoveEffectsByGroupRequest", -- 너무 많음
-"RemoveEntityToTraceRequest",
+-- "RemoveEntityToTraceRequest",
 -- "RemoveMaxSpeedModifierRequest",-- 너무 많음
-"RemovePassiveSkillRequest",
-"RepairBuildingByPlayerRequest",
-"ResurrectEvent",
-"RevealComponentRequest",
-"RiftPointActiveChangeRequest",
-"RiftTeleportEndEvent",
-"RiftTeleportStartEvent",
-"ScheduleRepairBuildingRequest",
-"SelectEntityRequest",
-"SellBuildingRequest",
-"SellFloorsRequest",
+-- "RemovePassiveSkillRequest",
+-- "RepairBuildingByPlayerRequest",
+-- "ResurrectEvent",
+-- "RevealComponentRequest",
+-- "RiftPointActiveChangeRequest",
+-- "RiftTeleportEndEvent",
+-- "RiftTeleportStartEvent",
+-- "ScheduleRepairBuildingRequest",
+-- "SelectEntityRequest",
+-- "SellBuildingRequest",
+-- "SellFloorsRequest",
 -- "SetBaseMovementDataRequest",-- 너무 많음
-"SetFroceRevealMaskRequest",
-"SetTimerRequest",
-"ShowEndGameRequest",
-"ShowObjectiveRequest",
-"ShowScannableRequest",
+-- "SetFroceRevealMaskRequest",
+-- "SetTimerRequest",
+-- "ShowEndGameRequest",
+-- "ShowObjectiveRequest",
+-- "ShowScannableRequest",
 -- "SpawnEffectGroupRequest",-- 너무 많음
-"SpawnFromLootContainerRequest",
-"StunWithPoseEvent",
-"SummonEvent",
-"SwarmChangeStateEvent",
-"SwarmDisableSpawnRequest",
-"SwarmEnableSpawnRequest",
-"TeleportAppearEnter",
-"TeleportAppearExit",
+-- "SpawnFromLootContainerRequest",
+-- "StunWithPoseEvent",
+-- "SummonEvent",
+-- "SwarmChangeStateEvent",
+-- "SwarmDisableSpawnRequest",
+-- "SwarmEnableSpawnRequest",
+-- "TeleportAppearEnter",
+-- "TeleportAppearExit",
 -- "UnequipItemRequest", -- 너무 많음
-"UnitAggressiveStateEvent",
-"UnitDeadStateEvent",
-"UpgradeBuildingRequest",
+-- "UnitAggressiveStateEvent",
+-- "UnitDeadStateEvent",
+-- "UpgradeBuildingRequest",
 }
 
 for _, event_name in ipairs(list) do

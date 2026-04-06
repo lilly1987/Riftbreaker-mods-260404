@@ -19,11 +19,11 @@ EntityBlueprint
 
 	LuaDesc
 	{
-		script "lua/units/air/resource_harvester_drone.lua"
+		script "lua/units/air/resource_harvester_drone_lilly.lua"
 
 		database
 		{
-			search_radius 		float:"2500.0" // if spawned by building this param will be overriden by buildings `drone_search_radius`
+			search_radius 		float:"50.0" // if spawned by building this param will be overriden by buildings `drone_search_radius`
 			search_type			string:""
 
 			harvest_time		float:"0.0"
