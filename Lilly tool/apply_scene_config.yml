@@ -50,13 +50,12 @@ EntityTemplate: '
   all delete: true
   TransformComponent:
     -
-      position: # x,z / y값은 필요 없음
-        - 0,0
-        - 32,32
-        - -32,-32
-        - 32,-32
-        - -32,32
-3:
+      grid:
+        min: -48,-48
+        max: 48,48
+        step: 24,24
+        random count: 5
+volume_random_placement:
   base_blueprint:
     - resources/volume_random_placement
   all delete: true
@@ -68,7 +67,19 @@ EntityTemplate: '
         max: 48,48
         step: 24,24
         random count: 5
-4:
+volume_random_resources:
+  base_blueprint:
+    - resources/volume_random_resources
+  all delete: true
+  TransformComponent:
+    -
+      scale: 20,20,20
+      grid:
+        min: -48,-48
+        max: 48,48
+        step: 24,24
+        random count: 5
+spawn_objective:
   base_blueprint:
     - logic/spawn_objective
   all delete: true
@@ -79,7 +90,7 @@ EntityTemplate: '
         max: 36,36
         step: 24,24
         random count: 4
-5:
+volume_neutral_units_spawner:
   base_blueprint:
     - units/spawner/volume_neutral_units_spawner
   all delete: true
@@ -91,7 +102,7 @@ EntityTemplate: '
         max: 48,36
         step: 24,24
         random count: 4
-6:
+volume_resources_units_spawner:
   base_blueprint:
     - units/spawner/volume_resources_units_spawner
   all delete: true
@@ -115,25 +126,25 @@ EntityTemplate: '
 #         - 62,30
 #         - -62,-30
 #         - 62,-30
-supercoolant:
-  base_blueprint: 
-    - resources/volume_resource_supercoolant
-  all delete: true
-  TransformComponent:
-    -
-      scale: 52,1,4 # x,y,z
-      position:
-        - -30,62
-        - 30,62
-        - -30,-62
-        - 30,-62
-    # -
-    #   scale: 4,4,60 # x,y,z
-    #   position:
-    #     - -62,34
-    #     - 62,34
-    #     - -62,-34
-    #     - 62,-34
+# supercoolant:
+#   base_blueprint: 
+#     - resources/volume_resource_supercoolant
+#   all delete: true
+#   TransformComponent:
+#     -
+#       scale: 52,1,4 # x,y,z
+#       position:
+#         - -30,62
+#         - 30,62
+#         - -30,-62
+#         - 30,-62
+#     # -
+#     #   scale: 4,4,60 # x,y,z
+#     #   position:
+#     #     - -62,34
+#     #     - 62,34
+#     #     - -62,-34
+#     #     - 62,-34
 7:
   base_blueprint:
     - logic/spawn_enemy

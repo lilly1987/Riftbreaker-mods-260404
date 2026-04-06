@@ -1,0 +1,49 @@
+entity_count "1"
+//editor "index(3822)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "-2.5"
+			}
+
+			scale
+			{
+				x "128"
+				y "4"
+				z "128"
+			}
+
+		}
+
+	}
+
+}
+

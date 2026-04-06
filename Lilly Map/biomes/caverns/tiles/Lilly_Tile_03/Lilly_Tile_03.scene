@@ -1,0 +1,1636 @@
+entity_count "41"
+//editor "index(9)"
+EntityTemplate
+{
+	base_blueprint "lights/point/cavern_wall_crystals_big"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.967"
+					y "-0.967"
+					z "-0.000"
+				}
+
+				max
+				{
+					x "0.967"
+					y "0.967"
+					z "2.675"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "32.000"
+				z "-32.000"
+			}
+		}
+	}
+}
+
+//editor "index(132)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "48.288"
+				z "-52.004"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+		}
+	}
+}
+
+//editor "index(133)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "48"
+				z "-24"
+			}
+		}
+	}
+}
+
+//editor "index(134)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "-48"
+			}
+		}
+	}
+}
+
+//editor "index(135)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "24"
+			}
+		}
+	}
+}
+
+//editor "index(136)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+		}
+	}
+}
+
+//editor "index(137)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24"
+			}
+		}
+	}
+}
+
+//editor "index(138)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "48"
+				z "-48"
+			}
+
+			scale
+			{
+				x "3"
+				y "3"
+				z "3"
+			}
+		}
+	}
+}
+
+//editor "index(139)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+			}
+
+			scale
+			{
+				x "3"
+				y "3"
+				z "3"
+			}
+		}
+	}
+}
+
+//editor "index(140)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "24"
+			}
+
+			scale
+			{
+				x "3"
+				y "3"
+				z "3"
+			}
+		}
+	}
+}
+
+//editor "index(141)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "-48"
+			}
+
+			scale
+			{
+				x "3"
+				y "3"
+				z "3"
+			}
+		}
+	}
+}
+
+//editor "index(142)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "48"
+			}
+
+			scale
+			{
+				x "3"
+				y "3"
+				z "3"
+			}
+		}
+	}
+}
+
+//editor "index(143)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "-24"
+			}
+
+			scale
+			{
+				x "20"
+				y "20"
+				z "20"
+			}
+		}
+	}
+}
+
+//editor "index(144)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "48"
+				z "48"
+			}
+
+			scale
+			{
+				x "20"
+				y "20"
+				z "20"
+			}
+		}
+	}
+}
+
+//editor "index(145)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24"
+				z "-24"
+			}
+
+			scale
+			{
+				x "20"
+				y "20"
+				z "20"
+			}
+		}
+	}
+}
+
+//editor "index(146)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "48"
+				z "-48"
+			}
+
+			scale
+			{
+				x "20"
+				y "20"
+				z "20"
+			}
+		}
+	}
+}
+
+//editor "index(147)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48"
+				z "48"
+			}
+
+			scale
+			{
+				x "20"
+				y "20"
+				z "20"
+			}
+		}
+	}
+}
+
+//editor "index(148)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12"
+				z "12"
+			}
+		}
+	}
+}
+
+//editor "index(149)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "36"
+				z "36"
+			}
+		}
+	}
+}
+
+//editor "index(150)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "12"
+				z "-12"
+			}
+		}
+	}
+}
+
+//editor "index(151)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12"
+				z "-12"
+			}
+		}
+	}
+}
+
+//editor "index(152)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48"
+				z "-12"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(153)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "36"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(154)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48"
+				z "-36"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(155)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24"
+				z "36"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(156)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36"
+				z "24"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(157)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "12"
+				z "24"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(158)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "12"
+				z "-24"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(159)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "12"
+				z "48"
+			}
+
+			scale
+			{
+				x "10"
+				y "10"
+				z "10"
+			}
+		}
+	}
+}
+
+//editor "index(160)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36"
+				z "58"
+			}
+		}
+	}
+}
+
+//editor "index(161)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "58"
+			}
+		}
+	}
+}
+
+//editor "index(162)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "36"
+				z "58"
+			}
+		}
+	}
+}
+
+//editor "index(163)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36"
+				z "-58"
+			}
+		}
+	}
+}
+
+//editor "index(164)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "-58"
+			}
+		}
+	}
+}
+
+//editor "index(165)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "36"
+				z "-58"
+			}
+		}
+	}
+}
+
+//editor "index(166)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58"
+				z "-36"
+			}
+		}
+	}
+}
+
+//editor "index(167)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58"
+			}
+		}
+	}
+}
+
+//editor "index(168)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58"
+				z "36"
+			}
+		}
+	}
+}
+
+//editor "index(169)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58"
+				z "-36"
+			}
+		}
+	}
+}
+
+//editor "index(170)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58"
+			}
+		}
+	}
+}
+
+//editor "index(171)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3"
+					z "3"
+				}
+			}
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58"
+				z "36"
+			}
+		}
+	}
+}

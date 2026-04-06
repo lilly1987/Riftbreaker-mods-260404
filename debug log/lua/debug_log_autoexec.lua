@@ -26,16 +26,16 @@ local list={
 "EnterFighterModeEvent",
 
 
-"ClearCameraCulling",
-"DisableCameraCulling",
-"EnableCameraCulling",
+-- "ClearCameraCulling",
+-- "DisableCameraCulling",
+-- "EnableCameraCulling",
 
-"LuaGlobalEvent",
+-- "LuaGlobalEvent", -- 너무 많음
 "RecreateComponentFromBlueprintRequest",
 
 
 "ActivateEntityRequest",
-"ActivateItemRequest",
+-- "ActivateItemRequest",
 "AddEntityToTraceRequest",
 -- "AddMaxSpeedModifierRequest", -- 너무 많음
 "AddPassiveSkillRequest",
@@ -52,14 +52,14 @@ local list={
 "ChangeSelectorRequest",
 "ChangeSubSlotRequest",
 -- "CreateItemInInventoryRequest", -- 인벤토리에 아이템이 너무 많이 생김
-"DamageRequest",
+-- "DamageRequest", -- 너무 많음
 "DamageWithOwnerRequest",
 "DeactivateEntityRequest",
-"DeactivateItemRequest",
+-- "DeactivateItemRequest", -- 너무 많음
 "DeselectEntityRequest",
 -- "DestroyRequest", -- 너무 많음. EntityService:RemoveEntity로 대체
 "DestructibleVolumeCullCellsInRadiusRequest",
-"DisableDroneRequest",
+-- "DisableDroneRequest",
 -- "DissolveEntityRequest", -- 너무 많음
 "DroppedResourceEvent",
 -- "EmitStateMachineEventRequest", -- 너무 많음

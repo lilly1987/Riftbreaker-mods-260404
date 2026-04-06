@@ -6,12 +6,14 @@ layer_ids:
 
 randomize:
   seed: 12345
-  replace_all: false
+  replace_all: true
   sources:
+    - layer_1
     - layer_2
     - layer_3
     - layer_4
   targets:
+    layer_1: 1
     layer_2: 1
     layer_3: 1
     layer_4: 1

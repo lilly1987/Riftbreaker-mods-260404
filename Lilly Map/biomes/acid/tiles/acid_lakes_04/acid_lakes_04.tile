@@ -1,0 +1,29 @@
+TileDef
+{
+	tile_materials
+	{
+		String "ground/acid/acid_rock_02"
+		String "ground/acid/rocks_mud_05"
+		String "ground/mud/forest_mud_02"
+		String "ground/mud/mud_09"
+	}
+
+	is_hidden "0"
+	fixed_rotation
+	tile_regions
+	{
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0"
+				y "0"
+			}
+
+		}
+
+	}
+
+}
+

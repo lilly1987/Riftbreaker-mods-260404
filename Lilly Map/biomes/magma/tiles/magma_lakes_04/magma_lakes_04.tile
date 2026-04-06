@@ -1,0 +1,28 @@
+TileDef
+{
+	tile_materials
+	{
+		String "ground/magma/cracked_ground_02"
+		String "ground/magma/lava_02"
+		String "ground/magma/vulcanic_gravel_04"
+	}
+
+	is_hidden "0"
+	fixed_rotation
+	tile_regions
+	{
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0"
+				y "0"
+			}
+
+		}
+
+	}
+
+}
+

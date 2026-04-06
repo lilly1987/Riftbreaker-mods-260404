@@ -1,0 +1,6 @@
+set camera/game/render_flags "8"
+set scene/entity/4714/visible_mask "1"
+set scene/entity/4715/visible_mask "1"
+set scene/entity/4716/visible_mask "1"
+set scene/entity/4717/visible_mask "1"
+set scene/entity/4718/visible_mask "1"
