@@ -14,7 +14,8 @@ items/upgrades/lilly_standard_item
 			building_time "-25.000%"
 			
 			loot_mods_chance "25.000%"
-			loot_resources_chance "250.000%"
+			loot_equipment_chance "25.000%"
+			loot_resources_chance "25.000%"
 			
 			movement_speed "0.000%"
 			item_cooldowns "-25.000%"
@@ -50,7 +51,8 @@ items/upgrades/lilly_advanced_item
 			building_time "-50.000%"
 			
 			loot_mods_chance "50.000%"
-			loot_resources_chance "500.000%"
+			loot_equipment_chance "50.000%"
+			loot_resources_chance "50.000%"
 			
 			movement_speed "0.000%"
 			item_cooldowns "-50.000%"
@@ -87,7 +89,8 @@ items/upgrades/lilly_superior_item
 			building_time "-75.000%"
 			
 			loot_mods_chance "75.000%"
-			loot_resources_chance "750.000%"
+			loot_equipment_chance "75.000%"
+			loot_resources_chance "75.000%"
 			
 			movement_speed "0.000%"
 			item_cooldowns "-75.000%"
@@ -125,7 +128,8 @@ items/upgrades/lilly_extreme_item
 			building_time "-100.000%"
 			
 			loot_mods_chance "100.000%"
-			loot_resources_chance "1000.000%"
+			loot_equipment_chance "100.000%"
+			loot_resources_chance "100.000%"
 			
 			movement_speed "0.000%"
 			item_cooldowns "-100.000%"

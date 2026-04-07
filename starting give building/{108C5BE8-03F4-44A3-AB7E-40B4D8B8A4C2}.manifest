@@ -1,0 +1,17 @@
+WorkspaceManifest
+{
+	description "dGVzdA=="
+	tags
+	modified_game_files
+	title "c3RhcnRpbmcgZ2l2ZSBidWlsZGluZw=="
+	homepage
+	modio_published_file "4210035"
+	visibility "0"
+	game_version "EXE: 978 DATA: 573"
+	version "2.2.0"
+	localizations
+	author
+	steam_published_file "3298675170"
+	dependencies
+}
+
