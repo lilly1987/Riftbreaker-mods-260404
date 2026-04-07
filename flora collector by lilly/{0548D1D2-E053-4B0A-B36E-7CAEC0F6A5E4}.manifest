@@ -7,15 +7,15 @@ WorkspaceManifest
 	}
 
 	modified_game_files
-	title "ZmxvcmEgY29sbGVjdG9yIGJ5IGxpbGx5IC0gdmVyeSBmYXN0IGhhcnZlc3QsIG5vIGRyb25l"
+	title "ZmxvcmEgY29sbGVjdG9yIGJ5IGxpbGx5IC0gdmVyeSBmYXN0IGhhcnZlc3QgLSBubyBkcm9uZQ=="
 	homepage
 	modio_published_file "0"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version "1.0.0"
+	version "1.0.1"
 	localizations
 	author
-	steam_published_file "0"
+	steam_published_file "3701804456"
 	dependencies
 }
 

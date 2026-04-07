@@ -1,18 +1,18 @@
 WorkspaceManifest
 {
-	description "dGhpcyBmYWlsIHByb2plY3Q="
+	description "dGhpcyBmYWlsIHByb2plY3Q/"
 	tags
 	{
 		String "Other"
 	}
 
 	modified_game_files
-	title "SWNlIE1hcA=="
+	title "TGlsbHkgTWFw"
 	homepage
 	modio_published_file "5945986"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version "1.3.1"
+	version "1.3.2"
 	localizations
 	author
 	steam_published_file "3698623857"
