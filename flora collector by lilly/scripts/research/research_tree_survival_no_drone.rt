@@ -28,7 +28,7 @@ Research
 					{
 						ResearchAward
 						{
-							blueprint "buildings/resources/flora_collector_lilly"
+							blueprint "buildings/resources/flora_collector_no_drone"
 							is_visible "1"
 						}
 					}
@@ -46,6 +46,6 @@ Research
 	editor "6723"
 	version "87"
 
-	base_research "research_tree"
+	base_research "research_tree_survival"
 }
 
