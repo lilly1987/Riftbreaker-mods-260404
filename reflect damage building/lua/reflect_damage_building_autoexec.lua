@@ -8,10 +8,10 @@ local REFLECT_DAMAGE = {
 		"default",
 		"acid",
 		"cryo",
-		"energy",
-		"explosion",
+		"energy", 
+		"area",
 		"fire",
-		"normal",
+		"physical",
 	},
 }
 
