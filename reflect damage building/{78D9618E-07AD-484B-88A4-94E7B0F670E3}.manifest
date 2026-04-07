@@ -2,16 +2,20 @@ WorkspaceManifest
 {
 	description
 	tags
+	{
+		String "Buildings"
+	}
+
 	modified_game_files
 	title "cmVmbGVjdCBkYW1hZ2UgYnVpbGRpbmc="
 	homepage
-	modio_published_file "0"
+	modio_published_file "5961044"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version
+	version "1.0.0"
 	localizations
 	author
-	steam_published_file "0"
+	steam_published_file "3701927474"
 	dependencies
 }
 

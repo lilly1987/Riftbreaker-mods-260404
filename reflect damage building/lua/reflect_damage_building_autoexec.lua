@@ -4,7 +4,15 @@ local REFLECT_DAMAGE = {
 	reflect_type = "damage_ratio", -- health_ratio, damage_ratio, flat_damage
 	damage_value = "1",
 	-- melee_only = "1",
-	-- damage_type = "energy",
+	damage_types = {
+		"default",
+		"acid",
+		"cryo",
+		"energy",
+		"explosion",
+		"fire",
+		"normal",
+	},
 }
 
 local REFLECT_HIGHLIGHT = {
@@ -40,6 +48,15 @@ local function get_or_create_entity_component(entity, component_name)
 	return EntityService:CreateComponent(entity, component_name)
 end
 
+local function get_random_damage_type()
+	local damage_type = REFLECT_DAMAGE.damage_types[math.random(#REFLECT_DAMAGE.damage_types)]
+	if ( damage_type == "default" ) then
+		return nil
+	end
+
+	return damage_type
+end
+
 local function is_player_owned(entity)
 	return EntityService:GetTeam(entity) == EntityService:GetTeam("player")
 end
@@ -62,7 +79,7 @@ local function apply_reflect_damage(entity)
 		set_component_field(reflect_damage_component, "reflect_type", REFLECT_DAMAGE.reflect_type)
 		set_component_field(reflect_damage_component, "melee_only", REFLECT_DAMAGE.melee_only)
 		set_component_field(reflect_damage_component, "damage_value", REFLECT_DAMAGE.damage_value)
-		set_component_field(reflect_damage_component, "damage_type", REFLECT_DAMAGE.damage_type)
+		set_component_field(reflect_damage_component, "damage_type", get_random_damage_type())
 	else
 		LogService:Log("ReflectDamageComponent create fail : " .. tostring(entity))
 	end
