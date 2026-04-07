@@ -222,6 +222,7 @@ function base_drone:_OnDroneFindTargetRequest(evt)
 			local target_position = EntityService:GetPosition( target )
 			target_position.y = EntityService:GetPositionY( self.entity )
 			EntityService:Teleport( self.entity, target_position )
+			EntityService:FadeEntity( self.entity, DD_FADE_IN, 0.3 )
 		else
 			UnitService:SetStateMachineParam( self.entity, "action_target_valid", 0)
 		end
@@ -236,13 +237,6 @@ function base_drone:SetTargetActionFinished()
 	UnitService:SetStateMachineParam(self.entity, "target_action_finished", 1)
 	UnitService:SetCurrentTarget( self.entity, "action", INVALID_ID );
 	UnitService:SetStateMachineParam(self.entity, "action_target_valid", 0)
-	local home = self:GetDroneHomeTarget()
-	if not EntityService:IsAlive(home) then
-		return
-	end
-	local target_position = EntityService:GetPosition( home )
-	target_position.y = EntityService:GetPositionY( self.entity )
-	EntityService:Teleport( self.entity, target_position )
 end
 
 function base_drone:_OnDroneTargetAction(evt)
@@ -264,10 +258,6 @@ function base_drone:GetDroneActionTarget()
 	return UnitService:GetCurrentTarget( self.entity, "action" );
 end
 
-function base_drone:GetDroneHomeTarget()
-	return UnitService:GetCurrentTarget( self.entity, "owner" );
-end
-
 function base_drone:GetDroneOwnerTarget()
 	local function GetParent( entity )
 		local parent = EntityService:GetParent( entity )
@@ -282,6 +272,14 @@ function base_drone:GetDroneOwnerTarget()
 end
 
 function base_drone:UnlockAllTargets()
+	local owner = self:GetDroneOwnerTarget()
+	if not EntityService:IsAlive(owner) then
+		return
+	end
+	local target_position = EntityService:GetPosition( owner )
+	target_position.y = EntityService:GetPositionY( self.entity )
+	EntityService:Teleport( self.entity, target_position )
+	EntityService:FadeEntity( self.entity, DD_FADE_IN, 0.3 )
 	local copy = DeepCopy(self.locked_targets);
 	for target in Iter(copy) do
 		self:UnlockTarget( target.entity, target.type );

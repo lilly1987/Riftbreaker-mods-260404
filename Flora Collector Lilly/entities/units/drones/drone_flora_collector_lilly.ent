@@ -23,7 +23,7 @@ EntityBlueprint
 
 		database
 		{
-			search_radius 		float:"100.0" // if spawned by building this param will be overriden by buildings `drone_search_radius`
+			search_radius 		float:"50.0" // if spawned by building this param will be overriden by buildings `drone_search_radius`
 			search_type			string:""
 
 			//harvest_time		float:"0.0"
