@@ -1,19 +1,33 @@
 WorkspaceManifest
 {
-	description
+	description "QWRkIGEgY29tcG9uZW50IHRoYXQgcmVmbGVjdHMgZGFtYWdlIHRvIGFsbCBidWlsZGluZ3Mu"
 	tags
 	{
 		String "Buildings"
 	}
 
 	modified_game_files
-	title "cmVmbGVjdCBkYW1hZ2UgYnVpbGRpbmc="
+	title "QWRkIGEgY29tcG9uZW50IHRoYXQgcmVmbGVjdHMgZGFtYWdlIHRvIGFsbCBidWlsZGluZ3M="
 	homepage
 	modio_published_file "5961044"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version "1.1.0"
+	version "1.1.1"
 	localizations
+	{
+		Pair_String_Localization
+		{
+			value
+			{
+				description "66qo65OgIOqxtOusvOyXkCDtlLztlbTrpbwg67CY7IKs7ZWY64qUIOy7tO2PrOuEjO2KuCDstpTqsIA="
+				title "66qo65OgIOqxtOusvOyXkCDtlLztlbTrpbwg67CY7IKs7ZWY64qUIOy7tO2PrOuEjO2KuCDstpTqsIA="
+			}
+
+			key "KOREAN"
+		}
+
+	}
+
 	author
 	steam_published_file "3701927474"
 	dependencies

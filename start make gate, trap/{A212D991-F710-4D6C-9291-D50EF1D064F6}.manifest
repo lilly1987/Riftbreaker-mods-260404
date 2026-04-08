@@ -2,13 +2,17 @@ WorkspaceManifest
 {
 	description "Xl4="
 	tags
+	{
+		String "Other"
+	}
+
 	modified_game_files
-	title "c3RhcnQgbWFrZSBnYXRlLCB0cmFw"
+	title "U3RhcnQgTWFrZSBHYXRlLCBUcmFwLCBXYWxs"
 	homepage
 	modio_published_file "4202803"
 	visibility "0"
-	game_version "EXE: 1184 DATA: 844"
-	version "2.0.0"
+	game_version "EXE: 1186 DATA: 847"
+	version "3.0.0"
 	localizations
 	author
 	steam_published_file "3297017724"

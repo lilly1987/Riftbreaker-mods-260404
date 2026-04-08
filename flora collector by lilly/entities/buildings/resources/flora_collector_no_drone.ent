@@ -10,7 +10,7 @@ EntityBlueprint
 		localization_id		"gui/hud/building_name/flora_collector"
 		description			"gui/hud/building_description/flora_collector"
 		menu_icon			"gui/hud/building_icons/flora_collector"
-		require 			"headquarters"
+		//require 			"headquarters"
 		order				"0"
 		//upgrade				"buildings/resources/flora_collector_lvl_2"		
 		//exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"		

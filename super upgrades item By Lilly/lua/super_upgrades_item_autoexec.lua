@@ -77,7 +77,8 @@ local function DropEquippedUpgradeItems(player_id)
 	end
 end
 
-RegisterGlobalEventHandler("PlayerInitializedEvent", function(evt)
+-- RegisterGlobalEventHandler("PlayerInitializedEvent", function(evt)
+RegisterGlobalEventHandler("PlayerControlledEntityChangeEvent", function(evt)
 	LogService:Log(" run : " .. tostring(evt:GetPlayerId()) )
 	
 	-----------------------------------------------

@@ -1,0 +1,22 @@
+WorkspaceManifest
+{
+	description "Y2hhbmdlICAnTG9vdEdyb3VwcycKCldlYXBvbk1vZERlc2MubWluX3ZhbHVlID09IG1heF92YWx1ZSA="
+	tags
+	{
+		String "Items"
+		String "Rebalance"
+	}
+
+	modified_game_files
+	title "bG9vdCByYXJpdHkgbWF4IGJ5IGxpbGx5"
+	homepage
+	modio_published_file "4174210"
+	visibility "0"
+	game_version "EXE: 1186 DATA: 847"
+	version "2.0.2"
+	localizations
+	author
+	steam_published_file "3291145934"
+	dependencies
+}
+

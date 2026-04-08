@@ -1,0 +1,91 @@
+LootGroups
+{
+	LootGroup "Misc"
+	LootGroup "mods"
+	LootGroup "mods_advanced"
+	{
+		items/loot/weapon_mods/mod_ammo_cost_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_add_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_sub_extreme_item
+		items/loot/weapon_mods/mod_autoaim_extreme_item
+		items/loot/weapon_mods/mod_cluster_projectiles_extreme_item
+		items/loot/weapon_mods/mod_critical_chance_extreme_item
+		items/loot/weapon_mods/mod_damage_extreme_item
+		items/loot/weapon_mods/mod_damage_over_time_extreme_item
+		items/loot/weapon_mods/mod_damage_penetration_extreme_item
+		items/loot/weapon_mods/mod_fire_per_burst_extreme_item
+		items/loot/weapon_mods/mod_fire_per_shot_extreme_item
+		items/loot/weapon_mods/mod_fire_rate_extreme_item
+		items/loot/weapon_mods/mod_homing_extreme_item
+		items/loot/weapon_mods/mod_lifesteal_extreme_item
+		items/loot/weapon_mods/mod_range_extreme_item
+		items/loot/weapon_mods/mod_splash_damage_extreme_item
+		items/loot/weapon_mods/mod_stun_chance_extreme_item
+	}
+
+	LootGroup "mods_extreme"
+	{
+		items/loot/weapon_mods/mod_ammo_cost_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_add_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_sub_extreme_item
+		items/loot/weapon_mods/mod_autoaim_extreme_item
+		items/loot/weapon_mods/mod_cluster_projectiles_extreme_item
+		items/loot/weapon_mods/mod_critical_chance_extreme_item
+		items/loot/weapon_mods/mod_damage_extreme_item
+		items/loot/weapon_mods/mod_damage_over_time_extreme_item
+		items/loot/weapon_mods/mod_damage_penetration_extreme_item
+		items/loot/weapon_mods/mod_fire_per_burst_extreme_item
+		items/loot/weapon_mods/mod_fire_per_shot_extreme_item
+		items/loot/weapon_mods/mod_fire_rate_extreme_item
+		items/loot/weapon_mods/mod_homing_extreme_item
+		items/loot/weapon_mods/mod_lifesteal_extreme_item
+		items/loot/weapon_mods/mod_range_extreme_item
+		items/loot/weapon_mods/mod_splash_damage_extreme_item
+		items/loot/weapon_mods/mod_stun_chance_extreme_item
+	}
+
+	LootGroup "mods_standard"
+	{
+		items/loot/weapon_mods/mod_ammo_cost_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_add_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_sub_extreme_item
+		items/loot/weapon_mods/mod_autoaim_extreme_item
+		items/loot/weapon_mods/mod_cluster_projectiles_extreme_item
+		items/loot/weapon_mods/mod_critical_chance_extreme_item
+		items/loot/weapon_mods/mod_damage_extreme_item
+		items/loot/weapon_mods/mod_damage_over_time_extreme_item
+		items/loot/weapon_mods/mod_damage_penetration_extreme_item
+		items/loot/weapon_mods/mod_fire_per_burst_extreme_item
+		items/loot/weapon_mods/mod_fire_per_shot_extreme_item
+		items/loot/weapon_mods/mod_fire_rate_extreme_item
+		items/loot/weapon_mods/mod_homing_extreme_item
+		items/loot/weapon_mods/mod_lifesteal_extreme_item
+		items/loot/weapon_mods/mod_range_extreme_item
+		items/loot/weapon_mods/mod_splash_damage_extreme_item
+		items/loot/weapon_mods/mod_stun_chance_extreme_item
+	}
+
+	LootGroup "mods_superior"
+	{
+		items/loot/weapon_mods/mod_ammo_cost_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_add_extreme_item
+		items/loot/weapon_mods/mod_ammo_spread_sub_extreme_item
+		items/loot/weapon_mods/mod_autoaim_extreme_item
+		items/loot/weapon_mods/mod_cluster_projectiles_extreme_item
+		items/loot/weapon_mods/mod_critical_chance_extreme_item
+		items/loot/weapon_mods/mod_damage_extreme_item
+		items/loot/weapon_mods/mod_damage_over_time_extreme_item
+		items/loot/weapon_mods/mod_damage_penetration_extreme_item
+		items/loot/weapon_mods/mod_fire_per_burst_extreme_item
+		items/loot/weapon_mods/mod_fire_per_shot_extreme_item
+		items/loot/weapon_mods/mod_fire_rate_extreme_item
+		items/loot/weapon_mods/mod_homing_extreme_item
+		items/loot/weapon_mods/mod_lifesteal_extreme_item
+		items/loot/weapon_mods/mod_range_extreme_item
+		items/loot/weapon_mods/mod_splash_damage_extreme_item
+		items/loot/weapon_mods/mod_stun_chance_extreme_item
+	}
+
+	LootGroup "resources"
+	LootGroup "specimens"
+}
