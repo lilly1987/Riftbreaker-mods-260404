@@ -3,10 +3,15 @@ ConsoleService:Write("loot rarity max by lilly: weapon mod min values use max va
 
 local g_weapon_mod_min_value_patched = false
 local g_weapon_item_stats_patched = false
+local g_entity_mods_patched = false
 local RANDOM_WEAPON_MOD_COUNT = 3
 
 local function HasPrefix(value, prefix)
 	return string.sub(value, 1, string.len(prefix)) == prefix
+end
+
+local function HasSuffix(value, suffix)
+	return suffix == "" or string.sub(value, -string.len(suffix)) == suffix
 end
 
 local function AppendUniqueItems(target, items)
@@ -22,6 +27,87 @@ local function AppendUniqueItems(target, items)
 			seen[item] = true
 		end
 	end
+end
+
+local function GetMapValueField(container, key, createMissing)
+	if container == nil then
+		return nil
+	end
+
+	for i = 0, container:GetItemCount() - 1 do
+		local item = container:GetItem(i)
+		local keyField = item:GetField("key")
+		if keyField ~= nil and keyField:GetValue() == key then
+			return item:GetField("value")
+		end
+	end
+
+	if createMissing then
+		local item = container:ReserveItem()
+		item:GetField("key"):SetValue(tostring(key))
+		container:InsertItem(item)
+		return item:GetField("value")
+	end
+
+	return nil
+end
+
+local function FormatPercentModValue(multiplierText)
+	local multiplier = tonumber(multiplierText)
+	if multiplier == nil then
+		return multiplierText
+	end
+
+	return string.format("%.3f%%", (multiplier - 1.0) * 100.0)
+end
+
+local function PatchEntityModDesc(desc)
+	local entityModsField = desc:GetField("entity_mods")
+	local randomMaxValuesField = desc:GetField("random_max_values")
+	if entityModsField == nil or randomMaxValuesField == nil then
+		return 0
+	end
+
+	local entityMods = entityModsField:ToContainer()
+	local randomMaxValues = randomMaxValuesField:ToContainer()
+	if entityMods == nil or randomMaxValues == nil then
+		return 0
+	end
+
+	local patchedCount = 0
+	for i = 0, randomMaxValues:GetItemCount() - 1 do
+		local item = randomMaxValues:GetItem(i)
+		local keyField = item:GetField("key")
+		local valueField = item:GetField("value")
+
+		if keyField ~= nil and valueField ~= nil then
+			local key = keyField:GetValue()
+			local maxValue = valueField:GetValue()
+			local entityModValue = GetMapValueField(entityMods, key, true)
+
+			if entityModValue ~= nil then
+				local currentValue = entityModValue:GetValue()
+				if currentValue ~= nil and HasSuffix(currentValue, "%") then
+					entityModValue:SetValue(FormatPercentModValue(maxValue))
+				else
+					entityModValue:SetValue(maxValue)
+				end
+				patchedCount = patchedCount + 1
+			end
+		end
+	end
+
+	local modFlagsField = desc:GetField("mod_flags")
+	if modFlagsField ~= nil then
+		local modFlags = modFlagsField:ToContainer()
+		if modFlags ~= nil then
+			for i = modFlags:GetItemCount() - 1, 0, -1 do
+				modFlags:EraseItem(i)
+			end
+		end
+	end
+
+	return patchedCount
 end
 
 local function PatchWeaponModMinValues()
@@ -127,6 +213,39 @@ local function PatchWeaponItemStatMinValues()
 	ConsoleService:Write("loot rarity max by lilly: patched weapon item stat min_value count " .. tostring(patchedCount))
 end
 
+local function PatchEntityModMaxValues()
+	if g_entity_mods_patched then
+		return
+	end
+
+	local upgradeItems = ItemService:GetAllItemsBlueprintsByType("upgrade") or {}
+	if #upgradeItems == 0 then
+		LogService:Log("loot rarity max by lilly: entity mod blueprints not ready")
+		return
+	end
+
+	g_entity_mods_patched = true
+	local patchedCount = 0
+	local blueprintCount = 0
+
+	for _, blueprintName in ipairs(upgradeItems) do
+		local blueprint = ResourceManager:GetBlueprint(blueprintName)
+		if blueprint ~= nil then
+			local desc = blueprint:GetComponent("EntityModDesc")
+			if desc ~= nil then
+				local count = PatchEntityModDesc(desc)
+				if count > 0 then
+					blueprintCount = blueprintCount + 1
+					patchedCount = patchedCount + count
+				end
+			end
+		end
+	end
+
+	LogService:Log("loot rarity max by lilly: patched entity mod max value count " .. tostring(patchedCount) .. " in " .. tostring(blueprintCount) .. " blueprints")
+	ConsoleService:Write("loot rarity max by lilly: patched entity mod max value count " .. tostring(patchedCount))
+end
+
 local function CollectWeaponModBlueprints()
 	local weaponMods = ItemService:GetAllItemsBlueprintsByType("weapon_mod") or {}
 	local items = {}
@@ -184,10 +303,12 @@ end
 RegisterGlobalEventHandler("PlayerInitializedEvent", function(evt)
 	PatchWeaponModMinValues()
 	PatchWeaponItemStatMinValues()
+	PatchEntityModMaxValues()
 end)
 
 RegisterGlobalEventHandler("PlayerControlledEntityChangeEvent", function(evt)
 	PatchWeaponModMinValues()
 	PatchWeaponItemStatMinValues()
+	PatchEntityModMaxValues()
 	--GiveRandomWeaponMods(evt:GetPlayerId(), RANDOM_WEAPON_MOD_COUNT)
 end)
