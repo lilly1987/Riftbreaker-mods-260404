@@ -1,5 +1,7 @@
 LogService:Log("Debug Log Reg") -- 맵 시작시마다 로딩
 
+require("lua/debug_boost_values.lua")
+
 local list={
 -- "PlayerInitializedEvent",
 -- "PlayerSpawnRequest", -- 두번 발생

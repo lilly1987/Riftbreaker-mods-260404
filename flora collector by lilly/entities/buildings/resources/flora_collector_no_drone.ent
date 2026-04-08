@@ -31,19 +31,28 @@ EntityBlueprint
 		}
 	}
 
-	//ResourceConverterDesc
-	//{
-	//	in
-	//	{
-	//		GameplayResource
-	//		{
-	//			resource 			"energy"
-	//			value				"100"
-	//		}
-	//	}
-//
-	//	priority 4		
-	//}
+	ResourceConverterDesc
+	{
+		in
+		{	
+			GameplayResource
+			{
+				resource 			"biomass_plant"
+				value			 	"1"
+			}
+		}
+		
+		out
+		{
+			GameplayResource
+			{
+				resource 			"energy"
+				value			 	"200"
+			}
+		}
+		priority 9
+		reset_interval 0.5
+	}
 
 	ResourceStorageDesc
 	{
@@ -63,7 +72,8 @@ EntityBlueprint
 			Storage
 			{
 				resource "energy"
-				max 	 "40000"
+				max 	 "200"
+				long_range_connect  "1"
 			}		
 		}
 	}
