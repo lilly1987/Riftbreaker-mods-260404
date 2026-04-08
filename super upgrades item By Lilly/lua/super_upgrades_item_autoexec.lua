@@ -4,6 +4,20 @@
 LogService:Log("super upgrades item By Lilly"  )
 ConsoleService:Write("super upgrades item By Lilly 2604041259"  )
 
+local DAMAGE_WEAPON_MOD_TYPES = {
+	"physical",
+	"acid",
+	"area",
+	"fire",
+	"energy",
+	"cryo"
+}
+
+local DAMAGE_WEAPON_MOD_BLUEPRINTS = {
+	["items/loot/weapon_mods/mod_damage_extreme_item"] = true,
+	["items/loot/weapon_mods/mod_damage_over_time_extreme_item"] = true
+}
+
 local function HasPrefix(value, prefix)
 	return string.sub(value, 1, string.len(prefix)) == prefix
 end
@@ -73,6 +87,53 @@ local function DropEquippedUpgradeItems(player_id)
 			ConsoleService:Write("DropEquippedUpgradeItems: removing " .. tostring(slot) .. " item " .. tostring(item))
 			QueueEvent("UnequipItemRequest", mech, item, slot)
 			PlayerService:DropItem(item, mech, mech)
+		end
+	end
+end
+
+local function SetWeaponModDamageType(item_entity, damage_type)
+	if item_entity == nil or item_entity == INVALID_ID then
+		LogService:Log("SetWeaponModDamageType: invalid item entity")
+		return false
+	end
+
+	local weaponModComponent = EntityService:GetComponent(item_entity, "WeaponModComponent")
+	if weaponModComponent == nil then
+		LogService:Log("SetWeaponModDamageType: WeaponModComponent not found on " .. tostring(item_entity))
+		return false
+	end
+
+	local modData = weaponModComponent:GetField("mod_data")
+	if modData == nil then
+		LogService:Log("SetWeaponModDamageType: mod_data not found on " .. tostring(item_entity))
+		return false
+	end
+
+	local damageTypeField = modData:GetField("damage_type")
+	if damageTypeField == nil then
+		LogService:Log("SetWeaponModDamageType: damage_type not found on " .. tostring(item_entity))
+		return false
+	end
+
+	if not damageTypeField:SetValue(tostring(damage_type)) then
+		LogService:Log("SetWeaponModDamageType: failed to set damage_type " .. tostring(damage_type))
+		return false
+	end
+
+	return true
+end
+
+local function AddWeaponModToInventory(player_id, item)
+	if DAMAGE_WEAPON_MOD_BLUEPRINTS[item] then
+		for _, damage_type in ipairs(DAMAGE_WEAPON_MOD_TYPES) do
+			for i = 1, 10, 1 do
+				local item_entity = PlayerService:AddItemToInventory(player_id, item)
+				SetWeaponModDamageType(item_entity, damage_type)
+			end
+		end
+	else
+		for i = 1, 10, 1 do
+			PlayerService:AddItemToInventory(player_id, item)
 		end
 	end
 end
@@ -252,10 +313,8 @@ RegisterGlobalEventHandler("PlayerControlledEntityChangeEvent", function(evt)
 			end
 		end
 
-		for _, item in ipairs(weapon_mod) do			
-			for i = 1, 10, 1 do
-				PlayerService:AddItemToInventory(player_id, item)
-			end
+		for _, item in ipairs(weapon_mod) do
+			AddWeaponModToInventory(player_id, item)
 		end
 		
 		-- local item_entity = PlayerService:AddItemToInventory(player_id, "items/upgrades/lilly_extreme_item")
