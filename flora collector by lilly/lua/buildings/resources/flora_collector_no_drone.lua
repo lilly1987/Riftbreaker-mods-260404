@@ -1,4 +1,5 @@
 require("lua/utils/find_utils.lua")
+require("lua/utils/numeric_utils.lua")
 require("lua/utils/reflection.lua")
 require("lua/utils/string_utils.lua")
 require("lua/utils/table_utils.lua")
@@ -82,7 +83,11 @@ function flora_collector:FindBestVegetationEntity()
         end
     };
 
-    local entities = FindService:FindEntitiesByPredicateInRadius( self.entity, self.search_radius, self.predicate );
+    local position = EntityService:GetPosition(self.entity)
+    local size = { x = self.search_radius, y = self.search_radius, z = self.search_radius }
+    local min = VectorSub(position, size)
+    local max = VectorAdd(position, size)
+    local entities = FindService:FindEntitiesByPredicateInBox( min, max, self.predicate );
     if #entities > 0 then
         return entities[math.random(1, #entities)]
     end
