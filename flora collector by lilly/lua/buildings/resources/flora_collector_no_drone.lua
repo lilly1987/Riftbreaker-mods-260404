@@ -30,6 +30,7 @@ end
 function flora_collector:FillInitialParams()
     -- 범위는 ent의 LuaDesc database에 있는 search_radius만 참조한다.
     self.search_radius = self.data:GetFloatOrDefault("search_radius", 25.0)
+    self.loot_pickup_delay = self.data:GetFloatOrDefault("loot_pickup_delay", 1.0)
     self.harvested_resources = self.harvested_resources or {}
     self.attempted_loot_entities = self.attempted_loot_entities or {}
 end
@@ -134,6 +135,55 @@ function flora_collector:GetLootPickupEntity( entity )
     return entity
 end
 
+function flora_collector:IsLootPickupReady( entity, pawn )
+    local pickup_data = EntityService:GetComponent(entity, "PickupDataComponent")
+    if pickup_data == nil then
+        return true
+    end
+
+    local helper = reflection_helper(pickup_data)
+    if helper == nil then
+        return true
+    end
+
+    for info in Iter(helper.fly_to_inventory or {}) do
+        if info.key == entity then
+            return false
+        end
+    end
+
+    for info in Iter(helper.pickup_protection_time or {}) do
+        if (pawn == nil or info.key == pawn) and info.value ~= nil and info.value > 0.0 then
+            return false
+        end
+    end
+
+    return true
+end
+
+function flora_collector:NormalizeLootState( entity, loot_state )
+    if loot_state == nil then
+        loot_state = { first_seen = GetLogicTime(), attempted = false }
+    elseif type(loot_state) == "boolean" then
+        loot_state = { first_seen = GetLogicTime(), attempted = loot_state }
+    elseif type(loot_state) ~= "table" then
+        loot_state = { first_seen = GetLogicTime(), attempted = false }
+    else
+        if loot_state.first_seen == nil then
+            loot_state.first_seen = GetLogicTime()
+        end
+        if loot_state.attempted == nil then
+            loot_state.attempted = false
+        end
+    end
+
+    if entity ~= nil and entity ~= INVALID_ID then
+        self.attempted_loot_entities[entity] = loot_state
+    end
+
+    return loot_state
+end
+
 function flora_collector:FindNearbyLootEntities()
     self.loot_predicate = self.loot_predicate or {
         signature = "BlueprintComponent,IdComponent,ParentComponent",
@@ -147,7 +197,8 @@ function flora_collector:FindNearbyLootEntities()
                 return false
             end
 
-            if self.attempted_loot_entities[target] then
+            local loot_state = self:NormalizeLootState(target, self.attempted_loot_entities[target])
+            if loot_state ~= nil and loot_state.attempted then
                 return false
             end
 
@@ -168,11 +219,22 @@ function flora_collector:CollectLootEntity( loot_entity, pawn )
         return false
     end
 
-    if self.attempted_loot_entities[pickup_entity] then
+    if not self:IsLootPickupReady(pickup_entity, pawn) then
         return false
     end
 
-    self.attempted_loot_entities[pickup_entity] = true
+    local time = GetLogicTime()
+    local loot_state = self:NormalizeLootState(pickup_entity, self.attempted_loot_entities[pickup_entity])
+
+    if loot_state.attempted then
+        return false
+    end
+
+    if (time - loot_state.first_seen) < self.loot_pickup_delay then
+        return false
+    end
+
+    loot_state.attempted = true
     if self:ValidateLootTarget( pickup_entity, pawn ) then
         EffectService:SpawnEffects(loot_entity, "loot_collect")
         ItemService:FlyItemToInventory(pawn, pickup_entity)
@@ -198,9 +260,11 @@ function flora_collector:CollectNearbyLoot()
 end
 
 function flora_collector:CleanupAttemptedLootEntities()
-    for entity,_ in pairs(self.attempted_loot_entities) do
+    for entity,loot_state in pairs(self.attempted_loot_entities) do
         if not EntityService:IsAlive(entity) then
             self.attempted_loot_entities[entity] = nil
+        else
+            self:NormalizeLootState(entity, loot_state)
         end
     end
 end
@@ -241,6 +305,7 @@ function flora_collector:HarvestTarget( target )
         -- EntityService:RemoveComponent(target, "LootComponent")
         -- EntityService:RemoveComponent(target, "ResourceComponent")
         EntityService:DestroyEntity( target, "collapse" )
+        EntityService:RemoveEntity( target )
     end
 
     return harvested

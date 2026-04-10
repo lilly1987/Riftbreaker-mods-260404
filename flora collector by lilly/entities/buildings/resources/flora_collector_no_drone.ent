@@ -88,6 +88,7 @@ EntityBlueprint
 				resource "energy"
 				max 	 "1000"
 				long_range_connect  "1"
+				distribution_radius	"32"
 			}		
 		}
 	}
