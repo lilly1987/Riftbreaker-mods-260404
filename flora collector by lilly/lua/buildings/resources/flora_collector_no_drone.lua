@@ -31,6 +31,7 @@ function flora_collector:FillInitialParams()
     -- 범위는 ent의 LuaDesc database에 있는 search_radius만 참조한다.
     self.search_radius = self.data:GetFloatOrDefault("search_radius", 25.0)
     self.harvested_resources = self.harvested_resources or {}
+    self.attempted_loot_entities = self.attempted_loot_entities or {}
 end
 
 function flora_collector:OnLoad()
@@ -146,6 +147,10 @@ function flora_collector:FindNearbyLootEntities()
                 return false
             end
 
+            if self.attempted_loot_entities[target] then
+                return false
+            end
+
             return self:ValidateLootTarget(entity, self.temp_pawn)
         end
     }
@@ -159,6 +164,15 @@ end
 
 function flora_collector:CollectLootEntity( loot_entity, pawn )
     local pickup_entity = self:GetLootPickupEntity( loot_entity )
+    if pickup_entity == INVALID_ID then
+        return false
+    end
+
+    if self.attempted_loot_entities[pickup_entity] then
+        return false
+    end
+
+    self.attempted_loot_entities[pickup_entity] = true
     if self:ValidateLootTarget( pickup_entity, pawn ) then
         EffectService:SpawnEffects(loot_entity, "loot_collect")
         ItemService:FlyItemToInventory(pawn, pickup_entity)
@@ -180,6 +194,14 @@ function flora_collector:CollectNearbyLoot()
 
     for target in Iter(targets) do
         self:CollectLootEntity(target, pawn)
+    end
+end
+
+function flora_collector:CleanupAttemptedLootEntities()
+    for entity,_ in pairs(self.attempted_loot_entities) do
+        if not EntityService:IsAlive(entity) then
+            self.attempted_loot_entities[entity] = nil
+        end
     end
 end
 
@@ -279,6 +301,7 @@ function flora_collector:OnUpdateProductionExecute(state, dt)
 
     -- 수확을 먼저 처리한 뒤, 아래에서 UI용 생산량 데이터를 갱신한다.
     self:HarvestNearbyVegetation()
+    self:CleanupAttemptedLootEntities()
     self:CollectNearbyLoot()
 
     local time = GetLogicTime();
