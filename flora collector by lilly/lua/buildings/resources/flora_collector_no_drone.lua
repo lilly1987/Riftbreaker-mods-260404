@@ -87,12 +87,7 @@ function flora_collector:FindBestVegetationEntity()
     local size = { x = self.search_radius, y = self.search_radius, z = self.search_radius }
     local min = VectorSub(position, size)
     local max = VectorAdd(position, size)
-    local entities = FindService:FindEntitiesByPredicateInBox( min, max, self.predicate );
-    if #entities > 0 then
-        return entities[math.random(1, #entities)]
-    end
-
-    return INVALID_ID
+    return FindService:FindEntitiesByPredicateInBox( min, max, self.predicate );
 end
 
 function flora_collector:AddHarvestedResource( resource, amount )
@@ -127,9 +122,9 @@ function flora_collector:HarvestTarget( target )
     resources = EntityService:GetGatherableResources(target);
     if #resources == 0 then
         -- 남은 채집 자원이 없으면 드론 수확 로직처럼 식물을 정리한다.
-        EntityService:RemoveComponent(target, "GatherResourceComponent")
-        EntityService:RemoveComponent(target, "LootComponent")
-        EntityService:RemoveComponent(target, "ResourceComponent")
+        -- EntityService:RemoveComponent(target, "GatherResourceComponent")
+        -- EntityService:RemoveComponent(target, "LootComponent")
+        -- EntityService:RemoveComponent(target, "ResourceComponent")
         EntityService:DestroyEntity( target, "collapse" )
     end
 
@@ -138,12 +133,16 @@ end
 
 function flora_collector:HarvestNearbyVegetation()
     -- 매 틱 하나의 식물을 찾아 즉시 채집한다. 드론 이동/대기 과정은 없다.
-    local target = self:FindBestVegetationEntity()
-    if target == INVALID_ID then
+    local targets = self:FindBestVegetationEntity()
+    if #targets == 0 then
         return
     end
 
-    self:HarvestTarget( target )
+    for target in Iter(targets) do
+        if EntityService:IsAlive(target) then
+            self:HarvestTarget( target )
+        end
+    end
 end
 
 function flora_collector:TimeoutHarvestHistory(time)
