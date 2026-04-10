@@ -7,6 +7,14 @@ require("lua/utils/table_utils.lua")
 local building = require("lua/buildings/building.lua")
 class 'flora_collector' ( building )
 
+local function GetPlayerForEntity( entity )
+    if PlayerService.GetPlayerForEntity then
+        return PlayerService:GetPlayerForEntity( entity )
+    end
+
+    return 0
+end
+
 function flora_collector:__init()
 	-- 드론 스포너를 쓰지 않고 일반 건물로만 동작한다.
 	building.__init(self,self)
@@ -88,6 +96,91 @@ function flora_collector:FindBestVegetationEntity()
     local min = VectorSub(position, size)
     local max = VectorAdd(position, size)
     return FindService:FindEntitiesByPredicateInBox( min, max, self.predicate );
+end
+
+function flora_collector:ValidateLootTarget( entity, pawn )
+    if not EntityService:IsAlive(entity) then
+        return false
+    end
+
+    local test_owner = pawn or PlayerService:GetPlayerControlledEnt(GetPlayerForEntity(self.entity))
+    if not EntityService:IsAlive(test_owner) then
+        return false
+    end
+
+    local test_entity = EntityService:GetParent( entity )
+    if test_entity == INVALID_ID then
+        test_entity = entity
+    end
+
+    if EntityService:GetComponent( test_entity, "PhysicsComponent") == nil then
+        return false
+    end
+
+    return ItemService:CanFitResourceGiver( test_owner, test_entity )
+end
+
+function flora_collector:GetLootPickupEntity( entity )
+    if not EntityService:IsAlive(entity) then
+        return INVALID_ID
+    end
+
+    local parent = EntityService:GetParent( entity )
+    if parent ~= INVALID_ID then
+        return parent
+    end
+
+    return entity
+end
+
+function flora_collector:FindNearbyLootEntities()
+    self.loot_predicate = self.loot_predicate or {
+        signature = "BlueprintComponent,IdComponent,ParentComponent",
+        filter = function(entity)
+            if EntityService:GetName(entity) ~= "#loot#" then
+                return false
+            end
+
+            local target = EntityService:GetParent( entity )
+            if target == INVALID_ID then
+                return false
+            end
+
+            return self:ValidateLootTarget(entity, self.temp_pawn)
+        end
+    }
+
+    local position = EntityService:GetPosition(self.entity)
+    local size = { x = self.search_radius, y = self.search_radius, z = self.search_radius }
+    local min = VectorSub(position, size)
+    local max = VectorAdd(position, size)
+    return FindService:FindEntitiesByPredicateInBox(min, max, self.loot_predicate)
+end
+
+function flora_collector:CollectLootEntity( loot_entity, pawn )
+    local pickup_entity = self:GetLootPickupEntity( loot_entity )
+    if self:ValidateLootTarget( pickup_entity, pawn ) then
+        EffectService:SpawnEffects(loot_entity, "loot_collect")
+        ItemService:FlyItemToInventory(pawn, pickup_entity)
+        return true
+    end
+
+    return false
+end
+
+function flora_collector:CollectNearbyLoot()
+    local pawn = PlayerService:GetPlayerControlledEnt(GetPlayerForEntity(self.entity))
+    if not EntityService:IsAlive(pawn) then
+        return
+    end
+
+    self.temp_pawn = pawn
+    local targets = self:FindNearbyLootEntities()
+    self.temp_pawn = nil
+
+    for target in Iter(targets) do
+        self:CollectLootEntity(target, pawn)
+    end
 end
 
 function flora_collector:AddHarvestedResource( resource, amount )
@@ -186,6 +279,7 @@ function flora_collector:OnUpdateProductionExecute(state, dt)
 
     -- 수확을 먼저 처리한 뒤, 아래에서 UI용 생산량 데이터를 갱신한다.
     self:HarvestNearbyVegetation()
+    self:CollectNearbyLoot()
 
     local time = GetLogicTime();
 
