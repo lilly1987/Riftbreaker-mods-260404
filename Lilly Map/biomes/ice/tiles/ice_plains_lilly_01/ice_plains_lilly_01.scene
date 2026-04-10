@@ -1,4 +1,4 @@
-entity_count "39"
+entity_count "40"
 //editor "index(1)"
 EntityTemplate
 {
@@ -11,18 +11,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -32,8 +34,11 @@ EntityTemplate
 				x "-48"
 				z "-48"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(2)"
@@ -48,18 +53,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -69,8 +76,11 @@ EntityTemplate
 				x "48"
 				z "48"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(3)"
@@ -85,18 +95,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -105,8 +117,11 @@ EntityTemplate
 			{
 				x "-48"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(4)"
@@ -121,18 +136,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -142,8 +159,11 @@ EntityTemplate
 				x "-24"
 				z "48"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(5)"
@@ -158,18 +178,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -179,8 +201,11 @@ EntityTemplate
 				x "-48"
 				z "-24"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(6)"
@@ -196,17 +221,19 @@ EntityTemplate
 				min
 				{
 					x "-3"
-					y "-3"
+					y "-3.0000005"
 					z "-3"
 				}
 
 				max
 				{
 					x "3"
-					y "3"
+					y "3.0000005"
 					z "3"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -223,8 +250,11 @@ EntityTemplate
 				y "3"
 				z "3"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(7)"
@@ -240,24 +270,27 @@ EntityTemplate
 				min
 				{
 					x "-3"
-					y "-3"
+					y "-3.0000005"
 					z "-3"
 				}
 
 				max
 				{
 					x "3"
-					y "3"
+					y "3.0000005"
 					z "3"
 				}
+
 			}
+
 		}
 
 		TransformComponent
 		{
 			position
 			{
-				x "-24"
+				x "-49.099186"
+				z "22.546087"
 			}
 
 			scale
@@ -266,8 +299,11 @@ EntityTemplate
 				y "3"
 				z "3"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(8)"
@@ -283,24 +319,28 @@ EntityTemplate
 				min
 				{
 					x "-3"
-					y "-3"
+					y "-3.0000005"
 					z "-3"
 				}
 
 				max
 				{
 					x "3"
-					y "3"
+					y "3.0000005"
 					z "3"
 				}
+
 			}
+
 		}
 
 		TransformComponent
 		{
 			position
 			{
-				z "-24"
+				x "47.164883"
+				y "-1.5404992e-05"
+				z "-49.369614"
 			}
 
 			scale
@@ -309,8 +349,11 @@ EntityTemplate
 				y "3"
 				z "3"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(9)"
@@ -326,29 +369,41 @@ EntityTemplate
 				min
 				{
 					x "-3"
-					y "-3"
+					y "-3.0000005"
 					z "-3"
 				}
 
 				max
 				{
 					x "3"
-					y "3"
+					y "3.0000005"
 					z "3"
 				}
+
 			}
+
 		}
 
 		TransformComponent
 		{
+			position
+			{
+				x "0.35052586"
+				y "1.5259477e-05"
+				z "26.046629"
+			}
+
 			scale
 			{
 				x "3"
 				y "3"
 				z "3"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(10)"
@@ -364,17 +419,19 @@ EntityTemplate
 				min
 				{
 					x "-3"
-					y "-3"
+					y "-3.0000005"
 					z "-3"
 				}
 
 				max
 				{
 					x "3"
-					y "3"
+					y "3.0000005"
 					z "3"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -391,8 +448,11 @@ EntityTemplate
 				y "3"
 				z "3"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(11)"
@@ -407,18 +467,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -435,8 +497,11 @@ EntityTemplate
 				y "20"
 				z "20"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(12)"
@@ -451,18 +516,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -478,8 +545,11 @@ EntityTemplate
 				y "20"
 				z "20"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(13)"
@@ -494,18 +564,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -521,8 +593,11 @@ EntityTemplate
 				y "20"
 				z "20"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(14)"
@@ -537,25 +612,28 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
 		{
 			position
 			{
-				x "-48"
+				x "-48.214798"
+				z "48.889095"
 			}
 
 			scale
@@ -564,8 +642,11 @@ EntityTemplate
 				y "20"
 				z "20"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(15)"
@@ -580,25 +661,29 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
 		{
 			position
 			{
-				z "-24"
+				x "23.59644"
+				y "-1.5331032e-05"
+				z "25.273193"
 			}
 
 			scale
@@ -607,8 +692,11 @@ EntityTemplate
 				y "20"
 				z "20"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(16)"
@@ -623,29 +711,34 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
 				}
+
 			}
+
 		}
 
 		TransformComponent
 		{
 			position
 			{
-				x "-36"
-				z "-12"
+				x "29.911846"
+				z "-37.67668"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(17)"
@@ -660,18 +753,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -681,8 +776,11 @@ EntityTemplate
 				x "36"
 				z "12"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(18)"
@@ -697,18 +795,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -718,8 +818,11 @@ EntityTemplate
 				x "-12"
 				z "12"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(19)"
@@ -734,18 +837,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -755,8 +860,11 @@ EntityTemplate
 				x "12"
 				z "12"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(20)"
@@ -771,18 +879,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -799,8 +909,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(21)"
@@ -815,18 +928,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -843,8 +958,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(22)"
@@ -859,18 +977,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -887,8 +1007,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(23)"
@@ -903,18 +1026,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -930,8 +1055,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(24)"
@@ -946,18 +1074,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -974,8 +1104,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(25)"
@@ -990,18 +1123,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1018,8 +1153,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(26)"
@@ -1034,26 +1172,29 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
 		{
 			position
 			{
-				x "-12"
-				z "-48"
+				x "6.22679"
+				y "-1.5315187e-05"
+				z "-50.64735"
 			}
 
 			scale
@@ -1062,8 +1203,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(27)"
@@ -1078,18 +1222,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "0.51"
+					y "0.51"
+					z "0.51"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1106,8 +1252,11 @@ EntityTemplate
 				y "10"
 				z "10"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(28)"
@@ -1122,18 +1271,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1143,8 +1294,11 @@ EntityTemplate
 				x "-36"
 				z "58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(29)"
@@ -1159,18 +1313,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1179,8 +1335,11 @@ EntityTemplate
 			{
 				z "58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(30)"
@@ -1195,18 +1354,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1216,8 +1377,11 @@ EntityTemplate
 				x "36"
 				z "58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(31)"
@@ -1232,18 +1396,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1253,8 +1419,11 @@ EntityTemplate
 				x "-36"
 				z "-58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(32)"
@@ -1269,18 +1438,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1289,8 +1460,11 @@ EntityTemplate
 			{
 				z "-58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(33)"
@@ -1305,18 +1479,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1326,8 +1502,11 @@ EntityTemplate
 				x "36"
 				z "-58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(34)"
@@ -1342,18 +1521,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1363,8 +1544,11 @@ EntityTemplate
 				x "58"
 				z "-36"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(35)"
@@ -1379,18 +1563,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1399,8 +1585,11 @@ EntityTemplate
 			{
 				x "58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(36)"
@@ -1415,18 +1604,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1436,8 +1627,11 @@ EntityTemplate
 				x "58"
 				z "36"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(37)"
@@ -1452,18 +1646,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1473,8 +1669,11 @@ EntityTemplate
 				x "-58"
 				z "-36"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(38)"
@@ -1489,18 +1688,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1509,8 +1710,11 @@ EntityTemplate
 			{
 				x "-58"
 			}
+
 		}
+
 	}
+
 }
 
 //editor "index(39)"
@@ -1525,18 +1729,20 @@ EntityTemplate
 			{
 				min
 				{
-					x "-3"
-					y "-3"
-					z "-3"
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
 				}
 
 				max
 				{
-					x "3"
-					y "3"
-					z "3"
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
 				}
+
 			}
+
 		}
 
 		TransformComponent
@@ -1546,6 +1752,60 @@ EntityTemplate
 				x "-58"
 				z "36"
 			}
+
 		}
+
 	}
+
 }
+
+//editor "index(40)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-32"
+				y "-2.5"
+				z "-32"
+			}
+
+			scale
+			{
+				x "60"
+				y "4"
+				z "60"
+			}
+
+		}
+
+	}
+
+}
+

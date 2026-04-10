@@ -1,166 +1,151 @@
-# TransformComponent 하위값 생략 가능
-EntityTemplate: '
-{
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-3"
-					y "-3"
-					z "-3"
-				}
-				max
-				{
-					x "3"
-					y "3"
-					z "3"
-				}
-			}
-		}
-		TransformComponent 
-    {
-      position
+entity_template: |
+  EntityTemplate
+  {
+  	components
+  	{
+  		LocalAabbDesc
+  		{
+  			local_aabb
+  			{
+  				min
+  				{
+  					x "-3"
+  					y "-3"
+  					z "-3"
+  				}
+  				max
+  				{
+  					x "3"
+  					y "3"
+  					z "3"
+  				}
+  			}
+  		}
+  		TransformComponent
       {
-        x "0"
-        y "0"
-        z "0"
+        position
+        {
+          x "0"
+          y "0"
+          z "0"
+        }
+        scale
+        {
+          x "1"
+          y "1"
+          z "1"
+        }
+        rotation
+        {
+          x "0"
+          y "0"
+          z "0"
+        }
       }
-      scale
-      {
-        x "1"
-        y "1"
-        z "1"
-      }
-      rotation
-      {
-        x "0"
-        y "0"
-        z "0"
-      }
-    }
-	}
-}'
-1:
-  base_blueprint: 
-    - logic/spawn_player
-  all delete: true
-  TransformComponent:
-    -
-      grid:
-        min: -48,-48
-        max: 48,48
-        step: 24,24
-        random count: 5
-volume_random_placement:
-  base_blueprint:
-    - resources/volume_random_placement
-  all delete: true
-  TransformComponent:
-    -
-      scale: 3,3,3
-      grid:
-        min: -48,-48
-        max: 48,48
-        step: 24,24
-        random count: 5
-volume_random_resources:
-  base_blueprint:
-    - resources/volume_random_resources
-  all delete: true
-  TransformComponent:
-    -
-      scale: 20,20,20
-      grid:
-        min: -48,-48
-        max: 48,48
-        step: 24,24
-        random count: 5
-spawn_objective:
-  base_blueprint:
-    - logic/spawn_objective
-  all delete: true
-  TransformComponent:
-    -
-      grid:
-        min: -36,-36
-        max: 36,36
-        step: 24,24
-        random count: 4
-volume_neutral_units_spawner:
-  base_blueprint:
-    - units/spawner/volume_neutral_units_spawner
-  all delete: true
-  TransformComponent:
-    -
-      scale: 10,10,10
-      grid:
-        min: -48,-36
-        max: 48,36
-        step: 24,24
-        random count: 4
-volume_resources_units_spawner:
-  base_blueprint:
-    - units/spawner/volume_resources_units_spawner
-  all delete: true
-  TransformComponent:
-    -
-      scale: 10,10,10
-      grid:
-        min: -36,-48
-        max: 36,48
-        step: 24,24
-        random count: 4
-# water:
-#   base_blueprint:
-#     - resources/volume_resource_water
-#   all delete: true
-#   TransformComponent:
-#     -
-#       scale: 4,1,52
-#       position:
-#         - -62,30
-#         - 62,30
-#         - -62,-30
-#         - 62,-30
-# supercoolant:
-#   base_blueprint: 
-#     - resources/volume_resource_supercoolant
-#   all delete: true
-#   TransformComponent:
-#     -
-#       scale: 52,1,4 # x,y,z
-#       position:
-#         - -30,62
-#         - 30,62
-#         - -30,-62
-#         - 30,-62
-#     # -
-#     #   scale: 4,4,60 # x,y,z
-#     #   position:
-#     #     - -62,34
-#     #     - 62,34
-#     #     - -62,-34
-#     #     - 62,-34
-7:
-  base_blueprint:
-    - logic/spawn_enemy
-  all delete: true
-  TransformComponent:
-    -
-      position:
-        - -36,58
-        - 0,58
-        - 36,58
-        - -36,-58
-        - 0,-58
-        - 36,-58
-        - 58,-36
-        - 58,0
-        - 58,36
-        - -58,-36
-        - -58,0
-        - -58,36
+  	}
+  }
+
+rules:
+  volume_random_liquids:
+    base_blueprints:
+      - resources/volume_random_liquids
+    # all_delete: true
+    skip_existing: true
+    transform_groups:
+      - scale: [[15, 31], 1, [15, 31]]
+        grid:
+          min: [-48, -48]
+          max: [48, 48]
+          step: [32, 32]
+          # y: -2.5
+          random_count: [1,4]
+
+  "1":
+    base_blueprints:
+      - logic/spawn_player
+    all_delete: true
+    transform_groups:
+      - grid:
+          min: [-60, -60]
+          max: [60, 60]
+          step: [12, 12]
+          # y: 12
+          random_count: [1,4]
+
+  volume_random_placement:
+    base_blueprints:
+      - resources/volume_random_placement
+    all_delete: true
+    transform_groups:
+      - scale: [[1, 3], 1, [1, 3]]
+        grid:
+          min: [-60, -60]
+          max: [60, 60]
+          step: [12, 12]
+          random_count: [4,8]
+
+  volume_random_resources:
+    base_blueprints:
+      - resources/volume_random_resources
+    all_delete: true
+    transform_groups:
+      - scale: [[10, 20], 6, [10, 20]]
+        grid:
+          min: [-60, -60]
+          max: [60, 60]
+          step: [12, 12]
+          random_count: [4,8]
+
+  spawn_objective:
+    base_blueprints:
+      - logic/spawn_objective
+    all_delete: true
+    transform_groups:
+      - grid:
+          min: [-60, -60]
+          max: [60, 60]
+          step: [12, 12]
+          random_count: [4,8]
+
+  volume_neutral_units_spawner:
+    base_blueprints:
+      - units/spawner/volume_neutral_units_spawner
+    all_delete: true
+    transform_groups:
+      - scale: [[5, 10], 10, [5, 10]]
+        grid:
+          min: [-60, -60]
+          max: [60, 60]
+          step: [12, 12]
+          random_count: [2,4]
+
+  volume_resources_units_spawner:
+    base_blueprints:
+      - units/spawner/volume_resources_units_spawner
+    all_delete: true
+    transform_groups:
+      - scale: [[5, 10], 10, [5, 10]]
+        grid:
+          min: [-60, -60]
+          max: [60, 60]
+          step: [12, 12]
+          random_count: [2,4]
+
+  "7":
+    base_blueprints:
+      - logic/spawn_enemy
+    all_delete: true
+    transform_groups:
+      - position:
+          - [-36, 58]
+          - [0, 58]
+          - [36, 58]
+          - [-36, -58]
+          - [0, -58]
+          - [36, -58]
+          - [58, -36]
+          - [58, 0]
+          - [58, 36]
+          - [-58, -36]
+          - [-58, 0]
+          - [-58, 36]

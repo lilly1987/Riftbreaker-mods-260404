@@ -96,7 +96,7 @@ end
 RegisterGlobalEventHandler("StartBuildingEvent", function(evt)
 	local entity = evt:GetEntity()
 	apply_reflect_damage(entity)
-	ConsoleService:Write("StartBuildingEvent : " .. tostring(entity))
+	-- ConsoleService:Write("StartBuildingEvent : " .. tostring(entity))
 	LogService:Log("StartBuildingEvent : " .. tostring(entity))
 end)
 

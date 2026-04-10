@@ -1,508 +1,8 @@
-entity_count "40"
-//editor "index(1)"
+entity_count "43"
+//editor "index(41)"
 EntityTemplate
 {
-	base_blueprint "logic/spawn_player"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-1.4716291"
-					y "-1.001358e-05"
-					z "-1.6393247"
-				}
-
-				max
-				{
-					x "1.5794158"
-					y "4.0822864"
-					z "1.6393251"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "24"
-				z "-48"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(2)"
-EntityTemplate
-{
-	base_blueprint "logic/spawn_player"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-1.4716291"
-					y "-1.001358e-05"
-					z "-1.6393247"
-				}
-
-				max
-				{
-					x "1.5794158"
-					y "4.0822864"
-					z "1.6393251"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-48"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(3)"
-EntityTemplate
-{
-	base_blueprint "logic/spawn_player"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-1.4716291"
-					y "-1.001358e-05"
-					z "-1.6393247"
-				}
-
-				max
-				{
-					x "1.5794158"
-					y "4.0822864"
-					z "1.6393251"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "24"
-				z "-24"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(4)"
-EntityTemplate
-{
-	base_blueprint "logic/spawn_player"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-1.4716291"
-					y "-1.001358e-05"
-					z "-1.6393247"
-				}
-
-				max
-				{
-					x "1.5794158"
-					y "4.0822864"
-					z "1.6393251"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-48"
-				z "-24"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(5)"
-EntityTemplate
-{
-	base_blueprint "logic/spawn_player"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-1.4716291"
-					y "-1.001358e-05"
-					z "-1.6393247"
-				}
-
-				max
-				{
-					x "1.5794158"
-					y "4.0822864"
-					z "1.6393251"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "48"
-				z "-48"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(6)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_placement"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-3"
-					y "-3.0000005"
-					z "-3"
-				}
-
-				max
-				{
-					x "3"
-					y "3.0000005"
-					z "3"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-24"
-				z "-24"
-			}
-
-			scale
-			{
-				x "3"
-				y "3"
-				z "3"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(7)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_placement"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-3"
-					y "-3.0000005"
-					z "-3"
-				}
-
-				max
-				{
-					x "3"
-					y "3.0000005"
-					z "3"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				z "24"
-			}
-
-			scale
-			{
-				x "3"
-				y "3"
-				z "3"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(8)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_placement"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-3"
-					y "-3.0000005"
-					z "-3"
-				}
-
-				max
-				{
-					x "3"
-					y "3.0000005"
-					z "3"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "48"
-				z "24"
-			}
-
-			scale
-			{
-				x "3"
-				y "3"
-				z "3"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(9)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_placement"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-3"
-					y "-3.0000005"
-					z "-3"
-				}
-
-				max
-				{
-					x "3"
-					y "3.0000005"
-					z "3"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-24"
-				z "48"
-			}
-
-			scale
-			{
-				x "3"
-				y "3"
-				z "3"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(10)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_placement"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-3"
-					y "-3.0000005"
-					z "-3"
-				}
-
-				max
-				{
-					x "3"
-					y "3.0000005"
-					z "3"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				z "48"
-			}
-
-			scale
-			{
-				x "3"
-				y "3"
-				z "3"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(11)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_resources"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
-				}
-
-				max
-				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				z "-48"
-			}
-
-			scale
-			{
-				x "20"
-				y "20"
-				z "20"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(12)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_resources"
+	base_blueprint "resources/volume_random_liquids"
 	components
 	{
 		LocalAabbDesc
@@ -532,63 +32,13 @@ EntityTemplate
 			position
 			{
 				x "48"
-				z "48"
-			}
-
-			scale
-			{
-				x "20"
-				y "20"
-				z "20"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(13)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_resources"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
-				}
-
-				max
-				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-48"
 				z "-48"
 			}
 
 			scale
 			{
-				x "20"
-				y "20"
-				z "20"
+				x "31"
+				z "31"
 			}
 
 		}
@@ -597,10 +47,10 @@ EntityTemplate
 
 }
 
-//editor "index(14)"
+//editor "index(42)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_resources"
+	base_blueprint "logic/spawn_player"
 	components
 	{
 		LocalAabbDesc
@@ -609,196 +59,16 @@ EntityTemplate
 			{
 				min
 				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "48"
-			}
-
-			scale
-			{
-				x "20"
-				y "20"
-				z "20"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(15)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_resources"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
-				}
-
-				max
-				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				z "24"
-			}
-
-			scale
-			{
-				x "20"
-				y "20"
-				z "20"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(16)"
-EntityTemplate
-{
-	base_blueprint "logic/spawn_objective"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-5.93725"
-					y "-0.14090061"
-					z "-6.6201763"
-				}
-
-				max
-				{
-					x "6.075054"
-					y "10.933059"
-					z "4.9129677"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-12"
-				z "36"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(17)"
-EntityTemplate
-{
-	base_blueprint "logic/spawn_objective"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-5.93725"
-					y "-0.14090061"
-					z "-6.6201763"
-				}
-
-				max
-				{
-					x "6.075054"
-					y "10.933059"
-					z "4.9129677"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "36"
-				z "-12"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(18)"
-EntityTemplate
-{
-	base_blueprint "logic/spawn_objective"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-5.93725"
-					y "-0.14090061"
-					z "-6.6201763"
-				}
-
-				max
-				{
-					x "6.075054"
-					y "10.933059"
-					z "4.9129677"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
 
 			}
@@ -810,7 +80,6 @@ EntityTemplate
 			position
 			{
 				x "12"
-				z "36"
 			}
 
 		}
@@ -819,10 +88,10 @@ EntityTemplate
 
 }
 
-//editor "index(19)"
+//editor "index(43)"
 EntityTemplate
 {
-	base_blueprint "logic/spawn_objective"
+	base_blueprint "logic/spawn_player"
 	components
 	{
 		LocalAabbDesc
@@ -831,16 +100,16 @@ EntityTemplate
 			{
 				min
 				{
-					x "-5.93725"
-					y "-0.14090061"
-					z "-6.6201763"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "6.075054"
-					y "10.933059"
-					z "4.9129677"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
 
 			}
@@ -851,8 +120,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "-12"
-				z "-12"
+				x "60"
+				z "12"
 			}
 
 		}
@@ -861,10 +130,10 @@ EntityTemplate
 
 }
 
-//editor "index(20)"
+//editor "index(44)"
 EntityTemplate
 {
-	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	base_blueprint "logic/spawn_player"
 	components
 	{
 		LocalAabbDesc
@@ -873,65 +142,16 @@ EntityTemplate
 			{
 				min
 				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-24"
-				z "-36"
-			}
-
-			scale
-			{
-				x "10"
-				y "10"
-				z "10"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(21)"
-EntityTemplate
-{
-	base_blueprint "units/spawner/volume_neutral_units_spawner"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
-				}
-
-				max
-				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
 				}
 
 			}
@@ -946,23 +166,16 @@ EntityTemplate
 				z "-36"
 			}
 
-			scale
-			{
-				x "10"
-				y "10"
-				z "10"
-			}
-
 		}
 
 	}
 
 }
 
-//editor "index(22)"
+//editor "index(45)"
 EntityTemplate
 {
-	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	base_blueprint "logic/spawn_player"
 	components
 	{
 		LocalAabbDesc
@@ -971,16 +184,154 @@ EntityTemplate
 			{
 				min
 				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
 				}
 
 				max
 				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "36"
+				z "12"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(46)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "36"
+			}
+
+			scale
+			{
+				x "1.503181"
+				z "1.353364"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(47)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24.38154"
+				z "32.442604"
+			}
+
+			scale
+			{
+				x "1.344662"
+				z "1.984064"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(48)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
 				}
 
 			}
@@ -997,9 +348,8 @@ EntityTemplate
 
 			scale
 			{
-				x "10"
-				y "10"
-				z "10"
+				x "2.467196"
+				z "1.994783"
 			}
 
 		}
@@ -1008,7 +358,780 @@ EntityTemplate
 
 }
 
-//editor "index(23)"
+//editor "index(49)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "-48"
+			}
+
+			scale
+			{
+				x "1.260151"
+				z "1.516757"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(50)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "48"
+			}
+
+			scale
+			{
+				x "2.261884"
+				z "1.059996"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(51)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36"
+				z "-12"
+			}
+
+			scale
+			{
+				x "2.870614"
+				z "1.74881"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(52)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12"
+				z "-36"
+			}
+
+			scale
+			{
+				x "14.95924"
+				y "6"
+				z "15.567788"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(53)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "4.4890447"
+				z "-53.41305"
+			}
+
+			scale
+			{
+				x "17.466425"
+				y "6"
+				z "10.505891"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(54)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "12.527576"
+				z "-17.59859"
+			}
+
+			scale
+			{
+				x "17.471657"
+				y "6"
+				z "19.5802"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(55)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24"
+				z "-60"
+			}
+
+			scale
+			{
+				x "13.078198"
+				y "6"
+				z "13.723039"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(56)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "48.75485"
+				z "-14.798714"
+			}
+
+			scale
+			{
+				x "11.163636"
+				y "6"
+				z "14.454236"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(57)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24"
+				z "48"
+			}
+
+			scale
+			{
+				x "11.734486"
+				y "6"
+				z "12.916513"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(58)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "24"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(59)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36"
+				z "60"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(60)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48"
+				z "-12"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(61)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24"
+				z "12"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(62)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12"
+				z "12"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(63)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24"
+				z "-36"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(64)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-60"
+				z "48"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(65)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "48"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(66)"
 EntityTemplate
 {
 	base_blueprint "units/spawner/volume_neutral_units_spawner"
@@ -1040,15 +1163,14 @@ EntityTemplate
 		{
 			position
 			{
-				x "24"
-				z "-12"
+				z "36"
 			}
 
 			scale
 			{
-				x "10"
+				x "7.453537"
 				y "10"
-				z "10"
+				z "8.180361"
 			}
 
 		}
@@ -1057,10 +1179,10 @@ EntityTemplate
 
 }
 
-//editor "index(24)"
+//editor "index(67)"
 EntityTemplate
 {
-	base_blueprint "units/spawner/volume_resources_units_spawner"
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
 	components
 	{
 		LocalAabbDesc
@@ -1089,14 +1211,15 @@ EntityTemplate
 		{
 			position
 			{
-				x "-36"
+				x "-60"
+				z "-48"
 			}
 
 			scale
 			{
-				x "10"
+				x "9.810862"
 				y "10"
-				z "10"
+				z "8.867806"
 			}
 
 		}
@@ -1105,7 +1228,56 @@ EntityTemplate
 
 }
 
-//editor "index(25)"
+//editor "index(68)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12"
+				z "12"
+			}
+
+			scale
+			{
+				x "7.3312"
+				y "10"
+				z "5.708493"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(69)"
 EntityTemplate
 {
 	base_blueprint "units/spawner/volume_resources_units_spawner"
@@ -1138,14 +1310,14 @@ EntityTemplate
 			position
 			{
 				x "-12"
-				z "-24"
+				z "24"
 			}
 
 			scale
 			{
-				x "10"
+				x "7.08286"
 				y "10"
-				z "10"
+				z "6.94932"
 			}
 
 		}
@@ -1154,7 +1326,7 @@ EntityTemplate
 
 }
 
-//editor "index(26)"
+//editor "index(70)"
 EntityTemplate
 {
 	base_blueprint "units/spawner/volume_resources_units_spawner"
@@ -1186,14 +1358,15 @@ EntityTemplate
 		{
 			position
 			{
-				x "36"
+				x "60"
+				z "12"
 			}
 
 			scale
 			{
-				x "10"
+				x "8.090241"
 				y "10"
-				z "10"
+				z "8.258604"
 			}
 
 		}
@@ -1202,7 +1375,7 @@ EntityTemplate
 
 }
 
-//editor "index(27)"
+//editor "index(71)"
 EntityTemplate
 {
 	base_blueprint "units/spawner/volume_resources_units_spawner"
@@ -1234,15 +1407,15 @@ EntityTemplate
 		{
 			position
 			{
-				x "12"
-				z "-48"
+				x "-60"
+				z "48"
 			}
 
 			scale
 			{
-				x "10"
+				x "8.517591"
 				y "10"
-				z "10"
+				z "7.065284"
 			}
 
 		}
@@ -1251,7 +1424,7 @@ EntityTemplate
 
 }
 
-//editor "index(28)"
+//editor "index(72)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1293,7 +1466,7 @@ EntityTemplate
 
 }
 
-//editor "index(29)"
+//editor "index(73)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1334,7 +1507,7 @@ EntityTemplate
 
 }
 
-//editor "index(30)"
+//editor "index(74)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1376,7 +1549,7 @@ EntityTemplate
 
 }
 
-//editor "index(31)"
+//editor "index(75)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1418,7 +1591,7 @@ EntityTemplate
 
 }
 
-//editor "index(32)"
+//editor "index(76)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1459,7 +1632,7 @@ EntityTemplate
 
 }
 
-//editor "index(33)"
+//editor "index(77)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1501,7 +1674,7 @@ EntityTemplate
 
 }
 
-//editor "index(34)"
+//editor "index(78)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1543,7 +1716,7 @@ EntityTemplate
 
 }
 
-//editor "index(35)"
+//editor "index(79)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1584,7 +1757,7 @@ EntityTemplate
 
 }
 
-//editor "index(36)"
+//editor "index(80)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1626,7 +1799,7 @@ EntityTemplate
 
 }
 
-//editor "index(37)"
+//editor "index(81)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1668,7 +1841,7 @@ EntityTemplate
 
 }
 
-//editor "index(38)"
+//editor "index(82)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1709,7 +1882,7 @@ EntityTemplate
 
 }
 
-//editor "index(39)"
+//editor "index(83)"
 EntityTemplate
 {
 	base_blueprint "logic/spawn_enemy"
@@ -1743,54 +1916,6 @@ EntityTemplate
 			{
 				x "-58"
 				z "36"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(40)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_resources_liquid"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
-				}
-
-				max
-				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "48"
-				z "-48"
-			}
-
-			scale
-			{
-				x "32"
-				z "32"
 			}
 
 		}

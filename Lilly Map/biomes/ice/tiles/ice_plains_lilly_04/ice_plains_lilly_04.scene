@@ -38,9 +38,9 @@ EntityTemplate
 
 			scale
 			{
-				x "64"
+				x "62"
 				y "4"
-				z "64"
+				z "62"
 			}
 
 		}
@@ -1830,9 +1830,9 @@ EntityTemplate
 
 			scale
 			{
-				x "64"
+				x "62"
 				y "4"
-				z "64"
+				z "62"
 			}
 
 		}
@@ -1880,9 +1880,9 @@ EntityTemplate
 
 			scale
 			{
-				x "64"
+				x "62"
 				y "4"
-				z "64"
+				z "62"
 			}
 
 		}
@@ -1930,9 +1930,9 @@ EntityTemplate
 
 			scale
 			{
-				x "64"
+				x "62"
 				y "4"
-				z "64"
+				z "62"
 			}
 
 		}

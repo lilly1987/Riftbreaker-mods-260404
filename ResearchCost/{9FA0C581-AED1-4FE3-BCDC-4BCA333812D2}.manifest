@@ -1,0 +1,21 @@
+WorkspaceManifest
+{
+	description "UmVzZWFyY2hDb3N0CnsKYW1vdW50ICIwIgpyZXNvdXJjZSAiZG93bmxvYWQiCmNvdW50ICIxIiAvLyBhbGwgdGhpcyB0byAxCn0KCnVzZSBsdWEgc2NyaXB0Cm5vdCB1c2UgcnQgZmlsZQoKbmVlZCBuZXcgZ2FtZQ=="
+	tags
+	{
+		String "Research"
+	}
+
+	modified_game_files
+	title "Rml4ZWQgUmVzZWFyY2ggQ29zdCBkb3dubG9hZCAtIEZhaWwgcHJvamVjdA=="
+	homepage
+	modio_published_file "0"
+	visibility "0"
+	game_version "EXE: 1186 DATA: 847"
+	version
+	localizations
+	author
+	steam_published_file "0"
+	dependencies
+}
+

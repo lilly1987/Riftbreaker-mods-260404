@@ -37,9 +37,9 @@ EntityTemplate
 
 			scale
 			{
-				x "128"
+				x "126"
 				y "4"
-				z "128"
+				z "126"
 			}
 
 		}

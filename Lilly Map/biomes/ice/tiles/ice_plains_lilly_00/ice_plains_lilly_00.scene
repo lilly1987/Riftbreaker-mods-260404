@@ -1,4 +1,4 @@
-entity_count "41"
+entity_count "40"
 //editor "index(41)"
 EntityTemplate
 {
@@ -338,7 +338,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "48"
+				x "-17.531694"
+				z "-50.470146"
 			}
 
 			scale
@@ -533,8 +534,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "24"
-				z "48"
+				x "-42.738873"
+				z "-18.307613"
 			}
 
 			scale
@@ -682,7 +683,9 @@ EntityTemplate
 		{
 			position
 			{
-				z "48"
+				x "-16.129597"
+				y "1.4990454e-05"
+				z "-19.356041"
 			}
 
 			scale
@@ -1791,56 +1794,6 @@ EntityTemplate
 				x "32"
 				y "-2.499999"
 				z "32"
-			}
-
-			scale
-			{
-				x "64"
-				y "4"
-				z "64"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(83)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_random_resources_liquid"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
-				}
-
-				max
-				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-32"
-				y "-2.5"
-				z "-32"
 			}
 
 			scale
