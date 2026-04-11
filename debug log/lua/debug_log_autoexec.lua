@@ -3,7 +3,7 @@ LogService:Log("Debug Log Reg") -- 맵 시작시마다 로딩
 require("lua/debug_boost_values.lua")
 
 local list={
--- "PlayerInitializedEvent",
+-- "PlayerInitializedEvent",-- 캠페인/서바이벌 최초 시작 할때
 -- "PlayerSpawnRequest", -- 두번 발생
 -- ---
 -- layout: default
@@ -146,10 +146,17 @@ for _, event_name in ipairs(list) do
         ConsoleService:Write(event_name)
     end)
 end
+
 -- 멥 생성 직후 1000
 RegisterGlobalEventHandler("PlayerInitializedEvent", function(evt)
     LogService:Log("PlayerInitializedEvent")
     ConsoleService:Write("PlayerInitializedEvent")
+end)
+
+-- 세이브 로드후
+RegisterGlobalEventHandler("PlayerCreatedEvent", function(evt)
+    LogService:Log("PlayerCreatedEvent")
+    ConsoleService:Write("PlayerCreatedEvent")
 end)
 
 -- ---

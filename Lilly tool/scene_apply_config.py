@@ -178,6 +178,31 @@ def expand_grid_positions(grid: dict) -> list[str]:
     return positions
 
 
+def expand_random_positions(random_config: dict, random_count: int) -> list[str]:
+    min_x_str, min_z_str = parse_grid_point(random_config["min"])
+    max_x_str, max_z_str = parse_grid_point(random_config["max"])
+    y_str = random_config.get("y")
+
+    min_x = float(min_x_str)
+    min_z = float(min_z_str)
+    max_x = float(max_x_str)
+    max_z = float(max_z_str)
+
+    if min_x > max_x or min_z > max_z:
+        raise SceneConfigError("random min/max range is invalid.")
+
+    positions: list[str] = []
+    for _ in range(random_count):
+        x = random.uniform(min_x, max_x)
+        z = random.uniform(min_z, max_z)
+        if y_str is None:
+            positions.append(f"{float_to_scene_number(x)},{float_to_scene_number(z)}")
+        else:
+            positions.append(f"{float_to_scene_number(x)},{y_str},{float_to_scene_number(z)}")
+
+    return positions
+
+
 def resolve_random_count(random_count: int | tuple[int, int] | None, max_count: int) -> int | None:
     if random_count is None:
         return None
@@ -296,22 +321,49 @@ def parse_config(config_text: str) -> tuple[dict, list[dict]]:
                 if random_count_value is not None:
                     transform_group["grid_random_count"] = parse_random_count_range(random_count_value)
 
+            if "random" in transform_data:
+                random_data = transform_data["random"]
+                if not isinstance(random_data, dict):
+                    raise SceneConfigError(f"rule '{rule_id}' random must be a mapping.")
+
+                random_config: dict = {}
+                for key in ("min", "max"):
+                    if key not in random_data:
+                        raise SceneConfigError(f"rule '{rule_id}' random is missing '{key}'.")
+                    random_config[key] = random_data[key]
+
+                if "y" in random_data:
+                    random_config["y"] = parse_grid_y(random_data["y"])
+
+                random_count_value = random_data.get("random_count", random_data.get("random count"))
+                if random_count_value is None:
+                    raise SceneConfigError(f"rule '{rule_id}' random requires 'random_count'.")
+
+                transform_group["random"] = random_config
+                transform_group["random_count"] = parse_random_count_range(random_count_value)
+
             rule["transform_groups"].append(transform_group)
 
         rules.append(rule)
 
     for rule in rules:
         for transform_group in rule["transform_groups"]:
-            grid = transform_group.get("grid")
-            if not grid:
-                continue
-
             positions = transform_group.setdefault("position", [])
-            grid_positions = expand_grid_positions(grid)
-            random_count = resolve_random_count(transform_group.get("grid_random_count"), len(grid_positions))
-            if random_count is not None and random_count < len(grid_positions):
-                grid_positions = random.sample(grid_positions, random_count)
-            positions.extend(grid_positions)
+            grid = transform_group.get("grid")
+            if grid:
+                grid_positions = expand_grid_positions(grid)
+                random_count = resolve_random_count(transform_group.get("grid_random_count"), len(grid_positions))
+                if random_count is not None and random_count < len(grid_positions):
+                    grid_positions = random.sample(grid_positions, random_count)
+                positions.extend(grid_positions)
+
+            random_config = transform_group.get("random")
+            if random_config:
+                random_count = transform_group.get("random_count")
+                resolved_count = resolve_random_count(random_count, sys.maxsize)
+                if resolved_count is None:
+                    raise SceneConfigError("random requires random_count.")
+                positions.extend(expand_random_positions(random_config, resolved_count))
 
     if not rules:
         raise SceneConfigError(f"{CONFIG_PATH.name} does not contain any rules.")

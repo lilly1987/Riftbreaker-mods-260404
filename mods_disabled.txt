@@ -1,4 +1,5 @@
 Flora Collector Lilly
 Lilly tool
+flora collector by lilly
 pickup_range_x100
 starting give building

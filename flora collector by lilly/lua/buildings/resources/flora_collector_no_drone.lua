@@ -305,7 +305,6 @@ function flora_collector:HarvestTarget( target )
         -- EntityService:RemoveComponent(target, "LootComponent")
         -- EntityService:RemoveComponent(target, "ResourceComponent")
         EntityService:DestroyEntity( target, "collapse" )
-        EntityService:RemoveEntity( target )
     end
 
     return harvested

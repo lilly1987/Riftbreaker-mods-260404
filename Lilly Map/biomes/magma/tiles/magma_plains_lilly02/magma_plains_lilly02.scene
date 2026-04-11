@@ -1,4 +1,4 @@
-entity_count "38"
+entity_count "35"
 //editor "index(1)"
 EntityTemplate
 {
@@ -379,7 +379,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "24"
+				x "31.305613"
+				z "7.6789546"
 			}
 
 			scale
@@ -1035,158 +1036,14 @@ EntityTemplate
 		{
 			position
 			{
-				x "-30"
-				z "62"
+				y "-1.5"
 			}
 
 			scale
 			{
-				x "52"
-				z "4"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(24)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_resource_supercoolant"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.5"
-					y "-0.5"
-					z "-0.5"
-				}
-
-				max
-				{
-					x "0.5"
-					y "0.5"
-					z "0.5"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "30"
-				z "62"
-			}
-
-			scale
-			{
-				x "52"
-				z "4"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(25)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_resource_supercoolant"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.5"
-					y "-0.5"
-					z "-0.5"
-				}
-
-				max
-				{
-					x "0.5"
-					y "0.5"
-					z "0.5"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "-30"
-				z "-62"
-			}
-
-			scale
-			{
-				x "52"
-				z "4"
-			}
-
-		}
-
-	}
-
-}
-
-//editor "index(26)"
-EntityTemplate
-{
-	base_blueprint "resources/volume_resource_supercoolant"
-	components
-	{
-		LocalAabbDesc
-		{
-			local_aabb
-			{
-				min
-				{
-					x "-0.5"
-					y "-0.5"
-					z "-0.5"
-				}
-
-				max
-				{
-					x "0.5"
-					y "0.5"
-					z "0.5"
-				}
-
-			}
-
-		}
-
-		TransformComponent
-		{
-			position
-			{
-				x "30"
-				z "-62"
-			}
-
-			scale
-			{
-				x "52"
-				z "4"
+				x "126"
+				y "2"
+				z "126"
 			}
 
 		}
