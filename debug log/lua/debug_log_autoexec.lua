@@ -138,6 +138,8 @@ local list={
 -- "UnitAggressiveStateEvent",
 -- "UnitDeadStateEvent",
 -- "UpgradeBuildingRequest",
+"MissionFlowDeactivatedEvent",
+"MissionFlowActivatedEvent",
 }
 
 for _, event_name in ipairs(list) do
