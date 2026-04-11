@@ -5,7 +5,7 @@ require("lua/utils/string_utils.lua")
 require("lua/utils/table_utils.lua")
 
 local building = require("lua/buildings/building.lua")
-class 'flora_collector' ( building )
+class 'supper_collector' ( building )
 
 local function GetPlayerForEntity( entity )
     if PlayerService.GetPlayerForEntity then
@@ -15,19 +15,19 @@ local function GetPlayerForEntity( entity )
     return 0
 end
 
-function flora_collector:__init()
+function supper_collector:__init()
 	-- 드론 스포너를 쓰지 않고 일반 건물로만 동작한다.
 	building.__init(self,self)
 end
 
-function flora_collector:CreateDebugStateMachine()
+function supper_collector:CreateDebugStateMachine()
     if self.debug == nil then
         self.debug = self:CreateStateMachine();
         self.debug:AddState("debug", { execute="OnDebugExecute" } );
     end
 end
 
-function flora_collector:FillInitialParams()
+function supper_collector:FillInitialParams()
     -- 범위는 ent의 LuaDesc database에 있는 search_radius만 참조한다.
     self.search_radius = self.data:GetFloatOrDefault("search_radius", 25.0)
     self.loot_pickup_delay = self.data:GetFloatOrDefault("loot_pickup_delay", 1.0)
@@ -35,7 +35,7 @@ function flora_collector:FillInitialParams()
     self.attempted_loot_entities = self.attempted_loot_entities or {}
 end
 
-function flora_collector:OnLoad()
+function supper_collector:OnLoad()
     if building.OnLoad ~= nil then
         building.OnLoad(self)
     end
@@ -44,7 +44,7 @@ function flora_collector:OnLoad()
     self:CreateDebugStateMachine()
 end
 
-function flora_collector:OnInit()
+function supper_collector:OnInit()
     if building.OnInit ~= nil then
 	    building.OnInit( self )
     end
@@ -60,7 +60,7 @@ function flora_collector:OnInit()
     self.harvested_resources = {}
 end
 
-function flora_collector:OnDebugExecute()
+function supper_collector:OnDebugExecute()
     local message = "COLLECTED:\n"
     for resource,values in pairs( self.harvested_resources ) do
         message = message .. resource .. " = ";
@@ -74,7 +74,7 @@ function flora_collector:OnDebugExecute()
     LogService:DebugText(self.entity,message)
 end
 
-function flora_collector:FindBestVegetationEntity()
+function supper_collector:FindBestVegetationEntity()
     -- 드론이 찾던 조건과 동일하게, 최종 성장 단계이며 채집 가능한 식물만 고른다.
     self.predicate = self.predicate or {
         type = "",
@@ -100,7 +100,7 @@ function flora_collector:FindBestVegetationEntity()
     return FindService:FindEntitiesByPredicateInBox( min, max, self.predicate );
 end
 
-function flora_collector:ValidateLootTarget( entity, pawn )
+function supper_collector:ValidateLootTarget( entity, pawn )
     if not EntityService:IsAlive(entity) then
         return false
     end
@@ -122,7 +122,7 @@ function flora_collector:ValidateLootTarget( entity, pawn )
     return ItemService:CanFitResourceGiver( test_owner, test_entity )
 end
 
-function flora_collector:GetLootPickupEntity( entity )
+function supper_collector:GetLootPickupEntity( entity )
     if not EntityService:IsAlive(entity) then
         return INVALID_ID
     end
@@ -135,7 +135,7 @@ function flora_collector:GetLootPickupEntity( entity )
     return entity
 end
 
-function flora_collector:IsLootPickupReady( entity, pawn )
+function supper_collector:IsLootPickupReady( entity, pawn )
     local pickup_data = EntityService:GetComponent(entity, "PickupDataComponent")
     if pickup_data == nil then
         return true
@@ -161,7 +161,7 @@ function flora_collector:IsLootPickupReady( entity, pawn )
     return true
 end
 
-function flora_collector:NormalizeLootState( entity, loot_state )
+function supper_collector:NormalizeLootState( entity, loot_state )
     if loot_state == nil then
         loot_state = { first_seen = GetLogicTime(), attempted = false }
     elseif type(loot_state) == "boolean" then
@@ -184,7 +184,7 @@ function flora_collector:NormalizeLootState( entity, loot_state )
     return loot_state
 end
 
-function flora_collector:FindNearbyLootEntities()
+function supper_collector:FindNearbyLootEntities()
     self.loot_predicate = self.loot_predicate or {
         signature = "BlueprintComponent,IdComponent,ParentComponent",
         filter = function(entity)
@@ -213,7 +213,7 @@ function flora_collector:FindNearbyLootEntities()
     return FindService:FindEntitiesByPredicateInBox(min, max, self.loot_predicate)
 end
 
-function flora_collector:CollectLootEntity( loot_entity, pawn )
+function supper_collector:CollectLootEntity( loot_entity, pawn )
     local pickup_entity = self:GetLootPickupEntity( loot_entity )
     if pickup_entity == INVALID_ID then
         return false
@@ -244,7 +244,7 @@ function flora_collector:CollectLootEntity( loot_entity, pawn )
     return false
 end
 
-function flora_collector:CollectNearbyLoot()
+function supper_collector:CollectNearbyLoot()
     local pawn = PlayerService:GetPlayerControlledEnt(GetPlayerForEntity(self.entity))
     if not EntityService:IsAlive(pawn) then
         return
@@ -259,7 +259,7 @@ function flora_collector:CollectNearbyLoot()
     end
 end
 
-function flora_collector:CleanupAttemptedLootEntities()
+function supper_collector:CleanupAttemptedLootEntities()
     for entity,loot_state in pairs(self.attempted_loot_entities) do
         if not EntityService:IsAlive(entity) then
             self.attempted_loot_entities[entity] = nil
@@ -269,7 +269,7 @@ function flora_collector:CleanupAttemptedLootEntities()
     end
 end
 
-function flora_collector:AddHarvestedResource( resource, amount )
+function supper_collector:AddHarvestedResource( resource, amount )
     -- 생산량 UI 갱신용 누적값을 저장하고, 실제 플레이어 자원도 즉시 지급한다.
     local value = self.data:GetFloatOrDefault("harvested_resources." .. resource, 0.0)
     self.data:SetFloat("harvested_resources." .. resource, value + amount )
@@ -278,7 +278,7 @@ function flora_collector:AddHarvestedResource( resource, amount )
     PlayerService:AddResourceAmount(player, resource, amount, true);
 end
 
-function flora_collector:DestroyHarvestTarget( target )
+function supper_collector:DestroyHarvestTarget( target )
     if EntityService:GetComponent(target, "UnitComponent") ~= nil and HealthService:IsAlive(target) then
         -- Units can mitigate or react differently to typed damage, so use the same
         -- high raw damage approach as the built-in cheat destroy command.
@@ -289,7 +289,7 @@ function flora_collector:DestroyHarvestTarget( target )
     EntityService:DestroyEntity( target, "collapse" )
 end
 
-function flora_collector:HarvestTarget( target )
+function supper_collector:HarvestTarget( target )
     -- 대상 식물의 모든 채집 자원을 한 번에 회수한다.
     EntityService:EnsureGatherableComponent( target )
 
@@ -321,7 +321,7 @@ function flora_collector:HarvestTarget( target )
     return harvested
 end
 
-function flora_collector:HarvestNearbyVegetation()
+function supper_collector:HarvestNearbyVegetation()
     -- 매 틱 하나의 식물을 찾아 즉시 채집한다. 드론 이동/대기 과정은 없다.
     local targets = self:FindBestVegetationEntity()
     if #targets == 0 then
@@ -335,7 +335,7 @@ function flora_collector:HarvestNearbyVegetation()
     end
 end
 
-function flora_collector:TimeoutHarvestHistory(time)
+function supper_collector:TimeoutHarvestHistory(time)
     -- 생산량 표시는 최근 60초 기록만 유지한다.
     for resourceName, data in pairs(self.harvested_resources) do
         for i, value in ipairs( data ) do
@@ -351,7 +351,7 @@ function flora_collector:TimeoutHarvestHistory(time)
     end
 end
 
-function flora_collector:GetHarvestHistoryAverage(resourceName, time)
+function supper_collector:GetHarvestHistoryAverage(resourceName, time)
     -- 최근 수확량을 시간으로 나눠 초당 생산량처럼 표시한다.
     local totalValue = 0.0
     local totalTime = 0.0
@@ -367,7 +367,7 @@ function flora_collector:GetHarvestHistoryAverage(resourceName, time)
     return { value = totalValue * 1.0, time = totalTime * 1.0 };
 end
 
-function flora_collector:OnUpdateProductionExecute(state, dt)
+function supper_collector:OnUpdateProductionExecute(state, dt)
     if g_debug_resource_harvester then
         self.debug:ChangeState("debug")
     else
@@ -413,4 +413,4 @@ function flora_collector:OnUpdateProductionExecute(state, dt)
     self:TimeoutHarvestHistory( time );
 end
 
-return flora_collector;
+return supper_collector;

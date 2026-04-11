@@ -1,5 +1,5 @@
 LogService:Log("loot rarity max by lilly")
-ConsoleService:Write("loot rarity max by lilly: weapon mod min values use max values")
+-- ConsoleService:Write("loot rarity max by lilly: weapon mod min values use max values")
 
 local g_weapon_mod_min_value_patched = false
 local g_weapon_item_stats_patched = false

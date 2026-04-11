@@ -1,11 +1,11 @@
 EntityBlueprint
 {
-	name  "buildings/resources/flora_collector_no_drone"
+	name  "buildings/resources/supper_collector_no_drone"
 
 	BuildingDesc
 	{
-		name 				"flora_collector_no_drone"
-		bp   				"buildings/resources/flora_collector_no_drone"
+		name 				"supper_collector_no_drone"
+		bp   				"buildings/resources/supper_collector_no_drone"
 		category 			"main"
 		localization_id		"gui/hud/building_name/flora_collector"
 		description			"gui/hud/building_description/flora_collector"
@@ -95,7 +95,7 @@ EntityBlueprint
 
 	LuaDesc
 	{
-		script "lua/buildings/resources/flora_collector_no_drone.lua"
+		script "lua/buildings/resources/supper_collector_no_drone.lua"
 		
 		database
 		{
@@ -107,7 +107,6 @@ EntityBlueprint
 			//drone_attachments	string:"att_landing"
 			//drone_per_spot		int:"2"
 
-			display_radius_group	 string:"cultivator_harvester"
 			display_radius_blueprint string:"effects/decals/range_circle_harvesting"
 		}
 	}

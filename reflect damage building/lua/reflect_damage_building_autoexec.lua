@@ -117,8 +117,8 @@ RegisterGlobalEventHandler("MissionFlowDeactivatedEvent", function(evt)
 	end
 	-----------------------------------------------
 	local entities = FindService:FindEntitiesByType( "building" )
-	ConsoleService:Write("FindEntitiesByType building : " .. tostring(#entities))
-	LogService:Log("FindEntitiesByType building : " .. tostring(#entities))
+	ConsoleService:Write("reflect damage building : " .. tostring(#entities))
+	LogService:Log("reflect damage building : " .. tostring(#entities))
 	for _,entity in pairs( entities ) do
 		apply_reflect_damage(entity)
 	end

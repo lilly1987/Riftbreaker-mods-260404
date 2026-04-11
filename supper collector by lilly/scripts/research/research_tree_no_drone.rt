@@ -28,7 +28,7 @@ Research
 					{
 						ResearchAward
 						{
-							blueprint "buildings/resources/flora_collector_no_drone"
+							blueprint "buildings/resources/supper_collector_no_drone"
 							is_visible "1"
 						}
 					}
@@ -48,4 +48,3 @@ Research
 
 	base_research "research_tree"
 }
-

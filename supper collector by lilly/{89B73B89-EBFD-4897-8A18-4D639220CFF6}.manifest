@@ -9,13 +9,13 @@ WorkspaceManifest
 	modified_game_files
 	title "c3VwcGVyIGNvbGxlY3RvciBieSBsaWxseQ=="
 	homepage
-	modio_published_file "0"
+	modio_published_file "5970885"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version
+	version "1.0.0"
 	localizations
 	author
-	steam_published_file "0"
+	steam_published_file "3704299902"
 	dependencies
 }
 

@@ -2,7 +2,7 @@
 --	LogService:Log(" PlayerCreatedEvent ".. tostring(evt:GetPlayerId()) )
 --end)
 LogService:Log("super upgrades item By Lilly"  )
-ConsoleService:Write("super upgrades item By Lilly 2604041259"  )
+-- ConsoleService:Write("super upgrades item By Lilly 2604041259"  )
 
 local DAMAGE_WEAPON_MOD_TYPES = {
 	"physical",
@@ -327,5 +327,5 @@ RegisterGlobalEventHandler("PlayerControlledEntityChangeEvent", function(evt)
 		-- PlayerService:EquipItemInSlot(player_id, item_entity, "UPGRADE_3")
 	--end
 	LogService:Log("super upgrades item By Lilly ended"  )
-	ConsoleService:Write("super upgrades item By Lilly ended"  )
+	-- ConsoleService:Write("super upgrades item By Lilly ended"  )
 end)
