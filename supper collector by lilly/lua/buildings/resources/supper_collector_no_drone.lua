@@ -283,6 +283,7 @@ function supper_collector:DestroyHarvestTarget( target )
         -- Units can mitigate or react differently to typed damage, so use the same
         -- high raw damage approach as the built-in cheat destroy command.
         QueueEvent( "DamageRequest", target, 99999, "", 0, 0 )
+        EntityService:RemoveEntity( target )
         return
     end
 

@@ -138,8 +138,8 @@ local list={
 -- "UnitAggressiveStateEvent",
 -- "UnitDeadStateEvent",
 -- "UpgradeBuildingRequest",
-"MissionFlowDeactivatedEvent",
-"MissionFlowActivatedEvent",
+-- "MissionFlowDeactivatedEvent",
+-- "MissionFlowActivatedEvent",
 }
 
 for _, event_name in ipairs(list) do
@@ -185,4 +185,14 @@ RegisterGlobalEventHandler("ChangeMinimapStateRequest", function(evt)
     -- LogService:Log("ChangeMinimapStateRequest")
     LogService:Log("ChangeMinimapStateRequest " .. evt:GetState())
     ConsoleService:Write("ChangeMinimapStateRequest " .. evt:GetState())
+end)
+
+RegisterGlobalEventHandler("MissionFlowActivatedEvent", function(evt)
+    LogService:Log("MissionFlowActivatedEvent " .. evt:GetName())
+    ConsoleService:Write("MissionFlowActivatedEvent " .. evt:GetName())
+end)
+
+RegisterGlobalEventHandler("MissionFlowDeactivatedEvent", function(evt)
+    LogService:Log("MissionFlowDeactivatedEvent " .. evt:GetName())
+    ConsoleService:Write("MissionFlowDeactivatedEvent " .. evt:GetName())
 end)

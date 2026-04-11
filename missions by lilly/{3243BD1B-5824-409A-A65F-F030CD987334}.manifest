@@ -1,0 +1,21 @@
+WorkspaceManifest
+{
+	description
+	tags
+	{
+		String "Missions"
+	}
+
+	modified_game_files
+	title "bWlzc2lvbnMgYnkgbGlsbHk="
+	homepage
+	modio_published_file "0"
+	visibility "0"
+	game_version "EXE: 1186 DATA: 847"
+	version
+	localizations
+	author
+	steam_published_file "0"
+	dependencies
+}
+
