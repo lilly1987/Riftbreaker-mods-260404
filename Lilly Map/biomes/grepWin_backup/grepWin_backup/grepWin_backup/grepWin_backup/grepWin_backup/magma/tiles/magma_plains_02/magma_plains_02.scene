@@ -1,0 +1,8466 @@
+entity_count "177"
+//editor "index(656)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "27.074"
+				z "-31.573"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(690)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-28.517"
+				z "49.535"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(691)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0"
+				y "-1"
+			}
+
+			position
+			{
+				x "61.363"
+				z "-27.053"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1171)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8249035"
+					y "-0.16930819"
+					z "-2.0015225"
+				}
+
+				max
+				{
+					x "1.6176116"
+					y "3.804253"
+					z "1.8349283"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.819"
+				y "0.573"
+			}
+
+			position
+			{
+				x "15.098"
+				y "0.1"
+				z "8.137"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1173)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8249035"
+					y "-0.16930819"
+					z "-2.0015225"
+				}
+
+				max
+				{
+					x "1.6176116"
+					y "3.804253"
+					z "1.8349283"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "0.009"
+			}
+
+			position
+			{
+				x "-19.611"
+				y "0.1"
+				z "34.141"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1174)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8249035"
+					y "-0.16930819"
+					z "-2.0015225"
+				}
+
+				max
+				{
+					x "1.6176116"
+					y "3.804253"
+					z "1.8349283"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.899"
+				y "-0.437"
+			}
+
+			position
+			{
+				x "-50.896"
+				y "0.1"
+				z "9.802"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1175)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8249035"
+					y "-0.16930819"
+					z "-2.0015225"
+				}
+
+				max
+				{
+					x "1.6176116"
+					y "3.804253"
+					z "1.8349283"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.292"
+				y "0.957"
+			}
+
+			position
+			{
+				x "-28.168"
+				y "0.1"
+				z "-16.024"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1176)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.720665"
+					y "-0.36354256"
+					z "-1.8677394"
+				}
+
+				max
+				{
+					x "1.80614"
+					y "3.2963243"
+					z "1.4941356"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				x "-58.907"
+				y "0.1"
+				z "25.616"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1178)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.720665"
+					y "-0.36354256"
+					z "-1.8677394"
+				}
+
+				max
+				{
+					x "1.80614"
+					y "3.2963243"
+					z "1.4941356"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.794"
+				y "-0.608"
+			}
+
+			position
+			{
+				x "-44.346"
+				y "0.1"
+				z "14.638"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1183)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.5"
+					y "-0.5"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.5"
+					y "0.5"
+					z "0.5"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "34.953"
+				y "-3"
+				z "37.866"
+			}
+
+			scale
+			{
+				x "52.882"
+				y "5.099"
+				z "43.139"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1281)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_big_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.3725812"
+					y "-0.21190453"
+					z "-1.8272231"
+				}
+
+				max
+				{
+					x "2.0613656"
+					y "5.0011606"
+					z "1.8516481"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.989"
+				y "0.15"
+			}
+
+			position
+			{
+				x "58.224"
+				y "0.15"
+				z "59.346"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1382)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.355197"
+					y "-0.91578054"
+					z "-4.253091"
+				}
+
+				max
+				{
+					x "3.6962242"
+					y "0.67948794"
+					z "4.248273"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.894"
+				y "-0.448"
+			}
+
+			position
+			{
+				x "59.911"
+				y "0.1"
+				z "0.583"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1384)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.0450416"
+					y "-0.14794648"
+					z "-3.8137822"
+				}
+
+				max
+				{
+					x "3.2823682"
+					y "1.7733481"
+					z "4.3747506"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.383"
+				y "-0.924"
+			}
+
+			position
+			{
+				x "47.271"
+				y "0.1"
+				z "1.124"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1385)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.0450416"
+					y "-0.14794648"
+					z "-3.8137822"
+				}
+
+				max
+				{
+					x "3.2823682"
+					y "1.7733481"
+					z "4.3747506"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.383"
+				y "-0.924"
+			}
+
+			position
+			{
+				x "53.229"
+				y "0.1"
+				z "-15.011"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1386)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_big_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.3725812"
+					y "-0.21190453"
+					z "-1.8272231"
+				}
+
+				max
+				{
+					x "2.0613656"
+					y "5.0011606"
+					z "1.8516481"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.938"
+				y "-0.346"
+			}
+
+			position
+			{
+				x "60.052"
+				y "0.15"
+				z "55.382"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1465)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8249035"
+					y "-0.16930819"
+					z "-2.0015225"
+				}
+
+				max
+				{
+					x "1.6176116"
+					y "3.804253"
+					z "1.8349283"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.677"
+				y "0.736"
+			}
+
+			position
+			{
+				x "12.987"
+				y "0.15"
+				z "38.917"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1499)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-8.157025"
+					y "-2.9287834"
+					z "-5.052409"
+				}
+
+				max
+				{
+					x "7.404502"
+					y "6.5530415"
+					z "4.9126263"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.985"
+				y "0.174"
+			}
+
+			position
+			{
+				x "-18.027"
+				y "0.681"
+				z "-34.554"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1511)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.5"
+					y "-0.5"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.5"
+					y "0.5"
+					z "0.5"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-14.969"
+				y "2.792"
+				z "-48.554"
+			}
+
+			scale
+			{
+				x "19.057"
+				y "5.099"
+				z "18.328"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1512)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.8606453"
+					y "-6.0558424"
+					z "-6.2029305"
+				}
+
+				max
+				{
+					x "6.1123466"
+					y "6.647238"
+					z "6.2511816"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.383"
+				z "-0.924"
+			}
+
+			position
+			{
+				x "-25.121"
+				y "1.617"
+				z "-40.418"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1513)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.845742"
+					y "-5.016921"
+					z "-4.268674"
+				}
+
+				max
+				{
+					x "5.6237993"
+					y "5.978429"
+					z "4.232929"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				z "-0.383"
+			}
+
+			position
+			{
+				x "-27.121"
+				y "1.995"
+				z "-44.151"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1514)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.537303"
+					y "-4.2164555"
+					z "-5.53362"
+				}
+
+				max
+				{
+					x "4.28232"
+					y "3.577818"
+					z "6.8056173"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0"
+				z "-1"
+			}
+
+			position
+			{
+				x "-20.607"
+				y "5.863"
+				z "-40.772"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1515)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_07"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.1926603"
+					y "-4.8678074"
+					z "-6.2989616"
+				}
+
+				max
+				{
+					x "4.4854164"
+					y "4.1457987"
+					z "5.8064804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "-0.676"
+			}
+
+			position
+			{
+				x "-8.291"
+				y "0.05"
+				z "-36.754"
+			}
+
+			scale
+			{
+				x "1.323"
+				y "1.323"
+				z "1.323"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1516)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.9121885"
+					y "-4.698682"
+					z "-4.5710745"
+				}
+
+				max
+				{
+					x "6.9247217"
+					y "5.7396164"
+					z "4.589196"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.954"
+				y "-0.301"
+			}
+
+			position
+			{
+				x "-12.022"
+				y "6.924"
+				z "-40.065"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1517)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_06"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.413988"
+					y "-5.206376"
+					z "-5.1993513"
+				}
+
+				max
+				{
+					x "4.4169292"
+					y "5.4467077"
+					z "6.609769"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.383"
+				y "0.924"
+			}
+
+			position
+			{
+				x "-5.187"
+				y "3.172"
+				z "-41.618"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1518)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.457415"
+					y "-4.497912"
+					z "-3.1193871"
+				}
+
+				max
+				{
+					x "3.6959949"
+					y "4.4194865"
+					z "3.2095275"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-17.084"
+				y "5.127"
+				z "-38.931"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1519)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.8606453"
+					y "-6.0558424"
+					z "-6.2029305"
+				}
+
+				max
+				{
+					x "6.1123466"
+					y "6.647238"
+					z "6.2511816"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.643"
+				z "-0.766"
+			}
+
+			position
+			{
+				x "-24.22"
+				y "3.555"
+				z "-57.503"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1520)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.8606453"
+					y "-6.0558424"
+					z "-6.2029305"
+				}
+
+				max
+				{
+					x "6.1123466"
+					y "6.647238"
+					z "6.2511816"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.262"
+				x "0.604"
+				y "0.22"
+				z "-0.72"
+			}
+
+			position
+			{
+				x "-17.416"
+				y "3.456"
+				z "-59.225"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1521)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.9121885"
+					y "-4.698682"
+					z "-4.5710745"
+				}
+
+				max
+				{
+					x "6.9247217"
+					y "5.7396164"
+					z "4.589196"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.999"
+				z "-0.044"
+			}
+
+			position
+			{
+				x "-3.107"
+				y "4.058"
+				z "-54.974"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1522)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.537303"
+					y "-4.2164555"
+					z "-5.53362"
+				}
+
+				max
+				{
+					x "4.28232"
+					y "3.577818"
+					z "6.8056173"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "-0.737"
+				z "-0.676"
+			}
+
+			position
+			{
+				x "-10.688"
+				y "2.594"
+				z "-59.43"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1523)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_07"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.1926603"
+					y "-4.8678074"
+					z "-6.2989616"
+				}
+
+				max
+				{
+					x "4.4854164"
+					y "4.1457987"
+					z "5.8064804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.711"
+				x "-0.453"
+				y "-0.453"
+				z "-0.289"
+			}
+
+			position
+			{
+				x "-6.22"
+				y "3.565"
+				z "-58.07"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1524)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.457415"
+					y "-4.497912"
+					z "-3.1193871"
+				}
+
+				max
+				{
+					x "3.6959949"
+					y "4.4194865"
+					z "3.2095275"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				x "-0.676"
+			}
+
+			position
+			{
+				x "-3.981"
+				y "5"
+				z "-47.922"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1525)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.042967"
+					y "-3.1020594"
+					z "-3.1665926"
+				}
+
+				max
+				{
+					x "4.0060253"
+					y "3.1021023"
+					z "3.7921572"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.537"
+				y "-0.843"
+			}
+
+			position
+			{
+				x "-7.003"
+				y "6.02"
+				z "-53.492"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1526)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4332933"
+					y "-1.6212146"
+					z "-2.4504771"
+				}
+
+				max
+				{
+					x "1.4343181"
+					y "2.0776708"
+					z "2.3121943"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.434"
+				x "-0.158"
+				y "-0.834"
+				z "0.303"
+			}
+
+			position
+			{
+				x "-11.821"
+				y "5.4"
+				z "-55.392"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1527)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_small_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.841403"
+					y "-2.638031"
+					z "-2.2123747"
+				}
+
+				max
+				{
+					x "1.7662153"
+					y "2.5217047"
+					z "2.1587648"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-23.01"
+				y "4.947"
+				z "-50.701"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1528)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_06"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.971033"
+					y "-2.276579"
+					z "-4.5388966"
+				}
+
+				max
+				{
+					x "4.2617683"
+					y "3.871117"
+					z "3.838481"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-23.484"
+				y "6.116"
+				z "-45.958"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1529)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.8445683"
+					y "-2.6081214"
+					z "-5.3304386"
+				}
+
+				max
+				{
+					x "4.0156794"
+					y "2.6262941"
+					z "4.519869"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-26.276"
+				y "6.1"
+				z "-48.809"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1530)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.8606453"
+					y "-6.0558424"
+					z "-6.2029305"
+				}
+
+				max
+				{
+					x "6.1123466"
+					y "6.647238"
+					z "6.2511816"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.383"
+				z "-0.924"
+			}
+
+			position
+			{
+				x "-28.266"
+				y "1.507"
+				z "-49.792"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1531)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_06"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.971033"
+					y "-2.276579"
+					z "-4.5388966"
+				}
+
+				max
+				{
+					x "4.2617683"
+					y "3.871117"
+					z "3.838481"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "-0.737"
+			}
+
+			position
+			{
+				x "-30.721"
+				y "0.1"
+				z "-38.589"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1532)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.8445683"
+					y "-2.6081214"
+					z "-5.3304386"
+				}
+
+				max
+				{
+					x "4.0156794"
+					y "2.6262941"
+					z "4.519869"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.819"
+				y "-0.574"
+			}
+
+			position
+			{
+				x "-32.34"
+				y "0.05"
+				z "-46.999"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1533)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_06"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.971033"
+					y "-2.276579"
+					z "-4.5388966"
+				}
+
+				max
+				{
+					x "4.2617683"
+					y "3.871117"
+					z "3.838481"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-29.19"
+				y "0.05"
+				z "-57.228"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1534)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_medium_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.042967"
+					y "-3.1020594"
+					z "-3.1665926"
+				}
+
+				max
+				{
+					x "4.0060253"
+					y "3.1021023"
+					z "3.7921572"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-7.235"
+				y "0.1"
+				z "-61.209"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1535)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.8606453"
+					y "-6.0558424"
+					z "-6.2029305"
+				}
+
+				max
+				{
+					x "6.1123466"
+					y "6.647238"
+					z "6.2511816"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.131"
+				z "-0.991"
+			}
+
+			position
+			{
+				x "0.29"
+				y "2.075"
+				z "-43.767"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1536)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_big_06"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.413988"
+					y "-5.206376"
+					z "-5.1993513"
+				}
+
+				max
+				{
+					x "4.4169292"
+					y "5.4467077"
+					z "6.609769"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.316"
+				x "0.868"
+				y "0.36"
+				z "0.131"
+			}
+
+			position
+			{
+				x "0.151"
+				y "3.737"
+				z "-49.799"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1537)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "0.919"
+				z "-35.917"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1538)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-13.952"
+				y "0.05"
+				z "-29.716"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1539)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-26.319"
+				y "0.05"
+				z "-32.796"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1540)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36.302"
+				y "0.05"
+				z "-41.049"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1541)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-34.222"
+				y "0.05"
+				z "-52.928"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1542)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-29.016"
+				y "0.05"
+				z "-61.876"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1544)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "3.309"
+				y "0.05"
+				z "-56.345"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1545)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1552148"
+					y "-0.35906756"
+					z "-3.103745"
+				}
+
+				max
+				{
+					x "2.164445"
+					y "0.79745173"
+					z "1.9343128"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "5.63"
+				y "0.05"
+				z "-49.918"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1546)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.222165"
+					y "-0.7751783"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "2.7761922"
+					y "0.61744976"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "5.819"
+				y "0.05"
+				z "-41.905"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1547)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.222165"
+					y "-0.7751783"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "2.7761922"
+					y "0.61744976"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-4.512"
+				y "0.1"
+				z "-32.412"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1548)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.222165"
+					y "-0.7751783"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "2.7761922"
+					y "0.61744976"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "0.063"
+				y "0.1"
+				z "-59.752"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1549)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.222165"
+					y "-0.7751783"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "2.7761922"
+					y "0.61744976"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-19.953"
+				y "0.1"
+				z "-30.905"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1550)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.222165"
+					y "-0.7751783"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "2.7761922"
+					y "0.61744976"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-35.503"
+				y "0.1"
+				z "-47.293"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1551)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.222165"
+					y "-0.7751783"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "2.7761922"
+					y "0.61744976"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-21.559"
+				y "0.1"
+				z "-62.646"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1553)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.2640252"
+					y "-0.6042594"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "3.07968"
+					y "0.72505176"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-14.584"
+				y "0.1"
+				z "-62.886"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1554)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.2640252"
+					y "-0.6042594"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "3.07968"
+					y "0.72505176"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "4.438"
+				y "0.1"
+				z "-54.22"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1555)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.2640252"
+					y "-0.6042594"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "3.07968"
+					y "0.72505176"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "2.608"
+				y "0.1"
+				z "-39.377"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1556)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.2640252"
+					y "-0.6042594"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "3.07968"
+					y "0.72505176"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-9.879"
+				y "0.1"
+				z "-31.284"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1557)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.2640252"
+					y "-0.6042594"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "3.07968"
+					y "0.72505176"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24.214"
+				y "0.1"
+				z "-28.982"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1558)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1193514"
+					y "-0.618332"
+					z "-2.5841994"
+				}
+
+				max
+				{
+					x "1.7359409"
+					y "0.88524616"
+					z "1.7020226"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.766"
+				y "0.643"
+			}
+
+			position
+			{
+				x "-30.369"
+				y "0.05"
+				z "-34.38"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1559)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1193514"
+					y "-0.618332"
+					z "-2.5841994"
+				}
+
+				max
+				{
+					x "1.7359409"
+					y "0.88524616"
+					z "1.7020226"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.766"
+				y "0.643"
+			}
+
+			position
+			{
+				x "-32.796"
+				y "0.1"
+				z "-58.718"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1560)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1193514"
+					y "-0.618332"
+					z "-2.5841994"
+				}
+
+				max
+				{
+					x "1.7359409"
+					y "0.88524616"
+					z "1.7020226"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.766"
+				y "0.643"
+			}
+
+			position
+			{
+				x "-3.494"
+				y "0.1"
+				z "-63.222"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1561)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1193514"
+					y "-0.618332"
+					z "-2.5841994"
+				}
+
+				max
+				{
+					x "1.7359409"
+					y "0.88524616"
+					z "1.7020226"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.766"
+				y "0.643"
+			}
+
+			position
+			{
+				x "-17.21"
+				y "0.1"
+				z "-63.361"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1562)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_04"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1193514"
+					y "-0.618332"
+					z "-2.5841994"
+				}
+
+				max
+				{
+					x "1.7359409"
+					y "0.88524616"
+					z "1.7020226"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.766"
+				y "0.643"
+			}
+
+			position
+			{
+				x "-20.555"
+				y "5.253"
+				z "-49.721"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1563)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.2640252"
+					y "-0.6042594"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "3.07968"
+					y "0.72505176"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-14.935"
+				y "5.498"
+				z "-42.838"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1564)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/volcanic/volcanic_rock_debris_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.2640252"
+					y "-0.6042594"
+					z "-3.5832872"
+				}
+
+				max
+				{
+					x "3.07968"
+					y "0.72505176"
+					z "2.6885738"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-6.208"
+				y "5.54"
+				z "-48.751"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1565)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_medium_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.3174787"
+					y "-1.3717904"
+					z "-4.6067142"
+				}
+
+				max
+				{
+					x "4.6025805"
+					y "3.4569478"
+					z "4.417699"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.953"
+				x "-0.042"
+				y "0.3"
+				z "0.013"
+			}
+
+			position
+			{
+				x "-15.601"
+				y "5"
+				z "-49.526"
+			}
+
+			scale
+			{
+				x "0.469"
+				y "0.469"
+				z "0.469"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1566)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8287015"
+					y "-1.3240297"
+					z "-2.0093505"
+				}
+
+				max
+				{
+					x "1.8791866"
+					y "2.0956974"
+					z "1.8427026"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-8.478"
+				y "5.05"
+				z "-42.603"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1567)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_small_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.2599053"
+					y "-0.850827"
+					z "-2.777155"
+				}
+
+				max
+				{
+					x "2.3504138"
+					y "1.5387518"
+					z "2.839551"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-5.731"
+				y "4.973"
+				z "-49.066"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1568)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_small_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.3345604"
+					y "-1.3183198"
+					z "-1.679861"
+				}
+
+				max
+				{
+					x "2.2803888"
+					y "1.9616241"
+					z "1.8426007"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "-0.676"
+			}
+
+			position
+			{
+				x "-19.876"
+				y "5.196"
+				z "-46.758"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1570)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_small_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.3345604"
+					y "-1.3183198"
+					z "-1.679861"
+				}
+
+				max
+				{
+					x "2.2803888"
+					y "1.9616241"
+					z "1.8426007"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.042"
+				x "0.259"
+				y "0.011"
+				z "0.965"
+			}
+
+			position
+			{
+				x "-14.512"
+				y "5.05"
+				z "-56.197"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1571)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_small_02"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.2599053"
+					y "-0.850827"
+					z "-2.777155"
+				}
+
+				max
+				{
+					x "2.3504138"
+					y "1.5387518"
+					z "2.839551"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.079"
+				x "-0.903"
+				y "0.037"
+				z "-0.421"
+			}
+
+			position
+			{
+				x "-9.738"
+				y "5.05"
+				z "-53.715"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1572)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_medium_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.3174787"
+					y "-1.3717904"
+					z "-4.6067142"
+				}
+
+				max
+				{
+					x "4.6025805"
+					y "3.4569478"
+					z "4.417699"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.117"
+				x "-0.73"
+				y "-0.011"
+				z "0.674"
+			}
+
+			position
+			{
+				x "-20.194"
+				y "5.351"
+				z "-54.59"
+			}
+
+			scale
+			{
+				x "0.469"
+				y "0.469"
+				z "0.469"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1573)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/lava/lava_medium_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.3174787"
+					y "-1.3717904"
+					z "-4.6067142"
+				}
+
+				max
+				{
+					x "4.6025805"
+					y "3.4569478"
+					z "4.417699"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.021"
+				x "-0.739"
+				y "-0.099"
+				z "0.666"
+			}
+
+			position
+			{
+				x "-12.966"
+				y "5.359"
+				z "-42.99"
+			}
+
+			scale
+			{
+				x "0.469"
+				y "0.469"
+				z "0.469"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1576)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-10.225"
+				y "5.05"
+				z "-46.072"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1577)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_small"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-16.563"
+				y "5"
+				z "-53.131"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1578)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "30.292"
+				y "-0.531"
+				z "27.224"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1579)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "43.618"
+				y "-0.531"
+				z "45.552"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1580)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "26.765"
+				y "-0.531"
+				z "40.138"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1581)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_small"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "43.616"
+				y "-0.412"
+				z "31.343"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1582)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_small"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "54.224"
+				y "-0.412"
+				z "46.681"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1583)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_small"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "34.047"
+				y "-0.412"
+				z "35.33"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1786)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_medium_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8249035"
+					y "-0.16930819"
+					z "-2.0015225"
+				}
+
+				max
+				{
+					x "1.6176116"
+					y "3.804253"
+					z "1.8349283"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "59.144"
+				y "0.05"
+				z "-63.138"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1787)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_big_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1482081"
+					y "-0.36305618"
+					z "-1.6518726"
+				}
+
+				max
+				{
+					x "2.0676332"
+					y "4.8375964"
+					z "2.6784048"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "38.056"
+				y "0.05"
+				z "-1.137"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1790)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "18.642"
+				y "0.05"
+				z "-61.334"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1791)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "-48.993"
+				y "0.1"
+				z "-61.681"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1792)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-61.929"
+				y "0.1"
+				z "-37.106"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1793)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-61.369"
+				y "0.15"
+				z "10.795"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1794)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-42.752"
+				y "0.15"
+				z "61.019"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1795)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "5.793"
+				y "0.2"
+				z "61.814"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1796)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "38.819"
+				z "-40.71"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1797)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-50.423"
+				y "0.05"
+				z "-21.975"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1798)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "38.795"
+				z "2.697"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1799)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "32.836"
+				z "1.798"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1800)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "36.451"
+				z "0.482"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1801)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "36.342"
+				z "1.463"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "11.197"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1802)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "25.415"
+				y "0.05"
+				z "-0.769"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1803)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "35.545"
+				z "4.779"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1804)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-50.658"
+				z "25.011"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1805)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-56.617"
+				z "24.112"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1806)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-53.002"
+				z "22.796"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1807)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-53.908"
+				z "27.093"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1808)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "-53.111"
+				z "23.777"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "11.197"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1809)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-49.839"
+				y "0.05"
+				z "11.776"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1810)"
+EntityTemplate
+{
+	base_blueprint "props/grass/black_big_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1482081"
+					y "-0.36305618"
+					z "-1.6518726"
+				}
+
+				max
+				{
+					x "2.0676332"
+					y "4.8375964"
+					z "2.6784048"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-51.396"
+				y "0.05"
+				z "21.176"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1811)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-47.901"
+				y "0.05"
+				z "-35.429"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "12.444"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1812)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "42.172"
+				y "0.05"
+				z "-26.234"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "12.444"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1813)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-23.944"
+				y "0.05"
+				z "-9.952"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "12.444"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1814)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-18.671"
+				y "0.05"
+				z "35.417"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "12.444"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1815)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "7.512"
+				y "0.05"
+				z "-34.588"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1816)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "15.439"
+				y "0.05"
+				z "9.101"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1841)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-59.884"
+				y "0.05"
+				z "59.674"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1842)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-38.132"
+				y "0.05"
+				z "50.536"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1843)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-14.127"
+				y "0.05"
+				z "27.378"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1845)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-6.107"
+				y "0.05"
+				z "10.937"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1848)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "61.56"
+				y "0.05"
+				z "-41.775"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1849)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "31.796"
+				y "0.05"
+				z "-48.093"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1850)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "5.968"
+				y "0.05"
+				z "-59.983"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1851)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-11.673"
+				y "0.05"
+				z "-20.649"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1852)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-29.112"
+				y "0.05"
+				z "-27.747"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1854)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-37.165"
+				y "0.05"
+				z "-55.964"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1855)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58.94"
+				y "0.05"
+				z "-25.712"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1856)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58.938"
+				y "0.05"
+				z "-58.814"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1857)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58.807"
+				y "0.05"
+				z "-0.816"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1858)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24.221"
+				y "0.05"
+				z "2.927"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1860)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-3.461"
+				y "0.05"
+				z "58.407"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1861)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24.925"
+				y "0.05"
+				z "57.178"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1862)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "57.678"
+				y "0.05"
+				z "57.227"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1864)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "54.84"
+				y "0.05"
+				z "-20.845"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1865)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "59.964"
+				y "0.05"
+				z "22.436"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1866)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "6.126"
+				y "0.05"
+				z "46.237"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1867)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-42.533"
+				y "0.05"
+				z "12.397"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1868)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "17.105"
+				y "0.05"
+				z "13.939"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1869)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "1.599"
+				y "0.05"
+				z "-31.856"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1872)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_big_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-7.1401196"
+					y "-1.4420605"
+					z "-8.623724"
+				}
+
+				max
+				{
+					x "7.6028576"
+					y "14.637251"
+					z "10.053444"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.866"
+				y "-0.5"
+			}
+
+			position
+			{
+				x "-1.477"
+				y "4.828"
+				z "-46.1"
+			}
+
+			scale
+			{
+				x "0.789"
+				y "0.789"
+				z "0.789"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1873)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_big_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.384651"
+					y "-1.0138588"
+					z "-7.888446"
+				}
+
+				max
+				{
+					x "5.7606907"
+					y "15.696678"
+					z "10.805442"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.985"
+				y "0.173"
+			}
+
+			position
+			{
+				x "-20.1"
+				y "7.599"
+				z "-39.193"
+			}
+
+			scale
+			{
+				x "0.647"
+				y "0.647"
+				z "0.647"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1874)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_medium_03"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.128874"
+					y "-1.020545"
+					z "-5.5231714"
+				}
+
+				max
+				{
+					x "4.4166756"
+					y "8.886655"
+					z "3.7295113"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				x "0.022"
+				y "-0.865"
+				z "-0.038"
+			}
+
+			position
+			{
+				x "-23.989"
+				y "6.727"
+				z "-57.016"
+			}
+
+			scale
+			{
+				x "0.805"
+				z "0.7"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1875)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "57.61"
+				y "0.1"
+				z "-59.996"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1876)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "35.861"
+				y "0.05"
+				z "34.939"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1877)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-44.681"
+				z "-55.883"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1878)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-41.066"
+				z "-57.199"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1879)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-38.722"
+				z "-54.984"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1880)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "-41.972"
+				z "-52.902"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1881)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "-41.178"
+				z "-56.195"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "11.197"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1882)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "15.391"
+				y "-0"
+				z "57.188"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1883)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "9.432"
+				y "-0"
+				z "56.289"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1884)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "13.047"
+				y "-0"
+				z "54.973"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1885)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "12.141"
+				y "-0"
+				z "59.27"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1886)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "12.92"
+				y "-0"
+				z "55.944"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "11.197"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1887)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-9.395"
+				y "0.05"
+				z "23.86"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1888)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-55.901"
+				y "0.1"
+				z "51.637"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "12.444"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1889)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-23.223"
+				y "5.996"
+				z "-40.764"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1890)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-23.918"
+				y "2.954"
+				z "-41.992"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1892)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.698"
+				y "0.716"
+			}
+
+			position
+			{
+				x "-22.283"
+				y "2.95"
+				z "-41.87"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1893)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-18.991"
+				y "2.954"
+				z "-42.673"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1894)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-22.728"
+				y "0.518"
+				z "-39.857"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1895)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-20.452"
+				y "-1.045"
+				z "-38.667"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1896)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.366"
+				x "0.209"
+				y "-0.59"
+				z "-0.689"
+			}
+
+			position
+			{
+				x "-19.155"
+				y "-0.331"
+				z "-38.908"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1897)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-22.102"
+				y "2.724"
+				z "-40.944"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1898)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.457"
+				y "-0.889"
+			}
+
+			position
+			{
+				x "-19.774"
+				y "2.44"
+				z "-41.422"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1899)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.809"
+				y "-0.587"
+			}
+
+			position
+			{
+				x "-19.572"
+				y "1.462"
+				z "-40.433"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1900)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-18.742"
+				y "1.354"
+				z "-37.52"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1901)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.64"
+				x "0.59"
+				y "0.445"
+				z "-0.211"
+			}
+
+			position
+			{
+				x "-16.313"
+				y "2.951"
+				z "-41.606"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1902)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.603"
+				x "-0.251"
+				y "0.466"
+				z "-0.597"
+			}
+
+			position
+			{
+				x "-15.228"
+				y "2.786"
+				z "-40.336"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1903)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.602"
+				x "0.292"
+				y "0.43"
+				z "-0.606"
+			}
+
+			position
+			{
+				x "-16.634"
+				y "2.954"
+				z "-42"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1904)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.654"
+				x "-0.077"
+				y "-0.486"
+				z "-0.575"
+			}
+
+			position
+			{
+				x "-14.364"
+				y "2.954"
+				z "-38.517"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1905)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-14.311"
+				y "2.954"
+				z "-39.109"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1906)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.517"
+				x "0.43"
+				y "0.452"
+				z "0.586"
+			}
+
+			position
+			{
+				x "-11.683"
+				y "2.954"
+				z "-38.148"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1907)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.661"
+				x "-0.299"
+				y "-0.686"
+				z "-0.061"
+			}
+
+			position
+			{
+				x "-11.201"
+				y "2.954"
+				z "-39.236"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1908)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.582"
+				x "0.131"
+				y "-0.778"
+				z "0.2"
+			}
+
+			position
+			{
+				x "-11.914"
+				y "2.677"
+				z "-37.908"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1909)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				x "-0.241"
+				y "-0.922"
+				z "-0.292"
+			}
+
+			position
+			{
+				x "-9.126"
+				y "2.637"
+				z "-37.894"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1910)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.94"
+				x "-0.247"
+				y "-0.236"
+				z "0.005"
+			}
+
+			position
+			{
+				x "-8.49"
+				y "2.954"
+				z "-38.687"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1911)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "-16.444"
+				y "2.952"
+				z "-41.775"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1912)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/jagged/jagged_small_05"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6186438"
+					y "-1.5141678"
+					z "-3.3121514"
+				}
+
+				max
+				{
+					x "3.2881365"
+					y "5.6315875"
+					z "3.5905032"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.153"
+				x "-0.497"
+				y "0.353"
+				z "-0.778"
+			}
+
+			position
+			{
+				x "-14.12"
+				y "5.948"
+				z "-39.862"
+			}
+
+		}
+
+	}
+
+}
+

@@ -2,7 +2,7 @@ entity_count "1906"
 //editor "index(431)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_mud_swamp"
+	base_blueprint "resources/volume_random_liquids"
 	components
 	{
 		LocalAabbDesc
@@ -56732,7 +56732,7 @@ EntityTemplate
 //editor "index(9357)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_mud_swamp"
+	base_blueprint "resources/volume_random_liquids"
 	components
 	{
 		LocalAabbDesc

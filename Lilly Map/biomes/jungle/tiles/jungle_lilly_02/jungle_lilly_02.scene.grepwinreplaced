@@ -1,0 +1,8145 @@
+entity_count "175"
+//editor "index(2)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.709"
+				y "-0.705"
+			}
+
+			position
+			{
+				x "34.793"
+				z "-17.538"
+			}
+
+			scale
+			{
+				x "12.417"
+				y "6.924"
+				z "11.368"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-32.963"
+				z "35.979"
+			}
+
+			scale
+			{
+				x "8.652"
+				y "3.078"
+				z "10.607"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(5)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-5.466"
+				z "-18.914"
+			}
+
+			scale
+			{
+				x "14.969"
+				z "19.846"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "-2.452"
+				z "1.821"
+			}
+
+			scale
+			{
+				x "5.866"
+				z "7.655"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(7)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-55.954"
+				z "-13.247"
+			}
+
+			scale
+			{
+				x "13.353"
+				z "15.627"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "5.885"
+				z "-5.783"
+			}
+
+			scale
+			{
+				x "5.866"
+				z "7.655"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(11)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "45.874"
+				z "39.616"
+			}
+
+			scale
+			{
+				x "14.969"
+				z "19.846"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(61)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5677953"
+					y "-0.16694546"
+					z "-1.6118486"
+				}
+
+				max
+				{
+					x "1.898737"
+					y "2.5327706"
+					z "1.838773"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.818"
+				y "-0.576"
+			}
+
+			position
+			{
+				x "0.007"
+				z "34.087"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(89)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.762368"
+					y "-0.33757496"
+					z "-1.3970764"
+				}
+
+				max
+				{
+					x "1.3448973"
+					y "5.462425"
+					z "1.4589326"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-20.708"
+				z "11.426"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(100)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5677953"
+					y "-0.16694546"
+					z "-1.6118486"
+				}
+
+				max
+				{
+					x "1.898737"
+					y "2.5327706"
+					z "1.838773"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.371"
+				y "-0.929"
+			}
+
+			position
+			{
+				x "11.326"
+				z "22.952"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(326)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5677953"
+					y "-0.16694546"
+					z "-1.6118486"
+				}
+
+				max
+				{
+					x "1.898737"
+					y "2.5327706"
+					z "1.838773"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.931"
+				y "-0.364"
+			}
+
+			position
+			{
+				x "-25.188"
+				z "-50.192"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(342)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5677953"
+					y "-0.16694546"
+					z "-1.6118486"
+				}
+
+				max
+				{
+					x "1.898737"
+					y "2.5327706"
+					z "1.838773"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.96"
+				y "0.28"
+			}
+
+			position
+			{
+				x "-8.075"
+				z "-44.1"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(380)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5677953"
+					y "-0.16694546"
+					z "-1.6118486"
+				}
+
+				max
+				{
+					x "1.898737"
+					y "2.5327706"
+					z "1.838773"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.751"
+				y "-0.66"
+			}
+
+			position
+			{
+				x "10.756"
+				z "50.316"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(512)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.762368"
+					y "-0.33757496"
+					z "-1.3970764"
+				}
+
+				max
+				{
+					x "1.3448973"
+					y "5.462425"
+					z "1.4589326"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-44.619"
+				z "-9.365"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(513)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.3022265"
+					y "-0.31999302"
+					z "-1.4270587"
+				}
+
+				max
+				{
+					x "1.3022265"
+					y "5.4799933"
+					z "1.4270587"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58.162"
+				z "-26.664"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(514)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.011"
+				y "-1"
+			}
+
+			position
+			{
+				x "-29.517"
+				z "-54.643"
+			}
+
+			scale
+			{
+				x "0.946"
+				y "1.076"
+				z "0.923"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(515)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.558"
+				y "-0.83"
+			}
+
+			position
+			{
+				x "-19.041"
+				z "-5.793"
+			}
+
+			scale
+			{
+				x "0.779"
+				y "1.039"
+				z "0.994"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(516)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.664"
+				y "0.748"
+			}
+
+			position
+			{
+				x "-57.31615"
+				z "-51.749317"
+			}
+
+			scale
+			{
+				x "0.986"
+				y "0.956"
+				z "0.956"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(517)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.987"
+				y "-0.161"
+			}
+
+			position
+			{
+				x "-20.924"
+				z "13.477"
+			}
+
+			scale
+			{
+				x "0.825"
+				y "1.226"
+				z "1.134"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(518)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.992"
+				y "0.128"
+			}
+
+			position
+			{
+				x "-22.094"
+				z "3.673"
+			}
+
+			scale
+			{
+				x "0.967"
+				y "0.877"
+				z "1.217"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(519)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.735301"
+					y "-0.98069"
+					z "-5.7401104"
+				}
+
+				max
+				{
+					x "5.6789694"
+					y "17.32888"
+					z "5.810354"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "1.022"
+				z "33.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(520)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.056"
+				y "0.998"
+			}
+
+			position
+			{
+				x "-10.105"
+				z "-52.04"
+			}
+
+			scale
+			{
+				x "1.111"
+				y "0.951"
+				z "1.158"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(521)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.031"
+			}
+
+			position
+			{
+				x "-24.632"
+				z "31.982"
+			}
+
+			scale
+			{
+				x "1.114"
+				y "0.975"
+				z "0.874"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(522)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_big_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.988987"
+					y "-1.224699"
+					z "-6.6430664"
+				}
+
+				max
+				{
+					x "7.081295"
+					y "14.416977"
+					z "6.873252"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-8.978"
+				z "-45.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(523)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_big_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-7.3162165"
+					y "-1.2311058"
+					z "-7.089775"
+				}
+
+				max
+				{
+					x "5.1055307"
+					y "14.768894"
+					z "6.938241"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "20.022"
+				z "-4.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(524)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.997"
+				y "-0.074"
+			}
+
+			position
+			{
+				x "-25.29322"
+				y "-3.0517578e-05"
+				z "-55.75417"
+			}
+
+			scale
+			{
+				x "1.061"
+				y "0.763"
+				z "1.058"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(525)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.833"
+				y "-0.553"
+			}
+
+			position
+			{
+				x "8.681"
+				z "-18.281"
+			}
+
+			scale
+			{
+				x "1.018"
+				y "0.778"
+				z "1.102"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(526)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.716"
+				y "0.698"
+			}
+
+			position
+			{
+				x "-6.537"
+				z "-30.388"
+			}
+
+			scale
+			{
+				x "1.185"
+				y "0.771"
+				z "0.878"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(527)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "0.019"
+			}
+
+			position
+			{
+				x "26.824"
+				z "22.955"
+			}
+
+			scale
+			{
+				x "1.179"
+				y "0.942"
+				z "0.814"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(528)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.961"
+				y "0.278"
+			}
+
+			position
+			{
+				x "14.839"
+				y "-0"
+				z "16.858"
+			}
+
+			scale
+			{
+				x "1.112"
+				y "1.159"
+				z "1.198"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(529)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.997"
+				y "-0.076"
+			}
+
+			position
+			{
+				x "48.395"
+				z "54.71"
+			}
+
+			scale
+			{
+				x "0.885"
+				y "0.876"
+				z "1.005"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(530)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.044"
+			}
+
+			position
+			{
+				x "36.508"
+				z "23.05"
+			}
+
+			scale
+			{
+				x "1.124"
+				y "0.862"
+				z "0.957"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(531)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.965"
+				y "0.264"
+			}
+
+			position
+			{
+				x "-14.248"
+				z "-48.267"
+			}
+
+			scale
+			{
+				x "0.94"
+				y "1.079"
+				z "0.802"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(532)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.948"
+				y "0.318"
+			}
+
+			position
+			{
+				x "-6.225"
+				z "-48.309"
+			}
+
+			scale
+			{
+				x "1.003"
+				y "0.883"
+				z "0.853"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(533)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.901"
+				y "0.434"
+			}
+
+			position
+			{
+				x "-3.788"
+				z "-42.432"
+			}
+
+			scale
+			{
+				x "1.24"
+				y "0.837"
+				z "1.05"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(534)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.955"
+				y "-0.296"
+			}
+
+			position
+			{
+				x "-5.524"
+				z "-46.634"
+			}
+
+			scale
+			{
+				x "1.035"
+				y "0.847"
+				z "1.093"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(535)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.457"
+				y "0.89"
+			}
+
+			position
+			{
+				x "-9.087"
+				z "-50.686"
+			}
+
+			scale
+			{
+				x "0.925"
+				y "1.028"
+				z "1.01"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(536)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.993"
+				y "0.119"
+			}
+
+			position
+			{
+				x "21.62"
+				z "-9.064"
+			}
+
+			scale
+			{
+				x "1.207"
+				y "1.212"
+				z "0.951"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(537)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.975"
+				y "0.221"
+			}
+
+			position
+			{
+				x "22.499"
+				z "-11.5"
+			}
+
+			scale
+			{
+				x "0.793"
+				y "1.022"
+				z "0.864"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(538)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.949"
+				y "-0.316"
+			}
+
+			position
+			{
+				x "24.044"
+				z "-10.291"
+			}
+
+			scale
+			{
+				x "1.08"
+				y "1.04"
+				z "1.239"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(539)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.894"
+				y "0.448"
+			}
+
+			position
+			{
+				x "24.833"
+				z "-6.862"
+			}
+
+			scale
+			{
+				x "0.838"
+				y "1.077"
+				z "0.971"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(540)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.189"
+				y "0.982"
+			}
+
+			position
+			{
+				x "22.963"
+				z "0.587"
+			}
+
+			scale
+			{
+				x "0.886"
+				y "1.119"
+				z "1.118"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(541)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.922"
+				y "0.388"
+			}
+
+			position
+			{
+				x "12.945"
+				z "-3.806"
+			}
+
+			scale
+			{
+				x "0.78"
+				y "0.981"
+				z "0.805"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(542)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.98"
+				y "0.198"
+			}
+
+			position
+			{
+				x "12.485"
+				z "-9.05"
+			}
+
+			scale
+			{
+				x "1.052"
+				y "0.971"
+				z "1.163"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(543)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.086"
+				y "0.996"
+			}
+
+			position
+			{
+				x "11.516"
+				z "-2.494"
+			}
+
+			scale
+			{
+				x "1.013"
+				y "0.93"
+				z "1.187"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(544)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.832"
+				y "-0.555"
+			}
+
+			position
+			{
+				x "-4.536"
+				z "32.49"
+			}
+
+			scale
+			{
+				x "1.131"
+				y "1.237"
+				z "1.095"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(545)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.71"
+				y "0.705"
+			}
+
+			position
+			{
+				x "-3.563"
+				z "37.104"
+			}
+
+			scale
+			{
+				x "0.783"
+				y "0.902"
+				z "1.031"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(546)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.159"
+				y "0.987"
+			}
+
+			position
+			{
+				x "-5.144"
+				z "33.922"
+			}
+
+			scale
+			{
+				x "0.914"
+				y "1.143"
+				z "1.085"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(547)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.983"
+				y "0.185"
+			}
+
+			position
+			{
+				x "-7.669"
+				z "32.713"
+			}
+
+			scale
+			{
+				x "1.245"
+				y "1.175"
+				z "0.919"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(548)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.522"
+				y "0.853"
+			}
+
+			position
+			{
+				x "2.597"
+				z "40.467"
+			}
+
+			scale
+			{
+				x "1.221"
+				y "1.136"
+				z "0.971"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(549)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.045"
+				y "0.999"
+			}
+
+			position
+			{
+				x "-0.594"
+				z "38.761"
+			}
+
+			scale
+			{
+				x "1.203"
+				y "0.938"
+				z "0.886"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(550)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.376"
+				y "0.927"
+			}
+
+			position
+			{
+				x "-55.052"
+				z "-51.997"
+			}
+
+			scale
+			{
+				x "0.986"
+				y "0.956"
+				z "0.956"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(554)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9052148"
+					y "-0.6685219"
+					z "-2.6855822"
+				}
+
+				max
+				{
+					x "3.025394"
+					y "8.129826"
+					z "3.0112047"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "1.703"
+				z "23.408"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(555)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1708317"
+					y "-0.5981655"
+					z "-2.5659852"
+				}
+
+				max
+				{
+					x "2.2577558"
+					y "7.7891693"
+					z "2.5659852"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-18.791"
+				z "-3.669"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(556)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8207028"
+					y "-0.7262907"
+					z "-2.5951595"
+				}
+
+				max
+				{
+					x "1.939388"
+					y "7.673709"
+					z "1.7059221"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "28.706"
+				z "31.527"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(557)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4457805"
+					y "-0.32000017"
+					z "-1.3471546"
+				}
+
+				max
+				{
+					x "1.4457805"
+					y "5.4799876"
+					z "1.3471546"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-7.894"
+				z "13.234"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(558)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.3022265"
+					y "-0.31999302"
+					z "-1.4270587"
+				}
+
+				max
+				{
+					x "1.3022265"
+					y "5.4799933"
+					z "1.4270587"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-3.13"
+				z "-32.156"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(559)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.762368"
+					y "-0.33757496"
+					z "-1.3970764"
+				}
+
+				max
+				{
+					x "1.3448973"
+					y "5.462425"
+					z "1.4589326"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "11.142"
+				z "-16.289"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(560)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.863"
+				y "0.506"
+			}
+
+			position
+			{
+				x "-61.445496"
+				z "-54.90539"
+			}
+
+			scale
+			{
+				x "1.178"
+				y "1.193"
+				z "1.021"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(561)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.971"
+				y "-0.241"
+			}
+
+			position
+			{
+				x "-33.829"
+				z "-53.334"
+			}
+
+			scale
+			{
+				x "1.245"
+				y "1.238"
+				z "0.964"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(562)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.687"
+				y "0.726"
+			}
+
+			position
+			{
+				x "-43.422"
+				z "-3.083"
+			}
+
+			scale
+			{
+				x "1.218"
+				y "1.243"
+				z "1.239"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(563)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.008"
+				y "-1"
+			}
+
+			position
+			{
+				x "-20.936"
+				z "-4.161"
+			}
+
+			scale
+			{
+				x "0.838"
+				y "0.798"
+				z "1.216"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(564)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.264"
+				y "0.965"
+			}
+
+			position
+			{
+				x "-60.14"
+				z "-26.304"
+			}
+
+			scale
+			{
+				x "1.175"
+				y "1.123"
+				z "1.237"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(565)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.268"
+				y "0.964"
+			}
+
+			position
+			{
+				x "-17.93"
+				z "18.737"
+			}
+
+			scale
+			{
+				x "1.015"
+				y "0.994"
+				z "1.046"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(566)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.948"
+				y "0.319"
+			}
+
+			position
+			{
+				x "17.661"
+				z "-62.76"
+			}
+
+			scale
+			{
+				x "0.926"
+				y "1.204"
+				z "1.188"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(567)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.873"
+				y "-0.488"
+			}
+
+			position
+			{
+				x "19.539"
+				y "-0"
+				z "-59.442"
+			}
+
+			scale
+			{
+				x "1.243"
+				y "0.8"
+				z "0.953"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(568)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.392"
+				y "-0.92"
+			}
+
+			position
+			{
+				x "9.643"
+				z "-38.784"
+			}
+
+			scale
+			{
+				x "0.912"
+				y "0.834"
+				z "0.835"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(569)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.245"
+				y "0.969"
+			}
+
+			position
+			{
+				x "16.956"
+				z "-25.035"
+			}
+
+			scale
+			{
+				x "1.223"
+				y "0.768"
+				z "1.053"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(570)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.025"
+			}
+
+			position
+			{
+				x "25.801"
+				z "-3.104"
+			}
+
+			scale
+			{
+				x "0.867"
+				y "1.004"
+				z "1.133"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(573)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.699"
+				y "-0.715"
+			}
+
+			position
+			{
+				x "55.124"
+				z "50.255"
+			}
+
+			scale
+			{
+				x "0.872"
+				y "1.188"
+				z "1.105"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(574)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.448"
+				y "-0.894"
+			}
+
+			position
+			{
+				x "-52.256"
+				z "-59.228"
+			}
+
+			scale
+			{
+				x "1.192"
+				y "0.926"
+				z "0.789"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(575)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.53"
+				y "0.848"
+			}
+
+			position
+			{
+				x "-29.995"
+				z "-21.414"
+			}
+
+			scale
+			{
+				x "0.821"
+				y "0.999"
+				z "1.107"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(576)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.756"
+				y "-0.655"
+			}
+
+			position
+			{
+				x "-53.461"
+				z "-53.362"
+			}
+
+			scale
+			{
+				x "1.06"
+				y "1.236"
+				z "1.094"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(577)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-34.735"
+				z "-22.886"
+			}
+
+			scale
+			{
+				x "0.87"
+				y "1.076"
+				z "0.867"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(578)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.12"
+				y "0.993"
+			}
+
+			position
+			{
+				x "-41.316"
+				z "-14.133"
+			}
+
+			scale
+			{
+				x "0.911"
+				y "1.095"
+				z "0.895"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(579)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.951"
+				y "-0.31"
+			}
+
+			position
+			{
+				x "-46.609"
+				z "-15.839"
+			}
+
+			scale
+			{
+				x "1.205"
+				y "1.09"
+				z "1.101"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(580)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.899"
+				y "0.438"
+			}
+
+			position
+			{
+				x "-47.018"
+				z "-9.705"
+			}
+
+			scale
+			{
+				x "1.087"
+				y "0.91"
+				z "0.839"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(613)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.852"
+				y "-0.523"
+			}
+
+			position
+			{
+				x "1.022"
+				z "-29.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(614)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.135"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "7.022"
+				z "-19.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(615)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.718"
+				y "0.696"
+			}
+
+			position
+			{
+				x "8.022"
+				z "-17.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(616)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.381"
+				y "-0.925"
+			}
+
+			position
+			{
+				x "10.022"
+				z "-16.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(617)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.965"
+				y "-0.263"
+			}
+
+			position
+			{
+				x "10.022"
+				z "-14.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(618)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.07"
+				y "0.998"
+			}
+
+			position
+			{
+				x "11.022"
+				z "-12.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(619)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.965"
+				y "-0.261"
+			}
+
+			position
+			{
+				x "10.022"
+				z "-10.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(620)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.548"
+				y "0.837"
+			}
+
+			position
+			{
+				x "11.022"
+				z "-8.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(621)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.807"
+				y "0.59"
+			}
+
+			position
+			{
+				x "12.022"
+				z "-6.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(622)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.616"
+				y "-0.788"
+			}
+
+			position
+			{
+				x "11.022"
+				z "-4.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(623)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.776"
+				y "-0.63"
+			}
+
+			position
+			{
+				x "-11.978"
+				z "-7.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(624)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.253"
+				y "0.968"
+			}
+
+			position
+			{
+				x "-11.978"
+				z "-4.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(625)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.422"
+				y "-0.906"
+			}
+
+			position
+			{
+				x "-9.978"
+				z "-2.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(626)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.745"
+				y "0.667"
+			}
+
+			position
+			{
+				x "-4.978"
+				z "17.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(627)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.91"
+				y "0.415"
+			}
+
+			position
+			{
+				x "-1.978"
+				z "18.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(628)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.989"
+				y "0.148"
+			}
+
+			position
+			{
+				x "0.022"
+				z "20.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(629)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "-0.089"
+			}
+
+			position
+			{
+				x "2.022"
+				z "20.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(630)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.981"
+				y "-0.196"
+			}
+
+			position
+			{
+				x "4.022"
+				z "21.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(631)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.754"
+				y "-0.657"
+			}
+
+			position
+			{
+				x "5.022"
+				z "19.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(632)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.814"
+				y "-0.581"
+			}
+
+			position
+			{
+				x "6.022"
+				z "17.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(633)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.287"
+				y "-0.958"
+			}
+
+			position
+			{
+				x "1.022"
+				z "18.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(634)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.674"
+				y "0.738"
+			}
+
+			position
+			{
+				x "-5.978"
+				z "14.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(635)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.349"
+				y "-0.937"
+			}
+
+			position
+			{
+				x "-2.978"
+				z "16.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(638)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.134"
+				y "0.991"
+			}
+
+			position
+			{
+				x "-0.978"
+				z "-30.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(639)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.974"
+				y "0.228"
+			}
+
+			position
+			{
+				x "2.022"
+				z "-27.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(640)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.574"
+				y "-0.819"
+			}
+
+			position
+			{
+				x "4.022"
+				z "-26.016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(642)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.275"
+				y "0.961"
+			}
+
+			position
+			{
+				x "-10.978"
+				z "2.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(643)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.114"
+				y "0.994"
+			}
+
+			position
+			{
+				x "-10.978"
+				z "4.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(644)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.718"
+				y "0.696"
+			}
+
+			position
+			{
+				x "-9.978"
+				z "6.984"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1031)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_small_01"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5677953"
+					y "-0.16694546"
+					z "-1.6118486"
+				}
+
+				max
+				{
+					x "1.898737"
+					y "2.5327706"
+					z "1.838773"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.775"
+				y "0.632"
+			}
+
+			position
+			{
+				x "10.041"
+				y "-0"
+				z "50.474"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1112)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.956"
+				x "-0.11"
+				y "0.27"
+				z "0.041"
+			}
+
+			position
+			{
+				x "3.523"
+				y "11.293"
+				z "-28.745"
+			}
+
+			scale
+			{
+				x "1.112"
+				y "1.159"
+				z "1.198"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1113)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.519"
+				x "0.692"
+				y "-0.134"
+				z "0.484"
+			}
+
+			position
+			{
+				x "2.627"
+				y "7.847"
+				z "-25.259"
+			}
+
+			scale
+			{
+				x "1.112"
+				y "1.159"
+				z "1.198"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1114)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.514"
+				x "0.694"
+				y "0.455"
+				z "-0.218"
+			}
+
+			position
+			{
+				x "7.672"
+				y "7.847"
+				z "-26.008"
+			}
+
+			scale
+			{
+				x "1.112"
+				y "1.159"
+				z "1.198"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1168)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.394"
+				y "0.919"
+			}
+
+			position
+			{
+				x "-16.291"
+				y "-0"
+				z "42.049"
+			}
+
+			scale
+			{
+				x "1.205"
+				y "1.09"
+				z "1.101"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1170)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.762368"
+					y "-0.33757496"
+					z "-1.3970764"
+				}
+
+				max
+				{
+					x "1.3448973"
+					y "5.462425"
+					z "1.4589326"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.09"
+				y "0.996"
+			}
+
+			position
+			{
+				x "-17.082"
+				y "-0"
+				z "35.373"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1176)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.355"
+				y "0.935"
+			}
+
+			position
+			{
+				x "-14.783"
+				y "-0"
+				z "36.133"
+			}
+
+			scale
+			{
+				x "1.087"
+				y "0.91"
+				z "0.839"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1179)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.662"
+				y "0.75"
+			}
+
+			position
+			{
+				x "-17.121"
+				y "-0"
+				z "29.072"
+			}
+
+			scale
+			{
+				x "1.218"
+				y "1.243"
+				z "1.239"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1180)"
+EntityTemplate
+{
+	base_blueprint "props/mushrooms/spikybulb_very_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.77697563"
+					y "-0.022842407"
+					z "-0.7396258"
+				}
+
+				max
+				{
+					x "0.7968675"
+					y "2.5124252"
+					z "0.74958014"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.978"
+				y "0.209"
+			}
+
+			position
+			{
+				x "-21.192"
+				y "-0"
+				z "39.427"
+			}
+
+			scale
+			{
+				x "0.911"
+				y "1.095"
+				z "0.895"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1236)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.608"
+				y "0.794"
+			}
+
+			position
+			{
+				x "-35.953"
+				z "11.335"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1237)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.608"
+				y "0.794"
+			}
+
+			position
+			{
+				x "-39.59"
+				z "7.511"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1238)"
+EntityTemplate
+{
+	base_blueprint "props/grass/standard_medium_01_skin3_f"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4790316"
+					y "-0.113934755"
+					z "-1.4476821"
+				}
+
+				max
+				{
+					x "1.3465233"
+					y "2.9493132"
+					z "1.6567938"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.608"
+				y "0.794"
+			}
+
+			position
+			{
+				x "-58.297"
+				z "-13.093"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1296)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.709"
+				y "-0.705"
+			}
+
+			position
+			{
+				x "-1.43"
+				y "0.05"
+				z "54.092"
+			}
+
+			scale
+			{
+				x "12.417"
+				y "6.924"
+				z "11.368"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1297)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources_liquid"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "47.509"
+				z "7.366349"
+			}
+
+			scale
+			{
+				x "27.904625"
+				z "29.343573"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1298)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources_liquid"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-31.672455"
+				y "-1.5458583e-05"
+				z "-33.129658"
+			}
+
+			scale
+			{
+				x "17.215572"
+				z "28.283129"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1299)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources_liquid"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-49.506634"
+				z "51.516277"
+			}
+
+			scale
+			{
+				x "22.864943"
+				z "23.215054"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1300)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources_liquid"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "5.7512565"
+				z "26.862713"
+			}
+
+			scale
+			{
+				x "18.42937"
+				z "28.022"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1301)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-57.306103"
+				z "40.187096"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1302)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "59.139385"
+				z "49.039494"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1303)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-0.870864"
+				z "25.48571"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1304)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58.290863"
+				z "55.717857"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1305)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "11.288575"
+				z "-33.8177"
+			}
+
+			scale
+			{
+				x "2.812791"
+				z "2.951263"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1306)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-40.15118"
+				z "-6.2100773"
+			}
+
+			scale
+			{
+				x "1.074099"
+				z "1.333544"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1307)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-20.869629"
+				z "41.02318"
+			}
+
+			scale
+			{
+				x "1.028637"
+				z "1.162544"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1308)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-44.272297"
+				z "4.335679"
+			}
+
+			scale
+			{
+				x "2.98318"
+				z "1.411945"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1309)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24.674456"
+				z "8.137096"
+			}
+
+			scale
+			{
+				x "1.861846"
+				z "2.079015"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1310)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "15.430563"
+				z "-2.519144"
+			}
+
+			scale
+			{
+				x "14.526181"
+				y "6"
+				z "14.389016"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1311)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-25.029245"
+				z "-5.314497"
+			}
+
+			scale
+			{
+				x "19.000196"
+				y "6"
+				z "17.379185"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1312)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "19.69531"
+				z "-52.098602"
+			}
+
+			scale
+			{
+				x "18.62783"
+				y "6"
+				z "18.20517"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1313)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-14.299373"
+				y "1.5261978e-05"
+				z "20.283634"
+			}
+
+			scale
+			{
+				x "10.703908"
+				y "6"
+				z "17.557432"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1314)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "44.257427"
+				y "-1.5391646e-05"
+				z "-36.053135"
+			}
+
+			scale
+			{
+				x "14.45984"
+				y "6"
+				z "13.135105"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1315)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-50.20611"
+				z "6.956775"
+			}
+
+			scale
+			{
+				x "15.736216"
+				y "6"
+				z "10.572777"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1316)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48.99029"
+				z "-17.294924"
+			}
+
+			scale
+			{
+				x "10.250542"
+				y "6"
+				z "11.794044"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1317)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "29.338211"
+				z "59.45215"
+			}
+
+			scale
+			{
+				x "12.412449"
+				y "6"
+				z "11.964861"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1318)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24.31536"
+				z "17.792662"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1319)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-55.443657"
+				z "28.725454"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1320)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-16.093708"
+				z "-42.341316"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1321)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "20.272797"
+				z "46.996323"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1322)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-55.12236"
+				z "-2.933303"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1323)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "8.939045"
+				z "-20.213753"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1324)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "29.08987"
+				z "47.34038"
+			}
+
+			scale
+			{
+				x "7.928187"
+				y "10"
+				z "5.766785"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1325)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "4.470778"
+				z "1.549472"
+			}
+
+			scale
+			{
+				x "6.624113"
+				y "10"
+				z "6.383109"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1326)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-28.860743"
+				z "-56.76604"
+			}
+
+			scale
+			{
+				x "5.338848"
+				y "10"
+				z "9.668376"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1327)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "55.236576"
+				z "30.637829"
+			}
+
+			scale
+			{
+				x "6.183539"
+				y "10"
+				z "9.411629"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1328)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "13.561444"
+				z "-2.646698"
+			}
+
+			scale
+			{
+				x "9.44286"
+				y "10"
+				z "7.400227"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1329)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-57.315464"
+				z "-52.082268"
+			}
+
+			scale
+			{
+				x "9.529325"
+				y "10"
+				z "9.903886"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1330)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36"
+				z "58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1331)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1332)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "36"
+				z "58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1333)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36"
+				z "-58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1334)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				z "-58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1335)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "36"
+				z "-58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1336)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58"
+				z "-36"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1337)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1338)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58"
+				z "36"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1339)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58"
+				z "-36"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1340)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1341)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58"
+				z "36"
+			}
+
+		}
+
+	}
+
+}
+

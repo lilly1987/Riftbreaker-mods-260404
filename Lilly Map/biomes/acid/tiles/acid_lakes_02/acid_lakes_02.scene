@@ -2,7 +2,7 @@ entity_count "250"
 //editor "index(108)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_liquids"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -714,7 +714,7 @@ EntityTemplate
 //editor "index(772)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_liquids"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -764,7 +764,7 @@ EntityTemplate
 //editor "index(774)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_liquids"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -12083,7 +12083,7 @@ EntityTemplate
 //editor "index(1610)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_liquids"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc

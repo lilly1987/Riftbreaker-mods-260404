@@ -2,7 +2,7 @@ entity_count "40"
 //editor "index(43)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_mud"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc

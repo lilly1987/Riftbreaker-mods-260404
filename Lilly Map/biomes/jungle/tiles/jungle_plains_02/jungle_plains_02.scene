@@ -7483,7 +7483,7 @@ EntityTemplate
 //editor "index(1998)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_liquids"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc

@@ -73325,7 +73325,7 @@ EntityTemplate
 //editor "index(2941)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_magma_visual_only"
+	base_blueprint "resources/volume_random_liquids_visual_only"
 	components
 	{
 		LocalAabbDesc

@@ -53,13 +53,13 @@ rules:
     # all_delete: true
     skip_existing: true
     transform_groups:
-      - scale: [[15, 31], 1, [15, 31]]
+      - scale: [[15, 31], 2, [15, 31]]
         grid:
         # random:
           min: [-48, -48]
           max: [48, 48]
           step: [32, 32]
-          # y: -2.5
+          y: -1.5
           random_count: [1,4]
 
   "1":
@@ -130,6 +130,18 @@ rules:
   volume_resources_units_spawner:
     base_blueprints:
       - units/spawner/volume_resources_units_spawner
+    all_delete: true
+    transform_groups:
+      - scale: [[5, 10], 10, [5, 10]]
+        # grid:
+        random:
+          min: [-60, -60]
+          max: [60, 60]
+          step: [12, 12]
+          random_count: [2,4]
+  volume_regular_units_spawner:
+    base_blueprints:
+      - units/spawner/volume_regular_units_spawner
     all_delete: true
     transform_groups:
       - scale: [[5, 10], 10, [5, 10]]

@@ -1,0 +1,12132 @@
+entity_count "250"
+//editor "index(108)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-41.999"
+				y "-3"
+				z "28.107"
+			}
+
+			scale
+			{
+				x "30.001"
+				y "5.099"
+				z "29.704"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(540)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-47.471"
+				z "54.013"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(542)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "6.709"
+				z "29.664"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(545)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-2.212"
+				z "51.118"
+			}
+
+			scale
+			{
+				x "13.312"
+				y "3"
+				z "13.644"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(546)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-6.317"
+				z "47.368"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(547)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-1.202"
+				z "49.288"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(548)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0"
+			}
+
+			position
+			{
+				x "1.201"
+				z "53.847"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.506"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(549)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-2.616"
+				z "55.145"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(550)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-6.317"
+				z "50.794"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(552)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "-32.042"
+				z "-23.459"
+			}
+
+			scale
+			{
+				x "0.836"
+				z "0.717"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(553)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-28.381"
+				z "-25.926"
+			}
+
+			scale
+			{
+				x "0.8"
+				z "0.606"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(555)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "-35.103"
+				z "-26.806"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(556)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-31.776"
+				z "-25.351"
+			}
+
+			scale
+			{
+				x "10.297"
+				y "3"
+				z "11.197"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(564)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "55.406"
+				z "46.321"
+			}
+
+			scale
+			{
+				x "10.771"
+				y "2"
+				z "11.493"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(772)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-45.043"
+				y "-3"
+				z "-39.125"
+			}
+
+			scale
+			{
+				x "30.001"
+				y "5.099"
+				z "29.704"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(774)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "25.439"
+				y "-3"
+				z "49.774"
+			}
+
+			scale
+			{
+				x "30.001"
+				y "5.099"
+				z "15.345"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(835)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_big_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.1884327"
+					y "-2.094143"
+					z "-5.9282074"
+				}
+
+				max
+				{
+					x "5.1884327"
+					y "11.168406"
+					z "5.9282093"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-3.553"
+				y "-1"
+				z "-15.456"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1062)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.7385058"
+					y "-1.5395589"
+					z "-3.2811575"
+				}
+
+				max
+				{
+					x "3.738504"
+					y "5.04092"
+					z "3.341825"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-37.261"
+				y "-0.15"
+				z "-46.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1063)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.7385058"
+					y "-1.5395589"
+					z "-3.2811575"
+				}
+
+				max
+				{
+					x "3.738504"
+					y "5.04092"
+					z "3.341825"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-59.57"
+				y "0.05"
+				z "43.492"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1064)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.7385058"
+					y "-1.5395589"
+					z "-3.2811575"
+				}
+
+				max
+				{
+					x "3.738504"
+					y "5.04092"
+					z "3.341825"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "18.394"
+				y "-0.783"
+				z "-6.707"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1065)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.7385058"
+					y "-1.5395589"
+					z "-3.2811575"
+				}
+
+				max
+				{
+					x "3.738504"
+					y "5.04092"
+					z "3.341825"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "54.493"
+				y "-0.534"
+				z "-59.398"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1066)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9488997"
+					y "-4.465947"
+					z "-2.9175415"
+				}
+
+				max
+				{
+					x "3.402306"
+					y "5.0365086"
+					z "2.8598237"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "4.687"
+				z "-49.488"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1067)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.7385058"
+					y "-1.5395589"
+					z "-3.2811575"
+				}
+
+				max
+				{
+					x "3.738504"
+					y "5.04092"
+					z "3.341825"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58.081"
+				z "21.134"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1069)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.7385058"
+					y "-1.5395589"
+					z "-3.2811575"
+				}
+
+				max
+				{
+					x "3.738504"
+					y "5.04092"
+					z "3.341825"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "28.9"
+				y "-0.322"
+				z "57.966"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1070)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9488997"
+					y "-2.2345943"
+					z "-2.0960078"
+				}
+
+				max
+				{
+					x "2.9705162"
+					y "4.4854913"
+					z "2.5287871"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "22.88"
+				y "0.05"
+				z "59.326"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1071)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9488997"
+					y "-2.2345943"
+					z "-2.0960078"
+				}
+
+				max
+				{
+					x "2.9705162"
+					y "4.4854913"
+					z "2.5287871"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "53.344"
+				y "0.108"
+				z "-7.18"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1072)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9488997"
+					y "-2.2345943"
+					z "-2.0960078"
+				}
+
+				max
+				{
+					x "2.9705162"
+					y "4.4854913"
+					z "2.5287871"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-7.899"
+				y "0.108"
+				z "-19.781"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1073)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9488997"
+					y "-2.2345943"
+					z "-2.0960078"
+				}
+
+				max
+				{
+					x "2.9705162"
+					y "4.4854913"
+					z "2.5287871"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "8.265"
+				y "0.108"
+				z "-4.475"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1074)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9488997"
+					y "-2.2345943"
+					z "-2.0960078"
+				}
+
+				max
+				{
+					x "2.9705162"
+					y "4.4854913"
+					z "2.5287871"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-62.5"
+				y "0.108"
+				z "26.797"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1075)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.9488997"
+					y "-2.2345943"
+					z "-2.0960078"
+				}
+
+				max
+				{
+					x "2.9705162"
+					y "4.4854913"
+					z "2.5287871"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-25.002"
+				y "0.108"
+				z "18.428"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1131)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-46.813"
+				y "0.05"
+				z "-21.651"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1132)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-41.93"
+				y "13.096"
+				z "-32.29"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1133)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "26.724"
+				y "13.743"
+				z "-4.546"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1134)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "29.631"
+				y "11.763"
+				z "40.781"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1135)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-26.633"
+				y "0.1"
+				z "29.874"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1136)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "33.555"
+				y "0.05"
+				z "62.011"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1137)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "51.213"
+				y "0.05"
+				z "-4.273"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1138)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "46.845"
+				y "0.05"
+				z "-60.949"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1139)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-3.538"
+				y "0.05"
+				z "-50.603"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1154)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "-0.036"
+			}
+
+			position
+			{
+				x "-6.462"
+				y "0.1"
+				z "-46.155"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1155)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.649"
+				y "0.761"
+			}
+
+			position
+			{
+				x "37.494"
+				y "0.1"
+				z "-57.039"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1156)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "34.01"
+				y "0.1"
+				z "-55.368"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1157)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "38.264"
+				y "0.1"
+				z "-59.037"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1158)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.0057235"
+					y "-0.9295068"
+					z "-1.3259528"
+				}
+
+				max
+				{
+					x "0.76087487"
+					y "1.5826674"
+					z "0.9373002"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "36.251"
+				y "0.1"
+				z "-55.508"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1159)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.089"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "36.75"
+				y "0.1"
+				z "-51.756"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1160)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.554"
+				y "0.833"
+			}
+
+			position
+			{
+				x "50.377"
+				y "0.1"
+				z "-10.949"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1161)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "53.31"
+				y "0.1"
+				z "-13.465"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1162)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "55.269"
+				y "0.1"
+				z "-8.022"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1163)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.0057235"
+					y "-0.9295068"
+					z "-1.3259528"
+				}
+
+				max
+				{
+					x "0.76087487"
+					y "1.5826674"
+					z "0.9373002"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "56.108"
+				y "0.1"
+				z "-10.985"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1165)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.838"
+				y "-0.546"
+			}
+
+			position
+			{
+				x "53.819"
+				y "0.1"
+				z "0.187"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1166)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "53.777"
+				y "0.1"
+				z "-3.677"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1167)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "59.206"
+				y "0.1"
+				z "-1.679"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1168)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.0057235"
+					y "-0.9295068"
+					z "-1.3259528"
+				}
+
+				max
+				{
+					x "0.76087487"
+					y "1.5826674"
+					z "0.9373002"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "57.476"
+				y "0.1"
+				z "-4.226"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1169)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.998"
+				y "-0.057"
+			}
+
+			position
+			{
+				x "58.269"
+				y "0.1"
+				z "-6.662"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1174)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "0.793"
+			}
+
+			position
+			{
+				x "38.261"
+				y "0.15"
+				z "58.493"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1175)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.375"
+				y "0.927"
+			}
+
+			position
+			{
+				x "40.81"
+				y "0.15"
+				z "55.677"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1176)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.0057235"
+					y "-0.9295068"
+					z "-1.3259528"
+				}
+
+				max
+				{
+					x "0.76087487"
+					y "1.5826674"
+					z "0.9373002"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "0.793"
+			}
+
+			position
+			{
+				x "34.546"
+				y "0.15"
+				z "57.298"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1178)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.0057235"
+					y "-0.9295068"
+					z "-1.3259528"
+				}
+
+				max
+				{
+					x "0.76087487"
+					y "1.5826674"
+					z "0.9373002"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.216"
+				y "0.976"
+			}
+
+			position
+			{
+				x "43.397"
+				y "0.15"
+				z "54.123"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1179)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.726"
+				y "0.688"
+			}
+
+			position
+			{
+				x "40.838"
+				y "0.15"
+				z "53.987"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1180)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.216"
+				y "0.976"
+			}
+
+			position
+			{
+				x "40.732"
+				y "0.15"
+				z "58.606"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1189)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.996"
+				y "-0.088"
+			}
+
+			position
+			{
+				x "-53.87"
+				y "0.2"
+				z "49.321"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1190)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.996"
+				y "-0.088"
+			}
+
+			position
+			{
+				x "-50.996"
+				y "0.2"
+				z "54.341"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1191)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.129"
+				y "-0.992"
+			}
+
+			position
+			{
+				x "-48.51"
+				y "0.2"
+				z "49.922"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1192)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.0057235"
+					y "-0.9295068"
+					z "-1.3259528"
+				}
+
+				max
+				{
+					x "0.76087487"
+					y "1.5826674"
+					z "0.9373002"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.996"
+				y "-0.088"
+			}
+
+			position
+			{
+				x "-50.685"
+				y "0.2"
+				z "51.278"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1193)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.726"
+				y "0.688"
+			}
+
+			position
+			{
+				x "-56.322"
+				y "0.2"
+				z "52.308"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1194)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.94"
+				y "0.342"
+			}
+
+			position
+			{
+				x "-55.451"
+				y "0.15"
+				z "47.216"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1207)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				x "37.934"
+				y "0.3"
+				z "24.782"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1208)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.993"
+				y "0.122"
+			}
+
+			position
+			{
+				x "40.518"
+				y "0.3"
+				z "29.145"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1209)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_02_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.0057235"
+					y "-0.9295068"
+					z "-1.3259528"
+				}
+
+				max
+				{
+					x "0.76087487"
+					y "1.5826674"
+					z "0.9373002"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				x "40.431"
+				y "0.3"
+				z "26.583"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1210)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.721"
+				y "0.693"
+			}
+
+			position
+			{
+				x "42.358"
+				y "0.3"
+				z "21.187"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1211)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5972569"
+					y "-0.8260827"
+					z "-1.6818705"
+				}
+
+				max
+				{
+					x "1.0526538"
+					y "1.9941249"
+					z "1.3021932"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.174"
+				y "0.985"
+			}
+
+			position
+			{
+				x "46.332"
+				y "0.25"
+				z "24.487"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1212)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				x "43.719"
+				y "0.3"
+				z "24.803"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1213)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_big_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.2113457"
+					y "-2.86279"
+					z "-5.5589333"
+				}
+
+				max
+				{
+					x "5.2113457"
+					y "10.662746"
+					z "5.558937"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "46.798"
+				y "-1"
+				z "30.079"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1214)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_medium_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.4751225"
+					y "-2.8479156"
+					z "-2.0652456"
+				}
+
+				max
+				{
+					x "2.5495834"
+					y "5.1224265"
+					z "2.03366"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "50.978"
+				y "0.05"
+				z "33.72"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1215)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				x "46.141"
+				y "0.35"
+				z "34.837"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1216)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_05_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.8154557"
+					y "-0.87996674"
+					z "-1.0559299"
+				}
+
+				max
+				{
+					x "1.5354865"
+					y "1.9683657"
+					z "1.2622826"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				x "51.402"
+				y "0.35"
+				z "26.872"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1220)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.842"
+				y "0.54"
+			}
+
+			position
+			{
+				x "29.657"
+				y "13.76"
+				z "-7.133"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1221)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.168"
+				y "-0.986"
+			}
+
+			position
+			{
+				x "28.052"
+				y "11.753"
+				z "40.01"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1222)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.922"
+				y "-0.387"
+			}
+
+			position
+			{
+				x "22.934"
+				y "4.753"
+				z "42.356"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1223)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.816"
+				y "0.578"
+			}
+
+			position
+			{
+				x "25.568"
+				y "3.006"
+				z "-6.324"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1224)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.163"
+				y "-0.987"
+			}
+
+			position
+			{
+				x "5.841"
+				y "7.752"
+				z "-9.102"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1225)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.914"
+				y "0.406"
+			}
+
+			position
+			{
+				x "7.649"
+				y "5.826"
+				z "-19.378"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1226)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.491"
+				y "0.871"
+			}
+
+			position
+			{
+				x "9.396"
+				y "4.639"
+				z "-38.469"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1228)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.576"
+				y "-0.818"
+			}
+
+			position
+			{
+				x "-47.728"
+				y "1.551"
+				z "-26.605"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1230)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "-1"
+			}
+
+			position
+			{
+				x "-31.61"
+				y "5.605"
+				z "22.542"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1264)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.964"
+				y "0.265"
+			}
+
+			position
+			{
+				x "-55.108"
+				y "0.05"
+				z "-14.756"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1299)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-21.347"
+				y "0.05"
+				z "-32.747"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1300)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-43.897"
+				y "0.05"
+				z "-6.555"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1301)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "32.233"
+				y "0.05"
+				z "-38.326"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1302)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "41.884"
+				y "0.05"
+				z "22.385"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1303)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-62.25"
+				y "0.05"
+				z "-3.01"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1304)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-30.68"
+				y "0.05"
+				z "61.309"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1305)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "3.048"
+				y "0.1"
+				z "61.397"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1306)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "55.717"
+				y "0.1"
+				z "60.712"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1307)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.043"
+				y "0.999"
+			}
+
+			position
+			{
+				x "60.729"
+				y "0.1"
+				z "15.378"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1308)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.043"
+				y "0.999"
+			}
+
+			position
+			{
+				x "60.885"
+				y "0.15"
+				z "-21.381"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1309)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "12.369"
+				y "0.15"
+				z "-62.018"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1310)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-40.824"
+				y "0.2"
+				z "-61.5"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1311)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "30.862"
+				y "0.05"
+				z "21.435"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "12.444"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1312)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "46.967"
+				y "0.05"
+				z "-27.602"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "12.444"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1314)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-54.791"
+				y "0.05"
+				z "-15.494"
+			}
+
+			scale
+			{
+				x "10.771"
+				y "2"
+				z "11.493"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1315)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "20.713"
+				z "-55.053"
+			}
+
+			scale
+			{
+				x "0.748"
+				z "0.633"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1316)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "24.639"
+				z "-54.036"
+			}
+
+			scale
+			{
+				x "0.681"
+				z "0.564"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1317)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "24.845"
+				z "-48.156"
+			}
+
+			scale
+			{
+				x "0.93"
+				z "0.506"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1318)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "20.328"
+				z "-47.628"
+			}
+
+			scale
+			{
+				x "0.998"
+				z "0.62"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1319)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "18.592"
+				z "-51.408"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.775"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1320)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "22.712"
+				z "-51.146"
+			}
+
+			scale
+			{
+				x "13.312"
+				y "3"
+				z "13.644"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1328)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-22.229"
+				y "0.05"
+				z "-49.317"
+			}
+
+			scale
+			{
+				x "15.948"
+				y "2"
+				z "16.927"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1329)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-19.619"
+				y "0.05"
+				z "51.6"
+			}
+
+			scale
+			{
+				x "15.948"
+				y "2"
+				z "16.927"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1330)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-4.542"
+				y "0.05"
+				z "30.698"
+			}
+
+			scale
+			{
+				x "13.052"
+				y "2"
+				z "14.32"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1331)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "13.439"
+				y "0.05"
+				z "-50.764"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1332)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-31.637"
+				y "0.05"
+				z "-15.812"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1333)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "8.926"
+				y "0.05"
+				z "58.863"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1334)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-25.814"
+				y "0.05"
+				z "8.507"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1335)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "54.763"
+				y "0.05"
+				z "14.239"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1336)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-55.815"
+				y "0.05"
+				z "-55.477"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1338)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.997"
+				y "-0.082"
+			}
+
+			position
+			{
+				x "52.908"
+				y "0.35"
+				z "29.878"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1339)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.942"
+				y "0.337"
+			}
+
+			position
+			{
+				x "54.097"
+				y "0.35"
+				z "34.683"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1340)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.046"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "49.988"
+				y "0.35"
+				z "23.412"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1341)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.193"
+				y "0.981"
+			}
+
+			position
+			{
+				x "48.728"
+				y "0.35"
+				z "35.872"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1342)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0"
+			}
+
+			position
+			{
+				x "32.123"
+				y "0.35"
+				z "59.141"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1343)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.724"
+				y "0.69"
+			}
+
+			position
+			{
+				x "25.625"
+				y "0.35"
+				z "61.517"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1344)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.005"
+				y "1"
+			}
+
+			position
+			{
+				x "30.68"
+				y "0.35"
+				z "62.767"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1345)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "0.024"
+			}
+
+			position
+			{
+				x "38.061"
+				y "0.35"
+				z "60.78"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1346)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.551"
+				y "0.835"
+			}
+
+			position
+			{
+				x "42.657"
+				y "0.35"
+				z "51.564"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1347)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.119"
+				y "-0.993"
+			}
+
+			position
+			{
+				x "13.847"
+				y "0.279"
+				z "-5.574"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1348)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.977"
+				y "-0.214"
+			}
+
+			position
+			{
+				x "10.871"
+				y "0.333"
+				z "-7.497"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1349)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.981"
+				y "-0.196"
+			}
+
+			position
+			{
+				x "11.461"
+				y "0.35"
+				z "-2.007"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1350)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.987"
+				y "-0.162"
+			}
+
+			position
+			{
+				x "7.856"
+				y "0.35"
+				z "-2.41"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1351)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.858"
+				y "-0.514"
+			}
+
+			position
+			{
+				x "3.988"
+				y "0.35"
+				z "-5.295"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1352)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				y "-0.381"
+			}
+
+			position
+			{
+				x "14.164"
+				y "0.35"
+				z "-1.903"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1353)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.719"
+				y "0.695"
+			}
+
+			position
+			{
+				x "-8.854"
+				y "0.35"
+				z "-15.972"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1354)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.856"
+				y "0.517"
+			}
+
+			position
+			{
+				x "-3.587"
+				y "0.35"
+				z "-9.557"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1355)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.533"
+				y "0.846"
+			}
+
+			position
+			{
+				x "-7.04"
+				y "0.35"
+				z "-12.071"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1356)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.653"
+				y "-0.757"
+			}
+
+			position
+			{
+				x "-5.837"
+				y "0.35"
+				z "-22.569"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1357)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.85"
+				y "0.527"
+			}
+
+			position
+			{
+				x "-8.913"
+				y "0.35"
+				z "-22.439"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1358)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.063"
+				y "-0.998"
+			}
+
+			position
+			{
+				x "-11.61"
+				y "0.35"
+				z "-17.847"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1359)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.494"
+				y "0.869"
+			}
+
+			position
+			{
+				x "-2.335"
+				y "0.325"
+				z "-47.922"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1360)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.948"
+				y "-0.32"
+			}
+
+			position
+			{
+				x "-0.158"
+				y "0.35"
+				z "-52.21"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1361)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.67"
+				y "0.742"
+			}
+
+			position
+			{
+				x "9.515"
+				y "0.348"
+				z "-46.401"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1362)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.987"
+				y "0.163"
+			}
+
+			position
+			{
+				x "8.191"
+				y "0.35"
+				z "-50.386"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1363)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.804"
+				y "-0.595"
+			}
+
+			position
+			{
+				x "5.41"
+				y "0.35"
+				z "-52.797"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1364)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.278"
+				y "0.961"
+			}
+
+			position
+			{
+				x "1.293"
+				y "0.35"
+				z "-52.767"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1365)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.968"
+				y "-0.252"
+			}
+
+			position
+			{
+				x "-40.335"
+				y "0.002"
+				z "-47.953"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1366)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.968"
+				y "0.249"
+			}
+
+			position
+			{
+				x "-37.322"
+				y "0.35"
+				z "-50.869"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1367)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.207"
+				y "0.978"
+			}
+
+			position
+			{
+				x "-33.851"
+				y "0.35"
+				z "-46.858"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1368)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.98"
+				y "-0.197"
+			}
+
+			position
+			{
+				x "-34.523"
+				y "0.324"
+				z "-42.238"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1369)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.892"
+				y "-0.452"
+			}
+
+			position
+			{
+				x "-48.172"
+				y "0.35"
+				z "-23.879"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1370)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.546"
+				y "0.838"
+			}
+
+			position
+			{
+				x "-42.983"
+				y "0.35"
+				z "-21.561"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1371)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.943"
+				y "-0.334"
+			}
+
+			position
+			{
+				x "-49.144"
+				y "0.35"
+				z "-21.711"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1372)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.997"
+				y "-0.076"
+			}
+
+			position
+			{
+				x "-49.947"
+				y "0.286"
+				z "-26.679"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1373)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.032"
+				y "1"
+			}
+
+			position
+			{
+				x "-61.95"
+				y "0.35"
+				z "29.861"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1374)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.636"
+				y "0.772"
+			}
+
+			position
+			{
+				x "-63.508"
+				y "0.35"
+				z "24.006"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1375)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.603"
+				y "0.797"
+			}
+
+			position
+			{
+				x "-63.176"
+				y "0.35"
+				z "20.794"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1376)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.688"
+				y "-0.725"
+			}
+
+			position
+			{
+				x "-55.589"
+				y "0.35"
+				z "17.838"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1377)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.084"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "-60.224"
+				y "0.35"
+				z "18.195"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1378)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.514"
+				y "-0.858"
+			}
+
+			position
+			{
+				x "-61.287"
+				y "0.35"
+				z "40.745"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1380)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.998"
+				y "-0.07"
+			}
+
+			position
+			{
+				x "-56.68"
+				y "0.35"
+				z "50.48"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1381)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.628"
+				y "-0.778"
+			}
+
+			position
+			{
+				x "-61.584"
+				y "0.35"
+				z "46.05"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1382)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.714"
+				y "-0.7"
+			}
+
+			position
+			{
+				x "-63.025"
+				y "0.35"
+				z "42.362"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1383)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.499"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-22.138"
+				y "0.35"
+				z "26.71"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1384)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.99"
+				y "0.139"
+			}
+
+			position
+			{
+				x "-23.482"
+				y "0.35"
+				z "30.723"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1385)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.56"
+				y "0.829"
+			}
+
+			position
+			{
+				x "-30.06"
+				y "-0.079"
+				z "27.788"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1386)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.422"
+				y "0.906"
+			}
+
+			position
+			{
+				x "11.671"
+				y "0.35"
+				z "-3.848"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1387)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.999"
+				y "-0.055"
+			}
+
+			position
+			{
+				x "5.431"
+				y "0.35"
+				z "-2.058"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1388)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.453"
+				y "0.892"
+			}
+
+			position
+			{
+				x "-0.997"
+				y "0.35"
+				z "-8.382"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1389)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.966"
+				y "-0.26"
+			}
+
+			position
+			{
+				x "-7.15"
+				y "0.35"
+				z "-9.796"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1390)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.704"
+				y "0.71"
+			}
+
+			position
+			{
+				x "-8.051"
+				y "0.35"
+				z "-14.49"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1391)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.93"
+				y "-0.368"
+			}
+
+			position
+			{
+				x "-2.066"
+				y "0.4"
+				z "-50.989"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1392)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.937"
+				y "0.349"
+			}
+
+			position
+			{
+				x "7.672"
+				y "0.4"
+				z "-52.608"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1393)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.783"
+				y "0.622"
+			}
+
+			position
+			{
+				x "38.062"
+				y "0.283"
+				z "-54.122"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1394)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.419"
+				y "0.908"
+			}
+
+			position
+			{
+				x "35.853"
+				y "0.4"
+				z "-57.258"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1395)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.972"
+				y "0.234"
+			}
+
+			position
+			{
+				x "49.149"
+				y "0.4"
+				z "-61.25"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1396)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.261"
+				y "0.965"
+			}
+
+			position
+			{
+				x "57.914"
+				y "0.399"
+				z "-59.942"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1397)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "57.403"
+				y "0.15"
+				z "-61.874"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1398)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_03_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.197181"
+					y "-0.6964321"
+					z "-1.2141316"
+				}
+
+				max
+				{
+					x "1.2942445"
+					y "1.7160726"
+					z "1.2799616"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "52.322"
+				y "0.15"
+				z "-61.495"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1399)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.714"
+				y "0.7"
+			}
+
+			position
+			{
+				x "52.929"
+				y "0.449"
+				z "-63.549"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1400)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.876"
+				y "-0.483"
+			}
+
+			position
+			{
+				x "-33.903"
+				y "0.449"
+				z "-43.749"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1401)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.833"
+				y "-0.553"
+			}
+
+			position
+			{
+				x "-40.565"
+				y "0.449"
+				z "-50.865"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1402)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.929"
+				y "-0.37"
+			}
+
+			position
+			{
+				x "-49.237"
+				y "0.449"
+				z "-25.25"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1403)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.422"
+				y "0.907"
+			}
+
+			position
+			{
+				x "-58.37"
+				y "0.449"
+				z "17.46"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1404)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.708"
+				y "0.706"
+			}
+
+			position
+			{
+				x "-58.195"
+				y "0.449"
+				z "26.163"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1405)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.367"
+				y "0.93"
+			}
+
+			position
+			{
+				x "-63.96"
+				y "0.449"
+				z "46.053"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1406)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.445"
+				y "0.896"
+			}
+
+			position
+			{
+				x "-58.471"
+				y "0.449"
+				z "48.395"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1407)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.867"
+				y "-0.498"
+			}
+
+			position
+			{
+				x "-22.603"
+				y "0.449"
+				z "28.738"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1408)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.501"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-28.792"
+				y "0.449"
+				z "18.184"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1409)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.838"
+				y "0.545"
+			}
+
+			position
+			{
+				x "-23.051"
+				y "0.449"
+				z "16.346"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1410)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.551"
+				y "-0.834"
+			}
+
+			position
+			{
+				x "-25.5"
+				z "15.928"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1411)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.818"
+				y "-0.575"
+			}
+
+			position
+			{
+				x "-27.974"
+				y "0.05"
+				z "17.356"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1412)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.165"
+				y "-0.986"
+			}
+
+			position
+			{
+				x "-27.017"
+				y "-0.011"
+				z "27.741"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1413)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.443"
+				y "0.897"
+			}
+
+			position
+			{
+				x "-19.989"
+				y "0.05"
+				z "27.888"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1414)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.975"
+				y "0.22"
+			}
+
+			position
+			{
+				x "-25.136"
+				y "0.05"
+				z "31.82"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1415)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.6"
+				y "-0.8"
+			}
+
+			position
+			{
+				x "-49.344"
+				y "0.05"
+				z "52.328"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1416)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.239"
+				y "-0.971"
+			}
+
+			position
+			{
+				x "-54.463"
+				y "0.05"
+				z "54.689"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1417)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.698"
+				y "0.716"
+			}
+
+			position
+			{
+				x "-59.443"
+				y "0.05"
+				z "48.57"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1418)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.063"
+				y "-0.998"
+			}
+
+			position
+			{
+				x "-62.745"
+				y "0.05"
+				z "47.395"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1419)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.762"
+				y "-0.648"
+			}
+
+			position
+			{
+				x "-62.597"
+				y "0.05"
+				z "22.302"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1420)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.007"
+				y "-1"
+			}
+
+			position
+			{
+				x "-54.518"
+				y "0.03"
+				z "18.614"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1421)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.085"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "-59.33"
+				y "0.05"
+				z "16.744"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1422)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.539"
+				y "-0.842"
+			}
+
+			position
+			{
+				x "-51.073"
+				y "0.05"
+				z "-23.14"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1423)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.995"
+				y "-0.102"
+			}
+
+			position
+			{
+				x "-50.002"
+				y "-0.128"
+				z "-27.879"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1424)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.73"
+				y "0.684"
+			}
+
+			position
+			{
+				x "-44.365"
+				y "0.05"
+				z "-21.7"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1425)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.132"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "-43.125"
+				y "0.044"
+				z "-49.95"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1426)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.429"
+				y "-0.903"
+			}
+
+			position
+			{
+				x "-34.417"
+				y "0.05"
+				z "-50.827"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1427)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.353"
+				y "-0.936"
+			}
+
+			position
+			{
+				x "-32.117"
+				y "0.05"
+				z "-42.87"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1428)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.456"
+				y "0.89"
+			}
+
+			position
+			{
+				x "-5.12"
+				y "0.05"
+				z "-47.073"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1429)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.729"
+				y "-0.684"
+			}
+
+			position
+			{
+				x "-2.241"
+				y "0.05"
+				z "-54.372"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1430)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.956"
+				y "0.294"
+			}
+
+			position
+			{
+				x "5.856"
+				y "0.05"
+				z "-55.409"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1431)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.564"
+				y "-0.826"
+			}
+
+			position
+			{
+				x "9.369"
+				y "0.05"
+				z "-48.889"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1432)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.416"
+				y "-0.909"
+			}
+
+			position
+			{
+				x "38.716"
+				y "-0.024"
+				z "-55.54"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1433)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.266"
+				y "-0.964"
+			}
+
+			position
+			{
+				x "45.336"
+				y "0.05"
+				z "-63.161"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1434)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.852"
+				y "-0.523"
+			}
+
+			position
+			{
+				x "55.239"
+				y "0.05"
+				z "-63.612"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1435)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.996"
+				y "-0.085"
+			}
+
+			position
+			{
+				x "34.619"
+				y "0.05"
+				z "-53.12"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1436)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.123"
+				y "-0.992"
+			}
+
+			position
+			{
+				x "59.321"
+				y "0.05"
+				z "-59.943"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1437)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.971"
+				y "0.241"
+			}
+
+			position
+			{
+				x "50.828"
+				y "0.05"
+				z "-9.756"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1438)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.795"
+				y "-0.606"
+			}
+
+			position
+			{
+				x "60.183"
+				y "0.05"
+				z "-3.836"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1439)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.745"
+				y "-0.667"
+			}
+
+			position
+			{
+				x "45.063"
+				y "0.05"
+				z "21.241"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1440)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.67"
+				y "0.743"
+			}
+
+			position
+			{
+				x "53.368"
+				y "0.05"
+				z "31.857"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1441)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.735"
+				y "0.678"
+			}
+
+			position
+			{
+				x "40.34"
+				y "0.05"
+				z "31.8"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1442)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.579"
+				y "-0.815"
+			}
+
+			position
+			{
+				x "43.452"
+				y "0.05"
+				z "57.023"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1443)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.337"
+				y "-0.942"
+			}
+
+			position
+			{
+				x "36.022"
+				y "0.05"
+				z "57.344"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1444)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.762"
+				y "-0.647"
+			}
+
+			position
+			{
+				x "40.226"
+				y "0.05"
+				z "49.199"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1445)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.526"
+				y "0.851"
+			}
+
+			position
+			{
+				x "31.479"
+				y "0.05"
+				z "60.923"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1446)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.318"
+				y "-0.948"
+			}
+
+			position
+			{
+				x "20.408"
+				y "0.05"
+				z "61.22"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1447)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.873"
+				y "-0.487"
+			}
+
+			position
+			{
+				x "27.805"
+				y "0.05"
+				z "61.367"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1448)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.402"
+				y "-0.916"
+			}
+
+			position
+			{
+				x "-29.177"
+				y "-0.027"
+				z "29.792"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1449)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.292"
+				y "-0.956"
+			}
+
+			position
+			{
+				x "-21.147"
+				y "0.05"
+				z "25.673"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1450)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.902"
+				y "0.432"
+			}
+
+			position
+			{
+				x "-21.809"
+				y "0.05"
+				z "18.994"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1451)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.169"
+				y "-0.986"
+			}
+
+			position
+			{
+				x "5.268"
+				y "0.05"
+				z "-3.307"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1452)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.959"
+				y "0.284"
+			}
+
+			position
+			{
+				x "12.939"
+				y "0.05"
+				z "-0.406"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1453)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.169"
+				y "-0.986"
+			}
+
+			position
+			{
+				x "10.646"
+				y "0.022"
+				z "-8.331"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1454)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.993"
+				y "-0.117"
+			}
+
+			position
+			{
+				x "-2.585"
+				y "0.05"
+				z "-8.979"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1455)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.521"
+				y "0.854"
+			}
+
+			position
+			{
+				x "-6.019"
+				y "0.05"
+				z "-8.183"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1456)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.728"
+				y "0.686"
+			}
+
+			position
+			{
+				x "-10.397"
+				y "0.05"
+				z "-16.937"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1457)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.792"
+				y "-0.61"
+			}
+
+			position
+			{
+				x "-8.106"
+				y "0.05"
+				z "-24.206"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1458)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.176"
+				y "-0.984"
+			}
+
+			position
+			{
+				x "-5.149"
+				y "0.05"
+				z "-48.725"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1459)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.226"
+				y "-0.974"
+			}
+
+			position
+			{
+				x "37.401"
+				y "0.015"
+				z "-49.784"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1460)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.998"
+				y "-0.057"
+			}
+
+			position
+			{
+				x "53.481"
+				y "0.05"
+				z "-10.923"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1461)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.625"
+				y "0.78"
+			}
+
+			position
+			{
+				x "51.771"
+				y "0.05"
+				z "0.075"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1462)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_debris_01_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2420354"
+					y "-0.089874506"
+					z "-1.2283907"
+				}
+
+				max
+				{
+					x "1.0765424"
+					y "0.44244677"
+					z "1.2213302"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.296"
+				y "-0.955"
+			}
+
+			position
+			{
+				x "41.799"
+				y "0.05"
+				z "23.431"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1582)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_04_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.5215824"
+					y "-0.8606813"
+					z "-1.2032304"
+				}
+
+				max
+				{
+					x "0.8864548"
+					y "2.0095663"
+					z "0.9685464"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.838"
+				y "0.545"
+			}
+
+			position
+			{
+				x "-17.332"
+				y "0.499"
+				z "23.691"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1598)"
+EntityTemplate
+{
+	base_blueprint "props/crystals/pure_small_06_skin3"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9421593"
+					y "-0.8001981"
+					z "-0.8692311"
+				}
+
+				max
+				{
+					x "0.66884494"
+					y "1.7291207"
+					z "0.67004836"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.757"
+				y "-0.653"
+			}
+
+			position
+			{
+				x "43.615"
+				y "0.4"
+				z "19.488"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1599)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-38.98"
+				y "0.05"
+				z "26.164"
+			}
+
+			scale
+			{
+				x "8.14"
+				y "3.174"
+				z "8.543"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1600)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "41.491"
+				y "0.05"
+				z "-5.527"
+			}
+
+			scale
+			{
+				x "8.14"
+				y "3.174"
+				z "8.543"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1601)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-51.716"
+				y "0.05"
+				z "-35.771"
+			}
+
+			scale
+			{
+				x "8.14"
+				y "3.174"
+				z "8.543"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1602)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-55.547"
+				z "53.486"
+			}
+
+			scale
+			{
+				x "0.836"
+				z "0.717"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1603)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-1"
+				y "-0"
+			}
+
+			position
+			{
+				x "-58.062"
+				z "49.81"
+			}
+
+			scale
+			{
+				x "0.8"
+				z "0.606"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1604)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-58.894"
+				z "56.547"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1605)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0"
+				y "1"
+			}
+
+			position
+			{
+				x "-57.487"
+				z "53.205"
+			}
+
+			scale
+			{
+				x "10.297"
+				y "3"
+				z "11.197"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1610)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "25.762"
+				y "-3"
+				z "-22.381"
+			}
+
+			scale
+			{
+				x "69.269"
+				y "5.099"
+				z "78.033"
+			}
+
+		}
+
+	}
+
+}
+

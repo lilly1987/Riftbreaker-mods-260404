@@ -1,5 +1,8 @@
+Escalating Threat
 Flora Collector Lilly
 Lilly tool
 flora collector by lilly
 pickup_range_x100
+start make gate, trap
+start make rock
 starting give building

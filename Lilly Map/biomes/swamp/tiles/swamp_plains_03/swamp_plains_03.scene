@@ -3212,7 +3212,7 @@ EntityTemplate
 //editor "index(2853)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_mud_swamp"
+	base_blueprint "resources/volume_random_liquids"
 	components
 	{
 		LocalAabbDesc
@@ -3262,7 +3262,7 @@ EntityTemplate
 //editor "index(2854)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_mud_swamp"
+	base_blueprint "resources/volume_random_liquids"
 	components
 	{
 		LocalAabbDesc
@@ -3312,7 +3312,7 @@ EntityTemplate
 //editor "index(2855)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_mud_swamp"
+	base_blueprint "resources/volume_random_liquids"
 	components
 	{
 		LocalAabbDesc

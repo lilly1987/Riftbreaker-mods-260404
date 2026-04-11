@@ -2,7 +2,7 @@ entity_count "470"
 //editor "index(19)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -52,7 +52,7 @@ EntityTemplate
 //editor "index(24)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -102,7 +102,7 @@ EntityTemplate
 //editor "index(25)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -152,7 +152,7 @@ EntityTemplate
 //editor "index(28)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge_visual_only"
+	base_blueprint "resources/volume_random_liquids_visual_only"
 	components
 	{
 		LocalAabbDesc
@@ -9168,7 +9168,7 @@ EntityTemplate
 //editor "index(245)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -9218,7 +9218,7 @@ EntityTemplate
 //editor "index(247)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge_visual_sphere_only"
+	base_blueprint "resources/volume_random_liquids_visual_sphere_only"
 	components
 	{
 		LocalAabbDesc
@@ -9268,7 +9268,7 @@ EntityTemplate
 //editor "index(248)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge_visual_sphere_only"
+	base_blueprint "resources/volume_random_liquids_visual_sphere_only"
 	components
 	{
 		LocalAabbDesc
@@ -9410,7 +9410,7 @@ EntityTemplate
 //editor "index(252)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge_visual_sphere_only"
+	base_blueprint "resources/volume_random_liquids_visual_sphere_only"
 	components
 	{
 		LocalAabbDesc
@@ -14369,7 +14369,7 @@ EntityTemplate
 //editor "index(461)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24099,7 +24099,7 @@ EntityTemplate
 //editor "index(677)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24149,7 +24149,7 @@ EntityTemplate
 //editor "index(688)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24199,7 +24199,7 @@ EntityTemplate
 //editor "index(689)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24249,7 +24249,7 @@ EntityTemplate
 //editor "index(690)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24350,7 +24350,7 @@ EntityTemplate
 //editor "index(693)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24400,7 +24400,7 @@ EntityTemplate
 //editor "index(694)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24450,7 +24450,7 @@ EntityTemplate
 //editor "index(695)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -24543,7 +24543,7 @@ EntityTemplate
 //editor "index(699)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge_visual_sphere_only"
+	base_blueprint "resources/volume_random_liquids_visual_sphere_only"
 	components
 	{
 		LocalAabbDesc
@@ -24593,7 +24593,7 @@ EntityTemplate
 //editor "index(702)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_sludge"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc

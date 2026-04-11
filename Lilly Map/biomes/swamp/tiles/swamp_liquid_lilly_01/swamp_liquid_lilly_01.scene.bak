@@ -1,0 +1,17632 @@
+entity_count "192"
+//editor "index(431)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud_swamp"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "-2.000"
+			}
+
+			scale
+			{
+				x "128.000"
+				y "2.000"
+				z "128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(435)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "1.161"
+				y "-1.000"
+				z "-117.397"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(958)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12.730"
+				z "-134.052"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(961)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "3.352"
+				y "-1.000"
+				z "-151.212"
+			}
+
+			scale
+			{
+				x "24.040"
+				y "2.000"
+				z "12.585"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(964)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud_swamp"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "-2.000"
+			}
+
+			scale
+			{
+				x "128.000"
+				y "2.000"
+				z "128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(965)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud_swamp"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "-2.000"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "128.000"
+				y "2.000"
+				z "128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(966)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud_swamp"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "-2.000"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "128.000"
+				y "2.000"
+				z "128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1297)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48.711"
+				y "-1.000"
+				z "-180.000"
+			}
+
+			scale
+			{
+				x "24.040"
+				y "2.000"
+				z "20.360"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1299)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "153.461"
+				y "-1.000"
+				z "-95.822"
+			}
+
+			scale
+			{
+				x "12.819"
+				y "2.000"
+				z "11.962"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1300)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "173.413"
+				y "-1.000"
+				z "52.382"
+			}
+
+			scale
+			{
+				x "21.750"
+				y "2.000"
+				z "16.538"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1301)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "99.286"
+				y "-1.000"
+				z "46.956"
+			}
+
+			scale
+			{
+				x "8.685"
+				y "2.000"
+				z "20.360"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1302)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-57.000"
+				y "-1.000"
+				z "-9.000"
+			}
+
+			scale
+			{
+				x "12.854"
+				y "2.000"
+				z "16.079"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1311)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "178.095"
+				y "-1.000"
+				z "-150.086"
+			}
+
+			scale
+			{
+				x "13.410"
+				y "2.000"
+				z "14.791"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1313)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-35.693"
+				y "-1.000"
+				z "-116.037"
+			}
+
+			scale
+			{
+				x "24.040"
+				y "2.000"
+				z "12.585"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1314)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-20.436"
+				y "-1.000"
+				z "44.610"
+			}
+
+			scale
+			{
+				x "18.208"
+				y "2.000"
+				z "12.585"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1316)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "176.569"
+				y "-1.000"
+				z "-112.235"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1317)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "127.546"
+				y "-1.000"
+				z "-11.175"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1318)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "185.485"
+				y "-1.000"
+				z "-38.833"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1319)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "14.539"
+				y "-1.000"
+				z "57.692"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1320)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-55.916"
+				y "-1.000"
+				z "-82.155"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1321)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-11.366"
+				y "-1.000"
+				z "-74.805"
+			}
+
+			scale
+			{
+				x "12.942"
+				y "2.000"
+				z "9.763"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1340)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "99.873"
+				z "-118.841"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1341)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "36.435"
+				z "-130.038"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1345)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "160.408"
+				y "-0.000"
+				z "-160.402"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1346)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "182.982"
+				z "-96.742"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1347)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.824"
+				y "-0.000"
+				z "-68.311"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1348)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "180.484"
+				y "-0.000"
+				z "21.131"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1349)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "121.341"
+				z "16.878"
+			}
+
+			scale
+			{
+				x "9.133"
+				y "3.791"
+				z "8.074"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1352)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-52.720"
+				y "-0.000"
+				z "45.791"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1353)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-50.108"
+				y "-0.000"
+				z "-53.156"
+			}
+
+			scale
+			{
+				x "11.134"
+				y "3.791"
+				z "10.611"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1354)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/great_tree_stage_1"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "84.434"
+				z "-143.750"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1355)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/great_tree_stage_2"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-21.000"
+				z "2.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1356)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/great_tree_stage_3"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "151.463"
+				y "-0.000"
+				z "2.091"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1357)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.874"
+				x "-0.208"
+				y "0.437"
+				z "-0.049"
+			}
+
+			position
+			{
+				x "104.814"
+				y "15.397"
+				z "-81.106"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "11.310"
+							y "-1.008"
+							z "1.669"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.920"
+								x "0.111"
+								y "0.361"
+								z "0.102"
+							}
+
+							position
+							{
+								x "14.202"
+								y "-0.188"
+								z "-0.897"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.977"
+							y "0.113"
+							z "-0.182"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "18.137"
+							y "3.607"
+							z "-4.473"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.829"
+								x "-0.110"
+								y "0.384"
+								z "-0.390"
+							}
+
+							position
+							{
+								x "19.208"
+								y "1.403"
+								z "-6.518"
+							}
+
+						}
+
+						start_handle
+						{
+							x "17.094"
+							y "0.632"
+							z "-3.464"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.920"
+								x "0.111"
+								y "0.361"
+								z "0.102"
+							}
+
+							position
+							{
+								x "14.202"
+								y "-0.188"
+								z "-0.897"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "24.612"
+							y "-6.539"
+							z "-8.928"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.825"
+								x "0.065"
+								y "0.524"
+								z "0.203"
+							}
+
+							position
+							{
+								x "26.497"
+								y "-4.513"
+								z "-13.124"
+							}
+
+						}
+
+						start_handle
+						{
+							x "20.280"
+							y "-0.801"
+							z "-8.563"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.829"
+								x "-0.110"
+								y "0.384"
+								z "-0.390"
+							}
+
+							position
+							{
+								x "19.208"
+								y "1.403"
+								z "-6.518"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1358)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				x "-0.004"
+				y "0.707"
+				z "0.032"
+			}
+
+			position
+			{
+				x "79.457"
+				y "21.310"
+				z "-77.492"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "9.921"
+							y "-3.350"
+							z "-2.747"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.987"
+								x "-0.014"
+								y "-0.048"
+								z "-0.149"
+							}
+
+							position
+							{
+								x "15.073"
+								y "-4.890"
+								z "-1.649"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.970"
+							y "0.392"
+							z "0.312"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "26.723"
+							y "-8.984"
+							z "-5.242"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.964"
+								x "-0.211"
+								y "0.131"
+								z "0.093"
+							}
+
+							position
+							{
+								x "28.982"
+								y "-8.554"
+								z "-6.435"
+							}
+
+						}
+
+						start_handle
+						{
+							x "20.225"
+							y "-6.431"
+							z "-0.551"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.987"
+								x "-0.014"
+								y "-0.048"
+								z "-0.149"
+							}
+
+							position
+							{
+								x "15.073"
+								y "-4.890"
+								z "-1.649"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "35.851"
+							y "-8.733"
+							z "-4.249"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.551"
+								x "0.385"
+								y "-0.381"
+								z "0.635"
+							}
+
+							position
+							{
+								x "35.586"
+								y "-11.215"
+								z "-4.320"
+							}
+
+						}
+
+						start_handle
+						{
+							x "31.240"
+							y "-8.124"
+							z "-7.628"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.964"
+								x "-0.211"
+								y "0.131"
+								z "0.093"
+							}
+
+							position
+							{
+								x "28.982"
+								y "-8.554"
+								z "-6.435"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "35.415"
+							y "-15.790"
+							z "-1.892"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.270"
+								x "-0.343"
+								y "0.718"
+								z "-0.543"
+							}
+
+							position
+							{
+								x "33.702"
+								y "-17.910"
+								z "-1.820"
+							}
+
+						}
+
+						start_handle
+						{
+							x "35.322"
+							y "-13.697"
+							z "-4.391"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.551"
+								x "0.385"
+								y "-0.381"
+								z "0.635"
+							}
+
+							position
+							{
+								x "35.586"
+								y "-11.215"
+								z "-4.320"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "30.636"
+							y "-22.417"
+							z "-2.799"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.348"
+								x "0.027"
+								y "0.937"
+								z "0.017"
+							}
+
+							position
+							{
+								x "27.989"
+								y "-22.216"
+								z "-4.718"
+							}
+
+						}
+
+						start_handle
+						{
+							x "31.989"
+							y "-20.031"
+							z "-1.749"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.270"
+								x "-0.343"
+								y "0.718"
+								z "-0.543"
+							}
+
+							position
+							{
+								x "33.702"
+								y "-17.910"
+								z "-1.820"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1359)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.404"
+				x "-0.542"
+				y "0.675"
+				z "0.297"
+			}
+
+			position
+			{
+				x "46.881"
+				y "35.351"
+				z "-69.255"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "8.566"
+							y "-0.764"
+							z "-4.969"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.931"
+								x "-0.176"
+								y "-0.083"
+								z "0.309"
+							}
+
+							position
+							{
+								x "11.573"
+								y "2.242"
+								z "-4.616"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.738"
+							y "0.076"
+							z "0.571"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "18.517"
+							y "1.233"
+							z "-5.796"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.959"
+								x "0.019"
+								y "-0.041"
+								z "0.280"
+							}
+
+							position
+							{
+								x "21.985"
+								y "3.708"
+								z "-5.465"
+							}
+
+						}
+
+						start_handle
+						{
+							x "14.580"
+							y "5.248"
+							z "-4.263"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.931"
+								x "-0.176"
+								y "-0.083"
+								z "0.309"
+							}
+
+							position
+							{
+								x "11.573"
+								y "2.242"
+								z "-4.616"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "28.793"
+							y "5.786"
+							z "-4.369"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.948"
+								x "0.160"
+								y "0.259"
+								z "0.091"
+							}
+
+							position
+							{
+								x "31.201"
+								y "6.227"
+								z "-5.784"
+							}
+
+						}
+
+						start_handle
+						{
+							x "25.452"
+							y "6.183"
+							z "-5.133"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.959"
+								x "0.019"
+								y "-0.041"
+								z "0.280"
+							}
+
+							position
+							{
+								x "21.985"
+								y "3.708"
+								z "-5.465"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "34.523"
+							y "9.606"
+							z "-6.757"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.914"
+								x "0.262"
+								y "0.073"
+								z "0.302"
+							}
+
+							position
+							{
+								x "37.602"
+								y "12.455"
+								z "-6.769"
+							}
+
+						}
+
+						start_handle
+						{
+							x "33.609"
+							y "6.667"
+							z "-7.199"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.948"
+								x "0.160"
+								y "0.259"
+								z "0.091"
+							}
+
+							position
+							{
+								x "31.201"
+								y "6.227"
+								z "-5.784"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "42.986"
+							y "11.280"
+							z "-5.623"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.937"
+								x "0.317"
+								y "0.139"
+								z "0.042"
+							}
+
+							position
+							{
+								x "47.156"
+								y "11.675"
+								z "-7.006"
+							}
+
+						}
+
+						start_handle
+						{
+							x "40.681"
+							y "15.304"
+							z "-6.781"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.914"
+								x "0.262"
+								y "0.073"
+								z "0.302"
+							}
+
+							position
+							{
+								x "37.602"
+								y "12.455"
+								z "-6.769"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "52.791"
+							y "15.453"
+							z "-5.354"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.846"
+								x "-0.022"
+								y "-0.431"
+								z "0.312"
+							}
+
+							position
+							{
+								x "54.463"
+								y "17.301"
+								z "-3.393"
+							}
+
+						}
+
+						start_handle
+						{
+							x "51.327"
+							y "12.069"
+							z "-8.390"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.937"
+								x "0.317"
+								y "0.139"
+								z "0.042"
+							}
+
+							position
+							{
+								x "47.156"
+								y "11.675"
+								z "-7.006"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "55.597"
+							y "21.072"
+							z "5.682"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.968"
+								x "-0.019"
+								y "-0.008"
+								z "0.251"
+							}
+
+							position
+							{
+								x "59.592"
+								y "23.315"
+								z "5.726"
+							}
+
+						}
+
+						start_handle
+						{
+							x "56.135"
+							y "19.149"
+							z "-1.431"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.846"
+								x "-0.022"
+								y "-0.431"
+								z "0.312"
+							}
+
+							position
+							{
+								x "54.463"
+								y "17.301"
+								z "-3.393"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "64.498"
+							y "25.923"
+							z "5.644"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.938"
+								x "0.079"
+								y "0.319"
+								z "0.108"
+							}
+
+							position
+							{
+								x "66.955"
+								y "26.913"
+								z "4.060"
+							}
+
+						}
+
+						start_handle
+						{
+							x "63.586"
+							y "25.558"
+							z "5.771"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.968"
+								x "-0.019"
+								y "-0.008"
+								z "0.251"
+							}
+
+							position
+							{
+								x "59.592"
+								y "23.315"
+								z "5.726"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "71.058"
+							y "26.566"
+							z "-1.169"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.555"
+								x "-0.166"
+								y "0.685"
+								z "0.442"
+							}
+
+							position
+							{
+								x "69.813"
+								y "27.749"
+								z "-3.947"
+							}
+
+						}
+
+						start_handle
+						{
+							x "69.412"
+							y "27.903"
+							z "2.476"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.938"
+								x "0.079"
+								y "0.319"
+								z "0.108"
+							}
+
+							position
+							{
+								x "66.955"
+								y "26.913"
+								z "4.060"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "70.366"
+							y "25.683"
+							z "-8.197"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.463"
+								x "0.062"
+								y "0.635"
+								z "0.615"
+							}
+
+							position
+							{
+								x "67.726"
+								y "27.376"
+								z "-10.219"
+							}
+
+						}
+
+						start_handle
+						{
+							x "68.568"
+							y "28.931"
+							z "-6.726"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.555"
+								x "-0.166"
+								y "0.685"
+								z "0.442"
+							}
+
+							position
+							{
+								x "69.813"
+								y "27.749"
+								z "-3.947"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1360)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.660"
+				x "0.220"
+				y "0.648"
+				z "-0.309"
+			}
+
+			position
+			{
+				x "47.126"
+				y "21.759"
+				z "-70.922"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "22.414"
+							y "-7.512"
+							z "-0.344"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.922"
+								x "-0.370"
+								y "-0.019"
+								z "0.116"
+							}
+
+							position
+							{
+								x "24.791"
+								y "-7.962"
+								z "-0.631"
+							}
+
+						}
+
+						start_handle
+						{
+							x "6.749"
+							y "0.867"
+							z "0.041"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "32.551"
+							y "-9.868"
+							z "-1.708"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.900"
+								x "0.402"
+								y "-0.117"
+								z "-0.120"
+							}
+
+							position
+							{
+								x "34.546"
+								y "-10.336"
+								z "-1.429"
+							}
+
+						}
+
+						start_handle
+						{
+							x "27.167"
+							y "-8.411"
+							z "-0.918"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.922"
+								x "-0.370"
+								y "-0.019"
+								z "0.116"
+							}
+
+							position
+							{
+								x "24.791"
+								y "-7.962"
+								z "-0.631"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "38.193"
+							y "-13.139"
+							z "-1.287"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.854"
+								x "-0.217"
+								y "0.412"
+								z "-0.231"
+							}
+
+							position
+							{
+								x "39.243"
+								y "-14.052"
+								z "-2.393"
+							}
+
+						}
+
+						start_handle
+						{
+							x "36.541"
+							y "-10.805"
+							z "-1.150"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.900"
+								x "0.402"
+								y "-0.117"
+								z "-0.120"
+							}
+
+							position
+							{
+								x "34.546"
+								y "-10.336"
+								z "-1.429"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "41.151"
+							y "-17.635"
+							z "-4.831"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.946"
+								x "0.052"
+								y "0.286"
+								z "0.142"
+							}
+
+							position
+							{
+								x "42.853"
+								y "-16.950"
+								z "-5.893"
+							}
+
+						}
+
+						start_handle
+						{
+							x "40.294"
+							y "-14.966"
+							z "-3.499"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.854"
+								x "-0.217"
+								y "0.412"
+								z "-0.231"
+							}
+
+							position
+							{
+								x "39.243"
+								y "-14.052"
+								z "-2.393"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "47.154"
+							y "-15.753"
+							z "-9.290"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.828"
+								x "0.394"
+								y "0.377"
+								z "-0.128"
+							}
+
+							position
+							{
+								x "47.887"
+								y "-15.741"
+								z "-9.970"
+							}
+
+						}
+
+						start_handle
+						{
+							x "44.554"
+							y "-16.264"
+							z "-6.955"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.946"
+								x "0.052"
+								y "0.286"
+								z "0.142"
+							}
+
+							position
+							{
+								x "42.853"
+								y "-16.950"
+								z "-5.893"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "54.113"
+							y "-14.205"
+							z "-17.520"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.962"
+								x "0.045"
+								y "0.030"
+								z "-0.267"
+							}
+
+							position
+							{
+								x "56.430"
+								y "-15.466"
+								z "-17.755"
+							}
+
+						}
+
+						start_handle
+						{
+							x "48.620"
+							y "-15.729"
+							z "-10.650"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.828"
+								x "0.394"
+								y "0.377"
+								z "-0.128"
+							}
+
+							position
+							{
+								x "47.887"
+								y "-15.741"
+								z "-9.970"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "61.241"
+							y "-19.419"
+							z "-18.097"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.914"
+								x "-0.010"
+								y "-0.007"
+								z "-0.406"
+							}
+
+							position
+							{
+								x "62.331"
+								y "-20.457"
+								z "-18.205"
+							}
+
+						}
+
+						start_handle
+						{
+							x "58.746"
+							y "-16.727"
+							z "-17.991"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.962"
+								x "0.045"
+								y "0.030"
+								z "-0.267"
+							}
+
+							position
+							{
+								x "56.430"
+								y "-15.466"
+								z "-17.755"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "63.720"
+							y "-23.343"
+							z "-16.913"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.656"
+								x "-0.273"
+								y "0.229"
+								z "-0.665"
+							}
+
+							position
+							{
+								x "63.921"
+								y "-25.913"
+								z "-17.170"
+							}
+
+						}
+
+						start_handle
+						{
+							x "63.421"
+							y "-21.496"
+							z "-18.313"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.914"
+								x "-0.010"
+								y "-0.007"
+								z "-0.406"
+							}
+
+							position
+							{
+								x "62.331"
+								y "-20.457"
+								z "-18.205"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "62.466"
+							y "-32.470"
+							z "-13.024"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.644"
+								x "-0.307"
+								y "0.665"
+								z "-0.222"
+							}
+
+							position
+							{
+								x "62.578"
+								y "-35.245"
+								z "-15.905"
+							}
+
+						}
+
+						start_handle
+						{
+							x "64.122"
+							y "-28.483"
+							z "-17.428"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.656"
+								x "-0.273"
+								y "0.229"
+								z "-0.665"
+							}
+
+							position
+							{
+								x "63.921"
+								y "-25.913"
+								z "-17.170"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1361)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.568"
+				x "-0.219"
+				y "0.736"
+				z "-0.296"
+			}
+
+			position
+			{
+				x "67.142"
+				y "16.686"
+				z "-67.537"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.376"
+							y "-2.657"
+							z "-0.887"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.926"
+								x "-0.080"
+								y "-0.170"
+								z "0.329"
+							}
+
+							position
+							{
+								x "12.114"
+								y "3.558"
+								z "1.188"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.955"
+							y "0.281"
+							z "0.094"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "18.234"
+							y "6.199"
+							z "6.536"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.944"
+								x "0.131"
+								y "-0.086"
+								z "0.290"
+							}
+
+							position
+							{
+								x "22.362"
+								y "9.679"
+								z "7.546"
+							}
+
+						}
+
+						start_handle
+						{
+							x "18.852"
+							y "9.774"
+							z "3.264"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.926"
+								x "-0.080"
+								y "-0.170"
+								z "0.329"
+							}
+
+							position
+							{
+								x "12.114"
+								y "3.558"
+								z "1.188"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "30.627"
+							y "7.809"
+							z "11.656"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.918"
+								x "-0.045"
+								y "-0.143"
+								z "0.366"
+							}
+
+							position
+							{
+								x "33.161"
+								y "10.362"
+								z "12.661"
+							}
+
+						}
+
+						start_handle
+						{
+							x "26.491"
+							y "13.160"
+							z "8.557"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.944"
+								x "0.131"
+								y "-0.086"
+								z "0.290"
+							}
+
+							position
+							{
+								x "22.362"
+								y "9.679"
+								z "7.546"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1362)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.668"
+				x "-0.166"
+				y "0.708"
+				z "-0.160"
+			}
+
+			position
+			{
+				x "52.251"
+				y "14.055"
+				z "-69.088"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "8.539"
+							y "2.713"
+							z "-0.678"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.997"
+								x "-0.008"
+								y "0.004"
+								z "-0.077"
+							}
+
+							position
+							{
+								x "13.600"
+								y "1.795"
+								z "-1.036"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.122"
+							y "-0.309"
+							z "0.080"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								y "-0.000"
+								z "-0.000"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "19.212"
+							y "2.105"
+							z "1.729"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.981"
+								x "0.006"
+								y "0.038"
+								z "-0.189"
+							}
+
+							position
+							{
+								x "21.757"
+								y "1.080"
+								z "1.692"
+							}
+
+						}
+
+						start_handle
+						{
+							x "18.662"
+							y "0.876"
+							z "-1.395"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.997"
+								x "-0.008"
+								y "0.004"
+								z "-0.077"
+							}
+
+							position
+							{
+								x "13.600"
+								y "1.795"
+								z "-1.036"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "28.166"
+							y "-1.549"
+							z "-0.431"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.966"
+								x "0.026"
+								y "-0.118"
+								z "0.229"
+							}
+
+							position
+							{
+								x "31.697"
+								y "0.209"
+								z "0.522"
+							}
+
+						}
+
+						start_handle
+						{
+							x "24.302"
+							y "0.055"
+							z "1.656"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.981"
+								x "0.006"
+								y "0.038"
+								z "-0.189"
+							}
+
+							position
+							{
+								x "21.757"
+								y "1.080"
+								z "1.692"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1363)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.520"
+				x "-0.184"
+				y "0.833"
+				z "-0.041"
+			}
+
+			position
+			{
+				x "49.294"
+				y "21.429"
+				z "-62.632"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "19.956"
+							y "0.074"
+							z "-0.022"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.982"
+								x "-0.019"
+								y "0.144"
+								z "-0.121"
+							}
+
+							position
+							{
+								x "20.926"
+								y "-0.158"
+								z "0.047"
+							}
+
+						}
+
+						start_handle
+						{
+							x "1.000"
+							y "-0.008"
+							z "0.002"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.999"
+								x "0.001"
+								y "-0.037"
+								z "0.021"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "28.015"
+							y "-0.821"
+							z "2.067"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.942"
+								x "0.100"
+								y "0.126"
+								z "-0.294"
+							}
+
+							position
+							{
+								x "31.006"
+								y "-2.570"
+								z "0.760"
+							}
+
+						}
+
+						start_handle
+						{
+							x "21.896"
+							y "-0.390"
+							z "0.115"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.982"
+								x "-0.019"
+								y "0.144"
+								z "-0.121"
+							}
+
+							position
+							{
+								x "20.926"
+								y "-0.158"
+								z "0.047"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "37.226"
+							y "-8.861"
+							z "0.107"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.981"
+								x "0.071"
+								y "-0.042"
+								z "0.175"
+							}
+
+							position
+							{
+								x "39.491"
+								y "-8.117"
+								z "0.922"
+							}
+
+						}
+
+						start_handle
+						{
+							x "33.997"
+							y "-4.320"
+							z "-0.548"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.942"
+								x "0.100"
+								y "0.126"
+								z "-0.294"
+							}
+
+							position
+							{
+								x "31.006"
+								y "-2.570"
+								z "0.760"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1364)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.810"
+				x "0.123"
+				y "0.459"
+				z "-0.344"
+			}
+
+			position
+			{
+				x "101.485"
+				y "30.267"
+				z "-70.350"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "11.458"
+							y "0.071"
+							z "-2.190"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.942"
+								x "0.206"
+								y "0.040"
+								z "0.262"
+							}
+
+							position
+							{
+								x "12.182"
+								y "0.467"
+								z "-1.625"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.968"
+							y "-0.010"
+							z "0.250"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.986"
+								x "-0.004"
+								y "-0.026"
+								z "-0.165"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "13.288"
+							y "3.910"
+							z "2.591"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.850"
+								x "-0.520"
+								y "-0.085"
+								z "-0.010"
+							}
+
+							position
+							{
+								x "18.466"
+								y "3.898"
+								z "3.278"
+							}
+
+						}
+
+						start_handle
+						{
+							x "12.906"
+							y "0.862"
+							z "-1.060"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.942"
+								x "0.206"
+								y "0.040"
+								z "0.262"
+							}
+
+							position
+							{
+								x "12.182"
+								y "0.467"
+								z "-1.625"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "36.411"
+							y "8.580"
+							z "7.273"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.757"
+								x "-0.554"
+								y "0.345"
+								z "0.028"
+							}
+
+							position
+							{
+								x "39.510"
+								y "7.649"
+								z "4.914"
+							}
+
+						}
+
+						start_handle
+						{
+							x "23.644"
+							y "3.886"
+							z "3.964"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.850"
+								x "-0.520"
+								y "-0.085"
+								z "-0.010"
+							}
+
+							position
+							{
+								x "18.466"
+								y "3.898"
+								z "3.278"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "44.141"
+							y "1.696"
+							z "2.357"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.369"
+								x "-0.643"
+								y "0.372"
+								z "-0.559"
+							}
+
+							position
+							{
+								x "44.262"
+								y "-1.258"
+								z "3.763"
+							}
+
+						}
+
+						start_handle
+						{
+							x "42.609"
+							y "6.718"
+							z "2.554"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.757"
+								x "-0.554"
+								y "0.345"
+								z "0.028"
+							}
+
+							position
+							{
+								x "39.510"
+								y "7.649"
+								z "4.914"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "46.644"
+							y "-7.595"
+							z "7.703"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.821"
+								x "-0.357"
+								y "0.438"
+								z "0.080"
+							}
+
+							position
+							{
+								x "49.056"
+								y "-8.818"
+								z "3.878"
+							}
+
+						}
+
+						start_handle
+						{
+							x "44.383"
+							y "-4.213"
+							z "5.169"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.369"
+								x "-0.643"
+								y "0.372"
+								z "-0.559"
+							}
+
+							position
+							{
+								x "44.262"
+								y "-1.258"
+								z "3.763"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1456)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/tower_marker_1"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "102.220"
+				z "-110.442"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1457)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/tower_marker_2"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "91.561"
+				y "-0.000"
+				z "-147.827"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1458)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/tower_marker_3"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "26.794"
+				z "-138.877"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1459)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/thornvine_marker_1"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48.000"
+				y "-0.000"
+				z "-37.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1460)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/thornvine_marker_2"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24.000"
+				y "-0.000"
+				z "4.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1489)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.314"
+				x "0.004"
+				y "0.944"
+				z "-0.105"
+			}
+
+			position
+			{
+				x "23.932"
+				y "18.738"
+				z "-54.880"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "9.931"
+							y "-0.574"
+							z "-0.152"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.975"
+								x "0.038"
+								y "-0.219"
+								z "-0.018"
+							}
+
+							position
+							{
+								x "13.624"
+								y "-0.718"
+								z "1.474"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.998"
+							y "0.067"
+							z "0.011"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "17.873"
+							y "-1.445"
+							z "4.407"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.730"
+								x "0.333"
+								y "-0.392"
+								z "-0.451"
+							}
+
+							position
+							{
+								x "18.972"
+								y "-4.962"
+								z "5.635"
+							}
+
+						}
+
+						start_handle
+						{
+							x "17.318"
+							y "-0.862"
+							z "3.099"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.975"
+								x "0.038"
+								y "-0.219"
+								z "-0.018"
+							}
+
+							position
+							{
+								x "13.624"
+								y "-0.718"
+								z "1.474"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "22.384"
+							y "-16.349"
+							z "7.259"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.958"
+								x "-0.089"
+								y "-0.265"
+								z "0.055"
+							}
+
+							position
+							{
+								x "26.079"
+								y "-15.718"
+								z "9.305"
+							}
+
+						}
+
+						start_handle
+						{
+							x "20.071"
+							y "-8.479"
+							z "6.864"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.730"
+								x "0.333"
+								y "-0.392"
+								z "-0.451"
+							}
+
+							position
+							{
+								x "18.972"
+								y "-4.962"
+								z "5.635"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1490)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.186"
+				x "-0.085"
+				y "0.935"
+				z "-0.290"
+			}
+
+			position
+			{
+				x "42.962"
+				y "23.079"
+				z "-66.784"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "8.125"
+							y "0.293"
+							z "-1.463"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.892"
+								x "0.022"
+								y "-0.452"
+								z "-0.019"
+							}
+
+							position
+							{
+								x "10.649"
+								y "0.134"
+								z "3.023"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.988"
+							y "-0.033"
+							z "0.150"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "17.276"
+							y "-1.113"
+							z "2.933"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.909"
+								x "0.037"
+								y "-0.397"
+								z "-0.124"
+							}
+
+							position
+							{
+								x "19.662"
+								y "-1.724"
+								z "6.516"
+							}
+
+						}
+
+						start_handle
+						{
+							x "13.174"
+							y "-0.025"
+							z "7.508"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.892"
+								x "0.022"
+								y "-0.452"
+								z "-0.019"
+							}
+
+							position
+							{
+								x "10.649"
+								y "0.134"
+								z "3.023"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "25.238"
+							y "-6.650"
+							z "4.049"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.919"
+								x "0.041"
+								y "-0.338"
+								z "-0.200"
+							}
+
+							position
+							{
+								x "27.486"
+								y "-7.712"
+								z "6.729"
+							}
+
+						}
+
+						start_handle
+						{
+							x "22.048"
+							y "-2.334"
+							z "10.098"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.909"
+								x "0.037"
+								y "-0.397"
+								z "-0.124"
+							}
+
+							position
+							{
+								x "19.662"
+								y "-1.724"
+								z "6.516"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "33.794"
+							y "-13.437"
+							z "6.056"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.882"
+								x "-0.195"
+								y "-0.362"
+								z "0.231"
+							}
+
+							position
+							{
+								x "35.687"
+								y "-11.836"
+								z "7.630"
+							}
+
+						}
+
+						start_handle
+						{
+							x "29.734"
+							y "-8.773"
+							z "9.408"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.919"
+								x "0.041"
+								y "-0.338"
+								z "-0.200"
+							}
+
+							position
+							{
+								x "27.486"
+								y "-7.712"
+								z "6.729"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1491)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.581"
+				x "-0.130"
+				y "0.797"
+				z "-0.095"
+			}
+
+			position
+			{
+				x "68.183"
+				y "16.686"
+				z "-74.905"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "13.971"
+							y "1.144"
+							z "-0.454"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.997"
+								x "0.020"
+								y "-0.045"
+								z "0.057"
+							}
+
+							position
+							{
+								x "18.188"
+								y "1.913"
+								z "0.027"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.989"
+							y "-0.135"
+							z "0.050"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								y "-0.000"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "23.078"
+							y "-0.025"
+							z "-0.256"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.969"
+								x "0.139"
+								y "-0.023"
+								z "-0.201"
+							}
+
+							position
+							{
+								x "27.020"
+								y "-1.093"
+								z "-0.270"
+							}
+
+						}
+
+						start_handle
+						{
+							x "22.406"
+							y "2.682"
+							z "0.508"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.997"
+								x "0.020"
+								y "-0.045"
+								z "0.057"
+							}
+
+							position
+							{
+								x "18.188"
+								y "1.913"
+								z "0.027"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "29.402"
+							y "-7.732"
+							z "-0.591"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.982"
+								x "-0.016"
+								y "0.099"
+								z "0.160"
+							}
+
+							position
+							{
+								x "33.753"
+								y "-6.275"
+								z "-1.399"
+							}
+
+						}
+
+						start_handle
+						{
+							x "30.961"
+							y "-2.160"
+							z "-0.284"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.969"
+								x "0.139"
+								y "-0.023"
+								z "-0.201"
+							}
+
+							position
+							{
+								x "27.020"
+								y "-1.093"
+								z "-0.270"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1494)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				x "-0.014"
+				y "-0.035"
+				z "-0.024"
+			}
+
+			position
+			{
+				x "99.891"
+				y "15.886"
+				z "-61.336"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "7.744"
+							y "-0.836"
+							z "-0.449"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.962"
+								x "-0.042"
+								y "-0.135"
+								z "0.234"
+							}
+
+							position
+							{
+								x "10.270"
+								y "0.386"
+								z "0.451"
+							}
+
+						}
+
+						start_handle
+						{
+							x "3.737"
+							y "0.091"
+							z "0.048"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "20.546"
+							y "7.292"
+							z "1.587"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.837"
+								x "-0.399"
+								y "-0.214"
+								z "-0.308"
+							}
+
+							position
+							{
+								x "22.980"
+								y "5.719"
+								z "4.220"
+							}
+
+						}
+
+						start_handle
+						{
+							x "12.795"
+							y "1.609"
+							z "1.351"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.962"
+								x "-0.042"
+								y "-0.135"
+								z "0.234"
+							}
+
+							position
+							{
+								x "10.270"
+								y "0.386"
+								z "0.451"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "29.921"
+							y "5.988"
+							z "4.954"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.784"
+								x "-0.489"
+								y "-0.048"
+								z "-0.380"
+							}
+
+							position
+							{
+								x "31.953"
+								y "3.845"
+								z "6.649"
+							}
+
+						}
+
+						start_handle
+						{
+							x "25.413"
+							y "4.146"
+							z "6.853"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.837"
+								x "-0.399"
+								y "-0.214"
+								z "-0.308"
+							}
+
+							position
+							{
+								x "22.980"
+								y "5.719"
+								z "4.220"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "37.905"
+							y "4.076"
+							z "6.869"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.946"
+								x "-0.295"
+								y "0.042"
+								z "-0.127"
+							}
+
+							position
+							{
+								x "39.568"
+								y "3.708"
+								z "6.776"
+							}
+
+						}
+
+						start_handle
+						{
+							x "33.985"
+							y "1.702"
+							z "8.343"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.784"
+								x "-0.489"
+								y "-0.048"
+								z "-0.380"
+							}
+
+							position
+							{
+								x "31.953"
+								y "3.845"
+								z "6.649"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "45.816"
+							y "1.305"
+							z "7.485"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.915"
+								x "-0.073"
+								y "0.081"
+								z "-0.389"
+							}
+
+							position
+							{
+								x "47.448"
+								y "-1.061"
+								z "7.323"
+							}
+
+						}
+
+						start_handle
+						{
+							x "41.230"
+							y "3.339"
+							z "6.684"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.946"
+								x "-0.295"
+								y "0.042"
+								z "-0.127"
+							}
+
+							position
+							{
+								x "39.568"
+								y "3.708"
+								z "6.776"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "52.568"
+							y "-0.934"
+							z "6.202"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.756"
+								x "-0.401"
+								y "0.505"
+								z "-0.112"
+							}
+
+							position
+							{
+								x "53.419"
+								y "-1.887"
+								z "5.088"
+							}
+
+						}
+
+						start_handle
+						{
+							x "49.080"
+							y "-3.426"
+							z "7.162"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.915"
+								x "-0.073"
+								y "0.081"
+								z "-0.389"
+							}
+
+							position
+							{
+								x "47.448"
+								y "-1.061"
+								z "7.323"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "54.334"
+							y "-3.830"
+							z "2.741"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.563"
+								x "-0.405"
+								y "0.714"
+								z "-0.090"
+							}
+
+							position
+							{
+								x "54.299"
+								y "-5.270"
+								z "1.278"
+							}
+
+						}
+
+						start_handle
+						{
+							x "54.271"
+							y "-2.840"
+							z "3.974"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.756"
+								x "-0.401"
+								y "0.505"
+								z "-0.112"
+							}
+
+							position
+							{
+								x "53.419"
+								y "-1.887"
+								z "5.088"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "53.831"
+							y "-6.911"
+							z "-1.251"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.612"
+								x "-0.427"
+								y "0.580"
+								z "-0.327"
+							}
+
+							position
+							{
+								x "54.130"
+								y "-8.780"
+								z "-2.195"
+							}
+
+						}
+
+						start_handle
+						{
+							x "54.263"
+							y "-6.710"
+							z "-0.185"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.563"
+								x "-0.405"
+								y "0.714"
+								z "-0.090"
+							}
+
+							position
+							{
+								x "54.299"
+								y "-5.270"
+								z "1.278"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "54.170"
+							y "-13.250"
+							z "-3.775"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.694"
+								x "-0.006"
+								y "0.719"
+								z "0.027"
+							}
+
+							position
+							{
+								x "53.413"
+								y "-13.142"
+								z "-8.400"
+							}
+
+						}
+
+						start_handle
+						{
+							x "54.429"
+							y "-10.649"
+							z "-3.139"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.612"
+								x "-0.427"
+								y "0.580"
+								z "-0.327"
+							}
+
+							position
+							{
+								x "54.130"
+								y "-8.780"
+								z "-2.195"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1496)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.896"
+				x "-0.090"
+				y "-0.427"
+				z "-0.080"
+			}
+
+			position
+			{
+				x "109.974"
+				y "19.532"
+				z "-23.750"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "10.809"
+							y "-0.918"
+							z "1.389"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.890"
+								x "-0.450"
+								y "-0.069"
+								z "-0.034"
+							}
+
+							position
+							{
+								x "14.041"
+								y "-0.819"
+								z "1.613"
+							}
+
+						}
+
+						start_handle
+						{
+							x "7.713"
+							y "0.105"
+							z "-0.161"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "23.119"
+							y "-1.604"
+							z "5.442"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.968"
+								x "0.094"
+								y "-0.013"
+								z "-0.232"
+							}
+
+							position
+							{
+								x "25.898"
+								y "-2.716"
+								z "5.429"
+							}
+
+						}
+
+						start_handle
+						{
+							x "17.274"
+							y "-0.719"
+							z "1.836"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.890"
+								x "-0.450"
+								y "-0.069"
+								z "-0.034"
+							}
+
+							position
+							{
+								x "14.041"
+								y "-0.819"
+								z "1.613"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "30.336"
+							y "-7.544"
+							z "4.991"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.927"
+								x "0.218"
+								y "0.302"
+								z "-0.049"
+							}
+
+							position
+							{
+								x "32.384"
+								y "-7.362"
+								z "3.655"
+							}
+
+						}
+
+						start_handle
+						{
+							x "28.677"
+							y "-3.827"
+							z "5.417"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.968"
+								x "0.094"
+								y "-0.013"
+								z "-0.232"
+							}
+
+							position
+							{
+								x "25.898"
+								y "-2.716"
+								z "5.429"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "36.072"
+							y "-7.814"
+							z "-0.025"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.733"
+								x "-0.064"
+								y "0.640"
+								z "-0.222"
+							}
+
+							position
+							{
+								x "36.456"
+								y "-8.536"
+								z "-1.513"
+							}
+
+						}
+
+						start_handle
+						{
+							x "34.433"
+							y "-7.181"
+							z "2.319"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.927"
+								x "0.218"
+								y "0.302"
+								z "-0.049"
+							}
+
+							position
+							{
+								x "32.384"
+								y "-7.362"
+								z "3.655"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "34.669"
+							y "-9.633"
+							z "-5.048"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.169"
+								x "-0.366"
+								y "0.914"
+								z "0.047"
+							}
+
+							position
+							{
+								x "33.189"
+								y "-10.851"
+								z "-6.434"
+							}
+
+						}
+
+						start_handle
+						{
+							x "36.839"
+							y "-9.258"
+							z "-3.001"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.733"
+								x "-0.064"
+								y "0.640"
+								z "-0.222"
+							}
+
+							position
+							{
+								x "36.456"
+								y "-8.536"
+								z "-1.513"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "28.486"
+							y "-17.394"
+							z "-3.330"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.253"
+								x "-0.003"
+								y "0.960"
+								z "0.120"
+							}
+
+							position
+							{
+								x "24.876"
+								y "-17.275"
+								z "-4.861"
+							}
+
+						}
+
+						start_handle
+						{
+							x "31.708"
+							y "-12.068"
+							z "-7.821"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.169"
+								x "-0.366"
+								y "0.914"
+								z "0.047"
+							}
+
+							position
+							{
+								x "33.189"
+								y "-10.851"
+								z "-6.434"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1498)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.933"
+				x "-0.048"
+				y "-0.349"
+				z "-0.072"
+			}
+
+			position
+			{
+				x "116.378"
+				y "9.906"
+				z "-5.871"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "9.525"
+							y "2.619"
+							z "4.730"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.534"
+								x "0.770"
+								y "-0.169"
+								z "-0.305"
+							}
+
+							position
+							{
+								x "12.243"
+								y "0.318"
+								z "3.375"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.789"
+							y "-0.292"
+							z "-0.539"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								x "-0.000"
+								z "-0.000"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "15.802"
+							y "-0.790"
+							z "4.756"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.941"
+								x "0.096"
+								y "0.322"
+								z "0.035"
+							}
+
+							position
+							{
+								x "17.844"
+								y "-0.306"
+								z "3.655"
+							}
+
+						}
+
+						start_handle
+						{
+							x "14.961"
+							y "-1.984"
+							z "2.021"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.534"
+								x "0.770"
+								y "-0.169"
+								z "-0.305"
+							}
+
+							position
+							{
+								x "12.243"
+								y "0.318"
+								z "3.375"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "18.831"
+							y "-1.582"
+							z "-1.185"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.916"
+								x "0.212"
+								y "-0.039"
+								z "0.338"
+							}
+
+							position
+							{
+								x "23.693"
+								y "2.276"
+								z "0.323"
+							}
+
+						}
+
+						start_handle
+						{
+							x "19.885"
+							y "0.178"
+							z "2.553"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.941"
+								x "0.096"
+								y "0.322"
+								z "0.035"
+							}
+
+							position
+							{
+								x "17.844"
+								y "-0.306"
+								z "3.655"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "31.985"
+							y "8.383"
+							z "1.369"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.918"
+								x "0.391"
+								y "0.069"
+								z "0.010"
+							}
+
+							position
+							{
+								x "35.493"
+								y "8.799"
+								z "1.096"
+							}
+
+						}
+
+						start_handle
+						{
+							x "28.554"
+							y "6.135"
+							z "1.831"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.916"
+								x "0.212"
+								y "-0.039"
+								z "0.338"
+							}
+
+							position
+							{
+								x "23.693"
+								y "2.276"
+								z "0.323"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "42.143"
+							y "7.992"
+							z "-0.971"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.891"
+								x "-0.080"
+								y "0.071"
+								z "-0.440"
+							}
+
+							position
+							{
+								x "44.170"
+								y "5.629"
+								z "-1.080"
+							}
+
+						}
+
+						start_handle
+						{
+							x "39.002"
+							y "9.216"
+							z "0.822"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.918"
+								x "0.391"
+								y "0.069"
+								z "0.010"
+							}
+
+							position
+							{
+								x "35.493"
+								y "8.799"
+								z "1.096"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "49.740"
+							y "-4.653"
+							z "-2.333"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.996"
+								x "0.072"
+								y "-0.037"
+								z "0.048"
+							}
+
+							position
+							{
+								x "52.813"
+								y "-4.372"
+								z "-2.105"
+							}
+
+						}
+
+						start_handle
+						{
+							x "46.198"
+							y "3.266"
+							z "-1.188"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.891"
+								x "-0.080"
+								y "0.071"
+								z "-0.440"
+							}
+
+							position
+							{
+								x "44.170"
+								y "5.629"
+								z "-1.080"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1538)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.239"
+				x "0.300"
+				y "0.924"
+				z "0.008"
+			}
+
+			position
+			{
+				x "-19.017"
+				y "3.605"
+				z "-39.510"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "3.718"
+							y "-6.650"
+							z "1.731"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.950"
+								x "-0.095"
+								y "-0.091"
+								z "-0.284"
+							}
+
+							position
+							{
+								x "7.776"
+								y "-9.249"
+								z "2.740"
+							}
+
+						}
+
+						start_handle
+						{
+							x "8.567"
+							y "0.777"
+							z "-0.204"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1539)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.187"
+				x "0.111"
+				y "0.976"
+				z "-0.009"
+			}
+
+			position
+			{
+				x "-11.918"
+				y "8.235"
+				z "-46.471"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "7.631"
+							y "1.466"
+							z "3.272"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.424"
+								x "0.020"
+								y "-0.844"
+								z "-0.327"
+							}
+
+							position
+							{
+								x "6.059"
+								y "0.913"
+								z "4.949"
+							}
+
+						}
+
+						start_handle
+						{
+							x "2.161"
+							y "-0.167"
+							z "-0.384"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "3.791"
+							y "-1.938"
+							z "7.870"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.521"
+								x "0.494"
+								y "-0.565"
+								z "-0.406"
+							}
+
+							position
+							{
+								x "3.957"
+								y "-4.564"
+								z "8.423"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.486"
+							y "0.360"
+							z "6.626"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.424"
+								x "0.020"
+								y "-0.844"
+								z "-0.327"
+							}
+
+							position
+							{
+								x "6.059"
+								y "0.913"
+								z "4.949"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "3.444"
+							y "-9.433"
+							z "8.785"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.666"
+								x "-0.074"
+								y "-0.738"
+								z "-0.083"
+							}
+
+							position
+							{
+								x "2.080"
+								y "-9.223"
+								z "12.839"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.123"
+							y "-7.189"
+							z "8.976"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.521"
+								x "0.494"
+								y "-0.565"
+								z "-0.406"
+							}
+
+							position
+							{
+								x "3.957"
+								y "-4.564"
+								z "8.423"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1540)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.054"
+				x "-0.159"
+				y "0.957"
+				z "0.236"
+			}
+
+			position
+			{
+				x "12.720"
+				y "16.923"
+				z "-56.937"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "13.520"
+							y "0.221"
+							z "1.646"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.964"
+								x "-0.151"
+								y "-0.057"
+								z "-0.211"
+							}
+
+							position
+							{
+								x "16.559"
+								y "-1.116"
+								z "2.248"
+							}
+
+						}
+
+						start_handle
+						{
+							x "0.982"
+							y "-0.020"
+							z "-0.192"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								x "-0.000"
+								y "-0.000"
+								z "-0.000"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "20.602"
+							y "-2.491"
+							z "2.816"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.716"
+								x "0.379"
+								y "-0.312"
+								z "-0.496"
+							}
+
+							position
+							{
+								x "22.191"
+								y "-6.618"
+								z "3.246"
+							}
+
+						}
+
+						start_handle
+						{
+							x "19.599"
+							y "-2.453"
+							z "2.850"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.964"
+								x "-0.151"
+								y "-0.057"
+								z "-0.211"
+							}
+
+							position
+							{
+								x "16.559"
+								y "-1.116"
+								z "2.248"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "22.265"
+							y "-12.720"
+							z "2.512"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.732"
+								x "0.284"
+								y "-0.618"
+								z "-0.014"
+							}
+
+							position
+							{
+								x "23.137"
+								y "-14.224"
+								z "6.079"
+							}
+
+						}
+
+						start_handle
+						{
+							x "23.781"
+							y "-10.744"
+							z "3.676"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.716"
+								x "0.379"
+								y "-0.312"
+								z "-0.496"
+							}
+
+							position
+							{
+								x "22.191"
+								y "-6.618"
+								z "3.246"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1542)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.082"
+				x "-0.055"
+				y "0.982"
+				z "-0.163"
+			}
+
+			position
+			{
+				x "-23.428"
+				y "3.715"
+				z "18.998"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "4.352"
+							y "0.079"
+							z "-0.198"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.994"
+								x "-0.073"
+								y "-0.078"
+								z "-0.004"
+							}
+
+							position
+							{
+								x "6.144"
+								y "0.145"
+								z "0.213"
+							}
+
+						}
+
+						start_handle
+						{
+							x "1.000"
+							y "-0.009"
+							z "0.021"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "10.819"
+							y "-0.344"
+							z "-0.164"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.908"
+								x "0.397"
+								y "-0.053"
+								z "-0.123"
+							}
+
+							position
+							{
+								x "12.254"
+								y "-0.542"
+								z "-0.017"
+							}
+
+						}
+
+						start_handle
+						{
+							x "7.937"
+							y "0.211"
+							z "0.624"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.994"
+								x "-0.073"
+								y "-0.078"
+								z "-0.004"
+							}
+
+							position
+							{
+								x "6.144"
+								y "0.145"
+								z "0.213"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "15.293"
+							y "-3.133"
+							z "-1.462"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.736"
+								x "-0.097"
+								y "-0.654"
+								z "0.142"
+							}
+
+							position
+							{
+								x "15.291"
+								y "-1.690"
+								z "2.661"
+							}
+
+						}
+
+						start_handle
+						{
+							x "13.690"
+							y "-0.740"
+							z "0.130"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.908"
+								x "0.397"
+								y "-0.053"
+								z "-0.123"
+							}
+
+							position
+							{
+								x "12.254"
+								y "-0.542"
+								z "-0.017"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1543)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.561"
+				x "-0.056"
+				y "-0.798"
+				z "-0.215"
+			}
+
+			position
+			{
+				x "34.822"
+				y "14.852"
+				z "-27.528"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "14.860"
+							y "3.338"
+							z "6.943"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.669"
+								x "-0.337"
+								y "0.658"
+								z "-0.081"
+							}
+
+							position
+							{
+								x "14.976"
+								y "1.385"
+								z "12.009"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.748"
+							y "-0.377"
+							z "-0.821"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "20.237"
+							y "0.768"
+							z "16.901"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.958"
+								x "-0.257"
+								y "0.123"
+								z "-0.018"
+							}
+
+							position
+							{
+								x "22.374"
+								y "0.695"
+								z "17.554"
+							}
+
+						}
+
+						start_handle
+						{
+							x "15.092"
+							y "-0.569"
+							z "17.076"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.669"
+								x "-0.337"
+								y "0.658"
+								z "-0.081"
+							}
+
+							position
+							{
+								x "14.976"
+								y "1.385"
+								z "12.009"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "28.389"
+							y "0.584"
+							z "18.085"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.960"
+								x "-0.033"
+								y "0.241"
+								z "0.137"
+							}
+
+							position
+							{
+								x "29.596"
+								y "0.219"
+								z "18.744"
+							}
+
+						}
+
+						start_handle
+						{
+							x "24.511"
+							y "0.622"
+							z "18.207"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.958"
+								x "-0.257"
+								y "0.123"
+								z "-0.018"
+							}
+
+							position
+							{
+								x "22.374"
+								y "0.695"
+								z "17.554"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "33.200"
+							y "-1.236"
+							z "20.575"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.895"
+								x "-0.334"
+								y "0.261"
+								z "0.139"
+							}
+
+							position
+							{
+								x "34.651"
+								y "-1.827"
+								z "21.679"
+							}
+
+						}
+
+						start_handle
+						{
+							x "30.804"
+							y "-0.146"
+							z "19.403"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.960"
+								x "-0.033"
+								y "0.241"
+								z "0.137"
+							}
+
+							position
+							{
+								x "29.596"
+								y "0.219"
+								z "18.744"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "39.873"
+							y "-5.778"
+							z "20.163"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.663"
+								x "-0.637"
+								y "0.374"
+								z "0.122"
+							}
+
+							position
+							{
+								x "41.808"
+								y "-7.479"
+								z "21.155"
+							}
+
+						}
+
+						start_handle
+						{
+							x "36.103"
+							y "-2.418"
+							z "22.784"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.895"
+								x "-0.334"
+								y "0.261"
+								z "0.139"
+							}
+
+							position
+							{
+								x "34.651"
+								y "-1.827"
+								z "21.679"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "44.051"
+							y "-10.365"
+							z "21.924"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.815"
+								x "-0.525"
+								y "0.241"
+								z "-0.046"
+							}
+
+							position
+							{
+								x "45.827"
+								y "-10.884"
+								z "22.566"
+							}
+
+						}
+
+						start_handle
+						{
+							x "43.743"
+							y "-9.180"
+							z "22.147"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.663"
+								x "-0.637"
+								y "0.374"
+								z "0.122"
+							}
+
+							position
+							{
+								x "41.808"
+								y "-7.479"
+								z "21.155"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "48.586"
+							y "-10.063"
+							z "26.124"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.859"
+								x "-0.484"
+								y "0.144"
+								z "0.083"
+							}
+
+							position
+							{
+								x "50.034"
+								y "-10.554"
+								z "26.309"
+							}
+
+						}
+
+						start_handle
+						{
+							x "47.602"
+							y "-11.403"
+							z "23.209"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.815"
+								x "-0.525"
+								y "0.241"
+								z "-0.046"
+							}
+
+							position
+							{
+								x "45.827"
+								y "-10.884"
+								z "22.566"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "52.154"
+							y "-10.688"
+							z "27.282"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.774"
+								x "-0.566"
+								y "0.242"
+								z "-0.149"
+							}
+
+							position
+							{
+								x "53.033"
+								y "-10.771"
+								z "27.751"
+							}
+
+						}
+
+						start_handle
+						{
+							x "51.482"
+							y "-11.045"
+							z "26.493"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.859"
+								x "-0.484"
+								y "0.144"
+								z "0.083"
+							}
+
+							position
+							{
+								x "50.034"
+								y "-10.554"
+								z "26.309"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "54.311"
+							y "-10.503"
+							z "29.498"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.665"
+								x "-0.709"
+								y "0.145"
+								z "0.187"
+							}
+
+							position
+							{
+								x "55.765"
+								y "-11.042"
+								z "29.244"
+							}
+
+						}
+
+						start_handle
+						{
+							x "53.913"
+							y "-10.854"
+							z "28.220"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.774"
+								x "-0.566"
+								y "0.242"
+								z "-0.149"
+							}
+
+							position
+							{
+								x "53.033"
+								y "-10.771"
+								z "27.751"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "56.758"
+							y "-13.306"
+							z "30.310"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.524"
+								x "-0.704"
+								y "0.468"
+								z "-0.104"
+							}
+
+							position
+							{
+								x "57.292"
+								y "-13.872"
+								z "30.938"
+							}
+
+						}
+
+						start_handle
+						{
+							x "57.219"
+							y "-11.581"
+							z "28.990"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.665"
+								x "-0.709"
+								y "0.145"
+								z "0.187"
+							}
+
+							position
+							{
+								x "55.765"
+								y "-11.042"
+								z "29.244"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "58.467"
+							y "-14.872"
+							z "32.339"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.358"
+								x "0.824"
+								y "-0.187"
+								z "0.396"
+							}
+
+							position
+							{
+								x "59.091"
+								y "-14.940"
+								z "33.118"
+							}
+
+						}
+
+						start_handle
+						{
+							x "57.826"
+							y "-14.439"
+							z "31.565"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.524"
+								x "-0.704"
+								y "0.468"
+								z "-0.104"
+							}
+
+							position
+							{
+								x "57.292"
+								y "-13.872"
+								z "30.938"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "60.493"
+							y "-14.609"
+							z "35.116"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.600"
+								x "-0.735"
+								y "0.313"
+								z "-0.032"
+							}
+
+							position
+							{
+								x "61.602"
+								y "-15.189"
+								z "35.485"
+							}
+
+						}
+
+						start_handle
+						{
+							x "59.715"
+							y "-15.008"
+							z "33.896"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.358"
+								x "0.824"
+								y "-0.187"
+								z "0.396"
+							}
+
+							position
+							{
+								x "59.091"
+								y "-14.940"
+								z "33.118"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "63.141"
+							y "-15.953"
+							z "38.144"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.455"
+								x "-0.644"
+								y "0.604"
+								z "0.115"
+							}
+
+							position
+							{
+								x "63.427"
+								y "-18.568"
+								z "39.339"
+							}
+
+						}
+
+						start_handle
+						{
+							x "62.711"
+							y "-15.768"
+							z "35.854"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.600"
+								x "-0.735"
+								y "0.313"
+								z "-0.032"
+							}
+
+							position
+							{
+								x "61.602"
+								y "-15.189"
+								z "35.485"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "68.706"
+							y "-23.613"
+							z "41.513"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "-0.311"
+								x "-0.140"
+								y "0.924"
+								z "0.172"
+							}
+
+							position
+							{
+								x "65.721"
+								y "-25.039"
+								z "43.568"
+							}
+
+						}
+
+						start_handle
+						{
+							x "63.712"
+							y "-21.183"
+							z "40.534"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "-0.455"
+								x "-0.644"
+								y "0.604"
+								z "0.115"
+							}
+
+							position
+							{
+								x "63.427"
+								y "-18.568"
+								z "39.339"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1544)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/great_tree_stage_4"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "22.000"
+				y "-0.000"
+				z "42.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1568)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/parasite_marker"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "170.877"
+				y "-0.002"
+				z "-141.439"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1615)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.881"
+				x "-0.321"
+				y "-0.320"
+				z "0.137"
+			}
+
+			position
+			{
+				x "80.871"
+				y "6.227"
+				z "-126.335"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1616)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.116"
+				x "0.060"
+				y "0.991"
+				z "0.016"
+			}
+
+			position
+			{
+				x "79.882"
+				y "10.876"
+				z "-120.870"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1618)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.697"
+				x "-0.054"
+				y "-0.714"
+				z "-0.029"
+			}
+
+			position
+			{
+				x "90.239"
+				y "7.905"
+				z "-126.921"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2023)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.864"
+				x "-0.060"
+				y "-0.498"
+				z "0.035"
+			}
+
+			position
+			{
+				x "77.939"
+				y "26.180"
+				z "-159.029"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2043)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.119"
+				x "0.201"
+				y "0.969"
+				z "-0.074"
+			}
+
+			position
+			{
+				x "21.896"
+				y "5.161"
+				z "-127.290"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2769)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.757"
+				x "0.089"
+				y "0.647"
+				z "-0.015"
+			}
+
+			position
+			{
+				x "85.986"
+				y "26.054"
+				z "-142.145"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(3563)"
+EntityTemplate
+{
+	base_blueprint "effects/world/swamp_ambient"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.342"
+				y "0.940"
+			}
+
+			position
+			{
+				x "-38.143"
+				y "-1.797"
+				z "-76.127"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(3564)"
+EntityTemplate
+{
+	base_blueprint "effects/world/swamp_ambient"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.342"
+				y "0.940"
+			}
+
+			position
+			{
+				x "67.204"
+				y "-1.165"
+				z "-103.008"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(3565)"
+EntityTemplate
+{
+	base_blueprint "effects/world/swamp_ambient"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.342"
+				y "0.940"
+			}
+
+			position
+			{
+				x "163.729"
+				y "-1.803"
+				z "-144.720"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(3566)"
+EntityTemplate
+{
+	base_blueprint "effects/world/swamp_ambient"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.342"
+				y "0.940"
+			}
+
+			position
+			{
+				x "137.233"
+				y "-1.788"
+				z "-55.941"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4419)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.960"
+				x "-0.032"
+				y "0.273"
+				z "-0.051"
+			}
+
+			position
+			{
+				x "98.418"
+				y "23.564"
+				z "-155.783"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4420)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.673"
+				x "-0.013"
+				y "-0.738"
+				z "0.042"
+			}
+
+			position
+			{
+				x "78.036"
+				y "13.196"
+				z "-108.180"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4421)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.651"
+				x "-0.121"
+				y "0.710"
+				z "-0.238"
+			}
+
+			position
+			{
+				x "60.887"
+				y "15.366"
+				z "-90.354"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4422)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.962"
+				x "-0.269"
+				y "-0.034"
+				z "-0.013"
+			}
+
+			position
+			{
+				x "47.284"
+				y "2.833"
+				z "-93.293"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4423)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.219"
+				x "0.292"
+				y "0.920"
+				z "-0.142"
+			}
+
+			position
+			{
+				x "32.973"
+				y "15.134"
+				z "-98.950"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4424)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.685"
+				x "-0.390"
+				y "-0.548"
+				z "-0.281"
+			}
+
+			position
+			{
+				x "35.382"
+				y "8.050"
+				z "-113.454"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4425)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.696"
+				x "0.049"
+				y "0.699"
+				z "-0.157"
+			}
+
+			position
+			{
+				x "19.158"
+				y "23.165"
+				z "-145.437"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4426)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.943"
+				x "0.076"
+				y "0.319"
+				z "0.061"
+			}
+
+			position
+			{
+				x "21.577"
+				y "24.170"
+				z "-178.506"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4427)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.869"
+				x "-0.184"
+				y "-0.434"
+				z "-0.151"
+			}
+
+			position
+			{
+				x "2.842"
+				y "19.070"
+				z "-94.275"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4428)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.364"
+				x "0.136"
+				y "0.873"
+				z "-0.296"
+			}
+
+			position
+			{
+				x "7.333"
+				y "21.562"
+				z "-88.070"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4429)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.225"
+				x "-0.123"
+				y "0.962"
+				z "-0.096"
+			}
+
+			position
+			{
+				x "57.938"
+				y "6.607"
+				z "-95.660"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4430)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.631"
+				x "0.009"
+				y "0.770"
+				z "-0.092"
+			}
+
+			position
+			{
+				x "123.168"
+				y "16.631"
+				z "-107.959"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4431)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.869"
+				x "-0.080"
+				y "0.448"
+				z "-0.197"
+			}
+
+			position
+			{
+				x "158.512"
+				y "10.840"
+				z "-129.769"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4432)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.644"
+				x "-0.099"
+				y "-0.747"
+				z "0.133"
+			}
+
+			position
+			{
+				x "147.934"
+				y "23.773"
+				z "-164.730"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4433)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.928"
+				x "-0.245"
+				y "0.261"
+				z "0.105"
+			}
+
+			position
+			{
+				x "108.744"
+				y "10.780"
+				z "-96.187"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4434)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.373"
+				x "0.211"
+				y "0.900"
+				z "-0.080"
+			}
+
+			position
+			{
+				x "80.276"
+				y "15.781"
+				z "-96.625"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4435)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.963"
+				x "-0.092"
+				y "0.200"
+				z "-0.158"
+			}
+
+			position
+			{
+				x "30.391"
+				y "20.085"
+				z "-129.190"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4436)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.894"
+				x "0.049"
+				y "-0.160"
+				z "0.415"
+			}
+
+			position
+			{
+				x "35.371"
+				y "7.183"
+				z "-83.864"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4437)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.629"
+				x "0.291"
+				y "0.500"
+				z "-0.518"
+			}
+
+			position
+			{
+				x "83.991"
+				y "9.303"
+				z "-105.493"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4438)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.797"
+				x "0.042"
+				y "0.603"
+				z "-0.000"
+			}
+
+			position
+			{
+				x "138.686"
+				y "15.408"
+				z "-116.323"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4439)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.451"
+				x "-0.563"
+				y "0.334"
+				z "0.606"
+			}
+
+			position
+			{
+				x "13.437"
+				y "21.247"
+				z "-163.558"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4440)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.848"
+				x "-0.296"
+				y "0.368"
+				z "0.241"
+			}
+
+			position
+			{
+				x "128.620"
+				y "26.771"
+				z "-124.765"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4442)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.781"
+				x "0.355"
+				y "0.498"
+				z "-0.129"
+			}
+
+			position
+			{
+				x "173.247"
+				y "18.684"
+				z "-139.548"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4604)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.864"
+				x "-0.405"
+				y "0.152"
+				z "-0.256"
+			}
+
+			position
+			{
+				x "65.406"
+				y "3.639"
+				z "-99.144"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4605)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.599"
+				x "-0.361"
+				y "-0.559"
+				z "0.445"
+			}
+
+			position
+			{
+				x "53.595"
+				y "1.622"
+				z "-94.912"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4606)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.695"
+				x "0.126"
+				y "-0.650"
+				z "0.282"
+			}
+
+			position
+			{
+				x "72.767"
+				y "13.789"
+				z "-103.767"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4607)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.895"
+				x "-0.369"
+				y "-0.031"
+				z "0.248"
+			}
+
+			position
+			{
+				x "71.808"
+				y "5.827"
+				z "-94.312"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4609)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.680"
+				x "-0.385"
+				y "-0.524"
+				z "-0.339"
+			}
+
+			position
+			{
+				x "41.704"
+				y "10.831"
+				z "-87.033"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4610)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.905"
+				x "-0.362"
+				y "0.177"
+				z "0.139"
+			}
+
+			position
+			{
+				x "48.390"
+				y "10.934"
+				z "-90.017"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4611)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.602"
+				x "-0.359"
+				y "0.706"
+				z "-0.102"
+			}
+
+			position
+			{
+				x "96.613"
+				y "6.376"
+				z "-87.455"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4612)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.920"
+				x "-0.223"
+				y "0.082"
+				z "0.312"
+			}
+
+			position
+			{
+				x "120.457"
+				y "3.970"
+				z "-106.378"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4613)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.959"
+				x "-0.125"
+				y "-0.222"
+				z "-0.127"
+			}
+
+			position
+			{
+				x "92.900"
+				y "1.790"
+				z "-90.606"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4615)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.755"
+				x "-0.322"
+				y "-0.415"
+				z "0.393"
+			}
+
+			position
+			{
+				x "99.636"
+				y "8.271"
+				z "-92.920"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4616)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.010"
+				x "-0.209"
+				y "0.962"
+				z "-0.176"
+			}
+
+			position
+			{
+				x "120.582"
+				y "13.344"
+				z "-100.600"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4617)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.727"
+				x "-0.188"
+				y "-0.542"
+				z "0.376"
+			}
+
+			position
+			{
+				x "136.881"
+				y "6.880"
+				z "-121.873"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4618)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.523"
+				x "-0.452"
+				y "-0.600"
+				z "-0.403"
+			}
+
+			position
+			{
+				x "156.139"
+				y "25.397"
+				z "-150.593"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4619)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.820"
+				x "-0.359"
+				y "-0.421"
+				z "-0.146"
+			}
+
+			position
+			{
+				x "132.522"
+				y "27.088"
+				z "-132.565"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4669)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.711"
+				x "0.014"
+				z "-0.703"
+			}
+
+			position
+			{
+				x "87.718"
+				y "7.011"
+				z "-114.766"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4670)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.010"
+				x "-0.127"
+				y "0.968"
+				z "-0.216"
+			}
+
+			position
+			{
+				x "113.447"
+				y "5.640"
+				z "-101.295"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4671)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.584"
+				x "-0.166"
+				y "0.779"
+				z "-0.159"
+			}
+
+			position
+			{
+				x "101.268"
+				y "20.646"
+				z "-98.549"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4672)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.971"
+				x "0.169"
+				y "-0.142"
+				z "0.088"
+			}
+
+			position
+			{
+				x "115.466"
+				y "26.452"
+				z "-111.482"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4673)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.921"
+				x "-0.360"
+				y "-0.046"
+				z "0.140"
+			}
+
+			position
+			{
+				x "26.395"
+				y "7.371"
+				z "-76.862"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4674)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.733"
+				x "0.566"
+				y "-0.262"
+				z "0.269"
+			}
+
+			position
+			{
+				x "32.421"
+				y "12.990"
+				z "-95.545"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4675)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.391"
+				x "0.366"
+				y "0.686"
+				z "-0.493"
+			}
+
+			position
+			{
+				x "85.612"
+				y "3.869"
+				z "-136.336"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4676)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.725"
+				x "-0.452"
+				y "-0.513"
+				z "-0.082"
+			}
+
+			position
+			{
+				x "41.373"
+				y "29.212"
+				z "-97.458"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4818)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.028"
+				x "-0.058"
+				y "0.998"
+				z "0.015"
+			}
+
+			position
+			{
+				x "16.452"
+				y "20.535"
+				z "-33.058"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4961)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.683"
+				x "0.216"
+				y "-0.625"
+				z "0.310"
+			}
+
+			position
+			{
+				x "42.641"
+				y "19.428"
+				z "57.033"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(4963)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.658"
+				x "0.170"
+				y "-0.723"
+				z "-0.128"
+			}
+
+			position
+			{
+				x "50.434"
+				y "11.584"
+				z "41.183"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6198)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.323"
+				x "0.547"
+				y "0.769"
+				z "-0.074"
+			}
+
+			position
+			{
+				x "159.816"
+				y "16.637"
+				z "-61.242"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6199)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.936"
+				x "-0.006"
+				y "-0.292"
+				z "0.194"
+			}
+
+			position
+			{
+				x "141.506"
+				y "19.312"
+				z "-48.596"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6202)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.599"
+				x "-0.101"
+				y "-0.793"
+				z "0.039"
+			}
+
+			position
+			{
+				x "180.261"
+				y "5.847"
+				z "-56.585"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6204)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.775"
+				x "0.067"
+				y "-0.623"
+				z "0.076"
+			}
+
+			position
+			{
+				x "109.286"
+				y "11.393"
+				z "42.461"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6205)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.882"
+				x "-0.147"
+				y "-0.270"
+				z "0.358"
+			}
+
+			position
+			{
+				x "118.454"
+				y "19.840"
+				z "21.324"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(7618)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.979"
+				x "0.085"
+				y "0.182"
+				z "0.032"
+			}
+
+			position
+			{
+				x "160.199"
+				y "24.324"
+				z "-91.916"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(7728)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.499"
+				x "-0.069"
+				y "-0.863"
+			}
+
+			position
+			{
+				x "170.802"
+				y "24.450"
+				z "-107.407"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(7773)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.968"
+				x "-0.002"
+				y "-0.244"
+				z "-0.060"
+			}
+
+			position
+			{
+				x "178.226"
+				y "21.834"
+				z "-87.977"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(7845)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.568"
+				x "0.146"
+				y "-0.807"
+				z "0.076"
+			}
+
+			position
+			{
+				x "45.403"
+				y "23.165"
+				z "13.622"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(7992)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.150"
+				x "-0.073"
+				y "-0.984"
+				z "0.064"
+			}
+
+			position
+			{
+				x "31.729"
+				y "24.170"
+				z "43.767"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8033)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.251"
+				x "-0.499"
+				y "-0.502"
+				z "-0.660"
+			}
+
+			position
+			{
+				x "44.768"
+				y "21.247"
+				z "32.818"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8082)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.801"
+				x "0.021"
+				y "-0.595"
+				z "-0.056"
+			}
+
+			position
+			{
+				x "134.209"
+				y "22.275"
+				z "61.285"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8084)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.131"
+				x "-0.064"
+				y "-0.989"
+				z "-0.026"
+			}
+
+			position
+			{
+				x "142.719"
+				y "24.891"
+				z "42.269"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8143)"
+EntityTemplate
+{
+	base_blueprint "units/ground/parabian_logic_marker"
+	components
+	{
+		DatabaseComponent
+		{
+			Strings
+			Floats
+			{
+				FloatData
+				{
+					key "min_scale"
+					value "0.900"
+				}
+
+				FloatData
+				{
+					key "max_scale"
+					value "1.100"
+				}
+
+			}
+
+			Vectors
+			Integers
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.496"
+					y "-1.000"
+					z "-3.280"
+				}
+
+				max
+				{
+					x "1.870"
+					y "2.056"
+					z "3.280"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.974"
+				x "0.066"
+				y "-0.207"
+				z "0.061"
+			}
+
+			position
+			{
+				x "124.245"
+				y "24.765"
+				z "45.756"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8223)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/position_marker_great_tree_intake"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "129.667"
+				z "-24.868"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8565)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/great_tree_parasite"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "56.826"
+				y "-0.002"
+				z "-102.350"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8587)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.701"
+				x "-0.008"
+				y "0.713"
+				z "0.028"
+			}
+
+			position
+			{
+				x "85.062"
+				y "19.958"
+				z "-71.512"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "10.012"
+							y "-3.855"
+							z "-3.527"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.899"
+								x "0.405"
+								y "-0.155"
+								z "-0.061"
+							}
+
+							position
+							{
+								x "15.165"
+								y "-5.337"
+								z "-2.336"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.962"
+							y "0.450"
+							z "0.401"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "24.668"
+							y "-5.936"
+							z "0.606"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.820"
+								x "0.489"
+								y "0.168"
+								z "-0.247"
+							}
+
+							position
+							{
+								x "27.193"
+								y "-6.726"
+								z "-1.834"
+							}
+
+						}
+
+						start_handle
+						{
+							x "20.317"
+							y "-6.819"
+							z "-1.145"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.899"
+								x "0.405"
+								y "-0.155"
+								z "-0.061"
+							}
+
+							position
+							{
+								x "15.165"
+								y "-5.337"
+								z "-2.336"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "37.816"
+							y "-9.295"
+							z "-1.088"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.235"
+								x "0.610"
+								y "-0.703"
+								z "-0.280"
+							}
+
+							position
+							{
+								x "37.581"
+								y "-11.782"
+								z "-1.163"
+							}
+
+						}
+
+						start_handle
+						{
+							x "29.718"
+							y "-7.515"
+							z "-4.274"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.820"
+								x "0.489"
+								y "0.168"
+								z "-0.247"
+							}
+
+							position
+							{
+								x "27.193"
+								y "-6.726"
+								z "-1.834"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "35.992"
+							y "-14.765"
+							z "-0.797"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.070"
+								x "0.597"
+								y "-0.773"
+								z "-0.204"
+							}
+
+							position
+							{
+								x "35.423"
+								y "-16.797"
+								z "-1.147"
+							}
+
+						}
+
+						start_handle
+						{
+							x "37.347"
+							y "-14.268"
+							z "-1.238"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.235"
+								x "0.610"
+								y "-0.703"
+								z "-0.280"
+							}
+
+							position
+							{
+								x "37.581"
+								y "-11.782"
+								z "-1.163"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "34.111"
+							y "-20.851"
+							z "-1.246"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.273"
+								x "-0.006"
+								y "-0.962"
+								z "-0.028"
+							}
+
+							position
+							{
+								x "31.626"
+								y "-20.874"
+								z "0.501"
+							}
+
+						}
+
+						start_handle
+						{
+							x "34.854"
+							y "-18.829"
+							z "-1.497"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.070"
+								x "0.597"
+								y "-0.773"
+								z "-0.204"
+							}
+
+							position
+							{
+								x "35.423"
+								y "-16.797"
+								z "-1.147"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8591)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.702"
+				x "-0.143"
+				y "0.682"
+				z "-0.149"
+			}
+
+			position
+			{
+				x "87.504"
+				y "11.413"
+				z "-64.516"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "11.794"
+							y "4.456"
+							z "-0.801"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.965"
+								x "-0.008"
+								y "-0.261"
+								z "-0.018"
+							}
+
+							position
+							{
+								x "15.874"
+								y "4.218"
+								z "1.587"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.101"
+							y "-0.513"
+							z "0.082"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "21.578"
+							y "4.861"
+							z "4.873"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.958"
+								x "-0.046"
+								y "-0.179"
+								z "-0.221"
+							}
+
+							position
+							{
+								x "24.105"
+								y "3.733"
+								z "6.241"
+							}
+
+						}
+
+						start_handle
+						{
+							x "19.954"
+							y "3.980"
+							z "3.975"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.965"
+								x "-0.008"
+								y "-0.261"
+								z "-0.018"
+							}
+
+							position
+							{
+								x "15.874"
+								y "4.218"
+								z "1.587"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "29.013"
+							y "0.396"
+							z "6.039"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.971"
+								x "0.023"
+								y "-0.119"
+								z "0.205"
+							}
+
+							position
+							{
+								x "32.625"
+								y "1.977"
+								z "6.998"
+							}
+
+						}
+
+						start_handle
+						{
+							x "26.632"
+							y "2.604"
+							z "7.610"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.958"
+								x "-0.046"
+								y "-0.179"
+								z "-0.221"
+							}
+
+							position
+							{
+								x "24.105"
+								y "3.733"
+								z "6.241"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8600)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.066"
+				x "0.013"
+				y "0.988"
+				z "-0.140"
+			}
+
+			position
+			{
+				x "-40.089"
+				y "1.650"
+				z "34.802"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8602)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.585"
+				x "-0.081"
+				y "0.799"
+				z "-0.116"
+			}
+
+			position
+			{
+				x "135.563"
+				y "1.649"
+				z "10.399"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8610)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.962"
+				x "0.138"
+				y "0.234"
+				z "-0.030"
+			}
+
+			position
+			{
+				x "88.907"
+				y "1.650"
+				z "-127.027"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8615)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.360"
+				x "0.054"
+				y "0.922"
+				z "-0.130"
+			}
+
+			position
+			{
+				x "159.900"
+				y "1.650"
+				z "-132.101"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8617)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.400"
+				x "0.060"
+				y "0.906"
+				z "-0.128"
+			}
+
+			position
+			{
+				x "147.744"
+				y "1.650"
+				z "-54.661"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8622)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.802"
+				x "0.475"
+				y "0.261"
+				z "-0.252"
+			}
+
+			position
+			{
+				x "145.250"
+				y "9.915"
+				z "-43.231"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "6.250"
+							y "1.377"
+							z "-0.719"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.987"
+								x "-0.101"
+								y "0.087"
+								z "0.093"
+							}
+
+							position
+							{
+								x "9.110"
+								y "2.257"
+								z "-1.410"
+							}
+
+						}
+
+						start_handle
+						{
+							x "3.884"
+							y "-0.162"
+							z "0.086"
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "20.451"
+							y "0.810"
+							z "-2.631"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.931"
+								x "-0.093"
+								y "-0.266"
+								z "0.233"
+							}
+
+							position
+							{
+								x "23.239"
+								y "1.802"
+								z "-1.563"
+							}
+
+						}
+
+						start_handle
+						{
+							x "11.971"
+							y "3.136"
+							z "-2.100"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.987"
+								x "-0.101"
+								y "0.087"
+								z "0.093"
+							}
+
+							position
+							{
+								x "9.110"
+								y "2.257"
+								z "-1.410"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "24.183"
+							y "9.373"
+							z "4.319"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.840"
+								x "-0.332"
+								y "-0.306"
+								z "0.301"
+							}
+
+							position
+							{
+								x "25.766"
+								y "11.217"
+								z "5.163"
+							}
+
+						}
+
+						start_handle
+						{
+							x "26.028"
+							y "2.794"
+							z "-0.494"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.931"
+								x "-0.093"
+								y "-0.266"
+								z "0.233"
+							}
+
+							position
+							{
+								x "23.239"
+								y "1.802"
+								z "-1.563"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "30.901"
+							y "16.426"
+							z "7.165"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.848"
+								x "0.190"
+								y "-0.433"
+								z "0.240"
+							}
+
+							position
+							{
+								x "31.990"
+								y "17.053"
+								z "8.814"
+							}
+
+						}
+
+						start_handle
+						{
+							x "27.348"
+							y "13.061"
+							z "6.007"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.840"
+								x "-0.332"
+								y "-0.306"
+								z "0.301"
+							}
+
+							position
+							{
+								x "25.766"
+								y "11.217"
+								z "5.163"
+							}
+
+						}
+
+					}
+
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "34.018"
+							y "17.031"
+							z "13.224"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.757"
+								x "-0.435"
+								y "-0.371"
+								z "0.316"
+							}
+
+							position
+							{
+								x "36.031"
+								y "19.832"
+								z "14.197"
+							}
+
+						}
+
+						start_handle
+						{
+							x "33.080"
+							y "17.680"
+							z "10.464"
+						}
+
+						start_point
+						{
+							orientation
+							{
+								w "0.848"
+								x "0.190"
+								y "-0.433"
+								z "0.240"
+							}
+
+							position
+							{
+								x "31.990"
+								y "17.053"
+								z "8.814"
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8627)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.798"
+				x "-0.112"
+				y "0.586"
+				z "-0.086"
+			}
+
+			position
+			{
+				x "149.386"
+				y "1.650"
+				z "27.540"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8628)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.984"
+				x "-0.140"
+				y "0.109"
+				z "-0.019"
+			}
+
+			position
+			{
+				x "105.477"
+				y "1.650"
+				z "9.598"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(8633)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy_spline"
+	components
+	{
+		IdComponent
+		{
+			group "spawn_cavern_spline"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.344"
+					y "-0.000"
+					z "-2.363"
+				}
+
+				max
+				{
+					x "1.421"
+					y "2.024"
+					z "2.363"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.846"
+				x "-0.119"
+				y "0.514"
+				z "-0.076"
+			}
+
+			position
+			{
+				x "115.697"
+				y "1.650"
+				z "52.279"
+			}
+
+		}
+
+		WaveSpawnerSplineComponent
+		{
+			bezier_path
+			{
+				curves
+				{
+					TransformBezierCurve
+					{
+						end_handle
+						{
+							x "5.888"
+							y "-2.619"
+							z "0.078"
+						}
+
+						end_point
+						{
+							orientation
+							{
+								w "0.973"
+								x "-0.139"
+								y "-0.181"
+								z "0.023"
+							}
+
+							position
+							{
+								x "8.211"
+								y "-2.598"
+								z "0.204"
+							}
+
+						}
+
+						start_handle
+						{
+							x "4.065"
+							y "0.302"
+							z "-0.010"
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9213)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	components
+	{
+		IdComponent
+		{
+			name "logic/resin_intake_marker"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "130.938"
+				z "-24.946"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9374)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				y "0.050"
+				z "-64.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9375)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				y "0.050"
+				z "-64.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9378)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "-2.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9379)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "-2.000"
+				z "-128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9380)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "-2.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9381)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "-2.000"
+				z "-128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9394)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9395)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9396)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9397)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9398)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-64.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9399)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-64.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9400)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-96.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9401)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-96.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9402)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-32.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9403)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.050"
+				z "-32.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9404)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "96.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9405)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "96.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9406)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9407)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9408)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "32.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9409)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "32.000"
+				y "0.050"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9410)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9411)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9412)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-32.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9413)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-32.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9414)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-64.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9415)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-64.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9416)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-96.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9417)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-96.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9418)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9419)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9420)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "32.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9421)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "32.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9422)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9423)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9424)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "96.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "32.000"
+				y "3.000"
+				z "32.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9425)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "96.000"
+				y "0.050"
+				z "-128.000"
+			}
+
+			scale
+			{
+				x "5.000"
+				z "5.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9426)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "-0.000"
+				z "-128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9427)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9428)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9429)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "-0.000"
+				z "-128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9430)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				z "-64.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9431)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+				y "0.000"
+				z "-128.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9432)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.000"
+				y "0.000"
+				z "-64.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9433)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "64.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(9434)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "0.000"
+				z "-64.000"
+			}
+
+		}
+
+	}
+
+}
+

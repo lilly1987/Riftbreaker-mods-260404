@@ -1,0 +1,15467 @@
+entity_count "320"
+//editor "index(656)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "31.72"
+				z "11.208"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(691)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0"
+				y "-1"
+			}
+
+			position
+			{
+				x "61.32"
+				y "-0"
+				z "-22.843"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1579)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.819"
+				y "-0.574"
+			}
+
+			position
+			{
+				x "-42.667"
+				y "-0.531"
+				z "50.111"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1581)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_small"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.954"
+				y "-0.301"
+			}
+
+			position
+			{
+				x "47.054"
+				y "-0.412"
+				z "24.749"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1582)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_small"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.954"
+				y "-0.301"
+			}
+
+			position
+			{
+				x "46.946"
+				y "-0.412"
+				z "43.397"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1791)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "23.375"
+				y "0.1"
+				z "-61.575"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1793)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-60.671"
+				y "0.15"
+				z "24.324"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1794)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-24.42"
+				y "0.15"
+				z "59.29"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1797)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "3.177"
+				y "0.05"
+				z "-25.255"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1798)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "11.135"
+				z "-7.28"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1799)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "5.176"
+				z "-8.179"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1800)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "8.791"
+				z "-9.495"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1801)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "8.682"
+				z "-8.514"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "16.963"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1802)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-15.277"
+				y "0.05"
+				z "35.773"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1803)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "7.885"
+				z "-5.198"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1809)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "9.059"
+				y "0.05"
+				z "-18.852"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1813)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "30.534"
+				y "0.05"
+				z "20.999"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "22.594"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1815)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "23.308"
+				y "0.05"
+				z "-52.964"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2049)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_liquids"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.5"
+					y "-0.5"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.5"
+					y "0.5"
+					z "0.5"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-0.239"
+				y "-3"
+				z "-1.199"
+			}
+
+			scale
+			{
+				x "126.749"
+				y "5.099"
+				z "124.629"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2088)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.819"
+				y "0.574"
+			}
+
+			position
+			{
+				x "40.601"
+				y "-0.531"
+				z "-52.799"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2105)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.06563"
+					y "-0.5703621"
+					z "-5.836893"
+				}
+
+				max
+				{
+					x "4.929694"
+					y "17.84032"
+					z "4.9110966"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-13.902"
+				y "-1.995"
+				z "-23.195"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2106)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.372177"
+					y "-1.3185768"
+					z "-5.177746"
+				}
+
+				max
+				{
+					x "5.6207905"
+					y "18.84987"
+					z "6.931348"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-21.167"
+				y "-1.465"
+				z "-37.794"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2107)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-27.637"
+				y "-1.724"
+				z "-43.935"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2108)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-30.109"
+				y "-1.505"
+				z "-14.575"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2111)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-27.802"
+				y "-0.305"
+				z "-18.644"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2115)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-16.2"
+				y "-0.677"
+				z "-21.825"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2116)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-17.613"
+				y "-0.653"
+				z "-41.874"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2117)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-28.758"
+				y "-0.447"
+				z "-48.167"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2119)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-29.751"
+				y "-0.564"
+				z "-18.808"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2120)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-42.55"
+				y "-0.63"
+				z "-53.726"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2121)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-25.306"
+				y "-0.481"
+				z "-13.861"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2122)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-16.766"
+				y "-0.278"
+				z "-28.443"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2123)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12.218"
+				y "-0.515"
+				z "-26.076"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2124)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-16.973"
+				y "-0.518"
+				z "-36.819"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2125)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-24.245"
+				y "-1.597"
+				z "-47.843"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2126)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-31.048"
+				y "-0.192"
+				z "-41.977"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2133)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-37.956"
+				y "-0.594"
+				z "-12.476"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2134)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-40.1"
+				y "-0.399"
+				z "-8.758"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2135)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-36.803"
+				y "-0.579"
+				z "-10.158"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2136)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.383"
+				y "0.924"
+			}
+
+			position
+			{
+				x "-35.975"
+				y "-0.683"
+				z "-4.501"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2137)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.383"
+				y "0.924"
+			}
+
+			position
+			{
+				x "-31.829"
+				y "-0.499"
+				z "-5.614"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2138)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.383"
+				y "0.924"
+			}
+
+			position
+			{
+				x "-35.151"
+				y "-1.144"
+				z "-6.955"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2139)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.383"
+				y "0.924"
+			}
+
+			position
+			{
+				x "-32.328"
+				y "-0.564"
+				z "-14.018"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2140)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.383"
+				y "0.924"
+			}
+
+			position
+			{
+				x "-31.215"
+				y "-0.858"
+				z "-9.873"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2141)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.383"
+				y "0.924"
+			}
+
+			position
+			{
+				x "-33.669"
+				y "-0.515"
+				z "-10.697"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2142)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-24.576"
+				y "-0.743"
+				z "-9.522"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2143)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-24.908"
+				y "-0.593"
+				z "-12.195"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2144)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-26.376"
+				y "-0.928"
+				z "-14.079"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2145)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-28.53"
+				y "-0.979"
+				z "-11.218"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2146)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-32.423"
+				y "-0.636"
+				z "-17.463"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2147)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-23.145"
+				y "-0.746"
+				z "-11.679"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2148)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-22.854"
+				y "-0.966"
+				z "-14.846"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2149)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-25.703"
+				y "-0.751"
+				z "-17.191"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2150)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-20.317"
+				y "-0.851"
+				z "-15.359"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2151)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-13.364"
+				y "-1.989"
+				z "-24.463"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2152)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-12.865"
+				y "-0.621"
+				z "-20.916"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2153)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-13.156"
+				y "-0.572"
+				z "-17.75"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2154)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-18.544"
+				y "-1.426"
+				z "-21.58"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2155)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-24.233"
+				y "-0.898"
+				z "-15.16"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2156)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-16.386"
+				y "-0.741"
+				z "-20.149"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2157)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-10.295"
+				y "-1.027"
+				z "-15.595"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2158)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-14.587"
+				y "-0.539"
+				z "-15.592"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2159)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-10.327"
+				y "-0.623"
+				z "-21.43"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2160)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-19.489"
+				y "-1.378"
+				z "-35.076"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2161)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-13.162"
+				y "-0.752"
+				z "-38.566"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2162)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-17.646"
+				y "-0.821"
+				z "-39.519"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2163)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.044"
+				y "0.999"
+			}
+
+			position
+			{
+				x "-13.457"
+				y "-0.478"
+				z "-33.676"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2164)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.044"
+				y "0.999"
+			}
+
+			position
+			{
+				x "-10.295"
+				y "-0.516"
+				z "-35.358"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2165)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.044"
+				y "0.999"
+			}
+
+			position
+			{
+				x "-12.106"
+				y "-0.701"
+				z "-31.467"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2166)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-15.371"
+				y "-0.943"
+				z "-37.216"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2167)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-16.973"
+				y "-1.58"
+				z "-34.469"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2168)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-18.019"
+				y "-0.841"
+				z "-31.043"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2169)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.044"
+				y "0.999"
+			}
+
+			position
+			{
+				x "-34.359"
+				y "-0.653"
+				z "-48.634"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2170)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-37.615"
+				y "-0.583"
+				z "-54.261"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2171)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-34.064"
+				y "-0.559"
+				z "-53.525"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2172)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-40.391"
+				y "-0.649"
+				z "-50.034"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2173)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-38.921"
+				y "-0.765"
+				z "-46.002"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2174)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-37.874"
+				y "-0.678"
+				z "-49.427"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2175)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-36.273"
+				y "-0.633"
+				z "-52.174"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2176)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.044"
+				y "0.999"
+			}
+
+			position
+			{
+				x "-33.008"
+				y "-0.595"
+				z "-46.426"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2177)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.044"
+				y "0.999"
+			}
+
+			position
+			{
+				x "-31.197"
+				y "-0.783"
+				z "-50.317"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2181)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-40.799"
+				y "-0.531"
+				z "-1.801"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2182)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-22.855"
+				y "-0.531"
+				z "-18.78"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2183)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-37.272"
+				y "-0.531"
+				z "-14.715"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2184)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-8.398"
+				y "-0.531"
+				z "-32.167"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2185)"
+EntityTemplate
+{
+	base_blueprint "effects/world/magma_fire_ambient_medium"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.9669424"
+					y "-0.9669425"
+					z "-0.5"
+				}
+
+				max
+				{
+					x "0.9669424"
+					y "0.96694237"
+					z "2.675338"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-38.171"
+				y "-0.531"
+				z "-50.399"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2199)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.372177"
+					y "-1.3185768"
+					z "-5.177746"
+				}
+
+				max
+				{
+					x "5.6207905"
+					y "18.84987"
+					z "6.931348"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-57.059"
+				y "-0.992"
+				z "-29.741"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2200)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-46.888"
+				y "-0.654"
+				z "-32.508"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2201)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-51.983"
+				y "-0.447"
+				z "-31.441"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2202)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-48.84"
+				y "-0.653"
+				z "-26.668"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2203)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-51.383"
+				y "-0.765"
+				z "-33.437"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2204)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.737"
+				y "0.676"
+			}
+
+			position
+			{
+				x "-53.992"
+				y "-0.583"
+				z "-32.554"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2205)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "-52.022"
+				y "-0.841"
+				z "-27.49"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2206)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-43.613"
+				y "-0.594"
+				z "-30.504"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2218)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.06563"
+					y "-0.5703621"
+					z "-5.836893"
+				}
+
+				max
+				{
+					x "4.929694"
+					y "17.84032"
+					z "4.9110966"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "27.487"
+				y "-1.995"
+				z "-33.086"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2219)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "53.949"
+				y "-1.505"
+				z "-49.598"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2220)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "5.052"
+				y "-0.653"
+				z "-43.836"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2221)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "8.583"
+				y "-0.192"
+				z "-44.658"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2222)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "3.357"
+				y "-0.518"
+				z "-47.738"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2223)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.609"
+				y "0.793"
+			}
+
+			position
+			{
+				x "8.096"
+				y "-0.478"
+				z "-47.222"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2224)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.991"
+				y "0.131"
+			}
+
+			position
+			{
+				x "3.601"
+				y "-0.752"
+				z "-49.171"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2225)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.609"
+				y "0.793"
+			}
+
+			position
+			{
+				x "7.597"
+				y "-0.516"
+				z "-50.768"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2270)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "29.332"
+				y "-0.979"
+				z "45.095"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2271)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "26.035"
+				y "-0.928"
+				z "46.495"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2272)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "26.959"
+				y "-0.593"
+				z "44.296"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2273)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.991"
+				y "-0.131"
+			}
+
+			position
+			{
+				x "34.042"
+				y "-0.515"
+				z "47.213"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2274)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.991"
+				y "-0.131"
+			}
+
+			position
+			{
+				x "31.22"
+				y "-0.564"
+				z "49.419"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2275)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.793"
+				y "0.609"
+			}
+
+			position
+			{
+				x "37.196"
+				y "-1.144"
+				z "44.713"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2276)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "40.581"
+				y "-0.399"
+				z "48.749"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2277)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				y "0.383"
+			}
+
+			position
+			{
+				x "23.896"
+				y "-0.751"
+				z "48.854"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2278)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "26.755"
+				y "-0.743"
+				z "41.649"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2279)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "36.865"
+				y "-0.594"
+				z "50.897"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2280)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "14.349"
+				y "-0.741"
+				z "46.757"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2281)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				y "0.383"
+			}
+
+			position
+			{
+				x "10.916"
+				y "-0.621"
+				z "45.661"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2282)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "37.026"
+				y "-0.579"
+				z "48.313"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2283)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				y "0.383"
+			}
+
+			position
+			{
+				x "8.461"
+				y "-0.623"
+				z "44.837"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2284)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.991"
+				y "-0.131"
+			}
+
+			position
+			{
+				x "32.329"
+				y "-0.858"
+				z "45.272"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2285)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "14.085"
+				y "-0.539"
+				z "45.212"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2286)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				y "0.383"
+			}
+
+			position
+			{
+				x "25.331"
+				y "-0.966"
+				z "53.934"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2287)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "10.736"
+				y "-0.714"
+				z "43.86"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2288)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "22.672"
+				y "-0.898"
+				z "49.594"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2289)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "15.502"
+				y "-1.426"
+				z "49.076"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2290)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "12.751"
+				y "-0.572"
+				z "43.064"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2291)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				y "0.383"
+			}
+
+			position
+			{
+				x "9.575"
+				y "-1.989"
+				z "48.982"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2292)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.793"
+				y "0.609"
+			}
+
+			position
+			{
+				x "39.137"
+				y "-0.683"
+				z "43"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2293)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.924"
+				y "0.383"
+			}
+
+			position
+			{
+				x "22.909"
+				y "-0.851"
+				z "52.17"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2294)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "30.261"
+				y "-0.746"
+				z "43.816"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2295)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.793"
+				y "0.609"
+			}
+
+			position
+			{
+				x "34.99"
+				y "-0.499"
+				z "41.891"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2296)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "7.775"
+				y "-0.515"
+				z "49.806"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2297)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "25.944"
+				y "-0.481"
+				z "46.123"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2298)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0"
+				y "1"
+			}
+
+			position
+			{
+				x "29.58"
+				y "-0.636"
+				z "52.45"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2299)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "10.867"
+				y "-0.278"
+				z "52.748"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2300)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "26.593"
+				y "-0.564"
+				z "52.278"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2301)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "47.525"
+				y "-0.615"
+				z "48.135"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2302)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "13.35"
+				y "-0.677"
+				z "48.116"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2303)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "24.987"
+				y "-0.305"
+				z "51.161"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2304)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "18.846"
+				y "-0.466"
+				z "49.144"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2305)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "21.005"
+				y "-0.469"
+				z "48.347"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2306)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "29.02"
+				y "-1.505"
+				z "48.791"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2307)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.06563"
+					y "-0.5703621"
+					z "-5.836893"
+				}
+
+				max
+				{
+					x "4.929694"
+					y "17.84032"
+					z "4.9110966"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.259"
+				y "0.966"
+			}
+
+			position
+			{
+				x "10.675"
+				y "-1.995"
+				z "48.154"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2308)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "49.819"
+				y "-0.743"
+				z "33.309"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2309)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "43.22"
+				y "-0.751"
+				z "29.243"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2310)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "40.426"
+				y "-0.399"
+				z "45.692"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2311)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "43.103"
+				y "-0.495"
+				z "44.244"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2312)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "-0.676"
+			}
+
+			position
+			{
+				x "41.392"
+				y "-0.564"
+				z "36.357"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2313)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "-0.676"
+			}
+
+			position
+			{
+				x "43.074"
+				y "-0.515"
+				z "39.519"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2315)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "44.429"
+				y "-0.928"
+				z "31.7"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2317)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "37.689"
+				y "-0.636"
+				z "38.597"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2318)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "48.15"
+				y "-0.499"
+				z "41.377"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2320)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "43.697"
+				y "-0.683"
+				z "47.866"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2321)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "45.58"
+				y "-1.989"
+				z "15.117"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2323)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "44.459"
+				y "-1.426"
+				z "20.938"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2325)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "43.477"
+				y "-0.642"
+				z "26.303"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2329)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "49.856"
+				y "-0.623"
+				z "14.74"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2330)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "41.472"
+				y "-0.579"
+				z "42.267"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2331)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "48.618"
+				y "-0.621"
+				z "17.014"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2332)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "46.942"
+				y "-0.741"
+				z "20.205"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2333)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "38.955"
+				y "-0.594"
+				z "41.66"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2334)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "47.296"
+				y "-0.851"
+				z "25.238"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2335)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.06563"
+					y "-0.5703621"
+					z "-5.836893"
+				}
+
+				max
+				{
+					x "4.929694"
+					y "17.84032"
+					z "4.9110966"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "46.205"
+				y "-1.995"
+				z "16.344"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2336)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "42.392"
+				y "-1.505"
+				z "34.3"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2337)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "43.074"
+				y "-0.466"
+				z "40.366"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2338)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "40.758"
+				y "-0.305"
+				z "29.917"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2339)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "45.778"
+				y "-0.677"
+				z "18.985"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2340)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "32.553"
+				y "-0.615"
+				z "52.557"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2341)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "45.07"
+				y "-0.849"
+				z "43.406"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2342)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "39.832"
+				y "-0.564"
+				z "37.859"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2343)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "43.88"
+				y "-0.75"
+				z "23.854"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2344)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "45.564"
+				y "-0.481"
+				z "31.497"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2345)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "42.894"
+				y "-0.515"
+				z "22.127"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2346)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "57.189"
+				y "-0.593"
+				z "-7.226"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2347)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "-0.676"
+			}
+
+			position
+			{
+				x "51.023"
+				y "-0.564"
+				z "-2.713"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2348)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "53.934"
+				y "-0.55"
+				z "-3.157"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2349)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "52.851"
+				y "-0.751"
+				z "-9.828"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2350)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "57.247"
+				y "-0.743"
+				z "-3.926"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2351)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "51.519"
+				y "-0.851"
+				z "-11.439"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2352)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "48.587"
+				y "-0.594"
+				z "2.589"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2353)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "-0.676"
+			}
+
+			position
+			{
+				x "52.706"
+				y "-0.515"
+				z "0.449"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2354)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "-29.033"
+				y "-0.621"
+				z "19.961"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2355)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "49.557"
+				y "-0.579"
+				z "0.293"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2356)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "-27.796"
+				y "-0.623"
+				z "17.687"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2357)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "43.03"
+				y "-0.399"
+				z "18.31"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2358)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.737"
+				y "-0.676"
+			}
+
+			position
+			{
+				x "54.915"
+				y "-0.858"
+				z "-0.902"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2359)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "-26.425"
+				y "-1.027"
+				z "19.925"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2360)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "55.352"
+				y "-0.898"
+				z "-9.649"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2361)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "-30.709"
+				y "-0.741"
+				z "23.151"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2362)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "-33.192"
+				y "-1.426"
+				z "23.884"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2363)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "-26.794"
+				y "-0.572"
+				z "22.219"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2364)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "52.796"
+				y "-0.683"
+				z "17.838"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2365)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "-28.686"
+				y "-0.539"
+				z "24.28"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2366)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "54.232"
+				y "-0.966"
+				z "-11.128"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2367)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "50.421"
+				y "-0.499"
+				z "16.304"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2368)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "48.323"
+				y "-0.636"
+				z "-4.855"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2369)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "55.61"
+				y "-0.979"
+				z "-3.822"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2370)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "-31.873"
+				y "-0.677"
+				z "21.931"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2371)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "50.389"
+				y "-0.305"
+				z "-9.154"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2372)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "52.706"
+				y "-0.466"
+				z "1.295"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2373)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "52.023"
+				y "-1.505"
+				z "-4.771"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2374)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "-32.071"
+				y "-1.989"
+				z "18.064"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2375)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.06563"
+					y "-0.5703621"
+					z "-5.836893"
+				}
+
+				max
+				{
+					x "4.929694"
+					y "17.84032"
+					z "4.9110966"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "-31.446"
+				y "-1.995"
+				z "19.29"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2376)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.766"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "54.803"
+				y "-0.928"
+				z "-7.312"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2377)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "-32.57"
+				y "-0.515"
+				z "16.148"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2378)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "55.657"
+				y "-0.481"
+				z "-7.991"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2379)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "-35.454"
+				y "-0.278"
+				z "21.63"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2380)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "56.689"
+				y "-0.746"
+				z "-9.743"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2381)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "49.011"
+				y "-0.564"
+				z "-7.767"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2382)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "49.77"
+				y "-1.517"
+				z "-11.786"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2383)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "46.556"
+				y "-0.615"
+				z "23.499"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2384)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				y "-0.996"
+			}
+
+			position
+			{
+				x "-42.79"
+				y "-1.027"
+				z "49.646"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2385)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.5452924"
+					y "-1.0940914"
+					z "-3.6218572"
+				}
+
+				max
+				{
+					x "2.5808587"
+					y "9.669106"
+					z "2.8895822"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.906"
+				y "-0.423"
+			}
+
+			position
+			{
+				x "-52.613"
+				y "-0.677"
+				z "54.727"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2386)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.887"
+				y "0.462"
+			}
+
+			position
+			{
+				x "-45.375"
+				y "-0.623"
+				z "56.758"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2387)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "-41.576"
+				y "-0.708"
+				z "-4.242"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2388)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-38.648"
+				y "-0.481"
+				z "-1.821"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2389)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "-36.667"
+				y "-0.743"
+				z "-1.825"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2390)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.3419895"
+					y "-1.1738043"
+					z "-3.9839897"
+				}
+
+				max
+				{
+					x "3.2775712"
+					y "9.876226"
+					z "2.4438105"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-34.453"
+				y "-1.517"
+				z "-0.455"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2391)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "-41.428"
+				y "-0.636"
+				z "-1.306"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2392)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-35.931"
+				y "-0.399"
+				z "17.851"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2393)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_big_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-6.72694"
+					y "-0.93029404"
+					z "-7.359586"
+				}
+
+				max
+				{
+					x "5.5304127"
+					y "18.070824"
+					z "6.8326178"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.462"
+				y "0.887"
+			}
+
+			position
+			{
+				x "43.974"
+				y "-1.306"
+				z "-27.406"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2394)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "29.607"
+				y "-0.192"
+				z "-29.841"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2395)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "28.226"
+				y "-0.481"
+				z "-26.632"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2396)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "52.16"
+				y "-0.851"
+				z "-34.174"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2397)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "48.244"
+				y "-0.898"
+				z "-33.974"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2398)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "47.9"
+				y "-0.743"
+				z "-28.336"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2399)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.609"
+				y "-0.793"
+			}
+
+			position
+			{
+				x "49.622"
+				y "-0.966"
+				z "-33.66"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2400)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "49.331"
+				y "-0.746"
+				z "-30.493"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2401)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.966"
+				y "0.259"
+			}
+
+			position
+			{
+				x "46.101"
+				y "-0.928"
+				z "-32.893"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2402)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.5"
+				y "0.866"
+			}
+
+			position
+			{
+				x "47.568"
+				y "-0.593"
+				z "-31.01"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2403)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "47.17"
+				y "-0.481"
+				z "-32.675"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2404)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "33.054"
+				y "-0.593"
+				z "-24.964"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2405)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.94"
+				y "-0.342"
+			}
+
+			position
+			{
+				x "34.322"
+				y "-0.928"
+				z "-26.987"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2406)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "33.172"
+				y "-0.746"
+				z "-23.131"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2407)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "36.247"
+				y "-0.966"
+				z "-23.941"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2408)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.906"
+				y "0.423"
+			}
+
+			position
+			{
+				x "30.655"
+				y "-0.743"
+				z "-23.738"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2409)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.94"
+				y "-0.342"
+			}
+
+			position
+			{
+				x "36.071"
+				y "-0.898"
+				z "-25.343"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2410)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.044"
+				y "-0.999"
+			}
+
+			position
+			{
+				x "37.598"
+				y "-0.851"
+				z "-21.732"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2411)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.819"
+				y "-0.574"
+			}
+
+			position
+			{
+				x "34.483"
+				y "-0.481"
+				z "-25.908"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2412)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "38.396"
+				y "-0.928"
+				z "-47.435"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2413)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "-0.609"
+			}
+
+			position
+			{
+				x "37.466"
+				y "-0.593"
+				z "-49.634"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2414)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.866"
+				y "-0.5"
+			}
+
+			position
+			{
+				x "32.213"
+				y "-0.851"
+				z "-47.766"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2415)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "36.047"
+				y "-0.898"
+				z "-46.945"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2416)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "-0.609"
+			}
+
+			position
+			{
+				x "37.838"
+				y "-0.743"
+				z "-52.303"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2417)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.866"
+				y "-0.5"
+			}
+
+			position
+			{
+				x "34.797"
+				y "-0.966"
+				z "-47.606"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2418)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "-0.609"
+			}
+
+			position
+			{
+				x "35.897"
+				y "-0.746"
+				z "-50.589"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2419)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "37.42"
+				y "-0.481"
+				z "-47.923"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2420)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.866"
+				y "-0.5"
+			}
+
+			position
+			{
+				x "5.821"
+				y "-0.851"
+				z "-50.068"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2421)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "-0.609"
+			}
+
+			position
+			{
+				x "11.075"
+				y "-0.593"
+				z "-51.936"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2422)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "12.005"
+				y "-0.928"
+				z "-49.737"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2423)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "-0.609"
+			}
+
+			position
+			{
+				x "9.506"
+				y "-0.746"
+				z "-52.891"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2424)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.866"
+				y "-0.5"
+			}
+
+			position
+			{
+				x "8.405"
+				y "-0.966"
+				z "-49.908"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2425)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "-0.609"
+			}
+
+			position
+			{
+				x "11.446"
+				y "-0.743"
+				z "-54.605"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2426)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "9.655"
+				y "-0.898"
+				z "-49.247"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2427)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.131"
+				y "-0.991"
+			}
+
+			position
+			{
+				x "11.028"
+				y "-0.481"
+				z "-50.225"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2428)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.301"
+				y "0.954"
+			}
+
+			position
+			{
+				x "2.069"
+				y "-0.898"
+				z "45.409"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2429)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "0.233"
+				y "-0.851"
+				z "41.944"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2430)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.301"
+				y "0.954"
+			}
+
+			position
+			{
+				x "3.955"
+				y "-0.928"
+				z "46.894"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2431)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.996"
+				y "0.087"
+			}
+
+			position
+			{
+				x "1.771"
+				y "-0.966"
+				z "44.027"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2432)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_03_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.1618"
+					y "-0.14670038"
+					z "-2.3446708"
+				}
+
+				max
+				{
+					x "1.8817248"
+					y "6.1800194"
+					z "1.9873204"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.462"
+				y "0.887"
+			}
+
+			position
+			{
+				x "4.764"
+				y "-0.746"
+				z "42.952"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2433)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2868133"
+					y "-0.27502298"
+					z "-1.7663803"
+				}
+
+				max
+				{
+					x "1.6144409"
+					y "4.406577"
+					z "1.6311774"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.462"
+				y "0.887"
+			}
+
+			position
+			{
+				x "5.041"
+				y "-0.593"
+				z "44.768"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2434)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_small_01_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.7801065"
+					y "-0.191185"
+					z "-2.1077175"
+				}
+
+				max
+				{
+					x "1.7524095"
+					y "4.2786613"
+					z "1.8568721"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.462"
+				y "0.887"
+			}
+
+			position
+			{
+				x "7.324"
+				y "-0.743"
+				z "43.337"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2435)"
+EntityTemplate
+{
+	base_blueprint "props/trees/drexolian_medium_02_skin2"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.6793218"
+					y "-0.90627"
+					z "-3.202283"
+				}
+
+				max
+				{
+					x "1.993381"
+					y "10.088603"
+					z "2.455018"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.537"
+				y "0.843"
+			}
+
+			position
+			{
+				x "3.7"
+				y "-0.481"
+				z "45.833"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2436)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "-12.548"
+				y "0.1"
+				z "-61.575"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2437)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-60.671"
+				y "0.15"
+				z "-15.612"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2438)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.2231581"
+					y "-1.001358e-05"
+					z "-0.43950707"
+				}
+
+				max
+				{
+					x "2.041807"
+					y "2.99425"
+					z "0.4395067"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0"
+				y "-1"
+			}
+
+			position
+			{
+				x "61.777"
+				y "-0"
+				z "8.689"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2439)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "13.791"
+				z "-5.223"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2440)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "12.531"
+				z "-11.219"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2441)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.999"
+				y "0.043"
+			}
+
+			position
+			{
+				x "3.192"
+				z "-6.285"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2442)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-23.432"
+				z "45.119"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "16.963"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2443)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-22.184"
+				z "42.675"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2444)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-23.083"
+				z "48.634"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2445)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-24.399"
+				z "45.019"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2446)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-20.102"
+				z "45.925"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2447)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-21.19"
+				z "50.618"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2448)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-26.124"
+				z "41.279"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2449)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-20.128"
+				z "40.019"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2450)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "14.032"
+				y "0.05"
+				z "20.652"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2451)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.4716291"
+					y "-1.001358e-05"
+					z "-1.6393247"
+				}
+
+				max
+				{
+					x "1.5794158"
+					y "4.0822864"
+					z "1.6393251"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-33.962"
+				y "0.05"
+				z "-29.375"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2452)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.93725"
+					y "-0.14090061"
+					z "-6.6201763"
+				}
+
+				max
+				{
+					x "6.075054"
+					y "10.933059"
+					z "4.9129677"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-50.293"
+				z "24.227"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2453)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12.887"
+				y "0.05"
+				z "15.14"
+			}
+
+			scale
+			{
+				x "11.78"
+				y "2"
+				z "22.594"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2454)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-53.83"
+				y "0.05"
+				z "12.118"
+			}
+
+			scale
+			{
+				x "16.064"
+				y "2"
+				z "17.979"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2455)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-54.079"
+				y "0.05"
+				z "-14.365"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2456)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "56.881"
+				y "0.05"
+				z "-21.887"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2457)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "29.461"
+				y "0.05"
+				z "-58.467"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2458)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-10.369"
+				y "0.05"
+				z "-55.608"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2459)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-57.494"
+				y "0.05"
+				z "-45.881"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2460)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-52.19"
+				y "0.05"
+				z "-8.964"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2462)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-59.63"
+				y "0.1"
+				z "59.949"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2463)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "5.238"
+				y "0.1"
+				z "28.272"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2464)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "28.848"
+				y "0.1"
+				z "-13.911"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2465)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-23.478"
+				y "0.1"
+				z "8.854"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2466)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "19.866"
+				y "0.1"
+				z "-25.93"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2467)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58.301"
+				y "0.1"
+				z "-25.011"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2468)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "61.28"
+				y "0.1"
+				z "-60.354"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2469)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "60.979"
+				y "0.1"
+				z "40.219"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2470)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-5.898"
+				y "0.1"
+				z "60.144"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2471)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "58.857"
+				y "0.15"
+				z "9.278"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2472)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-3.675"
+				y "0.15"
+				z "-0.575"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2474)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-29.154"
+				y "0.2"
+				z "-61.427"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2475)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-32.203"
+				y "0.2"
+				z "41.816"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2476)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_special_object"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.8042649"
+					y "-1.8042648"
+					z "-1.8042649"
+				}
+
+				max
+				{
+					x "1.8042649"
+					y "1.8042648"
+					z "1.8042649"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-32.611"
+				y "0.1"
+				z "-30.171"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2477)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-37.055"
+				y "0.05"
+				z "-7.95"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2478)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-35.364"
+				y "0.05"
+				z "-49.996"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2479)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "37.882"
+				y "0.05"
+				z "47.757"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2480)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-59.369"
+				z "-50.488"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2481)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-55.163"
+				z "-53.989"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2482)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-53.107"
+				z "-56.645"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2483)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-54.169"
+				z "-46.046"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2484)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-56.062"
+				z "-48.03"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2485)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-57.533"
+				z "-55.385"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2486)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "-57.378"
+				z "-51.645"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2487)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-56.406"
+				z "-51.535"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "16.963"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2488)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "56.4"
+				z "55.822"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2489)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "58.293"
+				z "57.806"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2490)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "55.084"
+				z "52.207"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2491)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "53.092"
+				z "53.363"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2492)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "54.928"
+				z "48.467"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2493)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "57.299"
+				z "49.863"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2494)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3"
+					y "-3.0000005"
+					z "-3"
+				}
+
+				max
+				{
+					x "3"
+					y "3.0000005"
+					z "3"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				y "0.737"
+			}
+
+			position
+			{
+				x "59.355"
+				z "47.207"
+			}
+
+			scale
+			{
+				x "0.528"
+				z "0.369"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2495)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "56.039"
+				z "52.317"
+			}
+
+			scale
+			{
+				x "12.858"
+				y "3"
+				z "16.963"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2512)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.985"
+				y "-0.174"
+			}
+
+			position
+			{
+				x "1.574"
+				y "0.05"
+				z "40.778"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2513)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.51"
+					y "-0.51"
+					z "-0.51"
+				}
+
+				max
+				{
+					x "0.51"
+					y "0.51"
+					z "0.51"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-17.202"
+				y "0.05"
+				z "-15.843"
+			}
+
+			scale
+			{
+				x "10"
+				y "2"
+				z "10"
+			}
+
+		}
+
+	}
+
+}
+

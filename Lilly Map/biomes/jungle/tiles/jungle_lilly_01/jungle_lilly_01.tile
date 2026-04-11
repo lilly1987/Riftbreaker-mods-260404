@@ -1,0 +1,30 @@
+TileDef
+{
+	tile_materials
+	{
+		String "ground/moss/moss_02"
+		String "ground/mud/forest_mud_02"
+		String "ground/mud/forest_mud_03"
+		String "ground/pebbles/brown_pebbles_01"
+		String "ground/rock/coral_mud"
+	}
+
+	is_hidden "0"
+	fixed_rotation
+	tile_regions
+	{
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0"
+				y "0"
+			}
+
+		}
+
+	}
+
+}
+

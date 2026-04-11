@@ -1,0 +1,21 @@
+root_dir: ../Lilly Map
+file_glob: "**/*.scene"
+encoding: utf-8
+create_backup: true
+backup_suffix: .bak
+random_seed:
+
+rules:
+  - name: random_liquids
+    targets:
+      - '"resources/volume_resource_mud"'
+      - '"resources/volume_resource_mud_swamp"'
+      - '"resources/volume_resource_sludge"'
+      - '"resources/volume_resource_magma"'
+      - '"resources/volume_resource_supercoolant"'
+      - '"resources/volume_resource_morphium"'
+      - '"resources/volume_random_liquids_swamp"'
+    replacements:
+      - '"resources/volume_random_liquids"'
+      # - '"resources/volume_random_resources_liquid"'
+    replacement_mode: random

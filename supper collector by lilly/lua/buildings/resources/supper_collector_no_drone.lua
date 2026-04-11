@@ -71,7 +71,7 @@ function supper_collector:OnDebugExecute()
         message = message .. "\n";
     end
 
-    LogService:DebugText(self.entity,message)
+    -- LogService:DebugText(self.entity,message)
 end
 
 function supper_collector:FindBestVegetationEntity()

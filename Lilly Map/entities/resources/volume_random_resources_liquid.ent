@@ -37,10 +37,37 @@ EntityBlueprint
         }
     }
 
-	VolumeResourcesSpawnerComponent
-    {
-        resources "mud_vein,sludge_vein,water_vein,morphium_vein,magma_vein,supercoolant_vein"
-    }
+	//VolumeResourcesSpawnerComponent
+    //{
+    //    resources "mud_vein,sludge_vein,water_vein,morphium_vein,magma_vein,supercoolant_vein"
+    //}
+	RandomBlueprintDesc
+	{
+		Blueprint
+		{
+			blueprint "resources/volume_resource_mud"
+		}			
+		Blueprint
+		{
+			blueprint "resources/volume_resource_sludge"
+		}
+		Blueprint
+		{
+			blueprint "resources/volume_resource_water"
+		}
+		Blueprint
+		{
+			blueprint "resources/volume_resource_morphium"
+		}
+		Blueprint
+		{
+			blueprint "resources/volume_resource_magma"
+		}
+		Blueprint
+		{
+			blueprint "resources/volume_resource_supercoolant"
+		}
+	}
 
 	LocalAabbDesc
 	{

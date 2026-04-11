@@ -274,7 +274,7 @@ EntityTemplate
 //editor "index(2049)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_supercoolant"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
@@ -1423,7 +1423,7 @@ EntityTemplate
 //editor "index(2836)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_resource_supercoolant"
+	base_blueprint "resources/volume_random_resources_liquid"
 	components
 	{
 		LocalAabbDesc
