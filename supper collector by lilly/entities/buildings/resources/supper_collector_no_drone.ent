@@ -14,6 +14,8 @@ EntityBlueprint
 		order				"0"
 		//upgrade				"buildings/resources/flora_collector_lvl_2"		
 		//exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"		
+		min_radius			"50"
+		building_functionality	"BUILD_ON_WATER|NO_FOUNDATION"
 		
 		costs
 		{
@@ -124,7 +126,12 @@ EntityBlueprint
 	{
 		submesh_idx 	1
 		glow_factor 	100
-	}
+	}	
+	
+	ResistanceComponent
+	{
+		magma		"0"
+	}	
 
 	HealthDesc
 	{

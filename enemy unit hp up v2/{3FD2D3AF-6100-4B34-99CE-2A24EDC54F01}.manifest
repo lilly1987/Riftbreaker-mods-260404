@@ -1,0 +1,22 @@
+WorkspaceManifest
+{
+	description "aHAyPW1hdGguZmxvb3IoKDEwMDAwLWhwKS81MCtocCoyKQ=="
+	tags
+	{
+		String "Creatures"
+		String "Rebalance"
+	}
+
+	modified_game_files
+	title "ZW5lbXkgdW5pdCBocCB1cCB2Mg=="
+	homepage
+	modio_published_file "4231180"
+	visibility "0"
+	game_version "EXE: 978 DATA: 573"
+	version "1.0.1"
+	localizations
+	author
+	steam_published_file "3302791821"
+	dependencies
+}
+
