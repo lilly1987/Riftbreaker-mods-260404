@@ -67,7 +67,6 @@ local function queue_available_researches(reason)
 	local added = 0
 	for _, research_name in ipairs(researches) do
 		if research_name ~= nil and research_name ~= "" and not queued_researches[research_name] then
-			queued_researches[research_name] = true
 			QueueEvent("AddToResearchRequest", INVALID_ID, research_name, player_id)
 			added = added + 1
 		end
@@ -121,14 +120,14 @@ end
 
 -- 1번째
 RegisterGlobalEventHandler("PlayerInitializedEvent", function(_evt)
-	LogService:Log("PlayerInitializedEvent")
+	-- LogService:Log("PlayerInitializedEvent")
 	try_initialize(timer_owner)
 	queue_available_researches("player_initialized")
 end)
 
 -- 2번째
 RegisterGlobalEventHandler("PlayerControlledEntityChangeEvent", function(evt)
-	LogService:Log("PlayerControlledEntityChangeEvent: " .. tostring(evt:GetEntity()))
+	-- LogService:Log("PlayerControlledEntityChangeEvent: " .. tostring(evt:GetEntity()))
 	try_initialize(evt:GetEntity())
 end)
 
@@ -137,7 +136,7 @@ RegisterGlobalEventHandler("TimerElapsedEvent", function(evt)
 	if evt:GetName() ~= TIMER_NAME then
 		return
 	end
-	LogService:Log("TimerElapsedEvent: " .. tostring(evt:GetName()))
+	-- LogService:Log("TimerElapsedEvent: " .. tostring(evt:GetName()))
 
 	queue_available_researches("timer")
 	schedule_next_tick()
@@ -145,9 +144,21 @@ end)
 
 -- 4번째
 RegisterGlobalEventHandler("MissionFlowDeactivatedEvent", function(_evt)
-	LogService:Log("MissionFlowDeactivatedEvent")
+	-- LogService:Log("MissionFlowDeactivatedEvent")
 	try_initialize(timer_owner)
 	queue_available_researches("mission_flow_deactivated")
+end)
+
+RegisterGlobalEventHandler("StartBuildingEvent", function(evt)
+	-- LogService:Log("StartBuildingEvent: " .. tostring(evt:GetEntity()))
+	try_initialize(evt:GetEntity())
+	queue_available_researches("start_building")
+end)
+
+RegisterGlobalEventHandler("BuildingBuildEvent", function(evt)
+	-- LogService:Log("BuildingBuildEvent: " .. tostring(evt:GetEntity()))
+	try_initialize(evt:GetEntity())
+	queue_available_researches("building_build")
 end)
 
 RegisterGlobalEventHandler("NewResearchAvailableEvent", function(evt)
