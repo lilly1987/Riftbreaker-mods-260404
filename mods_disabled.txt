@@ -9,5 +9,6 @@ flora collector by lilly - very fast harvest - no drone - Discarded
 missions by lilly
 pickup_range_x100
 reveal minimap
+start auto Research All
 start make rock
 starting give building
