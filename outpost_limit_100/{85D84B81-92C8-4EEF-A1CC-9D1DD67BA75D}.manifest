@@ -7,8 +7,8 @@ WorkspaceManifest
 	homepage
 	modio_published_file "4154316"
 	visibility "0"
-	game_version "EXE: 978 DATA: 573"
-	version "1.0.1"
+	game_version "EXE: 1186 DATA: 847"
+	version "1.0.2"
 	localizations
 	author
 	steam_published_file "3286042255"

@@ -13,7 +13,7 @@ WorkspaceManifest
 	modio_published_file "4174155"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version "2.0.1"
+	version "2.0.2"
 	localizations
 	{
 		Pair_String_Localization

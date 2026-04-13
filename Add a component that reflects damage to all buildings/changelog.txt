@@ -1,0 +1,3 @@
+
+1.0.0
+Add a component that reflects damage to all buildings

@@ -12,7 +12,7 @@ WorkspaceManifest
 	modio_published_file "5945986"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version "1.6.3"
+	version "1.6.4"
 	localizations
 	author
 	steam_published_file "3698623857"

@@ -140,6 +140,7 @@ local list={
 -- "UpgradeBuildingRequest",
 -- "MissionFlowDeactivatedEvent",
 -- "MissionFlowActivatedEvent",
+-- "NewResearchAvailableEvent",
 }
 
 for _, event_name in ipairs(list) do
@@ -196,3 +197,32 @@ RegisterGlobalEventHandler("MissionFlowDeactivatedEvent", function(evt)
     LogService:Log("MissionFlowDeactivatedEvent " .. evt:GetName())
     ConsoleService:Write("MissionFlowDeactivatedEvent " .. evt:GetName())
 end)
+
+--------------------------------------------------------------
+-- RegisterGlobalEventHandler("AddToResearchRequest", function(evt)
+--     LogService:Log("AddToResearchRequest " .. evt:GetResearch())
+--     ConsoleService:Write("AddToResearchRequest " .. evt:GetResearch())
+-- end)
+
+-- RegisterGlobalEventHandler("AddedToResearchEvent", function(evt)
+--     LogService:Log("AddedToResearchEvent " .. evt:GetName())
+--     ConsoleService:Write("AddedToResearchEvent " .. evt:GetName())
+-- end)
+
+-- RegisterGlobalEventHandler("NewResearchAvailableEvent", function(evt)
+--     LogService:Log("NewResearchAvailableEvent " .. evt:GetName())
+--     ConsoleService:Write("NewResearchAvailableEvent  " .. evt:GetName())
+-- end)
+-- RegisterGlobalEventHandler("ResearchUnlockedEvent", function(evt)
+--     LogService:Log("ResearchUnlockedEvent " .. evt:GetName())
+--     ConsoleService:Write("ResearchUnlockedEvent  " .. evt:GetName())
+-- end)
+-- RegisterGlobalEventHandler("UnlockResearchRequest", function(evt)
+--     LogService:Log("UnlockResearchRequest " .. evt:GetName())
+--     ConsoleService:Write("UnlockResearchRequest  " .. evt:GetName())
+-- end)
+
+-- RegisterGlobalEventHandler("OpenResearchRequest", function(evt)
+--     LogService:Log("OpenResearchRequest " )
+--     ConsoleService:Write("OpenResearchRequest  " )
+-- end)

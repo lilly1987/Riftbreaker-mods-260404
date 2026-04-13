@@ -1,6 +1,6 @@
 WorkspaceManifest
 {
-	description "ZGVidWcgbG9n"
+	description "ZGVidWcgbG9nCgpteSBkZWJ1Z2luZw=="
 	tags
 	{
 		String "Other"
@@ -9,13 +9,13 @@ WorkspaceManifest
 	modified_game_files
 	title "ZGVidWcgbG9n"
 	homepage
-	modio_published_file "0"
+	modio_published_file "5975647"
 	visibility "0"
-	game_version "EXE: 1184 DATA: 844"
-	version
+	game_version "EXE: 1186 DATA: 847"
+	version "0.0.1"
 	localizations
 	author
-	steam_published_file "0"
+	steam_published_file "3705285191"
 	dependencies
 }
 

@@ -61,6 +61,22 @@ local function FormatPercentModValue(multiplierText)
 	return string.format("%.3f%%", (multiplier - 1.0) * 100.0)
 end
 
+local function GetPatchedValueForField(sourceValue, currentValue)
+	if sourceValue == nil then
+		return sourceValue
+	end
+
+	if HasSuffix(sourceValue, "%") then
+		return sourceValue
+	end
+
+	if currentValue ~= nil and HasSuffix(currentValue, "%") then
+		return FormatPercentModValue(sourceValue)
+	end
+
+	return sourceValue
+end
+
 local function PatchEntityModDesc(desc)
 	local entityModsField = desc:GetField("entity_mods")
 	local randomMaxValuesField = desc:GetField("random_max_values")
@@ -87,11 +103,7 @@ local function PatchEntityModDesc(desc)
 
 			if entityModValue ~= nil then
 				local currentValue = entityModValue:GetValue()
-				if currentValue ~= nil and HasSuffix(currentValue, "%") then
-					entityModValue:SetValue(FormatPercentModValue(maxValue))
-				else
-					entityModValue:SetValue(maxValue)
-				end
+				entityModValue:SetValue(GetPatchedValueForField(maxValue, currentValue))
 				patchedCount = patchedCount + 1
 			end
 		end
@@ -133,7 +145,7 @@ local function PatchWeaponModMinValues()
 				local minValue = desc:GetField("min_value")
 
 				if maxValue ~= nil and minValue ~= nil then
-					minValue:SetValue(maxValue:GetValue())
+					minValue:SetValue(GetPatchedValueForField(maxValue:GetValue(), minValue:GetValue()))
 					patchedCount = patchedCount + 1
 				end
 			end
@@ -199,7 +211,7 @@ local function PatchWeaponItemStatMinValues()
 							local minValue = statDef:GetField("min_value")
 
 							if maxValue ~= nil and minValue ~= nil then
-								minValue:SetValue(maxValue:GetValue())
+								minValue:SetValue(GetPatchedValueForField(maxValue:GetValue(), minValue:GetValue()))
 								patchedCount = patchedCount + 1
 							end
 						end

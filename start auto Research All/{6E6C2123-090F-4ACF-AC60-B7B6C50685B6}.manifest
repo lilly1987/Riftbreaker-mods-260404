@@ -12,8 +12,8 @@ WorkspaceManifest
 	homepage
 	modio_published_file "4180165"
 	visibility "0"
-	game_version "EXE: 978 DATA: 573"
-	version "1.0.2"
+	game_version "EXE: 1186 DATA: 847"
+	version "2.0.0"
 	localizations
 	{
 		Pair_String_Localization
@@ -21,7 +21,7 @@ WorkspaceManifest
 			value
 			{
 				description "7Iuc7J6R7IucIOuqqOuToCDsl7Dqtawg7JmE66OMCmF1dG9leGVjLmx1YSDrpbwg7IKs7Jqp7ZW07IScIOuLpOuluO2VqCDrqqjrk5zrnpEg7Lap64+MIOyViO2VqA=="
-				title "7Iuc7J6R7IucIOuqqOuToCDsl7Dqtawg7JmE66OM"
+				title "c3RhcnQgYXV0byBSZXNlYXJjaCBBbGwgLSDsi5zsnpHsi5wg66qo65OgIOyXsOq1rCDsmYTro4w="
 			}
 
 			key "KOREAN"

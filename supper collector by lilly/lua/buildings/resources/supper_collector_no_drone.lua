@@ -52,7 +52,7 @@ function supper_collector:OnInit()
     self:FillInitialParams()
 
     self.fsm = self:CreateStateMachine();
-    self.fsm:AddState( "update_production", { execute="OnUpdateProductionExecute", interval=1.0 } )
+    self.fsm:AddState( "update_production", { execute="OnUpdateProductionExecute", interval=2.0 } )
     self.fsm:ChangeState("update_production")
 
     self:CreateDebugStateMachine()
