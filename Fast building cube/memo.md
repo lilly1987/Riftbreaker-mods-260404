@@ -1,0 +1,14 @@
+StartBuildingEvent
+_OnBuildNew
+OnStartBuildingEvent
+_OnCubeFlyEnter
+_OnCubeFlyExecute
+OnMoveEndEvent
+_OnCubeFlyExit
+wait
+big_building_state1~4 또는 바로 building
+_OnBuildingEnter
+_OnBuildingExecute
+_OnBuildingExit
+BuildingBuildEndEvent
+_OnBuildingEnd

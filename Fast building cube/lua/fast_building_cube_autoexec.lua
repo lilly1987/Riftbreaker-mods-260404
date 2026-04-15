@@ -1,57 +1,83 @@
+pcall(require, "lua/buildings/building_base.lua")
 
--- 안됨
--- require("lua/buildings/building_base.lua")
+local function StartBuildingDirectly(self)
+    self.height = EntityService:GetPositionY(self.endCubeEnt)
+    local x1 = EntityService:GetPositionX(self.cubeEnt)
+    local x2 = EntityService:GetPositionX(self.endCubeEnt)
+    self.width = (math.abs(x2 - x1) / 2) * 0.7
 
--- local old_building_base_init = building_base.init
+    EffectService:AttachEffects(self.cubeEnt, "hit_ground")
+    self.cubeEnt = self.endCubeEnt
+    self.printingCube = self.cubeEnt
+    self.printingLine1 = nil
+    self.printingLine2 = nil
 
--- function building_base:init()
---     LogService:Log("building_base:init() called")
---     ConsoleService:Write("building_base:init() called")
---     old_building_base_init(self)
+    BuildingService:EnablePhysics(self.entity)
+    EntityService:SetGraphicsUniform(self.meshEnt, "cMaxHeight", self.height - 1.0)
+    self.buildingSM:ChangeState("building")
+end
 
---     self.extendLength = 0.1
---     self.buildingMultiplier = 0.1
---     self.buildingTime = 0.1
---     self.endCubeEnt =nil
--- end
+function building_base:CreateBuildingStateMachine()
+    if self.buildingSM then
+        return
+    end
 
--- function building_base:OnStartBuildingEvent()
---     LogService:Log("building_base:OnStartBuildingEvent() called")
---     ConsoleService:Write("building_base:OnStartBuildingEvent() called")
---     self.extendLength = 0.1
---     self.buildingMultiplier = 0.1
---     self.buildingTime = 0.1
---     self.endCubeEnt =nil
--- 	self:OnBuildingStart()
--- end
+    self.buildingSM = self:CreateStateMachine()
+    self.buildingSM:AddState("cube_fly", { from="*", enter="_OnCubeFlyEnter", exit="_OnCubeFlyExit", execute="_OnCubeFlyExecute" })
+    self.buildingSM:AddState("cube_fly_selling", { from="*", enter="_OnCubeFlySellEnter", exit="_OnCubeFlySellExit" })
+    self.buildingSM:AddState("building", { from="*", enter="_OnBuildingEnter", execute="_OnBuildingExecute", exit="_OnBuildingExit" })
+    self.buildingSM:AddState("wait", { from="*", enter="_OnWaitEnter", exit="_OnWaitExit" })
+    self.buildingSM:AddState("hide_scaffolding", { from="*", enter="_OnHideScafoldingEnter", execute="_OnHideScafoldingExecute", exit="_OnHideScafoldingExit" })
+    self.buildingSM:AddState("selling", { from="*", enter="_OnSellEnter", execute="_OnSellExecute", exit="_OnSellExit", interval=0.1 })
+    self.buildingSM:AddState("wait_for_space", { from="*", execute="_OnWaitForSpace" })
+end
 
--- function building_base:_OnBigBuildingEnterState1( state )
---     state:SetDurationLimit( self.extendLength )
--- 	self:_CreateLine(self.cubeEnt, self.endCubeEnt, 0, 1 )
--- 	self:_CreateLine(self.cubeEnt, self.endCubeEnt, 1, 1 )
--- 	self:_CreateLine(self.cubeEnt, self.endCubeEnt, 2, 1 )
-	
--- 	EffectService:SpawnEffect( self.entity, "effects/buildings_and_machines/building_cube_line_expand_sound" )
--- 	--LogService:Log("_OnBigBuildingEnter1" )
--- end
+function building_base:_OnCubeFlyExit(state)
+    if self.buildingSell == false and EntityService:IsAlive(self.endCubeEnt) and not BuildingService:IsFloor(self.entity) then
+        local spaceOccupied = BuildingService:IsBuildingSpaceOccupied(self.entity)
+        if spaceOccupied == false or self.checkCollision == false then
+            StartBuildingDirectly(self)
+            return
+        end
+    end
 
--- function building_base:_OnBigBuildingEnterState2( state )
---     state:SetDurationLimit( self.extendLength )
--- 	local i = 0
--- 	for cube in Iter( self.currentCubes ) do 
--- 		if ( i == 0 ) then
--- 			self:_CreateLine(cube, self.endCubeEnt, 1, 1 )
--- 			self:_CreateLine(cube, self.endCubeEnt, 2, 1 )
--- 		elseif ( i == 1) then
--- 			self:_CreateLine(cube, self.endCubeEnt, 0, 1 )
--- 			self:_CreateLine(cube, self.endCubeEnt, 2, 1 )
--- 		elseif ( i == 2 ) then
--- 			self:_CreateLine(cube, self.endCubeEnt, 0, 1 )
--- 			self:_CreateLine(cube, self.endCubeEnt, 1, 1 )
--- 		end		
--- 		i = i + 1 
--- 	end
-	
--- 	EffectService:SpawnEffect( self.entity, "effects/buildings_and_machines/building_cube_line_expand_sound" )
--- 	--LogService:Log("_OnBigBuildingEnter2" )
--- end
+    if self.buildingSell == false then
+        EffectService:DestroyEffectsByGroup(self.cubeEnt, "fly")
+
+        local spaceOccupied = BuildingService:IsBuildingSpaceOccupied(self.entity)
+        if spaceOccupied == false or self.checkCollision == false then
+            BuildingService:EnablePhysics(self.entity)
+            self.height = EntityService:GetPositionY(self.cubeEnt)
+            self.buildingSM:ChangeState("building")
+            EntityService:SetGraphicsUniform(self.meshEnt, "cMaxHeight", self.height - 1.0)
+        else
+            if self.timerEnt ~= nil then
+                BuildingService:PauseGuiTimer(self.timerEnt)
+            end
+            self.buildingSM:ChangeState("wait_for_space")
+        end
+    end
+end
+
+function building_base:_OnWaitForSpace(state)
+    if self.buildingSell == true then
+        return
+    end
+
+    local spaceOccupied = BuildingService:IsBuildingSpaceOccupied(self.entity)
+    if spaceOccupied == false then
+        if self.timerEnt ~= nil then
+            BuildingService:ResumeGuiTimer(self.timerEnt)
+        end
+
+        BuildingService:EnablePhysics(self.entity)
+        if EntityService:IsAlive(self.endCubeEnt) and not BuildingService:IsFloor(self.entity) then
+            StartBuildingDirectly(self)
+        else
+            self.height = EntityService:GetPositionY(self.cubeEnt)
+            self.buildingSM:ChangeState("building")
+        end
+
+        EntityService:SetGraphicsUniform(self.meshEnt, "cMaxHeight", self.height - 1.0)
+    end
+end
