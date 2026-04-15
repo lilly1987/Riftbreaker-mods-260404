@@ -277,12 +277,36 @@ function supper_collector:AddHarvestedResource( resource, amount )
     local player = PlayerService:GetPlayerForEntity( self.entity )
     PlayerService:AddResourceAmount(player, resource, amount, true);
 end
+-- ---
+-- layout: default
+-- title: DamageRequest
+-- nav_order: 1
+-- has_children: true
+-- parent: Lua services
+-- ---
+-- ### GetDamageType
+--  * (): [IdString const&](riftbreaker-wiki/docs/reflection/IdString const&)
+  
+-- ### GetDamageValue
+--  * (): [float const&](riftbreaker-wiki/docs/reflection/float const&)
+  
+-- ### GetEffect
+--  * (): [enum DamageEffect const&](riftbreaker-wiki/docs/reflection/enum DamageEffect const&)
+  
+-- ### GetEntity
+--  * (): [Entity const&](riftbreaker-wiki/docs/reflection/Entity const&)
+  
+-- ### GetIgnoreEffect
+--  * (): [enum DamageIgnoreEffect const&](riftbreaker-wiki/docs/reflection/enum DamageIgnoreEffect const&)
+  
 
 function supper_collector:DestroyHarvestTarget( target )
     if EntityService:GetComponent(target, "UnitComponent") ~= nil and HealthService:IsAlive(target) then
         -- Units can mitigate or react differently to typed damage, so use the same
         -- high raw damage approach as the built-in cheat destroy command.
+        EntityService:CreateOrSetLifetime( target, 1, "" ) 
         QueueEvent( "DamageRequest", target, 99999, "", 0, 0 )
+        EntityService:DestroyEntity( target, "default" )
         EntityService:RemoveEntity( target )
         return
     end

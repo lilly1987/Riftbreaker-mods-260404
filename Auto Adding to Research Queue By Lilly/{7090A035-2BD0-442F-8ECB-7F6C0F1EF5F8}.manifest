@@ -1,6 +1,6 @@
 WorkspaceManifest
 {
-	description "aHR0cHM6Ly9zdGVhbWNvbW11bml0eS5jb20vc2hhcmVkZmlsZXMvZmlsZWRldGFpbHMvP2lkPTM1NzA0NTExMzUKbXkgdmlzaW9u"
+	description "aHR0cHM6Ly9zdGVhbWNvbW11bml0eS5jb20vc2hhcmVkZmlsZXMvZmlsZWRldGFpbHMvP2lkPTM1NzA0NTExMzUKbXkgdmlzaW9uCgpUSU1FUl9JTlRFUlZBTD02MHM="
 	tags
 	{
 		String "Research"
@@ -12,7 +12,7 @@ WorkspaceManifest
 	modio_published_file "5979393"
 	visibility "0"
 	game_version "EXE: 1186 DATA: 847"
-	version "1.0.0"
+	version "1.0.1"
 	localizations
 	author
 	steam_published_file "3706235236"

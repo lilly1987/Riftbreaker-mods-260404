@@ -1,5 +1,5 @@
 local TIMER_NAME = "AutoAddingToResearchQueueByLillyTick"
-local TIMER_INTERVAL = 1.0
+local TIMER_INTERVAL = 60.0
 local AUTOEXEC_KEY = "auto_adding_to_research_queue_by_lilly_autoexec.lua/"
 
 local already_initialized = false

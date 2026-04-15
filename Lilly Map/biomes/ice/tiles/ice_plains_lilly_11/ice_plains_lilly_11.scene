@@ -2,7 +2,7 @@ entity_count "41"
 //editor "index(40)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_resources_liquid"
+	base_blueprint "resources/volume_resource_morphium"
 	components
 	{
 		LocalAabbDesc
@@ -11,16 +11,16 @@ EntityTemplate
 			{
 				min
 				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
+					x "-0.5"
+					y "-0.5"
+					z "-0.5"
 				}
 
 				max
 				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
+					x "0.5"
+					y "0.5"
+					z "0.5"
 				}
 
 			}
@@ -212,8 +212,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "60"
-				z "36"
+				x "58.226624"
+				z "-2.8188858"
 			}
 
 			scale
@@ -958,8 +958,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "60"
-				z "36"
+				x "54.339203"
+				z "22.57331"
 			}
 
 		}
@@ -1474,8 +1474,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "36"
-				z "58"
+				x "27.953957"
+				z "59.89484"
 			}
 
 		}
@@ -1724,8 +1724,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "58"
-				z "36"
+				x "59.393208"
+				z "29.207706"
 			}
 
 		}

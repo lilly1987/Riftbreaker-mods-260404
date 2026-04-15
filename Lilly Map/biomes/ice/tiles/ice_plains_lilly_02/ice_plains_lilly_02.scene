@@ -2,7 +2,7 @@ entity_count "40"
 //editor "index(40)"
 EntityTemplate
 {
-	base_blueprint "resources/volume_random_resources_liquid"
+	base_blueprint "resources/volume_resource_sludge"
 	components
 	{
 		LocalAabbDesc
@@ -11,16 +11,16 @@ EntityTemplate
 			{
 				min
 				{
-					x "-0.51"
-					y "-0.51"
-					z "-0.51"
+					x "-0.5"
+					y "-0.5"
+					z "-0.5"
 				}
 
 				max
 				{
-					x "0.51"
-					y "0.51"
-					z "0.51"
+					x "0.5"
+					y "0.5"
+					z "0.5"
 				}
 
 			}
@@ -1342,8 +1342,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "-36"
-				z "58"
+				x "-25.987934"
+				z "50.22433"
 			}
 
 		}
@@ -1800,8 +1800,8 @@ EntityTemplate
 		{
 			position
 			{
-				x "-58"
-				z "36"
+				x "-58.520096"
+				z "25.553406"
 			}
 
 		}
