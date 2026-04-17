@@ -1,3 +1,12 @@
+
+L_Auto_Adding_To_Research_Queue_By_Lilly = true
+
+ConsoleService:RegisterCommand( "L_Auto_Adding_To_Research_Queue_By_Lilly", function( args )
+    if not Assert( #args == 1, "Command requires one argument! [bool]" ) then return end
+
+    L_Auto_Adding_To_Research_Queue_By_Lilly = args[1] == "1"
+end)
+
 local TIMER_NAME = "AutoAddingToResearchQueueByLillyTick"
 local TIMER_INTERVAL = 60.0
 local AUTOEXEC_KEY = "auto_adding_to_research_queue_by_lilly_autoexec.lua/"
@@ -46,6 +55,7 @@ local function schedule_next_tick()
 end
 
 local function queue_available_researches(reason)
+	-- LogService:Log("queue_available_researches: "  .. tostring(reason))
 	if not is_server_side() then
 		return 0
 	end
@@ -91,6 +101,7 @@ local function ensure_timer_owner(entity)
 end
 
 local function try_initialize(timer_entity)
+	-- LogService:Log("try_initialize: "  .. tostring(timer_entity))
 	if not is_server_side() then
 		return
 	end
@@ -120,6 +131,9 @@ end
 
 -- 1번째
 RegisterGlobalEventHandler("PlayerInitializedEvent", function(_evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	-- LogService:Log("PlayerInitializedEvent")
 	try_initialize(timer_owner)
 	queue_available_researches("player_initialized")
@@ -127,12 +141,18 @@ end)
 
 -- 2번째
 RegisterGlobalEventHandler("PlayerControlledEntityChangeEvent", function(evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	-- LogService:Log("PlayerControlledEntityChangeEvent: " .. tostring(evt:GetEntity()))
 	try_initialize(evt:GetEntity())
 end)
 
 -- 3번째
 RegisterGlobalEventHandler("TimerElapsedEvent", function(evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	if evt:GetName() ~= TIMER_NAME then
 		return
 	end
@@ -144,33 +164,51 @@ end)
 
 -- 4번째
 RegisterGlobalEventHandler("MissionFlowDeactivatedEvent", function(_evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	-- LogService:Log("MissionFlowDeactivatedEvent")
 	try_initialize(timer_owner)
 	queue_available_researches("mission_flow_deactivated")
 end)
 
 RegisterGlobalEventHandler("StartBuildingEvent", function(evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	-- LogService:Log("StartBuildingEvent: " .. tostring(evt:GetEntity()))
 	try_initialize(evt:GetEntity())
 	queue_available_researches("start_building")
 end)
 
 RegisterGlobalEventHandler("BuildingBuildEvent", function(evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	-- LogService:Log("BuildingBuildEvent: " .. tostring(evt:GetEntity()))
 	try_initialize(evt:GetEntity())
 	queue_available_researches("building_build")
 end)
 
 RegisterGlobalEventHandler("NewResearchAvailableEvent", function(evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	queue_available_researches("new_research_available:" .. tostring(evt:GetName()))
 end)
 
 RegisterGlobalEventHandler("AddedToResearchEvent", function(evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	queued_researches[evt:GetName()] = true
 	queue_available_researches("added_to_queue:" .. tostring(evt:GetName()))
 end)
 
 RegisterGlobalEventHandler("ResearchUnlockedEvent", function(evt)
+	if L_Auto_Adding_To_Research_Queue_By_Lilly == false then
+		return
+	end
 	queued_researches[evt:GetName()] = true
 	queue_available_researches("research_unlocked:" .. tostring(evt:GetName()))
 end)

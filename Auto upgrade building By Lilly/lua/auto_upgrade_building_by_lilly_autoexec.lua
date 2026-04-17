@@ -1,3 +1,12 @@
+
+L_Auto_Upgrade_Building_By_Lilly = true
+
+ConsoleService:RegisterCommand( "L_Auto_Upgrade_Building_By_Lilly", function( args )
+    if not Assert( #args == 1, "Command requires one argument! [bool]" ) then return end
+
+    L_Auto_Upgrade_Building_By_Lilly = args[1] == "1"
+end)
+
 local TIMER_NAME = "AutoUpgradeBuildingByLillyTick"
 local TIMER_INTERVAL = 60.0
 local AUTOEXEC_KEY = "auto_upgrade_building_by_lilly_autoexec.lua/"
@@ -66,7 +75,7 @@ local function ensure_timer_owner(entity)
 	timer_owner = entity
 	EntityService:CreateComponent(timer_owner, "TimerComponent")
 	schedule_next_tick()
-	LogService:Log("auto upgrade building: timer owner = " .. tostring(timer_owner))
+	-- LogService:Log("auto upgrade building: timer owner = " .. tostring(timer_owner))
 	return true
 end
 
@@ -124,25 +133,40 @@ local function try_upgrade_all_buildings(reason)
 end
 
 RegisterGlobalEventHandler("PlayerControlledEntityChangeEvent", function(evt)
+	if L_Auto_Upgrade_Building_By_Lilly == false then
+		return
+	end
 	try_initialize(evt:GetEntity())
 end)
 
 RegisterGlobalEventHandler("MissionFlowDeactivatedEvent", function(_evt)
+	if L_Auto_Upgrade_Building_By_Lilly == false then
+		return
+	end
 	try_initialize(timer_owner)
 	try_upgrade_all_buildings("mission_flow_deactivated")
 end)
 
 RegisterGlobalEventHandler("StartBuildingEvent", function(evt)
+	if L_Auto_Upgrade_Building_By_Lilly == false then
+		return
+	end
 	try_initialize(evt:GetEntity())
 	try_upgrade_all_buildings("start_building")
 end)
 
 RegisterGlobalEventHandler("BuildingBuildEvent", function(evt)
+	if L_Auto_Upgrade_Building_By_Lilly == false then
+		return
+	end
 	try_initialize(evt:GetEntity())
 	try_upgrade_all_buildings("building_build")
 end)
 
 RegisterGlobalEventHandler("TimerElapsedEvent", function(evt)
+	if L_Auto_Upgrade_Building_By_Lilly == false then
+		return
+	end
 	if evt:GetName() ~= TIMER_NAME then
 		return
 	end

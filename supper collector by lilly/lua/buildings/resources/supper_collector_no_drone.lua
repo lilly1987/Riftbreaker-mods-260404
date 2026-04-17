@@ -304,9 +304,9 @@ function supper_collector:DestroyHarvestTarget( target )
     if EntityService:GetComponent(target, "UnitComponent") ~= nil and HealthService:IsAlive(target) then
         -- Units can mitigate or react differently to typed damage, so use the same
         -- high raw damage approach as the built-in cheat destroy command.
-        EntityService:CreateOrSetLifetime( target, 1, "" ) 
+        -- EntityService:CreateOrSetLifetime( target, 1, "" ) 
         QueueEvent( "DamageRequest", target, 99999, "", 0, 0 )
-        EntityService:DestroyEntity( target, "default" )
+        -- EntityService:DestroyEntity( target, "default" )
         EntityService:RemoveEntity( target )
         return
     end

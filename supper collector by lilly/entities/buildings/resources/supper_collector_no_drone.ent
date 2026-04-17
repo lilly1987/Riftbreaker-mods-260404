@@ -138,8 +138,8 @@ EntityBlueprint
 		max_health 					"10000"
 		health 						"10000"
 		regeneration 				"1"
-		regeneration_cooldown 		"1"
-		 is_manual 1
+		//regeneration_cooldown 		"1"
+		is_manual 1
 		update_health_uniform 		"1"
 		
 		DestructionLevels

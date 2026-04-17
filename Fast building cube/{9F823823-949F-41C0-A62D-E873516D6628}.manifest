@@ -1,6 +1,6 @@
 WorkspaceManifest
 {
-	description "ZWRpdCBsdWFcYnVpbGRpbmdzXGJ1aWxkaW5nX2NyZWF0b3IubHVh"
+	description "UmVtb3ZlZCB0aGUgZGVsYXkgYmV0d2VlbiB0aGUgY3ViZSBmbHlpbmcgYXdheSBhbmQgdGhlIHBpcGUgY29ubmVjdGluZyB3aGVuIGNvbnN0cnVjdGlvbiBpcyBkZXNpZ25hdGVkLiAKVGhlIHBpcGUgY29ubmVjdGlvbiBlZmZlY3QgcmVtYWlucyB2aXNpYmxlLCAKYnV0IHRoZSBpbmNyZWFzZSBpbiBidWlsZGluZyBIUCBjYW4gYmUgY29uZmlybWVkLg=="
 	tags
 	{
 		String "Buildings"

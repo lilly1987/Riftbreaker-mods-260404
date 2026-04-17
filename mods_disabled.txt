@@ -1,6 +1,5 @@
-BUILD_ON_WATER - portal
-Building Speed Multiplier
 Escalating Threat
+Fast building cube
 Lilly tool
 ResearchCost
 Start Make Gate, Trap, Wall
